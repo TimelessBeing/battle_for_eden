@@ -77,17 +77,3 @@ is adding his units to the battle and his strength is compared to the natural st
         Reaction abilities may be triggered each time a specific event occurs (for example: "when this unit is destroyed").
         Aftermath abilities may be triggered after the battle, during the aftermath.
 
-
-WORK IN PROGRESS (aka. random ideas)
-
-- Resources of the right kind can be used to boost your units during combat.
-
-- Territories are in the central area, as well as portals.
-    They are not tapped for resources (TODO: how to materialize it?)
-    Players can only attack territories or portals which have a frontier with those they control.
-    The attacking player chooses all frontiers where a battle will occur, whether wild or controlled by another player, and conducts all battles at once.
-    If a battle is lost by the attacking player, the attacking territory or portal gets -3 strength next time it is attacked.
-    If a battle is won by the attacking player, he may launch a new wave of attacks on the new frontiers. 
-    Only resources on a territory can be used to defend it.
-    Only resources on a portal card can be used to ask for reinforcements.
-    Each territory may once per turn move some of its resources to territories sharing a frontier with it.
