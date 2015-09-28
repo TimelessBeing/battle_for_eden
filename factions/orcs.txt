@@ -1,0 +1,35 @@
+Basic Unit (cost 1):
+
+Grunt (Strength: 1)
+    Permanent: +1 strength when your hand is empty.
+
+
+Warrior Unit (cost 2):
+
+Spearman (Strength: 2)
+    Delayed: If your hand is empty, the opponent must choose and destroy one of his units.
+
+
+Greater Warrior Unit (cost 3):
+
+Charge Leader (Strength: 3)
+    Reaction (hand becoming empty), reveal the top card of your deck. If it is an unit, you can add it to the battle. Immediate abilities and abilities reacting to the hand becoming empty can be triggered. 
+
+
+Tactical Unit (cost 3):
+
+Shaman (Strength: 3)
+    Immediate: Draw one card then discard one card from your hand OR destroy one card from you hand.
+
+
+Champion Unit (cost 5):
+
+Far Seer (Strength: 4)
+    Immediate: Discard any number of cards, then draw as many.
+
+
+Immortal Unit (cost 6):
+
+Warlord (Strength: 4)
+    Permanent: +3 strength when your hand is empty.
+

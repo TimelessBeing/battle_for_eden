@@ -6,20 +6,21 @@ Skeleton (Strength: 1)
 
 Warrior Unit (cost 2):
 
-Zombie (Strength: 2)
+Wendigo (Strength: 2)
     Immediate: Destroy an enemy unit of strength equal to or less than half the number of units in your discard pile (rounded down).
 
 
 Greater Warrior Unit (cost 3):
 
-Lich (Strength: 3)
-    Immediate: Draw the non-immortal unit card that is closest to the top of your discard pile into your hand. 
+Apprentice (Strength: 3)
+    Immediate: Draw the non-immortal unit card that is closest to the top of your discard pile into your hand.
 
 
 Tactical Unit (cost 3):
 
 Mummy (Strength: 3)
-    Immediate: Destroy the top card of your discard pile OR put the top 4 cards of your deck in your discard pile.
+    Immediate: Put the top 4 cards of your deck in your discard pile OR destroy the top card of your discard pile. 
+    Reaction (enemy unit destroyed): put the top card of your deck in your discard pile.
 
 
 Champion Unit (cost 5):
@@ -30,6 +31,6 @@ Death Knight (Strength: 3)
 
 Immortal Unit (cost 6):
 
-Elder Lich (Strength: 4)
+Dark Lord (Strength: 4)
     Immediate: Reorder your discard pile, then draw the top card into your hand. Immortal units cannot be drawn in this way.
 
