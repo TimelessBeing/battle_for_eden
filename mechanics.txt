@@ -58,7 +58,7 @@ Combat:
     Players add unit to all fronts until both have stopped.
     Then, the strength of each side of each front is determined.
     The attacker wins the battle on a front if his strength is strictly more than the defender's.
-    After the battle is the aftermath: dying units are destroyed (i.e. returned to where they were bought), and the rest go to their owner's discard pile.
+    After the battle is the aftermath: doomed units are destroyed (i.e. returned to where they were bought), and the rest are discarded (i.e. returned to their owner's discard pile).
 
 - During combat, units are not played all at once:
     The attacking player adds a unit to each front.
@@ -77,7 +77,7 @@ is adding his units to the battle and his strength is compared to the natural st
     Those abilities can be permanent abilities or triggered abilities.
 
 - Permanent abilities are additional rules to the battle that take effect as long as the unit possessing this ability is participating in combat.
-    For example "if this unit should be destroyed during combat, it becomes dying instead" is a permanent ability.
+    For example "if this unit should be destroyed during combat, it becomes doomed instead" is a permanent ability.
 
 - Triggered abilities are effects that can be activated once by the player at specific times.
     The player can always choose not to trigger an ability.

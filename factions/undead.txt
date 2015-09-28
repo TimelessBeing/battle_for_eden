@@ -27,6 +27,7 @@ Champion Unit (cost 5):
 Death Knight (Strength: 3)
     Permanent: +1 strength for each allied unit on the same front.
 
+
 Immortal Unit (cost 6):
 
 Elder Lich (Strength: 4)
