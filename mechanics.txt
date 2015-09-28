@@ -9,6 +9,15 @@ Deck building:
 
 - If a player has to draw or reveal more cards from his deck than it contains, that player must first shuffle his discard pile and place it on the bottom of his deck.
 
+- There are 6 different types of units for each faction.
+    A faction is composed of:
+    8 basic units (cost 1)
+    6 warrior units (cost 2)
+    4 greater warrior units (cost 3) 
+    4 tactical units (cost 3)
+    3 champion units of (cost 5)
+    2 immortal units of (cost 6, goes into discard pile if destroyed)
+
 
 Territories:
 
@@ -45,13 +54,14 @@ Combat:
 
 - Combat between players takes place as follows:
     The attacking player starts by designating the targets (territories, portals) he's attacking. On each front, a battle will take place.
+    At that time, one or both players can choose to spend 5 of their faction's resource on a territory to add 3 to the strength of their army on the corresponding front.
     Players add unit to all fronts until both have stopped.
     Then, the strength of each side of each front is determined.
     The attacker wins the battle on a front if his strength is strictly more than the defender's.
     After the battle is the aftermath: dying units are destroyed (i.e. returned to where they were bought), and the rest go to their owner's discard pile.
 
 - During combat, units are not played all at once:
-    The attacking player adds a unit to all fronts.
+    The attacking player adds a unit to each front.
     Then the defending player does the same.
     Players continue to add units to all fronts in alternance.
     When it's a player's turn to put units on all fronts, he may choose to stop adding units to some of them.

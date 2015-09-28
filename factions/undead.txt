@@ -1,0 +1,34 @@
+Basic Unit (cost 1):
+
+Skeleton (Strength: 1)
+    Immediate: Discard the top card of your deck OR draw a Skeleton from your discard pile to your hand.
+
+
+Warrior Unit (cost 2):
+
+Zombie (Strength: 2)
+    Immediate: Destroy an enemy unit of strength equal to or less than half the number of units in your discard pile (rounded down).
+
+
+Greater Warrior Unit (cost 3):
+
+Lich (Strength: 3)
+    Immediate: Draw the non-immortal unit card that is closest to the top of your discard pile into your hand. 
+
+
+Tactical Unit (cost 3):
+
+Mummy (Strength: 3)
+    Immediate: Destroy the top card of your discard pile OR put the top 4 cards of your deck in your discard pile.
+
+
+Champion Unit (cost 5):
+
+Death Knight (Strength: 3)
+    Permanent: +1 strength for each allied unit on the same front.
+
+Immortal Unit (cost 6):
+
+Elder Lich (Strength: 4)
+    Immediate: Reorder your discard pile, then draw the top card into your hand. Immortal units cannot be drawn in this way.
+
