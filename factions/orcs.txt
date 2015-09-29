@@ -13,13 +13,13 @@ Spearman (Strength: 2)
 Greater Warrior Unit (cost 3):
 
 Charge Leader (Strength: 3)
-    Reaction (hand becoming empty), reveal the top card of your deck. If it is an unit, you can add it to the battle. Immediate abilities and abilities reacting to the hand becoming empty can be triggered. 
+    Reaction (hand becoming empty), reveal the top card of your deck. If it is an unit, you can add it to the battle. Those units' immediate abilities and reaction abilities may be triggered as if they were played from your hand.
 
 
 Tactical Unit (cost 3):
 
 Shaman (Strength: 3)
-    Immediate: Draw one card then discard one card from your hand OR destroy one card from you hand.
+    Immediate: Draw one card then discard one card from your hand OR destroy one card from you hand (there must be an opponent to choose this).
 
 
 Champion Unit (cost 5):

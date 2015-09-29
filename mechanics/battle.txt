@@ -1,0 +1,33 @@
+
+- During his turn, a player may go to battle.
+    In this case, he selects any number of frontiers between his territories and other territories.
+    Each of those frontiers become a front, where a battle will take place.
+    The territory on his side of the frontier is called the attacking territory, the other one is called the defending territory.
+
+- On each front, the player may choose to spend 5 resources from his attacking territory.
+    If he does so, his army gains a +3 strength bonus on this front.
+    Then, if there is a defending player on this front, he may also choose to spend 5 resources from his defending territory to add 3 strength to his army on this front.
+
+- On each front, the attacking player plays a unit from his hand.
+    Then, defending players play units from their hands to each of their defending territories'fronts.
+    The attacking player and defending players take turns in playing a unit from their hand on each front.
+    When a player (attacking or defending) has to play a unit from his hand to a front, he may chose to stop attacking/defending on this front.
+    In this case, he does not play a unit card to this front, and can't play any unit card on this front until all battles are over.
+    When both the attacking player and defending player have stopped attacking/defending on all fronts, the battle is over.
+
+- When the battle ends, on each front:
+    If the attacking player had no unit, he lost the battle.
+    Otherwise, the battle is won by the army that has the highest strength (in the case of a wild territory, the attacking army's strength is compared to the natural defenses of the territory instead).
+    In case of equality, the battle ends as a draw.
+
+- After the battle comes the aftermath:
+    Doomed units are destroyed (i.e. returned to where they were bought).
+    Other units are discarded (i.e. returned to their owner's discard pile).
+
+- If the attacking player won the battle and the defending territory has a portal on it, that portal takes damages.
+    The amount of damage taken by the portal is equal to the difference between the strengths of both armys.
+
+- Otherwise, the attacking player won a battle on a front, he takes control of the defending territory.
+    Resource tokens from the attacking and defending territories can be freely oved within these two territories.
+
+

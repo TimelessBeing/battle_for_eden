@@ -1,0 +1,15 @@
+Units played during combat don't simply add strength to their side.
+    They also have abilities that greatly impact how the battle unfolds.
+    Those abilities can be permanent abilities or triggered abilities.
+
+- Permanent abilities are additional rules to the battle that take effect as long as the unit possessing this ability is participating in combat.
+    For example, "This unit cannt be destroyed" and "+2 strength when wounded" are permanent abilities.
+
+- Triggered abilities are effects that can be activated once by the player at specific times.
+    The player can always choose not to trigger an ability.
+    There are 4 types of triggered abilities:
+        Immediate abilities may be triggered just after the unit has been played.
+        Delayed abilities may be triggered when all units have been played, before determining the strength of each side. The attacking units' delayed abilities are triggered first.
+        Reaction abilities may be triggered each time a specific event occurs (for example: "when an enemy unit is destroyed"). Reaction abilities of the form "when [condition]: [effect]" may be played when the unit comes into play if the condition is met, and each time the condition becomes met.
+        Aftermath abilities may be triggered after the battle, during the aftermath.
+

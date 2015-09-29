@@ -6,25 +6,11 @@
         in any case, random needed to make it dangerous
     ages to have event unfold progressively are good
 
-- randomness (attrition-die like) for PvP?
+- randomness (attrition-die like) for PvP? a deck for the enemy, with effects corresponding to the various effects written on the enemy cards? (in a quarriors kind of way)
 
 - mechanics for alliances? for joint attacks? (does the defending player draws cards to compensate for the multiple attack?)
 
-- epuration units for all factions
+- symbols on cards instead of text?
 
-- symbols on cards instead of text? (common ones on help cards + faction-specific ones)
-
-- cost structure of the factions units? Still 6 kinds? Still 1/2/3/3/4/6? Still 8/4/4/4/3/2 units of each kind? Where do faction-specific resources come into play? 1 each time you buy? 1 for each crystal you spend? 5 to reduce the units cost?
-
-- using faction-specific resources to boost units in combat?
-
-- Geographic aspects to the game, with territories and portals in the central area?
-    They are not tapped for resources (TODO: how to materialize it?)
-    Players can only attack territories or portals which have a frontier with those they control.
-    The attacking player chooses all frontiers where a battle will occur, whether wild or controlled by another player, and conducts all battles at once.
-    If a battle is lost by the attacking player, the attacking territory or portal gets -3 strength next time it is attacked.
-    If a battle is won by the attacking player, he may launch a new wave of attacks on the new frontiers. 
-    Only resources on a territory can be used to defend it.
-    Only resources on a portal card can be used to ask for reinforcements.
-    Each territory may once per turn move some of its resources to territories sharing a frontier with it.
+- using resources to continue attacking ? how to have the attacking and defending player draw cards so that it's not broken?
 
