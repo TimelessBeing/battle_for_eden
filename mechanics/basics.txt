@@ -2,8 +2,8 @@
 - Battle For Eden strongly rely on a deck building mechanics.
 
 - Each player is attributed a faction at the beginning of the game.
-    This faction corresponds to specific units, that only that player can add to his deck.
-    A faction also strongly relies on a type of resource, or 'valuable resource' (it is battling for Eden because it wants that resource).
+    This faction corresponds to specific units, which only that player can add to his deck.
+    A faction also strongly relies on a type of resource, or 'valuable resource' (it is battling for Eden because it wants this resource).
 
 - Layout:
     In the center area, hexagonal tiles materialize territories.
@@ -46,5 +46,5 @@
     Those units are then placed into the player's discard pile.
 
 - Using resources:
-    A player can add a card from the central to his discard pile or gain a tactical advantage by removing the corresponding tokens from his territories.
+    A player can add a card from the central area to his discard pile or gain a tactical advantage by removing the corresponding tokens from his territories.
 
