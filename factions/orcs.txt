@@ -4,16 +4,16 @@ Grunt (Strength: 1)
     Permanent: +1 strength when your hand is empty.
 
 
-Warrior Unit (cost 2):
+Shock Unit (cost 2):
 
 Raider (Strength: 2)
     Delayed: If your hand is empty, the opponent must choose and destroy one of his units.
 
 
-Greater Warrior Unit (cost 3):
+Warrior Unit (cost 3):
 
 Charge Leader (Strength: 3)
-    Reaction (hand becoming empty), reveal the top card of your deck. If it is a unit, you can add it to the battle. Those units' immediate abilities and reaction abilities may be triggered as if they were played from your hand.
+    Reaction (hand becoming empty), reveal the top card of your deck. If it is a unit, you can add it to the battle on this front.
 
 
 Tactical Unit (cost 3):

@@ -26,7 +26,7 @@
 - If the attacking player won the battle and the defending territory has a portal on it, that portal takes damages.
     The amount of damage taken by the portal is equal to the difference between the strengths of both armys.
 
-- If the attacking player won the battle against a non-portal territory, he takes control of this territory.
+- If the attacking player won a battle against a non-portal territory, he takes control of this territory.
     Resource tokens from the attacking and defending territories can be freely oved within these two territories.
 
 

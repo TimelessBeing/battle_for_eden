@@ -4,13 +4,13 @@ Skeleton (Strength: 1)
     Immediate: Discard the top card of your deck OR draw a Skeleton from your discard pile into your hand.
 
 
-Warrior Unit (cost 2):
+Shock Unit (cost 2):
 
 Wendigo (Strength: 2)
     Immediate: Destroy an enemy unit of strength equal to or less than half the number of units in your discard pile (rounded down).
 
 
-Greater Warrior Unit (cost 3):
+Warrior Unit (cost 3):
 
 Death Knight (Strength: 3)
     Immediate: Draw the non-immortal unit card that is closest to the top of your discard pile into your hand.
@@ -26,7 +26,7 @@ Mummy (Strength: 3)
 Champion Unit (cost 5):
 
 Lich (Strength: 3)
-    Permanent: +1 strength for each allied unit on the same front.
+    Permanent: +1 strength to each allied unit on the same front.
 
 
 Immortal Unit (cost 6):

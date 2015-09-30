@@ -14,8 +14,8 @@
 
 - Faction-specific units are all composed of:
     8 basic units (cost 1)
-    6 warrior units (cost 2)
-    4 greater warrior units (cost 3) 
+    6 shock units (cost 2)
+    4 warrior units (cost 3) 
     4 tactical units (cost 3)
     3 champion units of (cost 5)
     2 immortal units of (cost 6, goes into discard pile if destroyed)

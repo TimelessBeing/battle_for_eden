@@ -8,8 +8,10 @@ Units played during combat don't simply add strength to their side.
 - Triggered abilities are effects that can be activated once by the player at specific times.
     The player can always choose not to trigger an ability.
     There are 4 types of triggered abilities:
-        Immediate abilities may be triggered just after the unit has been played.
-        Delayed abilities may be triggered when all units have been played, before determining the strength of each side. The attacking units' delayed abilities are triggered first.
-        Reaction abilities may be triggered each time a specific event occurs (for example: "when an enemy unit is destroyed"). Reaction abilities of the form "when [condition]: [effect]" may be played when the unit comes into play if the condition is met, and each time the condition becomes met.
+        Immediate abilities may be triggered just after the unit is added to the battle.
+        Delayed abilities may be triggered when all players stopped attacking/defending, before the actual end of the battle. The attacking units' delayed abilities are triggered first.
+        Reaction abilities may be event-based or condition-based.
+            Event-based reaction abilities may be triggered each time a specific event occurs (for example "when a unit is destroyed").
+            Condition-based reaction abilities may be triggered just after the unit has been played if a specific condition is satisfied (for example: "no cards in hand"), and may also be triggered each time the condition becomes satisfied when it was not.
         Aftermath abilities may be triggered after the battles, during the aftermath.
 
