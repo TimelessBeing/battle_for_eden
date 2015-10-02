@@ -1,0 +1,35 @@
+Basic Unit (cost 1):
+
+Miner (Strength: 1)
+    Immediate: Produce ore on this territory. Reveal the top 2 cards of your deck. You may draw 1 revealed Crystal card into your hand. Discard the remaining cards.
+
+
+Shock Unit (cost 2):
+
+[no name yet] (Strength: 2)
+    Immediate: Discard a Crystal card from your hand to draw a card. If you do so, you may remove any number of ore tokens from this territory to destroy a unit(allied or enemy) whose cost is equal to the number of removed tokens.
+
+
+Warrior Unit (cost 3):
+
+[no name yet] (Strength: 3)
+    Permanent: +1 for each 5 ore tokens on your territory with the least ore tokens on it.
+
+
+Tactical Unit (cost 3):
+
+Digging Machine (Strength: 3)
+    Immediate: Produce ore on this territory. Neighbouring territories also produce ore on this territory. You may add a Crystal card of value 1 from the central area to your hand.
+
+
+Champion Unit (cost 5):
+
+[no name yet... transporter?] (Strength: 3)
+    Immediate: You add a unit from your world into your hand by paying its cost using Crystal cards from your hand and ore tokens on this territory.
+
+
+Immortal Unit (cost 6):
+
+Black Smith (Strength: 3)
+    Delayed: Destroy a Crystal card from your discard pile. If you do so, for each allied unit you may choose to remove 1 ore token from this territory to add 1 to that unit's strength.
+

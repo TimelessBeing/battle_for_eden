@@ -7,7 +7,7 @@ Skeleton (Strength: 1)
 Shock Unit (cost 2):
 
 Wendigo (Strength: 2)
-    Immediate: Destroy an enemy unit of strength equal to or less than half the number of units in your discard pile (rounded down).
+    Immediate: Destroy an enemy unit of cost equal to or less than half the number of units in your discard pile (rounded down).
 
 
 Warrior Unit (cost 3):
