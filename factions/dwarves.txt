@@ -24,7 +24,7 @@ Digging Machine (Strength: 3)
 
 Champion Unit (cost 5):
 
-Tunneler (Strength: 3)
+Engineer (Strength: 3)
     Immediate: You add a unit from your world into your hand by paying its cost using Crystal cards from your hand and ore tokens on this territory.
 
 
