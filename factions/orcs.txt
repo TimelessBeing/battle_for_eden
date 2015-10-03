@@ -13,7 +13,7 @@ Raider (Strength: 2)
 Warrior Unit (cost 3):
 
 Charge Leader (Strength: 3)
-    Reaction (hand becoming empty), reveal the top card of your deck. If it is a unit, you can add it to the battle on this front.
+    Reaction (hand becoming empty): reveal the top card of your deck. If it is a unit, you can add it to the battle on this front. Otherwise discard it.
 
 
 Tactical Unit (cost 3):

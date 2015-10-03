@@ -1,13 +1,13 @@
 Basic Unit (cost 1):
 
 Mystic (Strength: 1)
-    Immediate: Place as many mana tokens on this territory as the number of meat and plants tokens it could produce. (mana tokens are discarded after the battle)
+    Immediate: Place as many mana tokens on this territory as it could produce meat and plants (mana tokens are discarded after the battle).
 
 
 Shock Unit (cost 2):
 
 Magic Archer (Strength: 2)
-    Immediate: Remove 5 mana tokens from this territory to destroy 1 unit (allied or enemy) or have the opponent choose and discard a card from his hand.
+    Immediate: Remove 5 mana tokens from this territory to destroy 1 unit (allied or enemy) OR remove 5 mana tokens from this territory to have the opponent choose and discard 1 card from his hand.
 
 
 Warrior Unit (cost 3):
@@ -19,19 +19,19 @@ Druid (Strength: 3)
 Tactical Unit (cost 3):
 
 Channeler (Strength: 3)
-    Immediate: Place as many mana tokens on this territory as the number of meat and plants tokens both the neighbouring territories and itself could produce OR destroy a Crystal card from your hand to place 5 mana tokens on this territory. (mana tokens are discarded after the battle)
+    Immediate: Place as many mana tokens on this territory as both it and the neighbouring territories could produce meat and plants OR destroy a Crystal card from your hand to place 5 mana tokens on this territory (mana tokens are discarded after the battle).
 
 
 Champion Unit (cost 5):
 
 Sorcerer (Strength: 4)
-    Delayed: Remove 10 mana tokens from this territory to add 3 strength to this unit.
+    Delayed: Remove 5 mana tokens from this territory to add 3 strength to this unit.
 
 
 Immortal Unit (cost 6):
 
 Spirit of Nature (Strength: 1)
-    Permanent: If this unit should be destroyed when it is not doomed, doom it instead.
+    Permanent: If this unit should be destroyed while it is undoomed, doom it instead.
     Permanent: +3 strength for each mana token placed on this card.
     Reaction (mana tokens added to this territory): remove a mana token from this territory and place it on this card.
 

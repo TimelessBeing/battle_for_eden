@@ -1,0 +1,36 @@
+Basic Unit (cost 1):
+
+[no name yet] (Strength: 1)
+    Permanent: +1 strength when doomed.
+
+
+Shock Unit (cost 2):
+
+[no name yet] (Strength: 2)
+    Immediate: Doom an allied unit.
+    Reaction (doomed): Destroy or doom an enemy unit.
+
+
+Warrior Unit (cost 3):
+
+[no name yet] (Strength: 3)
+    Immediate: Doom an allied unit to draw a card.
+
+
+Tactical Unit (cost 3):
+
+[no name yet] (Strength: 3)
+    Aftermath: Discard a doomed unit OR destroy a card from your hand (there must be an opponent to choose this).
+
+
+Champion Unit (cost 5):
+
+[no name yet] (Strength: 4)
+    Immediate: Doom all undoomed units and undoom all others.
+
+
+Immortal Unit (cost 6):
+
+[no name yet] (Strength: 4)
+    Delayed: Destroy or discard a doomed unit to absord its strength.
+
