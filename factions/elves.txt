@@ -19,7 +19,7 @@ Druid (Strength: 3)
 Tactical Unit (cost 3):
 
 Channeler (Strength: 3)
-    Immediate: Place as many mana tokens on this territory as both it and the neighbouring territories could produce meat and plants OR destroy a Crystal card from your hand to place 5 mana tokens on this territory (mana tokens are discarded after the battle).
+    Immediate: Place as many mana tokens on this territory as both it and the neighbouring territories could produce meat and plants OR destroy a Mana Crystal card from your hand to place 5 mana tokens on this territory (mana tokens are discarded after the battle).
 
 
 Champion Unit (cost 5):

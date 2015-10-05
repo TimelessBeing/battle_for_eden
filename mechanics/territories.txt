@@ -8,7 +8,7 @@ Territories:
     meat,
     plants,
     ores,
-    mana crystals.
+    mana shards.
 
 - Those resources can be used to add cards to your deck, to boost your army or to make things harder for other players.
 

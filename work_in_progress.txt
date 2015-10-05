@@ -12,5 +12,5 @@
 
 - symbols on cards instead of text?
 
-- using resources to continue attacking ? how to have the attacking and defending player draw cards so that it's not broken?
+- allowing players to continue attacking after a victory? both attacking and attacked players may discard cards, then replenish their hands to 5 cards. After the battle, the attacking player discards his hand.
 

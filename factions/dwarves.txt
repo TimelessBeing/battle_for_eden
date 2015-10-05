@@ -1,13 +1,13 @@
 Basic Unit (cost 1):
 
 Miner (Strength: 1)
-    Immediate: Produce ore on this territory. Reveal the top 2 cards of your deck. You may draw 1 revealed Crystal card into your hand. Discard the remaining cards.
+    Immediate: Produce ore on this territory. Reveal the top 2 cards of your deck. You may draw 1 revealed Mana Crystal card into your hand. Discard the remaining cards.
 
 
 Shock Unit (cost 2):
 
 Artificer (Strength: 2)
-    Immediate: Discard a Crystal card from your hand to draw a card. If you do so, you may remove any number of ore tokens from this territory to destroy a unit(allied or enemy) whose cost is equal to the number of removed tokens.
+    Immediate: Discard a Mana Crystal card from your hand to draw a card. If you do so, you may remove any number of ore tokens from this territory to destroy a unit(allied or enemy) whose cost is equal to the number of removed tokens.
 
 
 Warrior Unit (cost 3):
@@ -19,17 +19,17 @@ Sentinel (Strength: 3)
 Tactical Unit (cost 3):
 
 Digging Machine (Strength: 3)
-    Immediate: Produce ore on this territory. Neighbouring territories also produce ore on this territory. You may add a Crystal card of value 1 from the central area to your hand.
+    Immediate: Produce ore on this territory. Neighbouring territories also produce ore on this territory. You may add a Small Mana Crystal card from the central area to your hand.
 
 
 Champion Unit (cost 5):
 
 Transportation Machine (Strength: 3)
-    Immediate: You may move any number of ressources from this territory to other territories you control OR you may add a unit from your world into your hand by paying its cost (only Crystal cards from your hand and ore tokens present on this territory can be used to pay the cost).
+    Immediate: You may move any number of ressources from this territory to other territories you control OR you may add a unit from your world into your hand by paying its cost (only Mana Crystal cards from your hand and ore tokens present on this territory can be used to pay the cost).
 
 
 Immortal Unit (cost 6):
 
 Blacksmith (Strength: 3)
-    Delayed: Destroy a Crystal card from your discard pile. If you do so, for each allied unit you may choose to remove 1 ore token from this territory to add 1 to that unit's strength.
+    Delayed: Destroy a Mana Crystal card from your discard pile. If you do so, for each allied unit you may choose to remove 1 ore token from this territory to add 1 to that unit's strength.
 

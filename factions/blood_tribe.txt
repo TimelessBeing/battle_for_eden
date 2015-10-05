@@ -32,5 +32,5 @@ Champion Unit (cost 5):
 Immortal Unit (cost 6):
 
 [no name yet] (Strength: 4)
-    Delayed: Destroy or discard a doomed unit to absord its strength.
+    Delayed: Destroy or discard a doomed unit to absorb its strength.
 

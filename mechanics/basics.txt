@@ -20,7 +20,7 @@
     3 champion units of (cost 5)
     2 immortal units of (cost 6, goes into discard pile if destroyed)
 
-- At the beginning of the game, each player starts with an empty discard pile, and with a deck composed of 3 basic units and 5 lowest-value Crystal cards.
+- At the beginning of the game, each player starts with an empty discard pile, and with a deck composed of 3 basic units and 5 Small Mana Crystal cards.
 
 - The player then shuffles his deck and draws 5 to constitute his starting hand.
 
@@ -42,7 +42,7 @@
     see battle.
 
 - Asking for reinforcements:
-    A player can take units from his world for a total cost of X by discarding Crystal cards for a total value equal to or more than X and removing X valuable resource tokens from his territories.
+    A player can take units from his world for a total cost of X by discarding Mana Crystal cards for a total value equal to or more than X and removing X valuable resource tokens from his territories.
     Those units are then placed into the player's discard pile.
 
 - Using resources:
