@@ -14,5 +14,3 @@
 
 - allowing players to continue attacking after a victory? both attacking and attacked players may discard cards, then replenish their hands to 5 cards. After the battle, the attacking player discards his hand.
 
-- additional resources: gems (gamblers, toys, vikings), original inhabitants (adorers, fallen, slavers), rare elements (futuristic factions)
-
