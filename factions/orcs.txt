@@ -15,19 +15,21 @@ Raider (Strength: 2)
 Warrior Unit (cost 3):
 
 Charge Leader (Strength: 3)
+    Permanent: When an undoomed allied unit should be destroyed, you may doom it instead.
     Reaction (hand becoming empty): reveal the top card of your deck. If it is a unit, you can add it to the battle on this front. Otherwise discard it.
 
 
 Tactical Unit (cost 3):
 
 Shaman (Strength: 3)
-    Immediate: Discard one card from your hand to draw one card OR destroy one card from you hand (there must be an opponent to choose this).
+    Immediate: Discard one card from your hand OR destroy one card from you hand (there must be an opponent to choose this). If you discarded a card, you may draw one card.
 
 
 Champion Unit (cost 5):
 
 Far Seer (Strength: 4)
-    Immediate: Discard any number of cards, then draw as many.
+    Permanent: When an undoomed allied unit should be destroyed, you may destroy another undoomed allied unit instead.
+    Immediate: Discard any number of cards, then draw up to that number of cards.
 
 
 Immortal Unit (cost 6):
