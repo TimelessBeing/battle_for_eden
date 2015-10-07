@@ -5,7 +5,7 @@ Territories:
     Players can attack those territories (wild territories) to take control of them, or attack other players' territories to steal them.
 
 - Territory can produce resources, which are of several kinds:
-    meat,
+    animals,
     plants,
     ores,
     mana shards.

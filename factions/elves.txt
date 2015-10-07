@@ -1,3 +1,5 @@
+Valuable Resource: Plants
+
 Basic Unit (cost 1):
 
 Mystic (Strength: 1)

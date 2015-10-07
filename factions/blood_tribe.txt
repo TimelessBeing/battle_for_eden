@@ -1,3 +1,5 @@
+Valuable Resource: Plants
+
 Basic Unit (cost 1):
 
 [no name yet] (Strength: 1)
@@ -32,5 +34,5 @@ Champion Unit (cost 5):
 Immortal Unit (cost 6):
 
 [no name yet] (Strength: 4)
-    Delayed: Destroy or discard a doomed unit to absorb its strength.
+    Delayed: Destroy or undoom a doomed unit to absorb its strength.
 

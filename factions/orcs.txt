@@ -1,3 +1,5 @@
+Valuable Resource: Animals
+
 Basic Unit (cost 1):
 
 Grunt (Strength: 1)
@@ -7,7 +9,7 @@ Grunt (Strength: 1)
 Shock Unit (cost 2):
 
 Raider (Strength: 2)
-    Delayed: If your hand is empty, the opponent must choose and destroy one of his units.
+    Delayed: If your hand is empty, the opponent must choose and destroy one of his units OR if your hand is empty, change another raider's ability to "Delayed: destroy an enemy unit".
 
 
 Warrior Unit (cost 3):
