@@ -2,37 +2,37 @@ Valuable Resource: Plants
 
 Basic Unit (cost 1):
 
-[no name yet] (Strength: 1)
+Sacrificed (Strength: 1)
     Permanent: +1 strength when doomed.
 
 
 Shock Unit (cost 2):
 
-[no name yet] (Strength: 2)
+Berserker (Strength: 2)
     Immediate: Doom an allied unit.
     Reaction (doomed): Destroy or doom an enemy unit.
 
 
 Warrior Unit (cost 3):
 
-[no name yet] (Strength: 3)
+Bloodsmith (Strength: 3)
     Immediate: Doom an allied unit to draw a card.
 
 
 Tactical Unit (cost 3):
 
-[no name yet] (Strength: 3)
+Herbalist (Strength: 3)
     Aftermath: Discard a doomed unit OR destroy a card from your hand (there must be an opponent to choose this).
 
 
 Champion Unit (cost 5):
 
-[no name yet] (Strength: 4)
+Poison Master (Strength: 4)
     Immediate: Doom all undoomed units and undoom all others.
 
 
 Immortal Unit (cost 6):
 
-[no name yet] (Strength: 4)
+Blood Alchemist (Strength: 4)
     Delayed: Destroy or undoom a doomed unit to absorb its strength.
 
