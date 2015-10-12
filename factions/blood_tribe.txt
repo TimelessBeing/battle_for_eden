@@ -28,11 +28,11 @@ Herbalist (Strength: 3)
 Champion Unit (cost 5):
 
 Poison Master (Strength: 4)
-    Immediate: Doom all undoomed units and undoom all others.
+    Immediate: Save all doomed allied units and doom all others.
 
 
 Immortal Unit (cost 6):
 
 Blood Alchemist (Strength: 4)
-    Delayed: Destroy or undoom a doomed unit to absorb its strength.
+    Delayed: Save or destroy a doomed unit to absorb its strength.
 

@@ -20,3 +20,4 @@ Territories:
     Each territory has a number written on it for that resource, corresponding to how much resource of that type it can produce.
     Place as many resource tokens of that type on the territory's tile.
 
+- When a player attacks a wild terrtory, the natural defenses of this territory are equal to the distance between that territory and the player's portal.
