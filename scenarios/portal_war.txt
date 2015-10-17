@@ -1,0 +1,7 @@
+Portal War:
+
+    Civilizations fight for the full control of Eden.
+    To that end, they must destruct the portals giving the others access to this land.
+    The game ends when only one player controls all territories (in this case, he wins)
+    or when all portals are destroyed (in this case, it's a draw). 
+

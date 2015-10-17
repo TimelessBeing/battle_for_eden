@@ -1,6 +1,0 @@
-Portal War:
-    Civilizations fight for the full control of Eden.
-    To that end, they must destruct the portals giving the others access to this land.
-    Players whose portal were destroyed cannot ask for reinforcements anymore, but they stay in the game until they concede or until no unit of their factions are left in their decks.
-    They can still control territories and add units to their decks from the central area.
-    The game ends when only one player is left or controls all territories. If his portal is still standing, he's the victor. Otherwise, he's only the survivor.

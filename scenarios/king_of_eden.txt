@@ -1,0 +1,31 @@
+King of Eden:
+
+    This scenario uses a figurine of a gigantic dragon (the King of Eden), an attack deck, and a D20.
+    - the figurine will be used to represent the location of the dragon on the map
+    - the attack deck will be used for battles between the players and the dragon
+    - the D20 will be used to determine in which direction the dragon moves:
+        18-20: forward
+        15-17: forward-left
+        12-14: forward-right
+        11:    backward-left
+        10:    backward-right
+        9:     backward
+        1-8:   the dragon does not move
+        
+    The game starts with the King of Eden on the Heart of Eden (facing any direction).
+    
+    After each player's turn, he rolls the dice to decide if the dragon moves and in which direction
+        (turn the dragon in this direction then make it move 1 territory in this direction):
+        - If the dragon should move outside of the map, it moves in the opposite direction instead.
+        - If the dragon should move to a player's territory or portal, the dragon and that player go to battle.
+            If it is not the dragon's first move, add 1 card to the dragon's hand and the player draws 2 cards.
+            If the dragon won, it moves on the territory. Remove all resources on this territory, and it becomes a wild territory again.
+            If the dragon lost, it does not move on the territory and stays where it was.
+        - If the dragon moved, roll the dice again (continue until the dragon stops).
+
+    During their turns, players can attack the territory on which the dragon is.
+        In this case, they go to battle with the dragon.
+        Add 1 card to the dragon's hand when it's defending.
+        If it's not the player's first attack this turn, he draws 1 card and adds 2 cards to the dragon's hand.
+
+    The game ends when either all portals have been destroyed (players' defeat) or the dragon has been killed (player's victory).
