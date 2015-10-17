@@ -9,7 +9,7 @@ Infantry (Strength: 1)
 Shock Unit (cost 2):
 
 Spearman (Strength: 1)
-    Immediate: Discard a unit of strength 1 from your hand to destroy an enemy unit and draw a card.
+    Immediate: Discard a unit of strength 1 from your hand to destroy an enemy unit.
 
 
 Warrior Unit (cost 3):

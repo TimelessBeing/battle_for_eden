@@ -4,6 +4,7 @@ Basic Unit (cost 1):
 
 Sacrificed (Strength: 1)
     Permanent: +1 strength when doomed.
+    Permanent: +1 strength when it's the only allied unit on this front.
 
 
 Shock Unit (cost 2):

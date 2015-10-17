@@ -9,13 +9,14 @@ Miner (Strength: 1)
 Shock Unit (cost 2):
 
 Artificer (Strength: 2)
-    Immediate: Discard a Mana Crystal card from your hand to draw a card. If you do so, you may remove any number of ore tokens from this territory to destroy a unit(allied or enemy) whose cost is equal to the number of removed tokens.
+    Immediate: Discard a Mana Crystal card from your hand to draw a card. If you do so, you may remove any number of ore tokens from this territory to destroy a unit(allied or enemy) whose cost is equal to the number of removed tokens. (You may only destroy an allied unit if there is an opponent.)
 
 
 Warrior Unit (cost 3):
 
 Sentinel (Strength: 3)
-    Permanent: +1 strength for each 5 ore tokens present on the territory you control which has the least ore tokens on it.
+    Permanent: +1 strength if there are 2 or more ore tokens on each of your territories.
+    Permanent: +1 strength if there are 5 or more ore tokens on each of your territories.
 
 
 Tactical Unit (cost 3):

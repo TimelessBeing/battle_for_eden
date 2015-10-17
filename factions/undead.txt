@@ -3,13 +3,13 @@ Valuable Resource: Animals
 Basic Unit (cost 1):
 
 Skeleton (Strength: 1)
-    Immediate: Discard the top card of your deck OR draw a Skeleton from your discard pile into your hand.
+    Immediate: Discard the top card of your deck OR add a Skeleton from your discard pile to the battle on this front.
 
 
 Shock Unit (cost 2):
 
 Wendigo (Strength: 2)
-    Immediate: Destroy an enemy unit of cost equal to or less than half the number of units in your discard pile (rounded down).
+    Immediate: Destroy an enemy unit of cost equal to or less than the number of units in your discard pile.
 
 
 Warrior Unit (cost 3):
@@ -21,7 +21,7 @@ Death Knight (Strength: 3)
 Tactical Unit (cost 3):
 
 Mummy (Strength: 3)
-    Immediate: Discard up to 4 cards from the top of your deck OR destroy the top card of your discard pile (there must be an opponent to choose this). 
+    Immediate: Discard the top card of your deck and repeat the operation up to 3 more times OR destroy the top card of your discard pile (there must be an opponent to choose this). 
     Reaction (enemy unit destroyed): discard the top card of your deck.
 
 

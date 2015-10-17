@@ -1,0 +1,22 @@
+Small Mana Crystal (cost: 1)
+    Value: 1 mana crystal
+
+
+Medium Mana Crystal (cost: 5)
+    Value: 2 mana crystals
+
+
+Huge Mana Crystal (cost: 15)
+    Value: 3 mana crystals
+
+
+Setback (cost: 5)
+    When you buy this card, put it in an opponent's discard pile instead of your own.
+    During a battle, you may destroy this card from your hand by removing 10 mana shards tokens from your territories or discarding a unit card from your hand.
+    This card cannot be destroyed in any other way.
+
+
+Opportunity (cost: 10)
+    You may destroy this card from your hand at any moment to draw up to 3 cards
+
+
