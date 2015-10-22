@@ -14,14 +14,14 @@ Spearman (Strength: 1)
 
 Warrior Unit (cost 3):
 
-Cavalry (Strength: 1)
-    Immediate: Discard a unit of strength 1 from your hand to draw 2 cards, then discard 1 card from your hand.
+Recruiter (Strength: 1)
+    Immediate: Reveal the top two cards from your deck. Draw all units of strength 1 into your hand, discard any number of remaining cards and put the rest back on top of the deck in any order. Other Recruiter units cannot be drawn in this way. OR Destroy 1 card from your hand (there must be an opponent to choose this).
 
 
 Tactical Unit (cost 3):
 
-Recruiter (Strength: 1)
-    Immediate: Reveal the top two cards from your deck. Draw all units of strength 1 into your hand, discard any number of remaining cards and put the rest back on top of the deck in any order. Tactical Units cannot be drawn in this way. OR Destroy 1 card from your hand (there must be an opponent to choose this).
+Cavalry (Strength: 1)
+    Immediate: Discard a unit of strength 1 from your hand to draw 2 cards, then discard 1 card from your hand.
 
 
 Champion Unit (cost 5):
