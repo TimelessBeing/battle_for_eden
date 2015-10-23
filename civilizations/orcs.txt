@@ -22,7 +22,7 @@ Tactical Unit (cost 3):
 
 Shaman (Strength: 3)
     Permanent: Undoomed allied unit are doomed instead of destroyed.
-    Immediate: Discard from 1 to 2 cards from your hand to draw up to 1 card OR destroy one card from you hand (there must be an opponent to choose this).
+    Immediate: Discard from 1 to 2 cards from your hand to draw up to 1 card OR destroy one card from you hand.
 
 
 Champion Unit (cost 5):

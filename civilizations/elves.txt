@@ -10,7 +10,7 @@ Mystic (Strength: 1)
 Shock Unit (cost 2):
 
 Magic Archer (Strength: 2)
-    Immediate: Spend 5 natural mana tokens from this front to either destroy 1 unit (allied or enemy) OR force your opponent to choose and discard 1 card from his hand. (You may only destroyed an allied unit if there is an opponent)
+    Immediate: Spend 5 natural mana tokens from this front to either destroy 1 unit (allied or enemy) OR force your opponent to choose and discard 1 card from his hand.
 
 
 Warrior Unit (cost 3):
@@ -22,7 +22,7 @@ Druid (Strength: 3)
 Tactical Unit (cost 3):
 
 Channeler (Strength: 3)
-    Immediate: Generate as many natural mana tokens on this front as both this territory and the neighbouring ones could produce plants, animals or mana shards (choose for each territory) OR destroy 1 Mana Crystal card from your hand to generate 3 natural mana tokens on this front (there must be an opponent to choose this).
+    Immediate: Generate as many natural mana tokens on this front as both this territory and the neighbouring ones could produce plants, animals or mana shards (choose for each territory) OR destroy 1 Mana Crystal card from your hand to generate 3 natural mana tokens on this front.
 
 
 Champion Unit (cost 5):

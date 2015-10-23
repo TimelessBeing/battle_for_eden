@@ -6,7 +6,7 @@ Medium Mana Crystal (cost: 5)
     Value: 2 mana crystals
 
 
-Huge Mana Crystal (cost: 15)
+Huge Mana Crystal (cost: 10)
     Value: 3 mana crystals
 
 

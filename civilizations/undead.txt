@@ -21,7 +21,7 @@ Death Knight (Strength: 3)
 Tactical Unit (cost 3):
 
 Mummy (Strength: 3)
-    Immediate: Discard the top card of your deck and repeat the operation up to 3 more times OR destroy the top card of your discard pile (there must be an opponent to choose this). 
+    Immediate: Discard the top card of your deck and repeat the operation up to 3 more times OR destroy the top card of your discard pile. 
     Reaction (enemy unit destroyed): discard the top card of your deck.
 
 

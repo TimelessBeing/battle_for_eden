@@ -9,7 +9,7 @@ Miner (Strength: 1)
 Shock Unit (cost 2):
 
 Artificer (Strength: 2)
-    Immediate: Discard a Mana Crystal card from your hand to draw a card. If you do so, you may remove any number of ore tokens from this territory to destroy a unit(allied or enemy) whose cost is equal to the number of removed tokens. (You may only destroy an allied unit if there is an opponent.)
+    Immediate: Discard a Mana Crystal card from your hand to draw a card. If you do so, you may remove any number of ore tokens from this territory to destroy a unit(allied or enemy) whose cost is equal to the number of removed tokens.
 
 
 Warrior Unit (cost 3):

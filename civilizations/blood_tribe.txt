@@ -23,7 +23,7 @@ Bloodsmith (Strength: 3)
 Tactical Unit (cost 3):
 
 Herbalist (Strength: 3)
-    Aftermath: Discard a doomed unit OR destroy a card from your hand (there must be an opponent to choose this).
+    Aftermath: Discard a doomed unit OR destroy a card from your hand.
 
 
 Champion Unit (cost 5):

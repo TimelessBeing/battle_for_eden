@@ -15,7 +15,7 @@ Spearman (Strength: 1)
 Warrior Unit (cost 3):
 
 Recruiter (Strength: 1)
-    Immediate: Reveal the top two cards from your deck. Draw all units of strength 1 into your hand, discard any number of remaining cards and put the rest back on top of the deck in any order. Other Recruiter units cannot be drawn in this way. OR Destroy 1 card from your hand (there must be an opponent to choose this).
+    Immediate: Reveal the top two cards from your deck. Draw into your hand all units of strength 1 that are not Recruiter units. Discard any number of remaining cards and put the rest back on top of the deck in any order. OR Destroy 1 card from your hand.
 
 
 Tactical Unit (cost 3):
