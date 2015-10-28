@@ -4,13 +4,13 @@ Basic Unit (cost 1):
 
 Sacrificed (Strength: 1)
     Permanent: +1 strength when doomed.
-    Immediate: Doom this unit.
+    Immediate: Doom an allied unit.
 
 
 Shock Unit (cost 2):
 
 Berserker (Strength: 2)
-    Immediate: Doom an allied unit.
+    Permanent: If this unit should be destroyed while undoomed, doom it instead.
     Reaction (doomed): Destroy or doom an enemy unit.
 
 
@@ -28,12 +28,12 @@ Herbalist (Strength: 3)
 
 Champion Unit (cost 5):
 
-Poison Master (Strength: 4)
-    Immediate: Save all doomed allied units and doom all others.
+Blood Alchemist (Strength: 4)
+    Delayed: Save or destroy a doomed unit to absorb its strength.
 
 
 Immortal Unit (cost 6):
 
-Blood Alchemist (Strength: 4)
-    Delayed: Save or destroy a doomed unit to absorb its strength.
+Poison Master (Strength: 5)
+    Immediate: Save all doomed allied units and doom all others.
 
