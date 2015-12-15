@@ -23,7 +23,7 @@ Heavy Infantry (Strength: 1)
 
 
 Captain (Strength: 1)
-    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of the deck in any order. If units of strength 1 were revealed in this way, you may also draw them into your hand.
+    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. If units of strength 1 were revealed in this way, you may also draw them into your hand (Captain units cannot be drawn in this way).
 
 
 Cavalry (Strength: 1)
