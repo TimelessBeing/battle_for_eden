@@ -9,7 +9,7 @@ Scout (Strength: 1)
 Shock Unit (cost 2):
 
 Spearman (Strength: 1)
-    Immediate: Discard a unit of strength 1 from your hand to destroy an enemy unit.
+    Immediate: Discard a unit of strength 1 from your hand to destroy an enemy unit. (Only play this ability if this card was played from your hand).
 
 
 Main Units (cost 3):
@@ -33,7 +33,7 @@ Cavalry (Strength: 1)
 Champion Unit (cost 5):
 
 Knight (Strength: 2)
-    Permanent: +1 strength for each three allied units on this front.
+    Permanent: +1 strength for each two allied units on this front.
 
 
 Immortal Unit (cost 6):
