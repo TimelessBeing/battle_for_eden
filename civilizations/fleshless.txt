@@ -3,13 +3,14 @@ Valuable Resource: Animals
 Basic Unit (cost 1):
 
 Skeleton (Strength: 1)
-    Immediate: Discard the top card of your deck OR add a Skeleton from your discard pile to the battle on this front.
+    You may discard this card from your hand at any time to draw a card.
+    Delayed: If all allied units are Skeleton units, add all Skeleton units from your discard pile to the battle.
 
 
 Shock Unit (cost 2):
 
 Wendigo (Strength: 2)
-    Immediate: Destroy an enemy unit of cost equal to or less than the number of units in your discard pile.
+    Immediate: Destroy an enemy unit of cost equal to or less than the number of units in your discard pile. You may reveal the top card of your deck, then either discard it or put it back on top of your deck.
 
 
 Warrior Unit (cost 3):
