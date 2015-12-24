@@ -9,7 +9,7 @@ Scout (Strength: 1)
 Shock Unit (cost 2):
 
 Spearman (Strength: 1)
-    Immediate: Discard a unit of strength 1 from your hand to destroy an enemy unit. (Only play this ability if this card was played from your hand).
+    Immediate: Discard a unit of strength 1 from your hand to destroy a unit on this front. (Only play this ability if this card was played from your hand).
 
 
 Main Units (cost 3):
@@ -17,14 +17,11 @@ Main Units (cost 3):
 Tactician (Strength: 1)
     Immediate: Destroy a card from your hand.
 
-
 Heavy Infantry (Strength: 1)
     Permanent: +2 Strength.
 
-
 Captain (Strength: 1)
-    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. If units of strength 1 were revealed in this way, you may also draw them into your hand (Captain units cannot be drawn in this way).
-
+    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. If non-Captain units of strength 1 were revealed in this way, you may also draw them into your hand.
 
 Cavalry (Strength: 1)
     Immediate: Discard a unit of strength 1 from your hand to draw 2 cards, then discard 1 card from your hand.

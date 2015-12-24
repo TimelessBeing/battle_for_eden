@@ -4,32 +4,34 @@ Basic Unit (cost 1):
 
 Skeleton (Strength: 1)
     You may discard this card from your hand at any time to draw a card.
-    Delayed: If all allied units are Skeleton units, add all Skeleton units from your discard pile to the battle.
+    Delayed: If all allied units are Skeleton units, add a Skeleton units from your discard pile to the battle.
 
 
 Shock Unit (cost 2):
 
-Wendigo (Strength: 2)
-    Immediate: Destroy an enemy unit of cost equal to or less than the number of units in your discard pile. You may reveal the top card of your deck, then either discard it or put it back on top of your deck.
+Flameskull (Strength: 2)
+    Immediate: Destroy a unit on this front of cost equal to or less than the number of units in your discard pile. You may reveal the top card of your deck, then either discard it or put it back on top of your deck.
 
 
-Warrior Unit (cost 3):
+Main Units (cost 3):
+
+Wendigo (Strength: 3)
+    Immediate: Destroy the top card of your discard pile.
 
 Death Knight (Strength: 3)
     Immediate: Draw the non-immortal unit card that is closest to the top of your discard pile into your hand.
 
+Skeleton Rider (Strength: 3)
+    Immediate: discard up to 2 cards from your hand to draw as many.
 
-Tactical Unit (cost 3):
-
-Mummy (Strength: 3)
-    Immediate: Discard the top card of your deck and repeat the operation up to 3 more times OR destroy the top card of your discard pile. 
-    Reaction (enemy unit destroyed): discard the top card of your deck.
+Bone Golem (Strength: 3)
+    Permanent: +1 for each Skeleton on this front.
 
 
 Champion Unit (cost 5):
 
 Lich (Strength: 3)
-    Permanent: +1 strength to each allied unit on the same front.
+    Permanent: +1 strength for each two units in your discard pile.
 
 
 Immortal Unit (cost 6):
