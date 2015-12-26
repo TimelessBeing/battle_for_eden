@@ -4,7 +4,7 @@ Basic Unit (cost 1):
 
 Skeleton (Strength: 1)
     You may discard this card from your hand at any time to draw a card.
-    Delayed: If all allied units are Skeleton units, add a Skeleton units from your discard pile to the battle.
+    Delayed: If all allied units on this front are Skeleton units, add a Skeleton units from your discard pile to the battle.
 
 
 Shock Unit (cost 2):
@@ -25,7 +25,7 @@ Skeleton Rider (Strength: 3)
     Immediate: discard up to 2 cards from your hand to draw as many.
 
 Bone Golem (Strength: 3)
-    Permanent: +1 for each Skeleton on this front.
+    Permanent: +1 strength for each Skeleton on this front.
 
 
 Champion Unit (cost 5):

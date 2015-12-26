@@ -10,30 +10,32 @@ Sacrificed (Strength: 1)
 Shock Unit (cost 2):
 
 Berserker (Strength: 2)
-    Permanent: If this unit should be destroyed while undoomed, doom it instead.
-    Reaction (doomed): Destroy or doom an enemy unit.
+    Reaction (doomed or destroyed): Destroy or doom a unit on this front.
 
 
-Warrior Unit (cost 3):
+Main Units (cost 3):
+
+Tribe Elder (Strength: 3)
+    Immediate: Doom this unit to destroy a card from your hand.
 
 Bloodsmith (Strength: 3)
     Immediate: Doom an allied unit to draw a card.
 
-
-Tactical Unit (cost 3):
-
 Herbalist (Strength: 3)
-    Aftermath: Discard a doomed unit OR destroy a card from your hand.
+    Aftermath: Save a doomed unit.
+
+Undertaker (Strength: 3)
+    Permanent: +2 for each doomed allied unit on this front.
 
 
 Champion Unit (cost 5):
 
-Blood Alchemist (Strength: 4)
-    Delayed: Save or destroy a doomed unit to absorb its strength.
+Poison Master (Strength: 4)
+    Immediate: Doom any number of allied unit, save any number of other allied units.
 
 
 Immortal Unit (cost 6):
 
-Poison Master (Strength: 5)
-    Immediate: Save all doomed allied units and doom all others.
+Blood Alchemist (Strength: 3)
+    Delayed: Save or destroy a doomed unit to absorb its strength.
 
