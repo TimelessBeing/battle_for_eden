@@ -24,7 +24,7 @@ Bloodsmith (Strength: 3)
 Herbalist (Strength: 3)
     Aftermath: Save a doomed unit.
 
-Undertaker (Strength: 3)
+Blood Lord (Strength: 3)
     Permanent: +2 for each doomed allied unit on this front.
 
 
