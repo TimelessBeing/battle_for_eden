@@ -4,7 +4,7 @@ Basic Unit (cost 1):
 
 Sacrificed (Strength: 1)
     Permanent: +1 strength when doomed.
-    Immediate: Doom an allied unit.
+    Immediate: Doom an allied unit on this front.
 
 
 Shock Unit (cost 2):
@@ -19,10 +19,10 @@ Tribe Elder (Strength: 3)
     Immediate: Doom this unit to destroy a card from your hand.
 
 Bloodsmith (Strength: 3)
-    Immediate: Doom an allied unit to draw a card.
+    Immediate: Doom an allied unit on this front to draw a card.
 
 Herbalist (Strength: 3)
-    Aftermath: Save a doomed unit.
+    Aftermath: Save a doomed unit on this front.
 
 Blood Lord (Strength: 3)
     Permanent: +2 for each doomed allied unit on this front.
@@ -31,11 +31,11 @@ Blood Lord (Strength: 3)
 Champion Unit (cost 5):
 
 Poison Master (Strength: 4)
-    Immediate: Doom any number of allied unit, save any number of other allied units.
+    Immediate: Doom any number of allied unit on this front, save any number of other allied units on this front.
 
 
 Immortal Unit (cost 6):
 
 Blood Alchemist (Strength: 3)
-    Delayed: Save or destroy a doomed unit to absorb its strength.
+    Delayed: Save or destroy a doomed unit on this front to absorb its strength (max total strength: 8).
 
