@@ -33,6 +33,7 @@ Champion Unit (cost 5):
 
 Warlord (Strength: 5)
     Permanent: +4 strength when your hand is empty.
+    Aftermath: If your hand is empty, discard the Warlord.
 
 
 Immortal Unit (cost 6):
