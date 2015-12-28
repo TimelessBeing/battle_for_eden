@@ -2,9 +2,9 @@ Valuable Resource: Plants
 
 Basic Unit (cost 1):
 
-Sacrificed (Strength: 1)
+The Undying (Strength: 1)
     Permanent: +1 strength when doomed.
-    Immediate: Doom an allied unit on this front.
+    Immediate: Doom this unit.
 
 
 Shock Unit (cost 2):
