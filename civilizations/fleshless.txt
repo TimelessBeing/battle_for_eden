@@ -36,6 +36,6 @@ Lich (Strength: 3)
 
 Immortal Unit (cost 6):
 
-Lord of Death (Strength: 4)
+Grim Reaper (Strength: 4)
     Immediate: Reorder your discard pile, then draw the top card into your hand. Immortal units cannot be drawn in this way.
 

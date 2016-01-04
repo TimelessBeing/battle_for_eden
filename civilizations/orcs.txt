@@ -9,9 +9,7 @@ Grunt (Strength: 1)
 Shock Unit (cost 2):
 
 Raider (Strength: 2)
-    Delayed: If your hand is empty, you or the opponent chooses and destroys one of his own units on this front.
-    OR
-    Combined delayed (2): If your hand is empty, destroy a unit on this front.
+    Delayed: If your hand is empty, you or the opponent chooses and destroys one of his own units on this front OR you may choose the targets of your other Raider units.
 
 
 Main Units (cost 3):
