@@ -2,39 +2,49 @@ Valuable Resource: Plants
 
 Basic Unit (cost 1):
 
-Mystic (Strength: 1)
-    Immediate: Generate as many natural mana tokens on this front as this territory could produce plants, animals and mana shards (max: 5).
-    Delayed: Spend 2 natural mana on this front to add 1 strength to this unit.
+Hunter (Strength: 1)
+    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
+    Delayed: Spend 2 mana on this front to add 1 strength to this unit.
 
 
 Shock Unit (cost 2):
 
 Magic Archer (Strength: 2)
-    Immediate: Spend 5 natural mana tokens from this front to either destroy 1 unit (allied or enemy) OR force your opponent to choose and discard 1 card from his hand.
+    Permanent: If this unit should be wounded while undoomed, doom it instead.
+    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
+    Reaction (mana production on this front): Spend 5 mana on this front to destroy a unit on this front. If this unit is doomed, destroy it.
 
 
-Warrior Unit (cost 3):
+Main Units (cost 3):
 
+Mystic (Strength: 3)
+    Permanent: If this unit should be wounded while undoomed, doom it instead.
+    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
+    Reaction (mana production on this front): Spend 5 mana on this front to destroy a card from your hand. If this unit is doomed, destroy it.
+    
 Druid (Strength: 3)
-    Immediate: Spend 5 natural mana tokens from this front to draw 1 card.
-
-
-Tactical Unit (cost 3):
+    Permanent: If this unit should be wounded while undoomed, doom it instead.
+    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
+    Reaction (mana production on this front): Spend 5 mana on this front to draw a card or make the opponent choose and discard a card from his hand. If this unit is doomed, destroy it.
 
 Channeler (Strength: 3)
-    Immediate: Generate as many natural mana tokens on this front as both this territory and the neighbouring ones could produce plants, animals or mana shards (choose for each territory) OR destroy 1 Mana Crystal card from your hand to generate 3 natural mana tokens on this front.
+    Immediate: Generate as many mana tokens on this front as both this territory and the neighbouring ones could produce plants or animals (choose for each territory).
+
+Sorcerer (Strength: 3)
+    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
+    Delayed: Spend 2 mana on this front to add 2 strength to this unit.
 
 
 Champion Unit (cost 5):
 
-Sorcerer (Strength: 4)
-    Delayed: Spend 5 natural mana tokens from this front to add 3 strength to this unit.
+Grand Channeler (Strength: 3)
+    Immediate: Generate as many mana tokens on this front as both this territory and the neighbouring ones could produce plants and animals.
 
 
 Immortal Unit (cost 6):
 
-Spirit of Nature (Strength: 1)
+Spirit of Nature (Strength: 4)
     Permanent: If this unit should be destroyed while it is undoomed, doom it instead.
-    Permanent: +3 strength for each natural mana token placed on this card (max: +6 strength).
-    Reaction (natural mana tokens added to this territory): move a natural mana token from this front to this card.
+    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
+    Reaction (mana production on this front): generate 1 mana on this front.
 
