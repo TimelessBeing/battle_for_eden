@@ -22,7 +22,7 @@ Charge Leader (Strength: 3)
 
 Shaman (Strength: 3)
     Permanent: Undoomed allied unit are doomed instead of destroyed.
-    Immediate: Look at the top card of your deck. You may discard it or exchange it with a card of your hand. Discard any number of cards from your hand.
+    Immediate: Look at the top card of your deck. You may discard it or put a card from your hand anywhere in your deck or discard pile to draw it into your hand. Discard any number of cards from your hand.
 
 Troublemaker (Strength: 3)
     Immediate: Discard a card from your hand. The opponent discards a card from his hand.

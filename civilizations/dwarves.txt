@@ -36,7 +36,7 @@ Specialist (Strength: 2)
 
 Champion Unit (cost 5):
 
-Rock N Roll (Strength: 3)
+Rocket Roll (Strength: 3)
     Immediate: Move any number of resources from this territory to other territories you control OR purchase a unit from your World and add it to your hand.
 
 
