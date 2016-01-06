@@ -22,7 +22,7 @@ Charge Leader (Strength: 3)
 
 Shaman (Strength: 3)
     Permanent: Undoomed allied unit are doomed instead of destroyed.
-    Immediate: Look at the top card of your deck. You may discard it or put a card from your hand anywhere in your deck or discard pile to draw it into your hand. Discard any number of cards from your hand.
+    Immediate: Draw 1 card, then choose any number of cards from your hand (at least 1) and put each of these cards either in the discard pile or on top of your deck.
 
 Troublemaker (Strength: 3)
     Immediate: Discard a card from your hand. The opponent discards a card from his hand.
@@ -37,5 +37,5 @@ Warlord (Strength: 5)
 Immortal Unit (cost 6):
 
 Far Seer (Strength: 4)
-    Immediate: Draw as many cards as you have in your hand, then put as many from your hand to the top of your deck or your discard pile.
+    Immediate: Reveal as many cards from the bottom of your deck as you have cards in your hand. You may exchange any of those cards with cards from your hand. Put back each of those cards either on top of your deck or at the bottom.
 

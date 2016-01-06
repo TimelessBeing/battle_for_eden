@@ -38,6 +38,7 @@ Mystic (Strength: 3)
 Champion Unit (cost 5):
 
 Sorcerer (Strength: 4)
+    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
     Delayed: Spend up to 3 mana on this front to add as much strength to this unit.
 
 
