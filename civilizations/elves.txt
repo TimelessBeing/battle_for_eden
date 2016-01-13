@@ -12,7 +12,7 @@ Shock Unit (cost 2):
 Magic Archer (Strength: 2)
     Permanent: If this unit should be destroyed while undoomed, doom it instead.
     Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
-    Reaction (mana production on this front): Spend 4 mana on this front to destroy a unit on this front. If this unit is doomed, destroy it.
+    Reaction (mana production on this front): Spend 4 mana on this front to destroy a unit on this front. If this Magic Archer unit is doomed, destroy it.
 
 
 Main Units (cost 3):
@@ -20,12 +20,12 @@ Main Units (cost 3):
 Druid (Strength: 3)
     Permanent: If this unit should be destroyed while undoomed, doom it instead.
     Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
-    Reaction (mana production on this front): Spend 4 mana on this front to destroy a card from your hand. If this unit is doomed, destroy it.
+    Reaction (mana production on this front): Spend 4 mana on this front to destroy a card from your hand. If this Druid unit is doomed, destroy it.
     
 Ranger (Strength: 3)
     Permanent: If this unit should be destroyed while undoomed, doom it instead.
     Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
-    Reaction (mana production on this front): Spend 4 mana on this front to draw a card or make the opponent choose and discard a card from his hand. If this unit is doomed, destroy it.
+    Reaction (mana production on this front): Spend 4 mana on this front to draw a card or make the opponent choose and discard a card from his hand. If this Ranger unit is doomed, destroy it.
 
 Channeler (Strength: 3)
     Immediate: Generate as many mana tokens on this front as both this territory and the neighbouring ones could produce plants or animals (choose for each territory).
