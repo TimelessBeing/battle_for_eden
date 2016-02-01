@@ -3,49 +3,49 @@ Valuable Resource: Plants
 Basic Unit (cost 1):
 
 Hunter (Strength: 1)
-    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
+    Immediate: Produce as many mana on this front as this territory could produce plants and animals.
     Delayed: Spend 2 mana on this front to add 1 strength to this unit.
 
 
 Shock Unit (cost 2):
 
 Magic Archer (Strength: 2)
-    Permanent: If this unit should be destroyed while undoomed, doom it instead.
-    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
-    Reaction (mana production on this front): Spend 4 mana on this front to destroy a unit on this front. If this Magic Archer unit is doomed, destroy it.
+    Permanent: If this unit should be destroyed while undoomed, doom it instead. It is then destroyed the next time its ability is triggered.
+    Immediate: Produce as many mana on this front as this territory could produce plants and animals.
+    Reaction (mana production on this front): Spend 4 mana on this front to destroy a unit on this front.
 
 
 Main Units (cost 3):
 
 Druid (Strength: 3)
-    Permanent: If this unit should be destroyed while undoomed, doom it instead.
-    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
-    Reaction (mana production on this front): Spend 4 mana on this front to destroy a card from your hand. If this Druid unit is doomed, destroy it.
+    Permanent: If this unit should be destroyed while undoomed, doom it instead. It is then destroyed the next time its ability is triggered.
+    Immediate: Produce as many mana on this front as this territory could produce plants and animals.
+    Reaction (mana production on this front): Spend 4 mana on this front to destroy a card from your hand.
     
 Ranger (Strength: 3)
-    Permanent: If this unit should be destroyed while undoomed, doom it instead.
-    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
-    Reaction (mana production on this front): Spend 4 mana on this front to draw a card or make the opponent choose and discard a card from his hand. If this Ranger unit is doomed, destroy it.
+    Permanent: If this unit should be destroyed while undoomed, doom it instead. It is then destroyed the next time its ability is triggered.
+    Immediate: Produce as many mana on this front as this territory could produce plants and animals.
+    Reaction (mana production on this front): Spend 4 mana on this front to draw a card or make your opponent discard one from his hand.
 
 Channeler (Strength: 3)
-    Immediate: Generate as many mana tokens on this front as both this territory and the neighbouring ones could produce plants or animals (choose for each territory).
+    Immediate: For this territory and each of the neighbouring ones: produce as many mana on this front as this terrtory could produce plants OR animals.
 
 Mystic (Strength: 3)
-    Immediate: Generate twice as many mana tokens on this front as this territory could produce plants and animals, and 1 more for each neighbouring territory that could produce more than 1 animal or 1 plant token.
+    Immediate: Produce twice as many mana on this front as this territory could produce plants and animals.
     Immediate: Spend 2 mana on this front to draw a card then discard a card.
 
 
 Champion Unit (cost 5):
 
 Sorcerer (Strength: 4)
-    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
+    Immediate: Produce as many mana on this front as this territory could produce plants and animals.
     Delayed: Spend up to 3 mana on this front to add as much strength to this unit.
 
 
 Immortal Unit (cost 6):
 
 Spirit of Nature (Strength: 4)
-    Permanent: If this unit should be destroyed while it is undoomed, doom it instead.
-    Immediate: Generate as many mana tokens on this front as this territory could produce plants and animals.
-    Reaction (mana production on this front): generate 1 mana on this front.
+    Permanent: If this unit should be destroyed while undoomed, doom it instead. It is then destroyed the next time its ability is triggered.
+    Immediate: Produce as many mana on this front as this territory could produce plants and animals.
+    Reaction (mana production on this front): produce 1 mana on this front.
 

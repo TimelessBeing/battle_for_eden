@@ -3,7 +3,7 @@ Valuable Resource: Animals
 Basic Unit (cost 1):
 
 Skeleton (Strength: 1)
-    You may discard this card from your hand at any time to draw a card.
+    Permanent: You may discard this card from your hand at any time to draw a card.
     Delayed: If all allied units on this front are Skeleton units, add a Skeleton units from your discard pile to the battle.
 
 
@@ -25,7 +25,7 @@ Skeleton Rider (Strength: 3)
     Immediate: discard up to 2 cards from your hand to draw as many.
 
 Bone Golem (Strength: 3)
-    Permanent: +1 strength for each Skeleton on this front.
+    Permanent: +1 strength for each Skeleton unit on this front.
 
 
 Champion Unit (cost 5):
@@ -37,5 +37,5 @@ Lich (Strength: 3)
 Immortal Unit (cost 6):
 
 Grim Reaper (Strength: 4)
-    Immediate: Reorder your discard pile, then draw the top card into your hand. Immortal units cannot be drawn in this way.
+    Immediate: Reorder your discard pile, then draw the top non-immortal-unit card into your hand.
 

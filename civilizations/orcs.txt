@@ -3,13 +3,13 @@ Valuable Resource: Animals
 Basic Unit (cost 1):
 
 Grunt (Strength: 1)
-    Permanent: +1 strength when your hand is empty.
+    Permanent: +1 strength if your hand is empty.
 
 
 Shock Unit (cost 2):
 
 Raider (Strength: 2)
-    Delayed: If your hand is empty, you or the opponent chooses and destroys one of his own units on this front OR you may choose the targets of your other Raider units.
+    Delayed: If your hand is empty: you or the opponent chooses and destroys one of his units on this front OR you may choose the targets of your other Raider units.
 
 
 Main Units (cost 3):
@@ -18,11 +18,11 @@ Shield Warrior (Strength: 3)
     Immediate: Destroy a card from your hand.
 
 Charge Leader (Strength: 3)
-    Reaction (hand is empty): reveal the top card of your deck. If it is a unit, you can add it to the battle on this front. Otherwise discard it.
+    Reaction (empty hand): reveal the top card of your deck. If it is a unit, you may add it to the battle on this front. Otherwise discard it.
 
 Shaman (Strength: 3)
-    Permanent: Undoomed allied unit are doomed instead of destroyed.
-    Immediate: Draw 1 card, then choose any number of cards from your hand (at least 1) and put each of these cards either on top of your deck or at the bottom.
+    Permanent: Undoomed allied unit on this front that should be destroyed are doomed instead.
+    Immediate: Draw 1 card, then choose any number of cards from your hand (at least 1) and put each of them either on top or at the bottom of your deck.
 
 Troublemaker (Strength: 3)
     Immediate: Discard a card from your hand. The opponent discards a card from his hand.
@@ -31,11 +31,11 @@ Champion Unit (cost 5):
 
 Warlord (Strength: 5)
     Permanent: +4 strength when your hand is empty.
-    Aftermath: If your hand is empty, discard the Warlord.
+    Aftermath: If your hand is empty, discard this unit.
 
 
 Immortal Unit (cost 6):
 
 Far Seer (Strength: 4)
-    Immediate: Reveal as many cards from the bottom of your deck as you have cards in your hand. You may exchange any of those cards with cards from your hand. Put back each revealed card either on top of your deck or at the bottom.
+    Immediate: Reveal as many cards from the bottom of your deck as you have cards in your hand. You may exchange any of those with cards from your hand. Put back each revealed card either on top or at the bottom of your deck.
 

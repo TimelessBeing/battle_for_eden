@@ -1,22 +1,21 @@
-Small Mana Crystal (cost: 1)
+Small Energy Crystal (cost: 1)
     Value: 1 mana crystal
 
 
-Medium Mana Crystal (cost: 5)
+Medium Energy Crystal (cost: 3)
     Value: 2 mana crystals
 
 
-Huge Mana Crystal (cost: 10)
+Huge Energy Crystal (cost: 10)
     Value: 3 mana crystals
 
 
 Setback (cost: 5)
-    When you buy this card, put it in an opponent's discard pile instead of your own.
-    During a battle, you may destroy this card from your hand by removing 10 mana shards tokens from your territories or discarding a unit card from your hand.
-    This card cannot be destroyed in any other way.
+    Permanent: When you buy this card, put it in an opponent's discard pile instead of your own.
+    Permanent: You may pay 5 shards or discard a unit from your hand in combat to destroy this card from your hand.
 
 
-Opportunity (cost: 10)
-    You may destroy this card from your hand at any moment to draw up to 3 cards
+Opportunity (cost: 7)
+    Permanent: You may destroy this card from your hand at any moment to draw up to 3 cards
 
 
