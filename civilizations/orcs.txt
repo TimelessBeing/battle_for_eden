@@ -25,13 +25,13 @@ Shaman (Strength: 3)
     Immediate: Draw 1 card, then choose any number of cards from your hand (at least 1) and put each of them either on top or at the bottom of your deck.
 
 Troublemaker (Strength: 3)
-    Immediate: Discard a card from your hand. The opponent discards a card from his hand.
+    Immediate: Discard up to 2 cards from your hand to make the opponent discard as many.
 
 Champion Unit (cost 5):
 
 Warlord (Strength: 5)
     Permanent: +4 strength when your hand is empty.
-    Aftermath: If your hand is empty, discard this unit.
+    Post-combat: If your hand is empty, save this unit.
 
 
 Immortal Unit (cost 6):

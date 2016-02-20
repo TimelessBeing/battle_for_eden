@@ -2,7 +2,7 @@ Valuable Resource: Ore
 
 Basic Unit (cost 1):
 
-Scout (Strength: 1)
+Soldier (Strength: 1)
     Immediate: Reveal the top card of your deck. You may discard it or put it back on top of your deck. You may add a unit of strength 1 revealed in this way to the battle on this front.
 
 
@@ -15,22 +15,25 @@ Spearman (Strength: 1)
 Main Units (cost 3):
 
 Tactician (Strength: 1)
-    Immediate: Destroy a card from your hand.
+    Permanent: +1 strength if there is a Soldier on this front.
+    Permanent: +1 strength if there is a Spearman on this front.
+    Immediate: Reveal the top card of your deck, then discard it, destroy it or put it back on top of your deck.
 
 Heavy Infantry (Strength: 1)
-    Permanent: +2 Strength in battle.
+    Permanent: +3 Strength in battle.
 
 Captain (Strength: 1)
     Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. You may also choose to draw non-Captain units of strength 1 into your hand.
 
 Cavalry (Strength: 1)
     Immediate: Discard a unit of strength 1 from your hand to draw 2 cards, then discard 1 card.
+    Permanent: +1 strength if the first ability was triggered.
 
 
 Champion Unit (cost 5):
 
 Knight (Strength: 2)
-    Permanent: +1 strength for each two allied units on this front.
+    Permanent: +1 strength to all Soldier units.
 
 
 Immortal Unit (cost 6):

@@ -2,7 +2,7 @@ Valuable Resource: Plants
 
 Basic Unit (cost 1):
 
-The Undying (Strength: 1)
+Tribal Warrior (Strength: 1)
     Permanent: +1 strength when doomed.
     Immediate: Doom this unit.
 
@@ -16,7 +16,7 @@ Berserker (Strength: 2)
 Main Units (cost 3):
 
 Tribe Elder (Strength: 3)
-    Immediate: Doom a unit on this front to destroy a card from your hand.
+    Immediate: Doom an allied a unit on this front to destroy a card from your hand.
 
 Bloodsmith (Strength: 3)
     Immediate: Doom an allied unit on this front to draw a card.

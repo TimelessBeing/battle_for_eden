@@ -4,13 +4,13 @@ Basic Unit (cost 1):
 
 Skeleton (Strength: 1)
     Permanent: You may discard this card from your hand at any time to draw a card.
-    Delayed: If all allied units on this front are Skeleton units, add a Skeleton units from your discard pile to the battle.
+    Delayed: If all allied units on all front are Skeleton units, add all Skeleton units from your discard pile to the battle.
 
 
 Shock Unit (cost 2):
 
 Flameskull (Strength: 2)
-    Immediate: Destroy a unit on this front of cost equal to or less than the number of units in your discard pile. You may reveal the top card of your deck, then either discard it or put it back on top of your deck.
+    Immediate: Destroy a unit of cost 2 or less on this front. If you do, you may reveal the top card of your deck, then either discard it or put it back on top of your deck. If there are 5 or more units in your discard pile, you may ignore the cost restriction.
 
 
 Main Units (cost 3):
@@ -22,7 +22,7 @@ Death Knight (Strength: 3)
     Immediate: Draw the non-immortal unit card that is closest to the top of your discard pile into your hand.
 
 Skeleton Rider (Strength: 3)
-    Immediate: discard up to 2 cards from your hand to draw as many.
+    Immediate: Draw 1 card, then discard 1 card from your hand.
 
 Bone Golem (Strength: 3)
     Permanent: +1 strength for each Skeleton unit on this front.
@@ -31,11 +31,11 @@ Bone Golem (Strength: 3)
 Champion Unit (cost 5):
 
 Lich (Strength: 3)
-    Permanent: +1 strength for each two units in your discard pile.
+    Permanent: +1 strength for each unit in your discard pile.
 
 
 Immortal Unit (cost 6):
 
 Grim Reaper (Strength: 4)
-    Immediate: Reorder your discard pile, then draw the top non-immortal-unit card into your hand.
+    Immediate: Reorder your discard pile, then draw the top non-Grim-Reaper card into your hand.
 

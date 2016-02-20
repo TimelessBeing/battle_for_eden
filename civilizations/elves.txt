@@ -39,7 +39,7 @@ Champion Unit (cost 5):
 
 Sorcerer (Strength: 4)
     Immediate: Produce as many mana on this front as this territory could produce plants and animals.
-    Delayed: Spend up to 3 mana on this front to add as much strength to this unit.
+    Delayed: Spend up to 3 mana on this front to add 2 strength to this unit for each mana spent this way.
 
 
 Immortal Unit (cost 6):
