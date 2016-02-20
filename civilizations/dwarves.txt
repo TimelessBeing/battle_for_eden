@@ -19,7 +19,7 @@ Main Units (cost 3):
 Rushed Cannon (Strength: 2)
     Permanent: You may purchase this unit at any moment. When you do, put this unit in your hand instead of your discard pile.
     Immediate: Discard an Energy Crystal card from your hand then draw a card.
-    Aftermath: Destroy this unit.
+    Post-combat: Destroy this unit.
 
 Digging Machine (Strength: 2)
     Immediate: Produce ore on this territory. Add the ore production of neighbouring territories to this territory.
