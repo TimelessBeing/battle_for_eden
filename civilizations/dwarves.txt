@@ -11,7 +11,7 @@ Shock Unit (cost 2):
 
 Artificer (Strength: 2)
     Immediate: [Spend 3 Energy Crystals then draw a card] to produce ore on this territory.
-    Immediate: If you triggered the first ability: destroy a unit on this front by paying its cost with the ore tokens on this territory.
+    Immediate: If you triggered the first ability: get rid of a unit on this front by paying its cost with the ore tokens on this territory.
 
 
 Main Units (cost 3):
@@ -19,7 +19,7 @@ Main Units (cost 3):
 Rushed Cannon (Strength: 2)
     Permanent: You may purchase this unit at any moment. When you do, put this unit in your hand instead of your discard pile.
     Immediate: Discard an Energy Crystal card from your hand then draw a card.
-    Post-combat: Destroy this unit.
+    Post-combat: Get rid of this unit.
 
 Digging Machine (Strength: 2)
     Immediate: Produce ore on this territory. Add the ore production of neighbouring territories to this territory.

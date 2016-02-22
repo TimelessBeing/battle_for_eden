@@ -6,16 +6,16 @@ Medium Energy Crystal (cost: 3)
     Value: 2 mana crystals
 
 
-Huge Energy Crystal (cost: 10)
+Huge Energy Crystal (cost: 7)
     Value: 3 mana crystals
 
 
-Setback (cost: 5)
+Setback (cost: 4)
     Permanent: When you buy this card, put it in an opponent's discard pile instead of your own.
     Permanent: You may pay 5 shards or discard a unit from your hand in combat to destroy this card from your hand.
 
 
-Opportunity (cost: 7)
+Opportunity (cost: 5)
     Permanent: You may destroy this card from your hand at any moment to draw up to 3 cards
 
 

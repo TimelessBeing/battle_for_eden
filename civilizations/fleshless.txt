@@ -10,7 +10,8 @@ Skeleton (Strength: 1)
 Shock Unit (cost 2):
 
 Flameskull (Strength: 2)
-    Immediate: Destroy a unit of cost 2 or less on this front. If you do, you may reveal the top card of your deck, then either discard it or put it back on top of your deck. If there are 5 or more units in your discard pile, you may ignore the cost restriction.
+    Immediate: Get rid of a unit of cost 2 or less on this front. If there are 5 or more units in your discard pile, you may ignore the cost restriction.
+    Reaction (first ability triggered): Reveal the top card of your deck. You may discard it or put it back on top of your deck.
 
 
 Main Units (cost 3):

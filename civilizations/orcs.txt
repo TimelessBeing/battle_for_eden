@@ -9,7 +9,7 @@ Grunt (Strength: 1)
 Shock Unit (cost 2):
 
 Raider (Strength: 2)
-    Delayed: If your hand is empty: you or the opponent chooses and destroys one of his units on this front OR you may choose the targets of your other Raider units.
+    Delayed: A player of your choice chooses and gets rid of one of his units on this front OR you may choose the targets of other Raider units on this front.
 
 
 Main Units (cost 3):
@@ -21,7 +21,7 @@ Charge Leader (Strength: 3)
     Reaction (empty hand): reveal the top card of your deck. If it is a unit, you may add it to the battle on this front. Otherwise discard it.
 
 Shaman (Strength: 3)
-    Permanent: Undoomed allied unit on this front that should be destroyed are doomed instead.
+    Permanent: Undoomed allied unit on this front that should collapse are doomed instead.
     Immediate: Draw 1 card, then choose any number of cards from your hand (at least 1) and put each of them either on top or at the bottom of your deck.
 
 Troublemaker (Strength: 3)
