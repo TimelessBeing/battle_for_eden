@@ -1,16 +1,26 @@
-- Game modes/scenarios
-    cooperation modes
-    nonplayble enemys
-        attrition die?
-        attack deck?
-        in any case, random needed to make it dangerous
-    ages to have event unfold progressively are good
 
-- randomness (attrition-die like) for PvP? a deck for the enemy, with effects corresponding to the various effects written on the enemy cards? (in a quarriors kind of way)
+- Blood Tribe:
+ => Consistency of the faction? Role of the Blood Lord?
+ => Strength of the Poison Master?
 
-- mechanics for alliances? for joint attacks? (does the defending player draws cards to compensate for the multiple attack?)
+- Dwarves:
+ => Artificer: increase resource cost of ability?
 
-- symbols on cards instead of text?
+- Elves:
+ => Magic Archer: ajust ability cost? twice the target unit cost?
+ => Usefulness of the Mystic?
+ => Spirit of Nature: Almost unkillable -> discarded at next mana production when doomed?
 
-- allowing players to continue attacking after a victory? both attacking and attacked players may discard cards, then replenish their hands to 5 cards. After the battle, the attacking player discards his hand.
+- Fleshless:
+ => Usefulness of the Bone Golem?
+
+- Kingdom:
+ => Captain: reveal cards until 2 non-Captain units of strength 1?
+ => Heavy Infantry: +2 strength only?
+
+
+- Coop mode:
+ => attack deck?
+ => deck construction rules? /!\ it has to be slumbering at first, with few strong cards and lots of trash cards
+ => exact rules for moving the dragon, exact winnin/losing conditions? (lots of victories needed to win, destruction of 1 Portal enough to lose?)
 
