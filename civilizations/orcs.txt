@@ -3,7 +3,7 @@ Valuable Resource: Animals
 Basic Unit (cost 1):
 
 Grunt (Strength: 1)
-    Permanent: +1 strength if your hand is empty.
+    Permanent: +2 strength if your hand is empty.
 
 
 Shock Unit (cost 2):
