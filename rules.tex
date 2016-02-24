@@ -430,7 +430,7 @@
                     may be triggered when all players stopped attacking/defending,
 	                before the actual end of the battle.
         	        \item[Reaction abilities] may be event-based or condition-based.
-	            \begin{description}
+	                \begin{description}
                         \item[Event-based:]
                         they may be triggered each time a specific event occurs
                         (example of event: "collapse of this unit").
@@ -453,32 +453,69 @@
     then the priority goes to the player that plays after him, and so on.
     
 
-  \subsection{Collapse, doom, unit destruction phase and post-combat phase}
-  
+  \subsection{Post-combat phase and unit-destruction phase}
+    
     Some units'abilities allow them to \textbf{\textit{get rid of}} another unit.
     Units targetted by those abilities \textbf{\textit{collapse}},
     which means they are removed from the battle and put aside into a pile
-    of \textbf{\textit{collapsed units}} until the post-combat phase.
+    of \textbf{\textit{collapsed units}} until the unit-destruction phase.
     
-    Similarly, units may be \textbf{\textit{doomed}} during the battle.
-    The dooming of a unit is materialized by turning it horizontally to the right.
-    Doomed units collapse during the post-combat phase.
-
-    Some abilities allow to \textbf{\textit{save}} a doomed unit,
-    meaning it becomes undoomed again.
-    Please note that a doomed unit cannot be doomed again,
-    and that an undoomed unit cannot be saved.
+    \textbf{During the post-combat phase,} various abilities may be triggered.
+    Afterwards, all units that have not collapsed are discarded.
     
-    During the post-combat phase, doomed units collapse,
-    then all units that remain in battle are discarded by
-    their owners in any order.
-    
-    During the unit-destruction phase, \textbf{collapsed immortal units
-    (i.e. cost-6 units) are first discarded}.
+    \textbf{During the unit-destruction phase,} collapsed immortal units
+    (i.e. cost-6 units) are first discarded.
     Then, each player may choose up to one of his collapsed units to
     \textbf{\textit{rescue}}.
     To do so, the player spends as many valuable resources as this unit's cost.
     Rescued units are discarded while all other collapsed units are destroyed.
+    
+
+\newpage
+  \subsection{Technical terms}
+  
+    \begin{description}
+        \item[Allied territory] \hfill \\
+        A front represents the battle on a frontier between two territories.
+        The \textbf{\textit{allied territory}} is the territory on
+        your side of the frontier.
+        \item[Dooming and saving units] \hfill \\
+        \textbf{\textit{Doomed units}} are units that collapse during
+        the post-combat phase, just before the other units are discarded.
+        \textbf{\textit{Dooming}} of a unit is materialized by turning that
+        unit's card horizontally to the right.\\
+        \textbf{\textit{Saving}} a unit cancels the effects of its dooming,
+        making the unit undoomed again (the unit's card is turned back to the left).\\
+        Please note that \textbf{undoomed units cannot be saved},
+        and that \textbf{doomed units cannot be doomed again}.
+        \item[Producing/Spending mana on a front] \hfill \\
+        \textbf{\textit{Mana}} is a temporary resource that may be produced
+        and spent during battle.\\
+        \textbf{Producing mana} is materialized by placing as many resource tokens
+        (of any kind) besides the units of a front
+        (the front's \textit{\textbf{mana reserve}}).\\
+        \textbf{Spending mana} means removing tokens front the reserve.
+        At the end of the post-combat phase, all mana reserves are emptied.
+        \item[Harvesting resources] \hfill \\
+        \textbf{\textit{Harvesting a territory's resource}} is the action of
+        putting on the allied territory as many new tokens of that type of resource
+        as the harvested territory's production capacity in that resource.
+    \end{description}
+    
+
+\section{Frequently Asked Questions}
+
+    \hspace{-2em}
+    \textbf{Q:} My "Soldier" unit's immediate ability added another "Soldier"
+    unit to the front. Can I trigger that unit's immediate ability?
+    \newline
+    \textbf{A:} Yes, you can.
+    
+    \hspace{-2em}
+    \textbf{Q:} My "Charge Leader" unit's reaction ability added another
+    "Charge Leader" unit to the front. Can I trigger that unit's reaction ability?
+    \newline
+    \textbf{A:} Yes, you can.
     
     
     

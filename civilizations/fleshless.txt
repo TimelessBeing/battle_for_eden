@@ -11,7 +11,7 @@ Shock Unit (cost 2):
 
 Flameskull (Strength: 2)
     Immediate: Get rid of a unit of cost 2 or less on this front. If there are 5 or more units in your discard pile, you may ignore the cost restriction.
-    Reaction (first ability triggered): Reveal the top card of your deck. You may discard it or put it back on top of your deck.
+    Reaction (event: this unit's first ability is triggered): Reveal the top card of your deck. You may discard it or put it back on top of your deck.
 
 
 Main Units (cost 3):

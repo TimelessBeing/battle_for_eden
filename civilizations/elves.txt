@@ -3,7 +3,7 @@ Valuable Resource: Plants
 Basic Unit (cost 1):
 
 Hunter (Strength: 1)
-    Immediate: Produce as many mana on this front as the sum of this territory production capacities in plants and animals.
+    Immediate: Produce as many mana on this front as the sum of the allied territory's production capacities in plants and animals.
     Delayed: Spend 2 mana on this front to add 1 strength to this unit.
 
 
@@ -11,34 +11,34 @@ Shock Unit (cost 2):
 
 Magic Archer (Strength: 2)
     Permanent: If this unit should collapse while undoomed, doom it instead. It then collapses the next time its reaction ability is triggered.
-    Immediate: Produce as many mana on this front as the sum of this territory production capacities in plants and animals.
-    Reaction (mana production on this front): Spend 5 mana on this front to get rid of a unit on this front.
+    Immediate: Produce as many mana on this front as the sum of the allied territory's production capacities in plants and animals.
+    Reaction (event: mana production on this front): Spend 5 mana on this front to get rid of a unit on this front.
 
 
 Main Units (cost 3):
 
 Druid (Strength: 3)
     Permanent: If this unit should collapse while undoomed, doom it instead. It then collapses the next time its reaction ability is triggered.
-    Immediate: Produce as many mana on this front as the sum of this territory production capacities in plants and animals.
-    Reaction (mana production on this front): Spend 4 mana on this front to destroy a card from your hand.
+    Immediate: Produce as many mana on this front as the sum of the allied territory's production capacities in plants and animals.
+    Reaction (event: mana production on this front): Spend 4 mana on this front to destroy a card from your hand.
     
 Ranger (Strength: 3)
     Permanent: If this unit should collapse while undoomed, doom it instead. It then collapses the next time its reaction ability is triggered.
-    Immediate: Produce as many mana on this front as the sum of this territory production capacities in plants and animals.
-    Reaction (mana production on this front): Spend 4 mana on this front to draw a card or make your opponent choose and discard one from his hand.
+    Immediate: Produce as many mana on this front as the sum of the allied territory's production capacities in plants and animals.
+    Reaction (event: mana production on this front): Spend 4 mana on this front to draw a card or make your opponent choose and discard one from his hand.
 
 Channeler (Strength: 3)
-    Immediate: For this territory and each of the neighbouring ones: add as many mana on this front as this territory's production capacity in plants or animals.
+    Immediate: For the allied territory and each of the neighbouring ones: add as many mana on this front as this territory's production capacity in plants or animals.
 
 Mystic (Strength: 3)
-    Immediate: Produce twice as many mana on this front as the sum of this territory production capacities in plants and animals.
+    Immediate: Produce twice as many mana on this front as the sum of the allied territory's production capacities in plants and animals.
     Immediate: Spend 2 mana on this front to draw a card then discard a card.
 
 
 Champion Unit (cost 5):
 
 Sorcerer (Strength: 4)
-    Immediate: Produce as many mana on this front as the sum of this territory production capacities in plants and animals.
+    Immediate: Produce as many mana on this front as the sum of the allied territory's production capacities in plants and animals.
     Delayed: Spend up to 3 mana on this front to add 2 strength to this unit for each mana spent this way.
 
 
@@ -47,5 +47,5 @@ Immortal Unit (cost 6):
 Spirit of Nature (Strength: 4)
     Permanent: If this unit should collapse while undoomed, doom it instead.
     Permanent: All mana productions on this front are increased by 1 mana.
-    Immediate: Produce as many mana on this front as the sum of this territory production capacities in plants and animals.
+    Immediate: Produce as many mana on this front as the sum of the allied territory's production capacities in plants and animals.
 
