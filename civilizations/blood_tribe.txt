@@ -25,13 +25,13 @@ Herbalist (Strength: 3)
     Post-combat: Save a doomed unit on this front.
 
 Blood Lord (Strength: 3)
-    Permanent: +2 for each doomed allied unit on this front.
+    Permanent: +2 strength or each doomed allied unit on this front.
 
 
 Champion Unit (cost 5):
 
 Poison Master (Strength: 4)
-    Immediate: Doom any number of allied unit on this front, save any number of other allied units on this front.
+    Immediate: Doom any number of allied units on this front, save any number of other allied units on this front.
 
 
 Immortal Unit (cost 6):

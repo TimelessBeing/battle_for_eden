@@ -37,5 +37,5 @@ Warlord (Strength: 5)
 Immortal Unit (cost 6):
 
 Far Seer (Strength: 4)
-    Immediate: Reveal as many cards from the bottom of your deck as you have cards in your hand. You may exchange any of those with cards from your hand. Put back each revealed card either on top or at the bottom of your deck.
+    Immediate: Reveal as many cards from the bottom of your deck as you have cards in your hand. You may exchange any of those with cards from your hand. Put back each revealed card either on top or at the bottom of your deck in any order.
 

@@ -123,9 +123,9 @@
             No player is allowed to change the order of the cards in any discard pile.
         \item[Discarding a card] \hfill \\
             Putting a card on top of its owner's discard pile.
-        \item[Spending resources] \hfill \\
+        \item[Using resources] \hfill \\
             Removing a given number of resource tokens from one's territories.
-        \item[Spending Energy Crystals] \hfill \\
+        \item[Using Energy Crystals] \hfill \\
             Discarding Energy Crystal cards whose total value is at least a given number.
         \item[Buying a card] \hfill \\
             Paying a cost to add a card to one's discard pile.
@@ -205,7 +205,8 @@
         \item Buying cards (any number of times)
         \item Managing his territories (only once per turn)
         \item Launching attacks on territories (only once per turn)
-        \item Making a breakthrough (only after successfully conquering territories)
+        \item Making a breakthrough (only once per turn,
+        if a player-controlled territory was conquerred)
     \end{itemize}
     
     \vspace{-0.7em}
@@ -229,22 +230,26 @@
   \subsection{Resources}
   
     Territories may hold any number of resources (there is no upper limit),
-    materialized by resource tokens. Those resources can be of 7 types:
+    which can be of 7 types:
     
     \vspace{-1.3em}
     \begin{itemize}
         \item Shards (white tokens)
         \item Plants (green tokens)
         \item Animals (red tokens)
-        \item Ores (grey tokens)
-        \item Gems (violet tokens)
-        \item Rare Elements (yellow tokens)
+        \item Ore (grey tokens)
+        \item Positronium (yellow tokens)
+        \item Omninutrients (brown tokens)
         \item Inhabitants (pink tokens)
     \end{itemize}
     
     \vspace{-0.7em}
+    Resources on a territory are materialized by resource tokens.
+    Counters may be put under resource tokens to count the number of
+    resources of the corresponding type.
+    
     A player's Occupation tokens are used to materialize which territories he controls.
-    Controlling a territory allows the player to spend the resources it holds,
+    Controlling a territory allows the player to use the resources it holds,
     as well as to produce or destroy those resources during territory management.
   
   
@@ -259,14 +264,14 @@
     A player can only ask for reinforcements if his Portal territory was not destroyed.
     }
     
-    Buying cards first implies paying a cost, by spending resources and Energy Crystals
+    Buying cards first implies paying a cost, by using resources and Energy Crystals
     (or only resources in the case of common cards).
     Once the cost has been paid, the card is put on top of the player's discard pile.
     
     \hspace{-2em} \textbf{IMPORTANT:
     Each civilization relies heavily on one type of resource, or
     \textit{valuable resource} (see the color of the cubes on their unit cards).
-    As such, the only resources a player can spend are Shards and his civilization's
+    As such, the only resources a player can use are Shards and his civilization's
     valuable resource.
     }
 
@@ -306,10 +311,10 @@
             \vspace{-0.7em}
             \begin{itemize}
         		\item produce: he chooses a type of resource and then puts
-            	on this territory as many new resource tokens of that type that its
+            	on the territory as many new resource tokens of that type that its
             	production capacity for that resource,
         		\item destroy resources: he removes half of the resource
-            tokens of each type of resource on this territory (rounded up),
+                tokens of each type of resource on the territory (rounded up),
         		\item do nothing.
     		\end{itemize}
         \item[Heart of Eden] \hfill \\
@@ -321,6 +326,8 @@
                 He may then remove any number of counters from his Portal territory
                 to put as many new resource tokens (of any combination of types)
                 on the Heart of Eden,
+        		\item destroy resources: same thing: he removes half of the resource
+                tokens of each type of resource on the territory (rounded up),
         		\item do nothing.
     		\end{itemize}
     \end{description}
@@ -358,7 +365,8 @@
     \vspace{-1.3em}
     \begin{enumerate}
         \item replenishes his hand to 5 cards,
-        \item selects any number of frontiers on his new territories (possibly none),
+        \item selects any number of frontiers on those conquered territories 
+        (possibly none),
         \item launches an attack on the selected frontiers,
         \item discards all cards in his hand.
     \end{enumerate}
@@ -381,7 +389,7 @@
 \newpage
 \section{Combat}
 
-  \subsection{Attacking a single player-controlled territory}
+  \subsection{Attacking a player-controlled territory}
   
     \hspace{-2em} In the case where there is a single front,
     against a player-controlled territory:
@@ -402,25 +410,25 @@
     \end{enumerate}
     
 
-  \subsection{Attacking multiple player-controlled territory}
-    
-    The battle on each front is similar to what is described above,
-    but each battle take place in parallel:
-    each step has to be performed on each front before going to the next step.
-    
-
-  \subsection{Attacking wild territories}
+  \subsection{Attacking a wild territory}
     
     \textbf{\textit{Wild territories}} are territories that are not controlled by any
     player.
     
-    When wild territories are among the attacked territories,
-    everything happens on the corresponding fronts as if there was a defending player
-    who stopped defending in step 2.
+    When a wild territory is attacked,
+    everything happens as if there was a defending player who stopped defending
+    in step 2.
     
     When step 5 is reached, the battle is won by the attacking player if the total
     strength of his units is at least equal to the distance of the wild territory
     to the closest Portal territory.
+    
+
+  \subsection{Attacking multiple territories}
+    
+    The battle on each front is similar to what is described above,
+    but each battle take place in parallel:
+    each step has to be performed on each front before going to the next step.
 
 
 \newpage
@@ -460,7 +468,7 @@
                         (example of condition: "no card in your hand").
                     \end{description}
         	        \item[Post-combat abilities] may be triggered at the beggining of the
-                    post-combat phase, before doomed units are destroyed.
+                    post-combat phase.
             \end{description}
     \end{description}
     
@@ -471,11 +479,21 @@
     the attacking player may trigger his first,
     then the priority goes to the one that plays after him, and so on.
     
+    \hspace{-2em} \textbf{
+    IMPORTANT: An ability of the form "\textbf{If} A\textbf{:} do B" can only be
+    triggered if the condition A is satisfied.
+    }
+    
+    \hspace{-2em} \textbf{
+    IMPORTANT: An ability of the form "Do A \textbf{to} do B" can only be triggered
+    if you are able to perform A.
+    }
+    
 
 \newpage
   \subsection{Post-combat phase and unit-destruction phase}
     
-    Some units'abilities allow them to \textbf{\textit{get rid of}} another unit.
+    Some units'abilities allow them to \textbf{\textit{get rid of}} a unit.
     Units targetted by those abilities \textbf{\textit{collapse}},
     which means they are removed from the battle and put aside into a pile
     of \textbf{\textit{collapsed units}} until the unit-destruction phase.
@@ -487,7 +505,7 @@
     (i.e. cost-6 units) are first discarded.
     Then, each player may choose up to one of his collapsed units to
     \textbf{\textit{rescue}}.
-    To do so, the player spends as many valuable resources as this unit's cost.
+    To do so, the player uses as many valuable resources as this unit's cost.
     Rescued units are discarded while all other collapsed units are destroyed.
     
 
@@ -499,21 +517,24 @@
         The \textbf{\textit{allied territory}} is the territory on
         your side of the frontier.
         \item[Dooming and saving units] \hfill \\
-        \textbf{\textit{Doomed units}} are units that collapse during
-        the post-combat phase, just before the other units are discarded.
-        \textbf{\textit{Dooming}} of a unit is materialized by turning that
-        unit's card horizontally to the right.\\
-        \textbf{\textit{Saving}} a unit cancels the effects of its dooming,
-        making the unit undoomed again (the unit's card is turned back to the left).\\
+        Some unit's abilities allow them to \textbf{\textit{doom}} a unit.
+        At that moment, the \textbf{\textit{doomed units}}'s card is turned
+        sideways to the right.
+        All doomed units collapse during the post-combat phase,
+        just before the other units are discarded.
+        Some other unit's abilities allow them to \textbf{\textit{save}} a unit,
+        which means canceling the effects of its dooming and making the unit
+        undoomed again.
+        At that moment, the unit's card is turned back to the left.\\
         Please note that \textbf{undoomed units cannot be saved},
         and that \textbf{doomed units cannot be doomed again}.
-        \item[Producing/Spending mana on a front] \hfill \\
+        \item[Producing/Using mana on a front] \hfill \\
         \textbf{\textit{Mana}} is a temporary resource that may be produced
         and spent during battle.\\
         \textbf{Producing mana} is materialized by placing as many resource tokens
-        (of any kind) besides the units of a front
-        (the front's \textit{\textbf{mana reserve}}).\\
-        \textbf{Spending mana} means removing tokens front the reserve.
+        (of any kind) besides your units of a front
+        (your \textit{\textbf{mana reserve}} on this front).\\
+        \textbf{Using mana} means removing tokens from your reserve on this front.
         At the end of the post-combat phase, all mana reserves are emptied.
         \item[Harvesting resources] \hfill \\
         \textbf{\textit{Harvesting a territory's resource}} is the action of
@@ -536,6 +557,12 @@
     "Charge Leader" unit to the front. Can I trigger that unit's reaction ability?
     \newline
     \textbf{A:} Yes, you can.
+    
+    \hspace{-2em}
+    \textbf{Q:} My "Sentinel" unit's strength can be increased by two permanent effects.
+    Do they stack up, or does only the strongest one apply?
+    \newline
+    \textbf{A:} They stack up.
     
     
     

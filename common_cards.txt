@@ -16,6 +16,7 @@ Setback (cost: 4)
 
 
 Opportunity (cost: 5)
+    Permanent: You may discard this card from your hand at any moment to draw a card.
     Permanent: You may destroy this card from your hand at any moment to draw up to 3 cards
 
 
