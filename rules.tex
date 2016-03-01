@@ -166,6 +166,8 @@
     \vspace{-1.3em}
     \begin{itemize}
         \item Every Portal tile is in contact with exactly 2 tiles,
+        \item One can find a path that does not go through a Portal tile between
+        any normal tile and the Heart of Eden tile.
         \item The distance between any 2 Portal tiles is 4 or more,
         \item The distance between any Portal tile and the Heart of Eden tile
         is 4 or more.
@@ -282,7 +284,7 @@
     each type of resource.
     \vspace{-1.3em}
     \begin{description}
-        \item[Potal territory] \hfill \\
+        \item[Portal territory] \hfill \\
         2 in the valuable resource of their civilization
         and 1 in every other type of resource,
         \item[Normal territory] \hfill \\
@@ -361,29 +363,21 @@
     If at least one territory controlled by other players was conquered during his attack
     phase, the attacking player earns the right to perform a breakthrough.
 
-    \hspace{-2em} To make a breakthrough, the player:
+    \hspace{-2em} To make a breakthrough:
     \vspace{-1.3em}
     \begin{enumerate}
-        \item replenishes his hand to 5 cards,
-        \item selects any number of frontiers on those conquered territories 
-        (possibly none),
-        \item launches an attack on the selected frontiers,
-        \item discards all cards in his hand.
+        \item the attacking player replenishes his hand to 5 cards,
+        \item the attacking player selects any number (possibly 0) of frontiers
+        between those territories taken from other players and other territories,
+        \item the attacking player launches an attack on the selected frontiers,
+        \item defending players (if any) may discard any number of cards from their hands,
+        then replenish them to 5 cards,
+        \item the battles are resolved,
+        \item if this is the first time this step is reached and player-controlled
+        territories were conquered in the previous step, the attacking player may choose
+        to go back to step 1 (\textit{double-breakthrough}),
+        \item the attacking player discards all cards in his hand.
     \end{enumerate}
-    
-    \vspace{-0.7em}
-    \hspace{-2em} \textbf{
-    IMPORTANT: If the player conquered territories controlled by other players in step 3,
-    he may choose to perform a second
-    (and last) breakthrough from his newly conquerred territories and go back
-    to step 1 instead of going to step 4.
-    }
-    
-    \hspace{-2em} \textbf{
-    IMPORTANT: When a player's territories are attacked during a breaktrough,
-    he may immediately discard any number of cards from his hand then replenish
-    it to 5 cards.
-    }
 
 
 \newpage
@@ -545,6 +539,13 @@
 
 \newpage
 \section{Frequently Asked Questions}
+
+    \hspace{-2em}
+    \textbf{Q:} Can I attack wild territories during a breakthrough?
+    \newline
+    \textbf{A:} Yes, you can. A breakthrough allows you to attack any territory in contact
+    with the player-controlled territories you conquered, whether those attacked
+    territories belong to the same player or to another player, and even wild territories.
 
     \hspace{-2em}
     \textbf{Q:} My "Soldier" unit's immediate ability added another "Soldier"
