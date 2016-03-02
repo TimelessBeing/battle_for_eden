@@ -189,7 +189,7 @@
   \subsection{Beginning}
   
   	\begin{itemize}
-        \item Place 2 counters on each Portal territory.
+        \item Place an amount of 2 in counters on each Portal territory.
         \item Players take control of the territories in contact with their Portal
         territory, and materialize it by putting Occupation tokens on them.
         \item Players may \textbf{manage their territories} (see below).
@@ -279,60 +279,56 @@
 
 
 \newpage
-  \subsection{Production capacities}
-    \hspace{-2em}Each territory has a given \textbf{\textit{production capacity}} for
-    each type of resource.
+  \subsection{Managing one's territories}
+    \subsubsection{Management}
+    \vspace{-1em}
+    Once per turn, a player can manage the territories he controls.
+    For each territory, he can choose to:
     \vspace{-1.3em}
-    \begin{description}
-        \item[Portal territory] \hfill \\
-        2 in the valuable resource of their civilization
-        and 1 in every other type of resource,
-        \item[Normal territory] \hfill \\
-        2 in the resource of their color and 1 in every
-        other type of resource,
-        \item[Heart of Eden] \hfill \\
-        can be seen by any player as having 2 in their valuable
-        resource and 1 in every other resource type,
-        \item[Other] \hfill \\
-        Territories outside of the map are considered as having a
-        production capacity of 1 in every type of resource.
-        That is to say, if a unit card is played on a tile on the border
-        of the map and mentions the production capacity of the neighbouring tiles,
-        the "missing" tiles are also considered to have a production capacity of
-        1 in every type of resource.
-    \end{description}
+    \begin{itemize}
+        \item Produce resources (see below).
+        \item Destroy resources: he removes half of the resource
+        tokens of each type of resource on the territory (rounded up),
+        \item Do nothing
+    \end{itemize}
+  
+    \subsubsection{Resource production}
+    \vspace{-1em}
+      \hspace{-2em} Resource production works differently depending on the territory involved:
+      \vspace{-1.3em}
+      \begin{description}
+          \item[Portal territory] \hfill \\
+          No resource can be produced on Portal territories,
+          \item[Normal territory] \hfill \\
+          The player chooses a type of resource, and puts 1 resource token of that
+          type on the territory's tile.
+          If the chosen resource type is of the same color as the tile,
+          he may put 2 token of that type instead,
+          \item[Heart of Eden] \hfill \\
+          The player adds an amount of 2 in counters on his Portal territory,
+          and each other player adds an amount of 1 in counters on their Portal territories.
+          The player may remove any amount in counter from his Portal territory to put
+          as many new resource tokens (of any combination of types) on the Heart of Eden.
+      \end{description}
+  
+    \subsubsection{Production capacities}
+      \vspace{-1em}
+      Some effects involve the \textbf{\textit{production capacity}} of
+      a territory in a type of resource.
+      In the case of a \textbf{normal territory}, the production capacity is simply
+      the amount of that type of resource that the territory is able to produce,
+      \textit{i.e.} 2 in the resource of their color and 1 in any other type of resource.
+      
+      In the case of \textbf{Portal territories and the Heart of Eden},
+      their production capacities are considered to be 2 in their controllers'
+      valuable resource types, and 1 in any other type of resource.
     
-  \subsection{Managing one's territory}
-    \hspace{-2em}Once per turn, a player can manage the territories he controls:
-    \vspace{-1.3em}
-    \begin{description}
-        \item[Portal territory] \hfill \\
-        	Nothing can be done on this territory.
-        \item[Normal territory] \hfill \\
-        	For each normal territory, he may choose to either:
-            \vspace{-0.7em}
-            \begin{itemize}
-        		\item produce: he chooses a type of resource and then puts
-            	on the territory as many new resource tokens of that type that its
-            	production capacity for that resource,
-        		\item destroy resources: he removes half of the resource
-                tokens of each type of resource on the territory (rounded up),
-        		\item do nothing.
-    		\end{itemize}
-        \item[Heart of Eden] \hfill \\
-        	For the Heart of Eden, he may choose to either:
-            \vspace{-0.7em}
-            \begin{itemize}
-        		\item produce: he puts 2 counters on his Portal territory,
-                while other players put 1 on theirs.
-                He may then remove any number of counters from his Portal territory
-                to put as many new resource tokens (of any combination of types)
-                on the Heart of Eden,
-        		\item destroy resources: same thing: he removes half of the resource
-                tokens of each type of resource on the territory (rounded up),
-        		\item do nothing.
-    		\end{itemize}
-    \end{description}
+      \textbf{Territories outside of the map} are considered to have a
+      production capacity of 1 in every type of resource.
+      That is to say, if an effect is played on a tile on the border
+      of the map and mentions the production capacity of the neighbouring tiles,
+      the "missing" tiles are also considered to have a production capacity of
+      1 in every type of resource.
 
 
 \newpage
@@ -525,9 +521,8 @@
         \item[Producing/Using mana on a front] \hfill \\
         \textbf{\textit{Mana}} is a temporary resource that may be produced
         and spent during battle.\\
-        \textbf{Producing mana} is materialized by placing as many resource tokens
-        (of any kind) besides your units of a front
-        (your \textit{\textbf{mana reserve}} on this front).\\
+        \textbf{Producing mana} is materialized by placing counters besides your
+        units of a front (your \textit{\textbf{mana reserve}} on this front).\\
         \textbf{Using mana} means removing tokens from your reserve on this front.
         At the end of the post-combat phase, all mana reserves are emptied.
         \item[Harvesting resources] \hfill \\
