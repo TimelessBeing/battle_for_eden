@@ -1,22 +1,19 @@
 
 - Blood Tribe:
- => Consistency of the faction? Role of the Blood Lord?
+ => Consistency of the faction?
  => Strength of the Poison Master?
 
 - Dwarves:
  => Artificer: increase resource cost of ability?
 
 - Elves:
- => Magic Archer: ajust ability cost? twice the target unit cost?
+ => Magic Archer: ajust ability cost? twice the target unit cost? 4 for a unit of cost 2 or less, more for bigger units?
  => Usefulness of the Mystic?
+ => Effect of drawing cards?
  => Spirit of Nature: Almost unkillable -> discarded at next mana production when doomed?
-
-- Fleshless:
- => Usefulness of the Bone Golem?
 
 - Kingdom:
  => Captain: reveal cards until 2 non-Captain units of strength 1?
- => Heavy Infantry: +2 strength only?
 
 
 - Coop mode:
