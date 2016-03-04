@@ -3,7 +3,7 @@ Valuable Resource: Plants
 Basic Unit (cost 1):
 
 Tribal Warrior (Strength: 1)
-    Permanent: +2 strength when doomed.
+    Permanent: +1 strength when doomed.
     Immediate: Doom this unit.
 
 
@@ -24,19 +24,21 @@ Bloodsmith (Strength: 3)
 Herbalist (Strength: 3)
     Post-combat: Save up to 2 doomed units on this front.
 
+Tribe Protector (Strength: 3)
+    Permanent: +2 strength when doomed.
+    Immediate: Doom this unit.
+
+
+Champion Unit (cost 5):
+
 Blood Lord (Strength: 3)
     Permanent: +2 strength or each doomed allied unit on this front.
     Immediate: Doom an allied unit on this front.
 
 
-Champion Unit (cost 5):
-
-Poison Master (Strength: 4)
-    Immediate: Doom any number of allied units on this front, save any number of other allied units on this front.
-
-
 Immortal Unit (cost 6):
 
-Blood Alchemist (Strength: 3)
-    Delayed: Save or get rid of a doomed unit on this front to absorb its strength (max total strength: 8).
+Poison Master (Strength: 4)
+    Immediate: [Destroy a doomed enemy unit and doom an allied unit] to save another allied unit.
+    Post-combat: Save up to 2 doomed units on this front.
 
