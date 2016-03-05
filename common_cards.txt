@@ -1,13 +1,13 @@
 Small Energy Crystal (cost: 1)
-    Value: 1 mana crystal
+    Value: 1 Energy Crystal
 
 
 Medium Energy Crystal (cost: 3)
-    Value: 2 mana crystals
+    Value: 2 Energy Crystals
 
 
 Huge Energy Crystal (cost: 8)
-    Value: 3 mana crystals
+    Value: 3 Energy Crystals
 
 
 Setback (cost: 4)

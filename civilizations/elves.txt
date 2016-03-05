@@ -39,13 +39,13 @@ Champion Unit (cost 5):
 
 Sorcerer (Strength: 4)
     Immediate: Produce as many mana as the sum of the allied territory's production capacities in plants and animals.
-    Delayed: Use up to 3 mana to add 2 strength to this unit for each mana spent this way.
+    Delayed: Use up to 3 mana to add 2 strength to this unit for each mana used this way.
 
 
 Immortal Unit (cost 6):
 
 Spirit of Nature (Strength: 4)
-    Permanent: If this unit should collapse while undoomed, doom it instead.
+    Permanent: If this unit should collapse while undoomed, doom it instead. It then collapses after the next allied mana production.
     Permanent: All allied mana productions on this front are increased by 1 mana.
     Immediate: Produce as many mana as the sum of the allied territory's production capacities in plants and animals.
 
