@@ -141,13 +141,15 @@
 
     The first phase of the game is the creation of the map.
     
-    For each player, take out one tile of each color from the game box.
-    Then add to those yet another tile of each color, shuffle all those tiles together,
-    and place them on the table face down as a pile.
-    Place the Heart of Eden tile at the center of the table.
+    Each player takes one tile of each color from the game box,
+    then adds to those a tile of the color of his valuable resource
+    (todo: introduce term earlier?).
+    He shuffles all those tiles together,
+    and places them on the table face down as a pile.
     
+    The Heart of Eden tile is placed at the center of the table.
     Then, starting with the first player, all players take turns building the map.
-    Each turn starts by revealing the top tile of the pile and placing it on the map.
+    Each turn starts by revealing the top tile of his pile and placing it on the map.
     A tile may be placed anywhere next to the Heart of Eden tile or to another normal
     tile, as long as it leaves the map in a \textbf{valid state} (see below).
     In cooperative game modes (or for a quick start), each tile is placed first,
@@ -156,9 +158,9 @@
     At any time during his turn, a player is allowed to place his Portal tile
     next to normal tiles.
     It can be placed anywhere, as long as it is in contact with either two tiles
-    (normal case), or three tiles (in which case, he removes one of those and shuffles
-    it back into the tile pile), and that it leaves the map in a \textbf{valid state}
-    (see below).
+    (normal case), or three tiles (in which case, he removes one of those and gives
+    it to a player of his choice who shuffles it into his tile pile),
+    and that it leaves the map in a \textbf{valid state} (see below).
     A player that has already placed his Portal tile may also remove it from the map at
     any time during his turn.    
     
@@ -262,10 +264,6 @@
     buy Tactical cards (in-universe: making use of the terrain)
     or buy Unit cards (in-universe: asking for reinforcement).
     
-    \hspace{-2em} \textbf{IMPORTANT:
-    A player can only ask for reinforcements if his Portal territory was not destroyed.
-    }
-    
     Buying cards first implies paying a cost, by using resources and Energy Crystals
     (or only resources in the case of common cards).
     Once the cost has been paid, the card is put on top of the player's discard pile.
@@ -294,7 +292,8 @@
   
     \subsubsection{Resource production}
     \vspace{-1em}
-      \hspace{-2em} Resource production works differently depending on the territory involved:
+      \hspace{-2em} Resource production works differently depending on the
+      territory involved:
       \vspace{-1.3em}
       \begin{description}
           \item[Portal territory] \hfill \\
@@ -305,8 +304,8 @@
           If the chosen resource type is of the same color as the tile,
           he may put 2 token of that type instead,
           \item[Heart of Eden] \hfill \\
-          The player adds an amount of 2 in counters on his Portal territory,
-          and each other player adds an amount of 1 in counters on their Portal territories.
+          The player adds an amount of 2 in counters on his Portal territory, and
+          each other player adds an amount of 1 in counters on their Portal territories.
           The player may remove any amount in counter from his Portal territory to put
           as many new resource tokens (of any combination of types) on the Heart of Eden.
       \end{description}
@@ -352,6 +351,9 @@
 
     If the conquered territory was a Portal territory, the tile is instead destroyed
     (i.e. removed from the map).
+    The player who lost his Portal territory is eliminated from the game at the end
+    of the turn. At that time, all of his territories go to the player who destroyed
+    his Portal territory.
 
 
 \subsection{Making a breakthrough}

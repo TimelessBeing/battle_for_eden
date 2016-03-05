@@ -6,7 +6,7 @@ Medium Energy Crystal (cost: 3)
     Value: 2 mana crystals
 
 
-Huge Energy Crystal (cost: 7)
+Huge Energy Crystal (cost: 8)
     Value: 3 mana crystals
 
 

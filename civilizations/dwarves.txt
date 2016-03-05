@@ -11,7 +11,7 @@ Shock Unit (cost 2):
 
 Artificer (Strength: 2)
     Immediate: [Use 3 Energy Crystals then draw a card] to harvest the allied territory's ore.
-    Immediate: If you triggered the first ability: use as much from on the allied territory as the cost of a unit on this front to get rid of this unit.
+    Immediate: If you triggered the first ability: use 5 ore from on the allied territory to get rid of a unit on this front. If that unit's cost is 2 or less, you may use only 2 ore instead.
 
 
 Main Units (cost 3):
@@ -44,5 +44,5 @@ Immortal Unit (cost 6):
 
 Blacksmith (Strength: 2)
     Immediate: [Use 3 Energy Crystals then draw a card] OR [Destroy an Energy Crystal card from your discard pile] to harvest the allied territory's ore.
-    Delayed: If you triggered the first ability: for each allied unit on this front, you may choose to use 1 ore from the allied territory to add 1 strength to this unit.
+    Delayed: If you triggered the first ability: for each allied unit on this front, use up to 2 ore from the allied territory to add as much strength to this unit.
 
