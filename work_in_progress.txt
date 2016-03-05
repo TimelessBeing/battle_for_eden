@@ -1,13 +1,13 @@
 
 - Blood Tribe:
- => Consistency of the faction?
- => Strength of the Poison Master?
+ => Berserker: add ability to doom itself?
+ => Alternatively: a unit that can doom 2 units?
 
 - Dwarves:
  => Artificer: increase resource cost of ability?
 
 - Elves:
- => Magic Archer: ajust ability cost? twice the target unit cost? 4 for a unit of cost 2 or less, more for bigger units?
+ => Magic Archer: ajust ability cost?
  => Usefulness of the Mystic?
  => Effect of drawing cards?
  => Spirit of Nature: Almost unkillable -> discarded at next mana production when doomed?
