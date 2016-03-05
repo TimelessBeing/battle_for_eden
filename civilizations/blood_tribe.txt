@@ -18,7 +18,7 @@ Main Units (cost 3):
 Tribe Elder (Strength: 3)
     Immediate: Doom an allied a unit on this front to destroy a card from your hand.
 
-Bloodsmith (Strength: 3)
+Blood Alchemist (Strength: 3)
     Immediate: Doom an allied unit on this front to draw a card.
 
 Herbalist (Strength: 3)
