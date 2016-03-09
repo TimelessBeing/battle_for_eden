@@ -10,7 +10,7 @@ Tribal Warrior (Strength: 1)
 Shock Unit (cost 2):
 
 Berserker (Strength: 2)
-    Reaction (event: this unit is doomed or collapses): Get rid of or doom a unit on this front.
+    Reaction (event: this unit is doomed or collapses while undoomed): Get rid of or doom a unit on this front.
 
 
 Main Units (cost 3):

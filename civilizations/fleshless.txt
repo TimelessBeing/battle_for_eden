@@ -16,13 +16,13 @@ Flameskull (Strength: 2)
 
 Main Units (cost 3):
 
-Wendigo (Strength: 3)
+Wendigo (Strength: 2)
     Immediate: Destroy the top card of your discard pile.
 
-Death Knight (Strength: 3)
+Death Knight (Strength: 2)
     Immediate: Draw the non-immortal unit card that is closest to the top of your discard pile into your hand.
 
-Skeleton Rider (Strength: 3)
+Skeleton Rider (Strength: 2)
     Immediate: Draw 1 card, then discard 1 card from your hand.
 
 Bone Golem (Strength: 3)
@@ -37,6 +37,6 @@ Lich (Strength: 3)
 
 Immortal Unit (cost 6):
 
-Grim Reaper (Strength: 4)
-    Immediate: Reorder your discard pile, then draw the top non-Grim-Reaper card into your hand.
+Grim Reaper (Strength: 3)
+    Immediate: Choose a type of units. Move all units of that type that are in your discard pile to the bottom of it. Draw the non-immortal unit card that is closest to the top of your discard pile into your hand.
 

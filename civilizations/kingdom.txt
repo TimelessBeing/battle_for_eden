@@ -3,7 +3,7 @@ Valuable Resource: Ore
 Basic Unit (cost 1):
 
 Soldier (Strength: 1)
-    Immediate: Reveal the top card of your deck. You may discard it or put it back on top of your deck. You may add a unit of strength 1 revealed in this way to the battle on this front.
+    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. You may also choose to add 1 unit of strength 1 revealed in this way to the battle on this front.
 
 
 Shock Unit (cost 2):
@@ -23,17 +23,17 @@ Heavy Infantry (Strength: 1)
     Permanent: +3 Strength in battle.
 
 Captain (Strength: 1)
-    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. You may also choose to draw non-Captain units of strength 1 into your hand.
+    Immediate: Reveal the top 3 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. You may also choose to draw up to 2 non-Captain units of strength 1 into your hand.
 
 Cavalry (Strength: 1)
-    Immediate: Discard a unit of strength 1 from your hand to draw 2 cards, then discard 1 card.
+    Immediate: Discard a unit of strength 1 from your hand to draw 3 cards, then discard 2 card.
     Permanent: +1 strength if the first ability was triggered.
 
 
 Champion Unit (cost 5):
 
 Knight (Strength: 2)
-    Permanent: +1 strength to all Soldier units.
+    Permanent: +1 strength to all Soldier and Spearman units.
 
 
 Immortal Unit (cost 6):

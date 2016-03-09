@@ -94,19 +94,17 @@
     \begin{description}
         \item[Civilization choice] \hfill \\
             Each player chooses a civilization, and takes the corresponing
-            \textbf{portal tile} as well as \textbf{occupation tokens}.
-            He then takes all \textbf{unit cards} of that civilization and puts them
-            in front of him as a pile, face up.
-            This pile is called his \textit{\textbf{World}}.
-        \item[Common cards] \hfill \\
-            Create \textbf{a pile of each type of common card},
-            and place them somewhere where every player can access them.
+            \textbf{portal tile}, \textbf{occupation tokens} and \textbf{unit cards}.
+            He then those cards in front of him as a pile, face up.
+            This pile is called his \textit{\textbf{world}}.
         \item[Deck creation] \hfill \\
             Each player takes \textbf{5 Small Energy Crystal cards}
             from the corresponding pile and \textbf{3 cost-1 units cards} from his World,
             then \textbf{shuffle them} to create his deck.
-        \item[Other] \hfill \\
-            The last player to have lost a game (of any kind) is the first player.
+        \item[Choosing a first player] \hfill \\
+            Players decide who the first player should be.
+            
+            By default, the last player to have lost a game (of any kind) is the first player.
             By the way, you just lost the game. You know, \textit{the game}.
     \end{description}
 
@@ -123,8 +121,19 @@
             No player is allowed to change the order of the cards in any discard pile.
         \item[Discarding a card] \hfill \\
             Putting a card on top of its owner's discard pile.
+        \item[Territory controlled by a player] \hfill \\
+            Territory on which that player has put an Occupation token.
+        \item[Territory fully controlled by a player] \hfill \\
+            Territory controlled by a player and such that there exists a path
+            between that territory and the player's Portal territory that
+            goes only through that player's controlled territories.
+        \item[Territory partially controlled by a player] \hfill \\
+            Territory controlled by a player but not fully controlled by that player.
+        \item[Wild territory] \hfill \\
+            Territory controlled by no player.
         \item[Using resources] \hfill \\
-            Removing a given number of resource tokens from one's territories.
+            Removing a given number of resource tokens from one's fully controlled
+            territories.
         \item[Using Energy Crystals] \hfill \\
             Discarding Energy Crystal cards whose total value is at least a given number.
         \item[Buying a card] \hfill \\
@@ -136,7 +145,6 @@
     \end{description}
 
 
-\newpage
 \section{Map creation phase}
 
     The first phase of the game is the creation of the map.
@@ -178,10 +186,10 @@
     \vspace{-0.7em}
     If there is no tile left in the pile, a player's Portal tile has to be part of the
     map at the end of his turn.
-    If it cannot be placed, he instead removes on normal tile from the map, puts it on
-    top of the empty tile pile, and ends his turn.
+    If it cannot be placed, he instead removes on normal tile from the map, gives
+    it to a player of his choice who shuffles it into his pile, and ends his turn.
     
-    The map creation phase ends when the tile pile stays empty long enough for each
+    The map creation phase ends when all tile piles stay empty long enough for each
     player to take 2 turns.
 
 
@@ -191,6 +199,8 @@
   \subsection{Beginning}
   
   	\begin{itemize}
+        \item Create a pile of each type of common card,
+            and place them somewhere where every player can access them.
         \item Place an amount of 2 in counters on each Portal territory.
         \item Players take control of the territories in contact with their Portal
         territory, and materialize it by putting Occupation tokens on them.
@@ -207,7 +217,7 @@
     \begin{itemize}
         \item Discarding any card from his hand (any number of times)
         \item Buying cards (any number of times)
-        \item Managing his territories (only once per turn)
+        \item Managing his fully controlled territories (only once per turn)
         \item Launching attacks on territories (only once per turn)
         \item Making a breakthrough (only once per turn,
         if a player-controlled territory was conquerred)
@@ -252,8 +262,7 @@
     Counters may be put under resource tokens to count the number of
     resources of the corresponding type.
     
-    A player's Occupation tokens are used to materialize which territories he controls.
-    Controlling a territory allows the player to use the resources it holds,
+    Fully controlling a territory allows the player to use the resources it holds,
     as well as to produce or destroy those resources during territory management.
   
   
@@ -277,10 +286,10 @@
 
 
 \newpage
-  \subsection{Managing one's territories}
+  \subsection{Managing one's fully controlled territories}
     \subsubsection{Management}
     \vspace{-1em}
-    Once per turn, a player can manage the territories he controls.
+    Once per turn, a player can manage the territories he fully controls.
     For each territory, he can choose to:
     \vspace{-1.3em}
     \begin{itemize}
@@ -333,8 +342,8 @@
 \newpage
 \subsection{Launching an attack}
 
-    Once per turn, a player may choose frontiers between territories he controls and other
-    territories and start a battle on each of those frontiers.
+    Once per turn, a player may choose frontiers between territories he fully controls
+    and territories he does not control and start a battle on each of those frontiers.
     Each of those battles takes place on a separate "front"
     (see next section for more information on combat).
 
@@ -349,13 +358,11 @@
     IMPORTANT: winning on one front is enough to take control of a territory.
     }
 
-    Territories that become disconnected from their controller's
-    Portal territory become \textit{wild} again (\textbf{\textit{wild territories}}
-    are territories that are not controlled by any player).
-
     If the conquered territory was a Portal territory, the tile is instead destroyed
-    (i.e. removed from the map), making all of that player's territories wild.
-    The player who lost his Portal territory is thus eliminated from the game.
+    (i.e. removed from the map), and all of that player's territories become partially
+    controlled.
+    The player who lost his Portal territory is thus effectively
+    eliminated from the game.
 
 
 \subsection{Making a breakthrough}
@@ -367,8 +374,8 @@
     \vspace{-1.3em}
     \begin{enumerate}
         \item the attacking player replenishes his hand to 5 cards,
-        \item the attacking player selects any number (possibly 0) of frontiers
-        between those territories taken from other players and other territories,
+        \item the attacking player selects any number (possibly 0) of frontiers between
+        those territories taken from other players and territories he does not control,
         \item the attacking player launches an attack on the selected frontiers,
         \item defending players (if any) may discard any number of cards from their hands,
         then replenish them to 5 cards,
@@ -383,7 +390,7 @@
 \newpage
 \section{Combat}
 
-  \subsection{Attacking a player-controlled territory}
+  \subsection{Attacking a player's fully controlled territory}
   
     \hspace{-2em} In the case where there is a single front,
     against a player-controlled territory:
@@ -404,11 +411,12 @@
     \end{enumerate}
     
 
-  \subsection{Attacking a wild territory}
+  \subsection{Attacking a wild territory of a partially controlled territory}
     
-    When a wild territory is attacked,
-    everything happens as if there was a defending player who stopped defending
-    in step 2.
+    When a wild territory or a partially controlled territory is attacked,
+    \textbf{there is no defending player on that front}.
+    The battle on that front happens exactly as in the previous section,
+    but as if there was a defending player who stopped defending in step 2.
     
     When step 5 is reached, the battle is won by the attacking player if the total
     strength of his units is at least equal to the distance of the wild territory

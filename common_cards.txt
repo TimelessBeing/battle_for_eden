@@ -2,7 +2,7 @@ Small Energy Crystal (cost: 1)
     Value: 1 Energy Crystal
 
 
-Medium Energy Crystal (cost: 3)
+Medium Energy Crystal (cost: 2)
     Value: 2 Energy Crystals
 
 
