@@ -20,20 +20,20 @@ Tactician (Strength: 1)
     Immediate: Reveal the top card of your deck, then discard it, destroy it or put it back on top of your deck.
 
 Heavy Infantry (Strength: 1)
-    Permanent: +3 Strength in battle.
+    Permanent: +3 strength in battle.
 
 Captain (Strength: 1)
     Immediate: Reveal the top 3 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. You may also choose to draw up to 2 non-Captain units of strength 1 into your hand.
 
 Cavalry (Strength: 1)
-    Immediate: Discard a unit of strength 1 from your hand to draw 3 cards, then discard 2 card.
+    Immediate: Discard a unit of strength 1 from your hand to draw 3 cards, then discard 2 cards from your hand.
     Permanent: +1 strength if the first ability was triggered.
 
 
 Champion Unit (cost 5):
 
 Knight (Strength: 2)
-    Permanent: +1 strength to all Soldier and Spearman units.
+    Permanent: +1 strength to all Soldier and Spearman units on this front.
 
 
 Immortal Unit (cost 6):

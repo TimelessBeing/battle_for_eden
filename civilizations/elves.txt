@@ -12,7 +12,7 @@ Shock Unit (cost 2):
 Magic Archer (Strength: 2)
     Permanent: If this unit should collapse while undoomed, doom it instead. It then collapses the next time its reaction ability is triggered.
     Immediate: Produce as many mana as the sum of the allied territory's production capacities in plants and animals.
-    Reaction (event: allied mana production on this front): Use 6 mana to get rid of a unit on this front. If that unit's cost is 2 or less, you may use only 4 mana instead.
+    Reaction (event: allied mana production on this front): Use 8 mana to get rid of a unit on this front. If that unit's cost is 2 or less, you may use only 4 mana instead.
 
 
 Main Units (cost 3):
@@ -25,7 +25,7 @@ Druid (Strength: 3)
 Ranger (Strength: 3)
     Permanent: If this unit should collapse while undoomed, doom it instead. It then collapses the next time its reaction ability is triggered.
     Immediate: Produce as many mana as the sum of the allied territory's production capacities in plants and animals.
-    Reaction (event: allied mana production on this front): Use 4 mana to draw a card or make your opponent choose and discard one from his hand.
+    Reaction (event: allied mana production on this front): Use 6 mana to draw a card or make your opponent choose and discard one from his hand.
 
 Channeler (Strength: 3)
     Immediate: For the allied territory and each of the neighbouring ones: produce as many mana as this territory's production capacity in plants or animals.
@@ -45,7 +45,6 @@ Sorcerer (Strength: 4)
 Immortal Unit (cost 6):
 
 Spirit of Nature (Strength: 4)
-    Permanent: If this unit should collapse while undoomed, doom it instead. It then collapses after the next allied mana production.
-    Permanent: All allied mana productions on this front are increased by 1 mana.
+    Permanent: All allied mana productions on this front are increased by 2 mana.
     Immediate: Produce as many mana as the sum of the allied territory's production capacities in plants and animals.
 
