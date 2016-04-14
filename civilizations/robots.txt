@@ -22,7 +22,7 @@ Main Units (cost 3):
 
 [to be named] (Strength: 3)
     Immediate: Move any number of [to be named 0] between active fronts.
-    Immediate: Destroy a [to be named 0] to draw a card.
+    Immediate: Destroy a [to be named 0] on this fron to draw a card.
 
 [to be named] (Strength: 3)
     Immediate: Doom up to 2 [to be named 0] on this front.
@@ -32,12 +32,12 @@ Main Units (cost 3):
 Champion Unit (cost 5):
 
 [to be named 5] (Strength: 3)
-    Immediate: Choose up to 3 allied units on this front that have not been chosen by another [to be named 5].
+    Immediate: Destroy a [to be named 0] to choose up to 3 allied units on this front that have not been chosen by another [to be named 5].
     Permanent: x2 strength to all units chosen by the first ability.
 
 
 Immortal Unit (cost 6):
 
 [to be named] (Strength: 3)
-    Delayed: Destroy up to 3 [to be named 0] on this front. You may add a unit of cost equal to the number of units destroyed in this way to the battle on this front. Do not trigger that unit's immediate ability.
+    Immediate: Destroy up to 3 [to be named 0] on this front. You may add a unit of cost equal to or less than the number of units destroyed in this way to the battle on this front. Doom that unit.
 
