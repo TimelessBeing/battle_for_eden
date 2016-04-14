@@ -1,0 +1,43 @@
+Valuable Resource: Positronium
+
+Basic Unit (cost 1):
+
+[to be named 0] (Strength: 0)
+    Immediate: Destroy 2 [to be named 0] on this front to add a [to be named 1] from your World to the battle on this front.
+
+
+Shock Unit (cost 2):
+
+[to be named 1] (Strength: 2)
+    Immediate: Destroy a [to be named 0] on this front to get rid of a unit on this front.
+
+
+Main Units (cost 3):
+
+[to be named] (Strength: 3)
+    Immediate: Add all [to be named 0] from your World to the battle on this front. Do not trigger their immediate abilities.
+
+[to be named] (Strength: 3)
+    Immediate: Destroy a [to be named 0] on this front to destroy a card from your hand.
+
+[to be named] (Strength: 3)
+    Immediate: Move any number of [to be named 0] between active fronts.
+    Immediate: Destroy a [to be named 0] to draw a card.
+
+[to be named] (Strength: 3)
+    Immediate: Doom up to 2 [to be named 0] on this front.
+    Permanent: +1 strength to all units doomed by the first ability.
+
+
+Champion Unit (cost 5):
+
+[to be named 5] (Strength: 3)
+    Immediate: Choose up to 3 allied units on this front that have not been chosen by another [to be named 5].
+    Permanent: x2 strength to all units chosen by the first ability.
+
+
+Immortal Unit (cost 6):
+
+[to be named] (Strength: 3)
+    Delayed: Destroy up to 3 [to be named 0] on this front. You may add a unit of cost equal to the number of units destroyed in this way to the battle on this front. Do not trigger that unit's immediate ability.
+
