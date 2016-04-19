@@ -21,11 +21,11 @@ Charge Leader (Strength: 3)
     Reaction (condition: your hand is empty): reveal the top card of your deck. If it is a unit, you may add it to the battle on this front. Otherwise discard it.
 
 Shaman (Strength: 3)
-    Permanent: When this card is played, choose a type of units. Undoomed allied units of this type that should collapse on this front are doomed instead.
+    Immediate: Choose a type of unit. For the rest of the battle, undoomed allied units of this type that should collapse on this front are doomed instead.
     Immediate: Draw 1 card, then choose any number of cards from your hand (at least 1) and put each of them either on top or at the bottom of your deck.
 
-Troublemaker (Strength: 3)
-    Immediate: Discard up to 2 cards from your hand to make the opponent discard as many.
+Brute (Strength: 3)
+    Permanent: +3 strength if the number of allied units on all fronts is 3 or less.
 
 Champion Unit (cost 5):
 

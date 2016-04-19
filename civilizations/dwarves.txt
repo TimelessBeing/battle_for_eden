@@ -27,8 +27,7 @@ Digging Machine (Strength: 2)
 
 Sentinel (Strength: 2)
     Immediate: [Use 3 Energy Crystals then draw a card] to harvest the allied territory's ore.
-    Permanent: +1 strength if you triggered the first ability and there are 2 or more ore tokens on each of your territories.
-    Permanent: +2 strength if you triggered the first ability and there are 5 or more ore tokens on each of your territories.
+    Permanent: +1 strength if you triggered the first ability and you control 3 territories with 20 ore or more on them. +1 additional strength if there is 50 ore or more on those territories, and +1 additional strength if there is 100 ore or more on them.
 
 Specialist (Strength: 2)
     Immediate: Put 2 new shard tokens on the allied territory.
@@ -36,13 +35,14 @@ Specialist (Strength: 2)
 
 Champion Unit (cost 5):
 
-Rocket Roll (Strength: 3)
-    Immediate: [Move any number of resources from the allied territory to other territories you control] OR [purchase a unit from your World and add it to your hand].
+Blacksmith (Strength: 2)
+    Immediate: [Use 3 Energy Crystals then draw a card] to harvest the allied territory's ore.
+    Delayed: If you triggered the first ability: for each allied unit on this front, use up to 2 ore from the allied territory to add as much strength to that unit.
 
 
 Immortal Unit (cost 6):
 
-Blacksmith (Strength: 2)
-    Immediate: [Use 3 Energy Crystals then draw a card] OR [Destroy an Energy Crystal card from your discard pile] to harvest the allied territory's ore.
-    Delayed: If you triggered the first ability: for each allied unit on this front, use up to 2 ore from the allied territory to add as much strength to that unit.
+Rocket Roll (Strength: 3)
+    Immediate: [Move any number of resources between two territories you control] OR [destroy a card from your discard pile to purchase a unit from your World and add it to your hand].
+
 

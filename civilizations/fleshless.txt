@@ -10,8 +10,8 @@ Skeleton (Strength: 1)
 Shock Unit (cost 2):
 
 Flameskull (Strength: 2)
-    Immediate: [If the units in your discard pile number 3 or more: get rid of a unit of cost 2 or less on this front. You may ignore the cost restriction if they number 7 or more] OR [Reveal the top card of your deck and either discard it or put it back on top of your deck].
-    Reaction (event: tihis unit's first ability is triggered): Reveal the top card of your deck. You may discard it or put it back on top of your deck.
+    Immediate: [If the units in your discard pile number 3 or more: get rid of a unit of cost 2 or less on this front. You may ignore the cost restriction if they number 7 or more] OR [Reveal the top 2 card of your deck, discard any number of them and put the rest back on top of your deck in any order].
+    Reaction (event: the first ability causes a unit to collapse): Reveal the top card of your deck. You may discard it or put it back on top of your deck.
 
 
 Main Units (cost 3):
@@ -23,7 +23,7 @@ Death Knight (Strength: 2)
     Immediate: [Reveal the top card of your deck, then either discard it or put it back on top of your deck] OR [draw the non-Grim-Reaper unit card that is closest to the top of your discard pile into your hand].
 
 Skeleton Rider (Strength: 2)
-    Immediate: Draw 1 card, then discard 1 card from your hand.
+    Immediate: Reveal the top 3 cards of your deck. You may exchange 1 unit card revealed in this way with a card from your hand. Discard the revealed cards in any order.
 
 Bone Golem (Strength: 3)
     Permanent: +2 strength for each Skeleton unit on this front.
