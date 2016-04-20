@@ -9,7 +9,7 @@ Hunter (Strength: 1)
 
 Shock Unit (cost 2):
 
-Magic Archer (Strength: 2)
+Marksman (Strength: 2)
     Permanent: If this unit should collapse while undoomed, doom it instead. Its strength becomes 0.
     Immediate: Produce as many mana as the sum of the allied territory's production capacities in plants and animals.
     Reaction (event: allied mana production on this front): Use 8 mana to get rid of a unit on this front. If that unit's cost is 2 or less, you may use only 4 mana instead.
@@ -37,7 +37,7 @@ Mystic (Strength: 3)
 
 Champion Unit (cost 5):
 
-Sorcerer (Strength: 4)
+Priest of Nature (Strength: 4)
     Immediate: Produce as many mana as the sum of the allied territory's production capacities in plants and animals.
     Delayed: Use up to 6 mana to add as much strength to this unit.
 

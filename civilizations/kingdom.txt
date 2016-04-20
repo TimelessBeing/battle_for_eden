@@ -2,13 +2,13 @@ Valuable Resource: Ore
 
 Basic Unit (cost 1):
 
-Soldier (Strength: 1)
+Infantry Squad (Strength: 1)
     Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. You may also choose to add 1 unit of strength 1 revealed in this way to the battle on this front.
 
 
 Shock Unit (cost 2):
 
-Spearman (Strength: 1)
+Archery Squad (Strength: 1)
     Immediate: Discard a unit of strength 1 from your hand to get rid of a unit on this front. This ability cannot be triggered when this unit is added to the battle by another unit.
 
 
