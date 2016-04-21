@@ -15,8 +15,8 @@ Archery Squad (Strength: 1)
 Main Units (cost 3):
 
 Tactician (Strength: 1)
-    Permanent: +1 strength if there is at least 1 Soldier on this front.
-    Permanent: +1 strength if there is at least 1 Spearman on this front.
+    Permanent: +1 strength if there is at least 1 Infantry Squad on this front.
+    Permanent: +1 strength if there is at least 1 Archery Squad on this front.
     Immediate: Reveal the top card of your deck, then discard it, destroy it or put it back on top of your deck.
 
 Heavy Infantry (Strength: 1)
@@ -33,7 +33,7 @@ Cavalry (Strength: 1)
 Champion Unit (cost 5):
 
 Knight (Strength: 2)
-    Permanent: +1 strength to all Soldier and Spearman units on this front.
+    Permanent: +1 strength to all Infantry Squads and Archery Squads on this front.
 
 
 Immortal Unit (cost 6):
