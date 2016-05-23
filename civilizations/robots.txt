@@ -4,29 +4,34 @@ Basic Unit (cost 1):
 
 Building Block (Strength: 0)
     Immediate: Destroy 2 Building Blocks on this front to add a Weaponry Module from your World to the battle on this front.
+    Delayed: If there is no other unit on this front: doom this unit add 2 to its strength.
 
 
 Shock Unit (cost 2):
 
 Weaponry Module (Strength: 2)
     Immediate: Destroy a Building Block on this front to get rid of a unit on this front.
+    Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
 
 
 Main Units (cost 3):
 
 Garbage Disposal Module (Strength: 3)
     Immediate: Destroy a Building Block on this front to destroy a card from your hand.
+    Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
 
 Production Module (Strength: 3)
     Immediate: Add all Building Blocks from your World to the battle on this front. Do not trigger their immediate abilities.
+    Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
 
 Flight Module (Strength: 3)
     Immediate: Move any number of Building Blocks between active fronts.
     Immediate: Destroy a Building Block on this front to draw a card.
+    Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
 
-Upgrade Module (Strength: 3)
-    Immediate: Doom up to 2 Building Blocks on this front.
-    Permanent: +1 strength to all Building Blocks doomed by the first ability.
+Efficiency Module (Strength: 3)
+    Delayed: Destroy any number of Building Blocks on this front.
+    Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
 
 
 Champion Unit (cost 5):

@@ -10,9 +10,10 @@ Huge Energy Crystal (cost: 8)
     Value: 3 Energy Crystals
 
 
-Setback (cost: 4)
+Setback (cost: 1)
     Permanent: This card can only be bought once per turn. When you buy it, instead of putting it in your discard pile, put it in the discard pile of a player that controls more territories than you.
-    Permanent: Discard a unit from your hand during battle to destroy this card from your hand. This card cannot be destroyed in any other way.
+    Permanent: You may discard this card from your hand after adding a unit to a battle.
+    Permanent: You may destroy this card from your hand at the beginning of your turn. If you do, you cannot perform a breakthrough until your next turn. This card cannot be destroyed in any other way.
 
 
 Opportunity (cost: 5)

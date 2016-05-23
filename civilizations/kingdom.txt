@@ -3,7 +3,7 @@ Valuable Resource: Ore
 Basic Unit (cost 1):
 
 Infantry Squad (Strength: 1)
-    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. You may also choose to add 1 unit of strength 1 revealed in this way to the battle on this front.
+    Immediate: Reveal the top card of your deck. You may discard it or put it back on top of your deck. If a unit of strength 1 was revealed in this way, you may add it to the battle on this front.
 
 
 Shock Unit (cost 2):
@@ -15,15 +15,14 @@ Archery Squad (Strength: 1)
 Main Units (cost 3):
 
 Tactician (Strength: 1)
-    Permanent: +1 strength if there is at least 1 Infantry Squad on this front.
-    Permanent: +1 strength if there is at least 1 Archery Squad on this front.
+    Permanent: +1 strength if there is at least 1 Infantry Squad and 1 Archery Squad on this front.
     Immediate: Reveal the top card of your deck, then discard it, destroy it or put it back on top of your deck.
 
 Heavy Infantry (Strength: 1)
-    Permanent: +3 strength in battle.
+    Permanent: +2 strength in battle.
 
 Captain (Strength: 1)
-    Immediate: Reveal the top 3 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. You may also choose to draw up to 2 non-Captain units of strength 1 into your hand.
+    Immediate: Reveal the top 3 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. If units of strength 1 were revealed in this way, you may draw one into your hand and/or add one to the battle on this front.
 
 Cavalry (Strength: 1)
     Immediate: Discard a unit of strength 1 from your hand to draw 3 cards, then discard 2 cards from your hand.
