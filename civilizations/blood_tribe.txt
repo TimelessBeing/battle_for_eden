@@ -10,7 +10,7 @@ Tribal Warrior (Strength: 1)
 Shock Unit (cost 2):
 
 Berserker (Strength: 2)
-    Reaction (event: this unit is doomed or collapses while undoomed): Doom or get rid of a unit on this front.
+    Reaction (event: this unit is doomed or collapses while undoomed): Doom or get rid of an enemy unit on this front. You may doom a friendly unit on this front.
 
 
 Main Units (cost 3):
@@ -19,26 +19,26 @@ Tribe Elder (Strength: 3)
     Immediate: Doom an allied a unit on this front to destroy a card from your hand.
 
 Blood Alchemist (Strength: 3)
-    Immediate: Doom an allied unit on this front to draw a card.
+    Immediate: Doom an allied unit on this front to draw a card then either discard a card from your hand or doom an additional allied unit on this front.
 
 Herbalist (Strength: 3)
-    Post-combat: Save up to 2 doomed units on this front.
+    Post-combat: Restore up to 2 doomed units on this front.
 
 Tribe Protector (Strength: 3)
-    Permanent: +2 strength when doomed.
-    Immediate: Doom this unit.
+    Immediate: Doom another allied unit on this front.
+    Reaction (doomed or destroyed): Add two Tribal Warriors from your World to the battle on this front. Do not trigger their immediate abilities.
 
 
 Champion Unit (cost 5):
 
-Blood Lord (Strength: 3)
-    Permanent: +2 strength or each doomed allied unit on this front.
-    Immediate: Doom an allied unit on this front.
+Blood Lord (Strength: 4)
+    Permanent: +1 strength or each doomed allied unit on this front.
+    Immediate: Doom up to 2 allied units on this front.
 
 
 Immortal Unit (cost 6):
 
 Poison Master (Strength: 4)
-    Immediate: [Destroy a doomed enemy unit and doom an allied unit] to save another allied unit.
-    Post-combat: Save up to 2 doomed units on this front.
+    Immediate: [Destroy a doomed enemy unit and doom an allied unit] to restore another allied unit on this front.
+    Post-combat: Restore up to 2 doomed units on this front.
 

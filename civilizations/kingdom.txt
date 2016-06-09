@@ -3,7 +3,7 @@ Valuable Resource: Ore
 Basic Unit (cost 1):
 
 Infantry Squad (Strength: 1)
-    Immediate: Reveal the top 2 cards of your deck. You may discard the first card. If it is a unit of strength 1, you may add it to the battle on this front. Put back the remaining card(s) on top of your deck in any order.
+    Immediate: Reveal the top 2 cards of your deck. You may discard the first card. If it is a unit of strength 1, you may add it to the battle on this front. Put back the remaining cards on top of your deck in any order.
 
 
 Shock Unit (cost 2):
@@ -22,7 +22,7 @@ Heavy Infantry (Strength: 1)
     Permanent: +2 strength in battle.
 
 Captain (Strength: 1)
-    Immediate: Reveal the top 3 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. If units of strength 1 were revealed in this way, you may draw up to 2 into your hand. If you draw 2, immediately add a unit from your hand to the battle on this front.
+    Immediate: Reveal the top 3 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. If units of strength 1 were revealed in this way, you may draw up to two into your hand. If you draw two, immediately add a unit from your hand to the battle on this front.
 
 Cavalry (Strength: 1)
     Immediate: Discard a unit of strength 1 from your hand to draw 3 cards, then discard 2 cards from your hand.

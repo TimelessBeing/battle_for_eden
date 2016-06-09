@@ -25,7 +25,7 @@ Production Module (Strength: 3)
     Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
 
 Flight Module (Strength: 3)
-    Immediate: Move any number of Building Blocks between active fronts.
+    Immediate: Move any number of Building Blocks from and to any number of active fronts.
     Immediate: Destroy a Building Block on this front to draw a card.
     Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
 
@@ -37,8 +37,9 @@ Efficiency Module (Strength: 3)
 Champion Unit (cost 5):
 
 Core Module (Strength: 1)
-    Immediate: Destroy a Building Block to choose up to 3 allied units on this front that have not been chosen by another Core Module.
-    Permanent: x2 strength to all units chosen by the first ability.
+    Immediate: Destroy 2 Building Blocks.
+    Immediate: Destroy up to 2 Building Blocks to move as many allied units on this front to the side of this unit.
+    Permanent: +2 strength to the units moved by the second ability. If the first ability was triggered: +2 strength to the units above and below this unit.
 
 
 Immortal Unit (cost 6):
