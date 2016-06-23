@@ -25,6 +25,7 @@ Shaman (Strength: 3)
     Immediate: Draw 1 card, then choose any number of cards from your hand (at least 1) and put each of them either on top or at the bottom of your deck.
 
 Brute (Strength: 3)
+    Immediate: Discard up to 2 cards from your hand.
     Permanent: +3 strength if the number of allied units on all fronts is 3 or less.
 
 Champion Unit (cost 5):
