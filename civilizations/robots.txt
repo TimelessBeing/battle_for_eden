@@ -17,7 +17,7 @@ Weaponry Module (Strength: 2)
 Main Units (cost 3):
 
 Recycling Module (Strength: 3)
-    Immediate: Destroy a card from your hand to add a Building Block from your World on this front. Do not trigger its immediate ability.
+    Immediate: Destroy a card from your hand to add a Building Block from your World to the battle on this front. Do not trigger its immediate ability.
     Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
 
 Production Module (Strength: 3)
@@ -39,7 +39,7 @@ Champion Unit (cost 5):
 Core Module (Strength: 1)
     Immediate: Destroy 2 Building Blocks to move this unit to the left or right of another allied unit on this front.
     Immediate: Destroy 2 Building Blocks to move another allied unit on this front to the left or right of this unit.
-    Permanent: +2 strength to the units on the left and right of this unit. +2 strength to the unit on the rows above and below this unit.
+    Permanent: +2 strength to the units on the left and right of this unit. +2 strength to the units on the rows above and below this unit.
 
 
 Immortal Unit (cost 6):
