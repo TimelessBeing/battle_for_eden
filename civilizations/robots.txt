@@ -11,27 +11,27 @@ Shock Unit (cost 2):
 
 Weaponry Module (Strength: 2)
     Immediate: Destroy a Building Block on this front to get rid of a unit on this front.
-    Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
+    Immediate: Reconfigure this unit.
 
 
 Main Units (cost 3):
 
 Recycling Module (Strength: 3)
     Immediate: Destroy a card from your hand to add a Building Block from your World to the battle on this front. Do not trigger its immediate ability.
-    Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
+    Immediate: Reconfigure this unit.
 
 Production Module (Strength: 3)
     Immediate: Add all Building Blocks from your World to the battle on this front. Do not trigger their immediate abilities.
-    Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
+    Immediate: Reconfigure this unit.
 
 Flight Module (Strength: 3)
     Immediate: Move any number of Building Blocks from and to any number of active fronts.
     Immediate: Destroy a Building Block on this front to draw a card.
-    Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
+    Immediate: Reconfigure this unit.
 
 Efficiency Module (Strength: 3)
     Delayed: Destroy any number of Building Blocks on this front.
-    Immediate: Destroy this unit to add a combination of units of same total cost from your World to the battle on this front. Do not trigger their immediate abilities.
+    Immediate: Reconfigure this unit.
 
 
 Champion Unit (cost 5):

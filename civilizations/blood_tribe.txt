@@ -11,13 +11,13 @@ Shock Unit (cost 2):
 
 Berserker (Strength: 2)
     Reaction (condition: undoomed): Choose an enemy unit on this front.
-    Reaction (event: this unit is doomed or collapses while undoomed): Doom or get rid of the chosen unit. You may doom an allied non-Berserker unit on this front.
+    Reaction (event: this unit is doomed or collapses while undoomed): Get rid of the chosen unit. You may doom an allied non-Berserker unit on this front.
 
 
 Main Units (cost 3):
 
 Tribe Elder (Strength: 3)
-    Immediate: Doom an allied a unit on this front to destroy a card from your hand.
+    Immediate: Doom an allied unit on this front to destroy a card from your hand.
 
 Blood Alchemist (Strength: 3)
     Immediate: Doom an allied unit on this front to draw a card then either discard a card from your hand or doom an additional allied unit on this front.
@@ -40,6 +40,6 @@ Blood Lord (Strength: 4)
 Immortal Unit (cost 6):
 
 Poison Master (Strength: 4)
-    Immediate: [Destroy a doomed enemy unit and doom an allied unit] to restore another allied unit on this front.
+    Immediate: Doom an allied unit to restore another allied unit on this front.
     Post-combat: Restore up to 2 doomed units on this front.
 
