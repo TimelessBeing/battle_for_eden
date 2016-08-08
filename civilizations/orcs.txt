@@ -22,11 +22,11 @@ Charge Leader (Strength: 3)
 
 Shaman (Strength: 3)
     Immediate: Choose a type of unit. For the rest of the battle, undoomed allied units of this type that should collapse on this front are doomed instead.
-    Immediate: Draw 1 card, then choose any number of cards from your hand (at least 1) and put each of them either on top or at the bottom of your deck.
+    Immediate: Draw 1 card, then choose 1 card or more from your hand and put each of them either on top or at the bottom of your deck.
 
 Brute (Strength: 3)
     Immediate: Discard up to 2 cards from your hand.
-    Permanent: +3 strength if the number of allied units on all fronts is 3 or less.
+    Permanent: +3 strength if the first ability was not triggered and the number of allied units on all fronts is 3 or less.
 
 Champion Unit (cost 5):
 
@@ -38,5 +38,5 @@ Warlord (Strength: 5)
 Immortal Unit (cost 6):
 
 Far Seer (Strength: 4)
-    Immediate: Reveal as many cards from the bottom of your deck as you have cards in your hand. You may exchange one of those with a card from your hand. Put back each revealed card either on top or at the bottom of your deck in any order.
+    Immediate: Reveal up to 5 cards from the bottom of your deck. You may exchange one of those with a card from your hand. Put back each revealed card either on top or at the bottom of your deck in any order.
 

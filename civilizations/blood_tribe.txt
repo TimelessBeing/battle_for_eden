@@ -40,6 +40,6 @@ Blood Lord (Strength: 4)
 Immortal Unit (cost 6):
 
 Poison Master (Strength: 4)
-    Immediate: Doom an allied unit to restore another allied unit on this front.
+    Immediate: Doom an allied unit on this front to restore another allied unit on this front.
     Post-combat: Restore up to 2 doomed units on this front.
 

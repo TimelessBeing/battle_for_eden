@@ -11,7 +11,6 @@ Shock Unit (cost 2):
 
 Flameskull (Strength: 2)
     Immediate: [If the units in your discard pile number 3 or more: get rid of a unit of cost 2 or less on this front. You may ignore the cost restriction if they number 7 or more] OR [Reveal the top 2 card of your deck, discard any number of them and put the rest back on top of your deck in any order].
-    Reaction (event: the first ability causes a unit to collapse): Reveal the top card of your deck. You may discard it or put it back on top of your deck.
 
 
 Main Units (cost 3):
@@ -38,5 +37,5 @@ Lich (Strength: 3)
 Immortal Unit (cost 6):
 
 Grim Reaper (Strength: 3)
-    Immediate: Choose a type of units. Move all units of that type that are in your discard pile to the bottom of it. Draw the non-Grim Reaper unit card that is closest to the top of your discard pile into your hand.
+    Immediate: Choose a type of units. Put all units of that type that are in your discard pile at its bottom. Draw the non-Grim Reaper unit card that is closest to the top of your discard pile into your hand.
 

@@ -9,7 +9,7 @@ Infantry Squad (Strength: 1)
 Shock Unit (cost 2):
 
 Archery Squad (Strength: 1)
-    Immediate: Discard a unit of strength 1 from your hand to get rid of a unit on this front. This ability cannot be triggered when this unit is added to the battle by another unit.
+    Immediate: [Discard a unit of strength 1 from your hand to draw 1 card from the bottom of your deck] to get rid of a unit on this front. This ability cannot be triggered when this unit is added to the battle by another unit.
 
 
 Main Units (cost 3):
@@ -19,7 +19,8 @@ Tactician (Strength: 1)
     Immediate: Reveal the top card of your deck, then discard it, destroy it or put it back on top of your deck.
 
 Heavy Infantry (Strength: 1)
-    Permanent: +2 strength in battle.
+    Immediate: Discard a unit of strength 1 from your hand to draw 1 card from the bottom of your deck.
+    Permanent: +2 strength if the first ability was triggered.
 
 Captain (Strength: 1)
     Immediate: Reveal the top 3 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. If units of strength 1 were revealed in this way, you may draw up to two into your hand. If you draw two, immediately add a unit from your hand to the battle on this front.

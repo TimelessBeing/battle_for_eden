@@ -1,17 +1,4 @@
 
-- Blood Tribe:
- => Berserker: add ability to doom itself?
- => Alternatively: a unit that can doom 2 units?
-
-- Dwarves:
- => Artificer: increase resource cost of ability?
-
-- Elves:
- => Magic Archer: ajust ability cost?
- => Usefulness of the Mystic?
- => Effect of drawing cards?
-
-
 - Coop mode:
  => attack deck?
  => deck construction rules? /!\ it has to be slumbering at first, with few strong cards and lots of trash cards
