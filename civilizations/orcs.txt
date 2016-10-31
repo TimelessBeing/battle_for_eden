@@ -22,7 +22,7 @@ Charge Leader (Strength: 3)
 
 Shaman (Strength: 3)
     Immediate: Choose a type of unit. For the rest of the battle, undoomed allied units of this type that should collapse on this front are doomed instead.
-    Immediate: Draw 1 card, then choose 1 card or more from your hand and put each of them either on top or at the bottom of your deck.
+    Immediate: Draw 1 card, then choose 1 card or more from your hand and put each of them either on top or at the bottom of your deck in any order.
 
 Brute (Strength: 3)
     Immediate: Discard up to 2 cards from your hand.

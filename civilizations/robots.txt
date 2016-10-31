@@ -4,7 +4,7 @@ Basic Unit (cost 1):
 
 Building Block (Strength: 0)
     Immediate: Destroy 2 Building Blocks on this front to add a Weaponry Module from your World to the battle on this front.
-    Delayed: If there is no other unit on this front: doom this unit add 2 to its strength.
+    Delayed: Against wild territories: doom this unit add 2 to its strength.
 
 
 Shock Unit (cost 2):
@@ -44,6 +44,6 @@ Core Module (Strength: 1)
 
 Immortal Unit (cost 6):
 
-Assembly Module (Strength: 3)
+Assembly Module (Strength: 1)
     Immediate: Destroy up to 3 Building Blocks on this front. You may add a unit of cost equal to or less than the number of units destroyed in this way to the battle on this front. Doom that unit.
 

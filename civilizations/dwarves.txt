@@ -19,18 +19,18 @@ Main Units (cost 3):
 Rushed Cannon (Strength: 2)
     Permanent: You may purchase this unit at any moment. When you do, put it in your hand instead of your discard pile.
     Immediate: Discard an Energy Crystal card from your hand then draw a card.
-    Post-combat: Get rid of this unit.
+    Post-combat: Destroy this unit.
 
 Digging Machine (Strength: 2)
     Immediate: Harvest the allied territory's ore and the neighbouring territories' ore.
-    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. You may also choose to draw one revealed Energy Crystal card into your hand.
+    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. Draw the Energy Crystal card which is the closest to the top of your discard pile into your hand.
 
 Sentinel (Strength: 1)
-    Immediate: [Use 3 Energy Crystals then draw a card] to harvest the allied territory's ore.
+    Immediate: Discard one card to draw one card.
     Permanent: +1, +2, +3 or +4 strength if 3 territories that you control each have at least 5, 10, 30 or 50 ore respectively on them.
 
 Specialist (Strength: 1)
-    Immediate: Put 2 new shard tokens on the allied territory.
+    Immediate: Put 5 new shard tokens on the allied territory.
 
 
 Champion Unit (cost 5):

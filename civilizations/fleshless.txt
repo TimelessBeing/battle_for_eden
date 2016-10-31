@@ -4,13 +4,13 @@ Basic Unit (cost 1):
 
 Skeleton (Strength: 1)
     Permanent: You may discard this card from your hand at any time to draw a card.
-    Delayed: If all allied units on all fronts are Skeleton units, add all Skeleton units from your discard pile to the battle.
+    Delayed: If there is a total of 4 allied units or less on all fronts, add a Skeleton unit from your discard pile to the battle.
 
 
 Shock Unit (cost 2):
 
 Flameskull (Strength: 2)
-    Immediate: [If the units in your discard pile number 3 or more: get rid of a unit of cost 2 or less on this front. You may ignore the cost restriction if they number 7 or more] OR [Reveal the top 2 card of your deck, discard any number of them and put the rest back on top of your deck in any order].
+    Immediate: [Reveal the top 2 cards of your deck, discard any number of them, and put the rest back in any order] OR [If there are at least 3 units in your discard pile: get rid of a unit of cost 2 or less on this front] OR [If there are at least 7 units in your discard pile: get rid of a unit on this front].
 
 
 Main Units (cost 3):
@@ -19,7 +19,7 @@ Wendigo (Strength: 2)
     Immediate: Destroy the top card of your discard pile.
 
 Death Knight (Strength: 2)
-    Immediate: [Reveal the top card of your deck, then either discard it or put it back on top of your deck] OR [draw the non-Grim-Reaper unit card that is closest to the top of your discard pile into your hand].
+    Immediate: [Reveal the top card of your deck, then either discard it or put it back on top of your deck] OR [draw the non-Grim-Reaper unit card which is the closest to the top of your discard pile into your hand].
 
 Skeleton Rider (Strength: 2)
     Immediate: Reveal the top 3 cards of your deck. You may exchange 1 unit card revealed in this way with a card from your hand. Discard the revealed cards in any order.
@@ -37,5 +37,5 @@ Lich (Strength: 3)
 Immortal Unit (cost 6):
 
 Grim Reaper (Strength: 3)
-    Immediate: Choose a type of units. Put all units of that type that are in your discard pile at its bottom. Draw the non-Grim Reaper unit card that is closest to the top of your discard pile into your hand.
+    Immediate: Choose a type of unit. Put all units of that type that are in your discard pile at its bottom. Draw the non-Grim-Reaper unit card which is the closest to the top of your discard pile into your hand.
 
