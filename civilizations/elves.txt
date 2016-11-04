@@ -37,14 +37,14 @@ Mystic (Strength: 3)
 
 Champion Unit (cost 5):
 
-Priest of Life (Strength: 4)
+Forest Guardian (Strength: 4)
     Immediate: Produce 3 mana if either this territory or 3 of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 2 mana.
     Delayed: Use up to 6 mana to add as much strength to this unit.
 
 
 Immortal Unit (cost 6):
 
-Nature Spirit (Strength: 4)
+Priest of Life (Strength: 4)
     Permanent: All allied mana productions on this front are increased by 2 mana.
     Immediate: Produce 3 mana if either this territory or 3 of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 2 mana.
 
