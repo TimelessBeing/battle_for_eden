@@ -4,7 +4,7 @@ Basic Unit (cost 1):
 
 Skeleton (Strength: 1)
     Permanent: You may discard this card from your hand at any time to draw a card.
-    Delayed: If there is a total of 4 allied units or less on all fronts, add a Skeleton unit from your discard pile to the battle.
+    Delayed: If there is a total of 4 allied units or less on all fronts, add a Skeleton from your discard pile to the battle on this front.
 
 
 Shock Unit (cost 2):
