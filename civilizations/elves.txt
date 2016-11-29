@@ -10,7 +10,6 @@ Hunter (Strength: 1)
 Shock Unit (cost 2):
 
 Marksman (Strength: 2)
-    Permanent: If this unit should collapse while undoomed, doom it instead. Its strength becomes 0.
     Immediate: Produce 3 mana if either the allied territory or 3 of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 2 mana.
     Reaction (event: allied mana production on this front): Use 8 mana to get rid of a unit on this front. If that unit's cost is 2 or less, you may use only 4 mana instead.
 
@@ -18,19 +17,19 @@ Marksman (Strength: 2)
 Main Units (cost 3):
 
 Druid (Strength: 3)
-    Permanent: If this unit should collapse while undoomed, doom it instead. Its strength becomes 0.
     Immediate: Produce 3 mana if either the allied territory or 3 of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 2 mana.
     Reaction (event: allied mana production on this front): Use 4 mana to destroy a card from your hand.
     
 Ranger (Strength: 3)
-    Permanent: If this unit should collapse while undoomed, doom it instead. Its strength becomes 0.
     Immediate: Produce 3 mana if either the allied territory or 3 of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 2 mana.
     Reaction (event: allied mana production on this front): Use 6 mana to draw a card or make your opponent choose and discard one from his hand.
 
 Channeler (Strength: 3)
+    Permanent: If this unit should collapse, you may use 4 mana instead.
     Immediate: Produce 10 mana if either the allied territory or 3 of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 6 mana.
 
 Mystic (Strength: 3)
+    Permanent: If this unit should collapse, you may use 4 mana instead.
     Immediate: Produce 6 mana if either the allied territory or 3 of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 4 mana.
     Immediate: Use 2 mana to draw a card then discard a card.
 

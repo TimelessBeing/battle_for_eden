@@ -20,12 +20,12 @@ Shield Warrior (Strength: 3)
 Charge Leader (Strength: 3)
     Reaction (condition: your hand is empty): reveal the top card of your deck. If it is a unit, you may add it to the battle on this front. Otherwise discard it.
 
-Shaman (Strength: 3)
+Shaman (Strength: 2)
     Immediate: Choose a type of unit. For the rest of the battle, undoomed allied units of this type that should collapse on this front are doomed instead.
     Immediate: Draw 1 card, then choose 1 card or more from your hand and put each of them either on top or at the bottom of your deck in any order.
 
-Brute (Strength: 3)
-    Permanent: +2 strength if the total number of units you added to the battle on all fronts is 3 or less.
+Brute (Strength: 4)
+    Permanent: If this unit should be destroyed while undoomed, and if your hand is not empty, doom this unit instead.
 
 Champion Unit (cost 5):
 
