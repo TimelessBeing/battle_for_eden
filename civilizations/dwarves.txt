@@ -37,12 +37,12 @@ Champion Unit (cost 5):
 
 Blacksmith (Strength: 1)
     Immediate: [Use 3 Energy Crystals then draw a card] to harvest the allied territory's ore.
-    Delayed: If you triggered the first ability: for each allied unit on this front, use up to 2 ore from the allied territory to add as much strength to that unit.
+    Delayed: If you triggered the first ability: for each allied unit on this front, you may use 1 ore from the allied territory to add 1 strength to that unit.
 
 
 Immortal Unit (cost 6):
 
 Rocket Roll (Strength: 3)
-    Immediate: [Move any number of resources between two territories you control] OR [destroy a card from your discard pile to purchase a unit from your World and add it to your hand].
+    Immediate: [Move any number of resources between two territories you control] OR [destroy a card from your discard pile to get the right to immediately purchase a unit from your World and add it to your hand].
 
 

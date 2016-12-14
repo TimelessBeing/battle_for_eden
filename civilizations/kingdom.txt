@@ -3,13 +3,14 @@ Valuable Resource: Ore
 Basic Unit (cost 1):
 
 Infantry Squad (Strength: 1)
-    Immediate: Reveal the top 2 cards of your deck. You may discard the first card. If it is a unit of strength 1, you may add it to the battle on this front. Put back the remaining cards on top of your deck in any order.
+    Permanent: Discard this unit when a unit on its row collapses or is discarded.
+    Immediate: Reveal the top 2 cards of your deck. You may discard the first card or, if it is a unit of strength 1 and there are 2 Infantry Squads or less on this row, add it to the row. Put back the remaining cards on top of your deck in any order.
 
 
 Shock Unit (cost 2):
 
 Archery Squad (Strength: 1)
-    Immediate: [Discard a unit of strength 1 from your hand to draw 1 card from the bottom of your deck] to get rid of a unit on this front. This ability cannot be triggered when this unit is added to the battle by an Infantry Squad.
+    Immediate: Discard a unit of strength 1 from your hand to draw 1 card from the bottom of your deck and get rid of a unit on this front. This ability cannot be triggered when this unit is added to the battle by an Infantry Squad.
 
 
 Main Units (cost 3):
@@ -23,7 +24,8 @@ Heavy Infantry (Strength: 1)
     Permanent: +2 strength if this unit was added to the battle by an Infantry Squad.
 
 Captain (Strength: 1)
-    Immediate: Reveal the top 3 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. If units of strength 1 were revealed in this way, you may draw up to two into your hand. If you draw two, immediately add a unit from your hand to the battle on this front.
+    Permanent: +1 strength if there are other units on this row.
+    Immediate: Copy the immediate ability of an allied unit on this front.
 
 Cavalry (Strength: 1)
     Immediate: Discard a unit of strength 1 from your hand to draw 3 cards, then discard 2 cards from your hand.
@@ -38,7 +40,6 @@ Knight (Strength: 2)
 
 Immortal Unit (cost 6):
 
-General (Strength: 2)
-    Immediate: Trigger the immediate ability of an allied unit on this front.
-    Delayed: Discard a unit of strength 1 from your hand to add 4 strength to this unit.
+General (Strength: 1)
+    Immediate: Reveal the top 3 cards of your deck. You may draw up to 2 non-General units of strength 1 into your hand. Discard any number of remaining cards and put the rest back on top of your deck in any order. If you drew 2 cards, add a unit from your hand to the battle on this front.
 

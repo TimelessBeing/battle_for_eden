@@ -28,7 +28,7 @@ Herbalist (Strength: 3)
 
 Tribe Protector (Strength: 3)
     Immediate: Doom another allied unit on this front.
-    Reaction (event: this unit is doomed or collapses while undoomed): Add two Tribal Warriors from your World to the battle on this front. Do not trigger their immediate abilities.
+    Reaction (event: this unit is doomed or collapses while undoomed): Add two Tribal Warriors from your World to this row. Do not trigger their immediate abilities.
 
 
 Champion Unit (cost 5):
