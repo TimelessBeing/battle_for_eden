@@ -1,5 +1,6 @@
 \documentclass[a4paper]{article}
 
+\usepackage[a4paper, margin=1in]{geometry}
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{indentfirst}
@@ -10,7 +11,7 @@
 
 \begin{document}
 
-\title{Battle For Eden Rulebook}
+\title{How to Play Battle For Eden}
 \maketitle
 
 
@@ -22,612 +23,560 @@
     A land filled with all kinds of riches, a land filled with all kinds of resources,
     and above all a land filled with rare energy crystals: a land called Eden!
 
-    When energy crystals become so numerous that portals to Eden suddendly open
+    When energy crystals become so numerous that portals to Eden suddenly open
     throughout the multiverse, it is time for civilizations to go to war!
     War for crystals! War for resources! This is the battle for Eden!
 
 
 
-\section{Introduction}
+\section{Choose a color and a civilization}
 
-    Battle For Eden is a war game involving conquest, resource production and deck
-    building.
-    Each player embodies a different civilization, and as such uses different cards and
-    relies on different resources than other players, giving birth to an asymetric game
-    with a lot of replayability!
-
-    As civilizations discover Eden, they may face various situations.
-    This game comes with various scenarios, each with its own victory conditions.
-    Some scenarios will pitch players against one another, while other will have
-    them cooperate to survive!
-    Whichever scenario you choose, fight for the prosperity of your civilization!
-
-
-\newpage
-\section{Contents}
-
-    \begin{itemize}
-        \item This rulebook
-        \item Civilization unit cards
-            \begin{itemize}
-                \item 8 cost-1 unit cards
-                \item 6 cost-2 unit cards
-                \item 4x4 cost-3 unit cards
-                \item 3 cost-5 unit cards
-                \item 2 cost-6 unit cards (eternal unit cards)
-            \end{itemize}
-        \item Common cards
-            \begin{itemize}
-                \item Energy Crystal cards
-                    \begin{itemize}
-                        \item 30 Small Energy Crystal cards
-                        \item 20 Medium Energy Crystal cards
-                        \item 20 Huge Energy Crystal cards
-                    \end{itemize}
-                \item Tactical cards
-                    \begin{itemize}
-                        \item 20 Setback cards
-                        \item 20 Opportunity cards
-                    \end{itemize}
-            \end{itemize}
-        \item Territoriy tiles
-            \begin{itemize}
-                \item 1 Heart of Eden tile
-                \item 6 Portal tiles (1 for each civilization)
-                \item 74 normal tiles
-            \end{itemize}
-        \item Occupation tokens
-        \item Resource tokens
-        \item Counters
-        \item Material for the King of Eden scenario
-            \begin{itemize}
-                \item 1 King of Eden figurine
-                \item 1 20-faced dice
-                \item an attack deck
-            \end{itemize}
-    \end{itemize}
+    Each player picks a color for his Portal tile and frontier tokens,
+    then chooses a civilization.
+    
+    The color choice is purely cosmetic,
+    but the civilization choice matters a lot: each civilization plays different,
+    which leads to an asymmetric gameplay and endless replayability!
+    
+    There are 7 types of resources in Battle For Eden,
+    each associated to a color:
+    crystal shards (white), plants (green), animals (red), ore (grey),
+    positronium (yellow), omninutrients (brown) and inhabitants (pink).
+    Each civilization is built on one type of resources,
+    which will be referred to as its \textit{civilization resource},
+    and which will be the resource type that civilization will need
+    to improve its army.
+    
+\section{Choose the first player}
+    Choose the first player in anyway you like,
+    and give that player the first player token.
 
 
 \newpage
-\section{Setup}
+\section{Choose a scenario}
 
+   The first contact between civilizations can happen in various ways.
+   Three scenarios are playable, each with its own winning conditions
+   as well as its own set of slight deviations from the standard rules
+   (which are described in the following sections).
+   
     \begin{description}
-        \item[Civilization choice] \hfill \\
-            Each player chooses a civilization, and takes the corresponing
-            \textbf{portal tile}, \textbf{occupation tokens} and \textbf{unit cards}.
-            He then those cards in front of him as a pile, face up.
-            This pile is called his \textit{\textbf{world}}.
-        \item[Deck creation] \hfill \\
-            Each player takes \textbf{3 Small Energy Crystal cards}
-            and \textbf{1 Medium Energy Crystal cards}
-            from the corresponding pile and \textbf{3 cost-1 units cards} from his World,
-            then \textbf{shuffle them} to create his deck.
-        \item[Choosing a first player] \hfill \\
-            Players decide who the first player should be.
+        \item[Supremacy] \hfill \\
+            All civilizations want Eden for themselves.
+            They all try to destroy the portals connecting the other civilizations to Eden
+            so that they can be the only ruler.
             
-            By default, the last player to have lost a game
-            (of any kind) is the first player.
+            \textbf{Deviation from the standard rules:}
+            None.
+            
+            \textbf{Winning condition:}
+            The game ends when all portals but one have been destroyed.
+            The player whose portal is the last one standing wins.
+
+
+        \item[Unbalance] \hfill \\
+            While most civilizations want peaceful coexistence on Eden,
+            one of them is more powerful than the others
+            and prefers to fight for supremacy.
+            
+            \textbf{Deviation from the standard rules:}
+            The first player replenishes his hand to 6 cards instead of 5.
+            He is the only player that can look at the tiles he drew before choosing
+            where to place them on the map.
+            He also starts in a different situation (see section TODO).
+            
+            \textbf{Winning condition:}
+            The game ends if either the first player's portal has been destroyed
+            (in which case everyone else wins),
+            or if his portal is the last one standing (in which case he wins).
+            
+            \textbf{Variant of the scenario:}
+            The other civilizations were not that peaceful after all!
+            You may ignore the restriction on looking at the tiles before placing them.
+            When the first player's portal is destroyed,
+            the game does not end and the winning condition switches to those
+            of the Supremacy scenario.
+            
+
+
+        \item[King of Eden] \hfill \\
+            All civilizations want peaceful coexistence on Eden,
+            but their arrival awoke a powerful dragon: the King of Eden !
+            Now they have to slay the dragon if they want to survive.
+            
+            \textbf{Deviation from the standard rules:}
+            Players don't look at the tiles they drew before choosing
+            where to place them on the map.
+            The King of Eden is on the map and play turns (see section TODO).
+            
+            \textbf{Winning condition:}
+            The game ends when the King of Eden is slain (in which case everyone wins)
+            or when all portals have been destroyed (in which case everyone loses).
+            
+            \textbf{Variant of the scenario:}
+            The civilizations were not that peaceful after all!
+            You may ignore the restriction on looking at the tiles before placing them.
+            When the King of Eden is slain,
+            the game does not end and the scenario switches to Supremacy.
     \end{description}
 
-\newpage
-\section{Some definitions}
-
-    \begin{description}
-        \item[Round] \hfill \\
-            Each phase of the game is composed of rounds,
-            during which each player plays one turn, one after the other,
-            always in the same order.
-        \item[Distance between two tiles] \hfill \\
-            The number of frontiers one needs to cross to go from one tile to the another.
-            For example, the distance between two tiles in contact is 1.
-        \item[Discard pile] \hfill \\
-            A pile of face-up cards (empty at the begging) besides a player's deck.
-            Any player may look into any other player's discard pile.
-            No player is allowed to change the order of the cards in any discard pile.
-        \item[Discarding a card] \hfill \\
-            Putting a card on top of its owner's discard pile.
-        \item[Territory controlled by a player] \hfill \\
-            Territory on which that player has put an Occupation token.
-        \item[Territory fully controlled by a player] \hfill \\
-            Territory controlled by a player and such that there exists a path
-            between that territory and the player's Portal territory that
-            goes only through that player's controlled territories.
-        \item[Territory partially controlled by a player] \hfill \\
-            Territory controlled by a player but not fully controlled by that player.
-        \item[Wild territory] \hfill \\
-            Territory controlled by no player.
-        \item[Using resources] \hfill \\
-            Removing a given number of resource tokens from one's fully controlled
-            territories.
-        \item[Using Energy Crystals] \hfill \\
-            Discarding Energy Crystal cards whose total value is at least a given number.
-        \item[Buying a card] \hfill \\
-            Paying a cost to add a card to one's discard pile.
-        \item[Destroying a card] \hfill \\
-            Putting a card in the pile where it can be bought back.
-            Destroyed common cards go into the corresponding piles,
-            while destroyed unit cards go back to their World.
-    \end{description}
 
 
 \newpage
-\section{Map creation phase}
+\section{Create the Map}
 
-    The first phase of the game is the creation of the map.
+    After crossing the portals, all civilizations discover Eden.
+    What the world looks like and where the portals open is determined by the players.
     
-    Each player takes one tile of each color from the game box,
-    then adds to those a tile of the color of his valuable resource
-    (todo: introduce term earlier?).
-    He shuffles all those tiles together,
-    and places them on the table face down as a pile.
-    
-    The Heart of Eden tile is placed at the center of the table.
-    Then, starting with the first player, all players take turns building the map.
-    Each turn starts by revealing the top tile of one's pile then placing it on the map.
-    The first tile must be placed next to the Heart of Eden tile,
-    then each tile may be placed anywhere next to another normal tile,
-    as long as it leaves the map in a \textbf{valid state} (see below).
-    In cooperative game modes, players decide where to put tiles before revealing them.
-    
-    If a tile comes to be in contact with 4 or more types of normal tiles,
-    place an increased-shard-production token on that tile.
-    
-    At any time during his turn, a player is allowed to remove his Portal tile
-    from the map (if he already placed it) and to place it next to two
-    adjacent normal tiles, as long as it leaves the map in a
-    \textbf{valid state} (see below).  
-    
-    A \textbf{\textit{valid state}} of the map is one in which:
-    \vspace{-1.3em}
-    \begin{itemize}
-        \item Every Portal tile is in contact with exactly 2 tiles,
-        \item The distance between any 2 Portal tiles is 4 or more,
-        \item The distance between any Portal tile and the Heart of Eden tile
-        is 4 or more.
-    \end{itemize}
-    
-    \vspace{-0.7em}
-    During the last round, after playing his last normal tile,
-    any player who has not placed his Portal tile must place it on the map
-    if it is possible.
-    If a player cannot place his Portal tile on the map,
-    he takes out two additional tiles from the game box
-    and places them \textbf{face down}, next to each other,
-    in a way that makes it possible to place his Portal tile in contact with them
-    and leave the map in a \textbf{valid state}.
-    
+    \subsection{Understand tiles, territories and resources}
+        The map is divided into territories, which are materialized by hexagonal tiles.
+        Those territories can be of three types:
+         \vspace{-1.3em}
+        \begin{itemize}
+            \item \textbf{Ordinary territories}, materialized by mono-color tiles,
+                make most of the map.
+                Their color determine a type of resources in which they are rich
+                (with black meaning none).
+                Controlling an ordinary territory brings a player 1 resource every turn
+                (see section \ref{prod}), and 2 if the territory is rich
+                in that player's civilization resource.
+                Ordinary territories tile may have a token on them symbolizing richness
+                in crystal shards, in which case they bring an additional resource
+                each turn to their controller.
+            
+            \item \textbf{The Heart of Eden} is a mysterious mountain located near
+                the center of the map (see section \ref{prod}).
+                It is a special territory of great strategical importance.
+            
+            \item \textbf{Portal territories} are what connects the various worlds
+                to Eden.
+                They are therefore the players' starting points on the map,
+                and the players whose portals have been destroyed are eliminated from
+                the game.
+        \end{itemize}   
 
-
-\newpage
-\section{Main phase}
-
-  \subsection{Beginning}
-  
-  	\begin{itemize}
-        \item Create a pile of each type of common card,
-            and place them somewhere where every player can access them.
-        \item Players take control of the territories in contact with their Portal
-        territory, and materialize it by putting Occupation tokens on them.
-        \item Players may \textbf{manage their territories} (see below).
-        \item Player draw 5 cards from their decks to constitute their starting hands.
-    \end{itemize}
-    
-  \subsection{The pulse}
-  
-  	At the end of each round (\textit{i.e.} after each turn of the last player),
-  	the Heart of Eden \textit{pulses}.
-  	Each player adds the value of 1 in counter tokens to his Portal territory.
-  	If a player controls the Heart of Eden, he add the value of 2
-        to his Portal territory instead.
-  	No token is placed on destroyed Portal territories.
-
-
-  \subsection{A player's turn}
-
-    \hspace{-2em} During his turn, a player can perform several actions,
-    which can be done in any order but not simultaneously:
-    \vspace{-1.3em}
-    \begin{itemize}
-        \item Discarding any card from his hand (any number of times)
-        \item Buying cards (any number of times)
-        \item Managing his fully controlled territories (only once per turn)
-        \item Launching attacks on territories (only once per turn)
-        \item Making a breakthrough (only once per turn,
-        if a player-controlled territory was conquerred)
-    \end{itemize}
-    
-    \vspace{-0.7em}
-    At the end of a player's turn, \textbf{any player} whose hand contain less than 5
-    cards \textbf{can replenish his hand to 5 cards}.
-    
-    \hspace{-2em} \textbf{IMPORTANT:
-    When replenishing one's hand, one may always choose to replenish one's hand to
-    less than 5 cards.
-    }
-
-
-\newpage
-  \subsection{Drawing and discarding cards}
-    
-    During his turn, a player may choose discarding card as an action.
-    In this case, he may discard any number of cards from his hand.
-
-    When a player must draw more cards from his deck
-    (whether to replenish his hand or because of a card's effect)
-    or reveal more cards from the top of his deck than his deck contains cards,
-    that player must replenish his deck before drawing or revealing the cards.
-    To do so, he shuffles his discard pile and puts the cards under his deck.
-
-
-  \subsection{Resources}
-  
-    Territories may hold any number of resources (there is no upper limit),
-    which can be of 7 types:
-    
-    \vspace{-1.3em}
-    \begin{itemize}
-        \item Shards (white tokens)
-        \item Plants (green tokens)
-        \item Animals (red tokens)
-        \item Ore (grey tokens)
-        \item Positronium (yellow tokens)
-        \item Omninutrients (brown tokens)
-        \item Inhabitants (pink tokens)
-    \end{itemize}
-    
-    \vspace{-0.7em}
-    Resources on a territory are materialized by resource tokens.
-    Counters may be put under resource tokens to count the number of
-    resources of the corresponding type.
-    
-    Fully controlling a territory allows the player to use the resources it holds,
-    as well as to produce or destroy those resources during territory management.
-  
-  
-  \subsection{Buying cards}
-
-    During his turn, a player may choose to buy cards.
-    He may buy Energy Crystal cards (in-universe: refining shards),
-    buy Tactical cards (in-universe: making use of the terrain)
-    or buy Unit cards (in-universe: asking for reinforcement).
-    
-    Buying cards first implies paying a cost, by using resources and Energy Crystals
-    (or only resources in the case of common cards).
-    Once the cost has been paid, the card is put on top of the player's discard pile.
-    
-    \hspace{-2em} \textbf{IMPORTANT:
-    Each civilization relies heavily on one type of resource, or
-    \textit{valuable resource} (see the color of the cubes on their unit cards).
-    As such, the only resources a player can produce or use are Shards and
-    his civilization's valuable resource.
-    }
-
-
-\newpage
-  \subsection{Managing one's fully controlled territories}
-    \subsubsection{Management}
-    \vspace{-1em}
-    Once per turn, a player can manage the territories he fully controls.
-    For each territory, he can choose to:
-    \vspace{-1.3em}
-    \begin{itemize}
-        \item Produce resources (see below),
-        \item Destroy resources: he removes all resource tokens on the territory,
-        \item Do nothing.
-    \end{itemize}
-  
-    \subsubsection{Resource production}
-    \vspace{-1em}
-      \hspace{-2em} Resource production works differently depending on the
-      territories involved:
-      \vspace{-1.3em}
-      \begin{description}
-          \item[Portal territory] \hfill \\
-          No resource can be produced on Portal territories,
-          \item[Heart of Eden] \hfill \\
-          The player removes all tokens from his Portal territory,
-          converts each of them into a resource token of his choice,
-          and places them on the Heart of Eden tile,
-          \item[Normal and face-down territories] \hfill \\
-          The player places 1 valuable resource token on each of his territories
-          which produces resources and whose color is the same as that resource.
-          He places 1 shard token on each of his territories which produces resources and
-          have an increased-shard-production token on them.
-          Then the player counts his normal or face-down territories which produce,
-          takes as many resource token of any combination of shard and valuable resource,
-          and places them on the territories he controls.
-      \end{description}
-
-    \subsubsection{Production capacities}
-      \vspace{-1em}
-      Some effects involve the \textbf{\textit{production capacity}} of
-      a territory in a type of resource.
-      In the case of a \textbf{normal territory} and \textbf{face-down territories},
-      the production capacity is simply the amount of that type of resource that
-      the territory is able to produce,
-      \textit{i.e.} 2 if it is a normal territory in the resource of its color,
-      and 1 otherwise.
+    \subsection{Distribute the tiles}
+        Each player receives 1 ordinary territory tile of each color (including black),
+        places them face down in front of him, and shuffles them.
+        Each player then receives the portal territory tile of his color
+        as well as 1 ordinary territory tile rich in his civilization resource,
+        and places them face up in front of him.
+        
+        \textbf{Note:} If a player's civilization resource is crystal shards,
+        that player must choose a color of ordinary territory tiles
+        at the beginning of the map creation phase.
+        The ordinary territory tile he receives is of that color,
+        and tiles of this color that he places on the map come with
+        a crystal shard richness token on them.
       
-      In the case of \textbf{Portal territories and the Heart of Eden},
-      their production capacities are considered to be 2 in their controllers'
-      valuable resource types, and 1 in any other type of resource.
+    \subsection{Place tiles on the map}
+        Place the Heart of Eden tile at the center of the table as the first
+        territory on the map.
+        Starting with the first player, players take turn adding tiles to the map.
+        
+        At his turn, a player draws one ordinary territory tile
+        (which can be the one which is face up or one of those which are face down),
+        looks at it and places it face up in contact with another tile on the map.
+        If this causes an ordinary territory tile to be in contact with at least
+        4 different types of non-black ordinary territory tiles,
+        place a crystal shard richness token on that territory.
+        
+        After placing the ordinary territory tile, the player can ---~if he so chooses~---
+        place his portal territory tile in contact with another tile on the map,
+        remove it from the map or remove it then place it.
+        
+\newpage
+        Keep in mind that:
+        \vspace{-1.3em}
+        \begin{itemize}
+            \item At any time, a portal territory tile cannot be at a distance
+                (number of frontiers one has to cross to go from one to the other)
+                of 3 or less of the Heart of Eden,
+                or at a distance of 4 or less of another portal territory tile,
+            \item At any time, a portal territory cannot be in contact of 3 or more
+                ordinary territory tile,
+            \item A portal territory tile cannot be removed
+                if it disconnects one part of the map from the other,
+            \item A player cannot place an ordinary territory tile at a distance
+                or 3 or less of his portal territory tile (if it has been placed on the map).
+        \end{itemize}
+        
+        After placing his last ordinary territory tile,
+        if a player's portal is not the map, he must place it.
+        If he cannot do this without breaking the above rules,
+        he is given a black ordinary territory tile,
+        which he has to place in a way that allows him to place his portal tile on the map.
+        If it is still not possible, he is given an additional black ordinary tile, etc.
+        
+        Once every player has placed his last ordinary territory tile,
+        one last round allows players to remove then place their portal territory tiles
+        if they want to.
     
-      \textbf{Territories outside of the map} are considered to have a
-      production capacity of 1 in every type of resource.
-      That is to say, if an effect is played on a tile on the border
-      of the map and mentions the production capacity of the neighbouring tiles,
-      the "missing" tiles are also considered to have a production capacity of
-      1 in every type of resource.
+
+\section{Settle near the portals}
+    \subsection{Territories}
+        Every player takes control of their respective portal territory
+        and of the territories in direct contact with it.
+        Controlled territories are materialized using the frontier tokens
+        of the player's color.
+        
+    \subsection{Deck}
+        Every player places all unit cards of their civilization in front of them,
+        face up (generally as one or more piles), to constitute their \textit{World}.
+        
+        They then take 3 cost-1 units from their World,
+        1 Medium Energy Crystal card and from 3 to 5 Small Energy Crystal cards
+        (at their convenience),
+        shuffles them and places them face down as a pile called their \textit{deck}.
+        
+        Every player finally creates their \textit{hand} by drawing cards from the top
+        of their deck until they have up to 5 cards in their hand.
+        Drawing cards in this way is called \textit{replenishing} one's hand.
+        Whenever a player should draw or reveal more cards from his deck
+        than it contains, he shuffles his \textit{discard pile}
+        (which is an originally empty face up pile besides one's deck)
+        and puts the cards at the bottom of his deck.
+        
+        
+    \subsection{Resources, purchases}
+        \label{how-to-purchase}
+        Every player receives 2 resources (which can each be either a crystal shard
+        or their civilization resource) and places them as they wish on their territories.
+        
+        Players who want to can \textit{purchase} cards,
+        whether they are \textit{common cards} (\textit{i.e.} Small Energy Crystal,
+        Medium Energy Crystal, Huge Energy Crystal, Setback or Opportunity)
+        or cards from their World.
+        Purchasing cards is a way to get new cards into your discard pile,
+        and therefore into your future deck.
+        
+        The opposite of  purchasing a card is called \textit{destroying a card}.
+        It means putting a card back in the pile where it comes from:
+        destroyed common cards go into the corresponding piles,
+        while destroyed unit cards go back to their World.
+
+\newpage
+        Purchasing a card is done in two steps:
+        \vspace{-1.3em}
+        \begin{itemize}
+            \item first, the player pays the cost of the card by using Energy Crystals
+                and/or resources of the right type
+                (note: the multi-color cube symbol corresponds to resources
+                which can be of any type, but must all be of the same type):
+                \vspace{-0.5em}
+                \begin{itemize}
+                    \item \textit{using N Energy Crystals} means to discard Energy Crystal
+                        cards whose total value is at least N,
+                        usually from cards which have been previously set aside
+                        (see section \ref{purchase});
+                        in all other contexts that allow purchases (like now),
+                        they are discarded from the player's hand,
+                    \item \textit{using N resources} means to remove N resources
+                        from one's territories,
+                \end{itemize}
+            \item then the player puts the purchased card in his discard pile.
+        \end{itemize}
+        
+        Note: players don't get to replenish their hands after purchases.
+
+
+\section{To battle!}
+
+    Now that all civilizations have crossed the portals and come to Eden,
+    it is time for them to harvest their territories and to go to war to expand
+    their reach.
+    
+    From here on, the game enfolds as a cycle of 3 different phases.
+    
+    \subsection{Production phase: the pulse}
+        \label{prod}
+        The Heart of Eden pulses energy throughout Eden,
+        slowly building up energy that can be harvested by the various civilizations.
+        Using counter tokens placed on their portal territory tiles,
+        each player keeps track of how much energy his civilization could harvest.      
+        The controller of the Heart of Eden (if there is one) adds 3 to his energy count,
+        while all other players add 1 to theirs.
+    
+        Following the pulse, ordinary territories produce resources.
+        Every player gets either one crystal shard or one of their civilization resource:
+        \vspace{-1.3em}
+        \begin{itemize}
+            \item for each ordinary territory they control,
+            \item for each of those territories rich in their civilization resource,
+            \item for each ordinary territory they control with a crystal shard richness
+                token on them.
+        \end{itemize}
+        
+        The players then place those resources on their territory tiles in any way
+        they want.
+
+\newpage
+    \subsection{Expansion phase}
+        \label{expansion}    
+        Starting with the first player (the one who has the first player token),
+        players take turn expanding their territories.
+        
+        A player's turn goes like this, in this order:
+        \vspace{-1.3em}
+        \begin{enumerate}
+            \item He discards and/or sets aside any number of cards from his hand,
+                \label{expand1}
+            \item He may start battles on up to 2 frontiers of his territory
+                (see section \ref{battle-rules}),
+                either against \textit{wild territories}
+                ---~which are territories that no player control~---
+                or against ones controlled by the same player.
+                \label{expand2}
+            \item He discards and/or sets aside any number of cards from his hand.
+                \label{expand3}
+            \item He replenishes his hand.
+                If a battle against another player occurred,
+                that player may replenish his hand as well.
+            \item If he won a battle against another player:
+                he draws the cards that he had set aside into his hand,
+                then sets aside as many.
+            \item If he won a battle against another player:
+                he may choose to return to step \ref{expand1},
+                with slightly altered steps:
+                \vspace{-0.5em}
+                \begin{itemize}
+                    \item steps \ref{expand1} and \ref{expand3}:
+                        the player can discard cards but not set them aside.
+                    \item step \ref{expand2}:
+                        attacking the same player twice during the same turn
+                        is only allowed from newly conquered territories,
+                        and does not give the right use step \ref{expand6} again
+                        if the defending player's portal is still standing.
+                \end{itemize}
+                \label{expand6}
+            \item He can choose to destroy his own portal.
+                If he makes this choice, the portal is effectively destroyed
+                during the next expansion phase, at the beginning of his turn.
+                At that time, all resources and energy counters on the portal tile
+                are destroyed with it.
+        \end{enumerate}        
+        
+    
+    \subsection{Purchasing phase}
+        \label{purchase}
+        Behind the front lines, each civilization prepares for the battles to come.
+        They refine crystal shards into energy crystals that they can use to
+        sustain more troops, accommodate reinforcements,
+        and think of ways to get an edge over their enemies.
+        
+        Every player can use the resources on their territories and Energy Crystal cards
+        that they had set aside to purchase common cards and units from their worlds
+        (see section \ref{how-to-purchase} for the details on how to purchase cards).
+        If a player controls the Heart of Eden, he may use the energy as resources
+        of any combination of types (decrease the energy count by the number
+        of used resources).
+        
+        After the purchases, the players draw all remaining set-aside cards into their
+        hands, then discard as many.        
+        This phase ends with the first player giving the first player token
+        to the next player.
 
 
 \newpage
-\subsection{Launching an attack}
-
-    Once per turn, a player may choose frontiers between territories he fully controls
-    and territories he does not control and start a battle on each of those frontiers.
-    Each of those battles takes place on a separate "front"
-    (see next section for more information on combat).
-
-    Once combat is over, if the attacking player won battles on some fronts,
-    he takes control of the corresponding territories by removing the Occupation tokens of
-    the previous controller of the conquered territories (if any) and putting his own
-    Occupation tokens on it.
-    At that time, he may move resources as he wishes between the two territories on each
-    side of the victorious fronts.
+\section{Battle rules}
+    \label{battle-rules}
     
-    \hspace{-2em} \textbf{
-    IMPORTANT: winning on one front is enough to take control of a territory.
-    }
-
-
-\subsection{Making a breakthrough}
-
-    If at least one territory controlled by other players was conquered during his attack
-    phase, the attacking player earns the right to perform a breakthrough.
-
-    \hspace{-2em} To make a breakthrough:
-    \vspace{-1.3em}
-    \begin{enumerate}
-        \item the attacking player may replenish his hand, \label{break1}
-        \item the attacking player selects any number (possibly 0) of frontiers between
-        those territories taken from other players and territories he does not control,
-        \item the attacking player launches an attack on the selected frontiers,
-        \item defending players (if any) may discard any number of cards from their hands,
-        then replenish them,
-        \item the battles are resolved,
-        \item if this is the first time this step is reached and player-controlled
-        territories were conquered in the previous step, the attacking player may choose
-        to go back to step \ref{break1} (\textit{double-breakthrough}),
-        \item the attacking player discards all cards in his hand.
-    \end{enumerate}
-
-
-\subsection{Conquering a Portal territory}
-
-    If a player conquers a Portal territory, the tile is placed on the "destroyed" side.
-    The player who lost his Portal territory is eliminated from the game
-    and all of his territories become partially controlled.
-    
-    The player who conquered the Portal territory takes the counter tokens
-    on it and places them on his own Portal territory.
-    He also earns the right to perform an additional breakthrough from that territory.
-
+    \subsection{General Principle}
+        Battle may happen on up to two several frontiers at the same time.
+        The territory on a player's side of the frontier is called his \textit{allied territory},
+        while the territory on the other side is called his \textit{enemy territory}.
+        The battle taking place at any given frontier is referred to as a \textit{front}.
+        Units played by the player on his side of the front are called his
+        \textit{allied units}, while the units played by the other player on the other
+        side of the front are called his \textit{enemy units}.
+        
+        The attacking player adds unit cards from his hand to the fronts
+        (see section \ref{battle}).
+        If the total strength of his units on one front is more than that territory's
+        defense, he takes control of the corresponding enemy territory
+        (note: this means that when attacking one territory on two fronts,
+        victory on one front is enough to take control of that territory).
+        Resources that were on the conquered territory stay on that territory.
+        
+    \subsection{Full Control vs Partial Control, Base Defense}
+        \label{base-defense}
+        As long as his portal is not destroyed,
+        a player is said to have \textit{full control} over his portal territory.
+        This full control extends to all territories that the player controls
+        which are in contact with fully controlled territories.
+        The player only has \textit{partial control} over the rest of his territories.
+        
+        Each territory (whether controlled or not) has a \textit{base defense},
+        which depends on its distance to the closest portal territory.
+        It is equal to 0  when the distance is less than 2,
+        becomes 1 when the distance is 2,
+        then increases by 2 each time the distance increases
+        (which means that territories at a distance of 1, 2, 3, 4, 5
+        to the closest portal territory have a base defense of  0, 1, 3, 5, 7
+        respectively).
+        
+        When a fully-controlled territory is attacked,
+        instead of relying on the territory's base defense,
+        the defending player may choose to use unit cards from his hand to defend it
+        himself (see section \ref{battle}).
+        
+    \subsection{Conquering a portal territory}
+        When a player takes control of another player's portal territory,
+        he destroys that player's portal (by flipping the tile),
+        hereby eliminating that player from the game.
+        The portal's energy count stay on it,
+        but it doesn't increase during the pulse anymore.
+        If the player that now controls the portal also controls the Heart of Eden,
+        he can use its energy during purchasing phases.
+        
+        Even though the player has been eliminated,
+        his territories are still considered under his partial control
+        (instead of becoming wild territories again).
+        
+    \subsection{Bonuses}
+        \begin{itemize}
+            \item When a player's portal territory is attacked,
+                that player may draw a card.
+            \item If at least 5 resources on a player-controlled territory are either
+                crystal shards or the player's civilization resource,
+                that territory gives +1 strength to its side in both attack and defense.
+            \item If a player-controlled territory is in contact with at least 1 territory
+                in the above situation and controlled by the same player,
+                it also gives +1 strength to its side in both attack and defense.\\
+                (note: this means that a territory that satisfies both conditions
+                can give a total of +2 to its side)
+        \end{itemize}
+        
+\newpage
+    \subsection{Battle}
+        \label{battle}
+        \begin{enumerate}
+            \item The attacking player chooses a frontier on which he wishes to start
+                a battle, then plays a unit from his hand to create a front.
+                He may do this a second time if he wants to create a second front.
+            \item If there is a defending player,
+                and if he was already attacked during this expansion phase,
+                he may discard any number of cards from his hand then replenish it.
+            \item If there is a defending player,
+                he plays a unit from his hand on each front he chose to defend himself.
+            \item On each front on which he has not finished attacking,
+                the attacking player may either stop attacking or add a unit
+                from his hand under the bottom row of his allied units on this front
+                (during battle, on each side of each front,
+                units are placed one under the other in rows; 
+                some abilities (see section \ref{abilities}) allow units to be placed
+                on the same row or take advantage of the units placement).
+                \label{battle4}
+            \item On each front on which he has not finished defending,
+                the defending player may either stop defending or add a unit
+                from his hand under the bottom row of his allied units on this front.
+            \item Go back to step \ref{battle4} until both players have stopped
+                attacking and defending.
+                \label{battle5}
+            \item Players count their total strength (including possible bonuses).
+                On each front where the attacking player's strength is more than
+                the defending player's (or than the base defense of the territory
+                if the defending player did not defend it himself),
+                the attacking player takes control of his enemy territory.
+            \item \textbf{Post-combat phase:}\\
+                Each player may choose to return some of his units to his World.
+                To do so, he must use as many civilization resources
+                as the sum of those units' costs.
+                The rest of his units are discarded,
+                from top row to bottom row and from left to right within a row.
+            \item \textbf{Unit-destruction phase:}\\
+                Some unit's abilities (see section \ref{abilities}) allow them
+                to \textit{get rid of} participating units during the battle.
+                Units targeted by those abilities \textit{collapse}:
+                they are removed from the battle and put aside
+                into a pile of collapsed units until the unit-destruction phase.\\
+                During this phase, each player's cost-6 collapsed units are discarded,
+                while the rest of their collapsed units are destroyed.
+                They may \textit{rescue} any number of them by using
+                as many civilization resources as the sum of their costs,
+                in which case those units are discarded instead.      
+        \end{enumerate}
 
 \newpage
-\section{Combat}
-
-  \subsection{Attacking a player's fully controlled territory}
-  
-    \hspace{-2em} In the case where there is a single front,
-    against a player-controlled territory:
-    \vspace{-1.3em}
-    \begin{enumerate}
-        \item The attacking player plays a unit card from his hand on the front,
-        hereby launching the attack,
-        \item If he has not stopped defending, \label{attack2}
-        the defending player may either play a unit on this front or stop defending,
-        \item If he has not stopped attacking, \label{attack3}
-        the attacking player may either play a unit on this front or stop attacking,
-        \item Repeat step \ref{attack2} and \ref{attack3} until both player have
-        stopped attacking or defending,
-        \item All players have stopped attacking or defending,
-        and can now trigger their units delayed abilities, \label{attack5}
-        \item On each side, sum the strengths of all units, \label{attack6}
-        The attacking player wins the battle on this front if the total strength
-        of his units is strictly more than that of the defending player's,
-        \item Post-combat phase (see below).
-        \item Unit-destruction phase (see below)
-    \end{enumerate}
-    
-
-  \subsection{Attacking a wild territory of a partially controlled territory}
-    
-    When a wild territory or a partially controlled territory is attacked,
-    \textbf{there is no defending player on that front}.
-    The battle on that front happens exactly as in the previous section,
-    but as if there was a defending player who stopped defending in step 2.
-    
-    When step \ref{attack6} is reached, the battle is won by the attacking player
-    if the total strength of his units is at least equal to the distance
-    of the wild territory to the closest Portal territory.
-    
-
-  \subsection{Attacking multiple territories}
-    
-    The battle on each front is similar to what is described above,
-    but each battle take place in parallel:
-    each step has to be performed on each front before going to the next step.
-    Players can choose the order in which they perform a step on the various fronts.
-    When a player stops attacking or defending on a front, only this front is affected.
-
-
-\newpage
-\subsection{Effects and abilities}
-
-    Cards played during combat don't simply add strength to their side.
-    They also have effects and abilities that greatly impact how the battle unfolds.
-    A distinction must be done between permanent effects and triggered abilities.
+    \subsection{Effects and abilities}
+        \label{abilities}
+        Cards played during combat don't simply add strength to their side.
+        They also have effects and abilities that greatly impact how the battle unfolds.
 
     \begin{description}
-        \item[Permanent effects] \hfill \\
-        	Those are additional rules that apply to a card,
+        \item[Permanent effects] are additional rules that apply to a card,
             like special buying conditions, ways to use it from your hand, 
-            increased force in battle under certain conditions for a unit, etc.
-        \item[Triggered abilities] \hfill \\
-            Units in battle allow their owner to trigger their abilities at
-            specific times, which are events that can have varying effects.
+            increased strength in battle under certain conditions for a unit, etc.
+        \item[Abilities] are actions that the card allows its owner
+            to perform at specific times, which can have varying effects.
             A player can always choose whether to trigger an ability or not.
+            They may be of 4 types:
             
-            Triggered abilities may be of 4 types,
-            depending on when they can be triggered:
             \begin{description}
         	        \item[Immediate abilities]
-                    	may be triggered just after the unit is added to the battle.
+                       may be triggered just after the unit is added to the battle.
         	        \item[Delayed abilities]
-                    may be triggered in step \ref{attack5},
-                     when all players have stopped attacking or defending,
-	                before the actual end of the battle in step \ref{attack6}.
+                       may be triggered at the end of step \ref{battle4} of the battle
+                       when all players have stopped attacking and defending.
         	        \item[Reaction abilities] may be event-based or condition-based.
-	                \begin{description}
-                        \item[Event-based:]
-                        they may be triggered each time a specific event occurs
-                        (example of event: "collapse of this unit").
-                        \item[Condition-based:]
-                        they may be triggered each time the event
-                        "the card is played while the condition is satisfied" or the
-                        event "the condition just became satisfied" occurs.
-                        (example of condition: "no card in your hand").
-                    \end{description}
-        	        \item[Post-combat abilities] may be triggered at the beggining of the
-                    post-combat phase.
+	                    \begin{description}
+                            \item[Event-based reaction abilities]
+                                may be triggered each time a specific event occurs
+                                (example of event: "this unit collapses").
+                            \item[Condition-based reaction abilities]
+                                may be triggered each time the events
+                                "the card is adde to the battle while the condition is satisfied" or
+                                "the condition just became satisfied" occur.
+                                (example of condition: "your hand is empty").
+                        \end{description}
+        	        \item[Post-combat abilities]
+        	            may be triggered at the beginning of the post-combat phase,
+        	            before discarding units or returning them to their World.
             \end{description}
     \end{description}
     
-    If several abilities can be triggered at the same time,
+    Note: if several abilities can be triggered at the same time,
     they don't preempt each other and may be triggered successively instead.
     The order in which they are triggered is decided by the player that triggers them.
     If several players want to trigger an ability at the same time,
-    the attacking player may trigger his first,
-    then the priority goes to the one that plays after him, and so on.
+    the priority goes to the attacking player.
     
-    \hspace{-2em} \textbf{
-    IMPORTANT: An ability of the form "\textbf{If} A\textbf{:} do B" can only be
-    triggered if the condition A is satisfied.
-    }
     
-    \hspace{-2em} \textbf{
-    IMPORTANT: An ability of the form "Do A \textbf{to} do B" can only be triggered
-    if you are able to perform A.
-    }
-    
-
-\newpage
-  \subsection{Post-combat phase and unit-destruction phase}
-    
-    Some units'abilities allow them to \textbf{\textit{get rid of}} a unit.
-    Units targetted by those abilities \textbf{\textit{collapse}},
-    which means they are removed from the battle and put aside into a pile
-    of \textbf{\textit{collapsed units}} until the unit-destruction phase.
-    
-    \textbf{During the post-combat phase,} various abilities may be triggered.
-    Afterwards, all units that have not collapsed are discarded.
-    On each front, the units are discarded in the order they have been played.
-    
-    \textbf{During the unit-destruction phase,} collapsed eternal units
-    (i.e. cost-6 units) are first discarded.
-    Then, each player may choose to \textbf{\textit{rescue}}
-    any number of his collapsed units.
-    To rescue a unit, the player uses as many valuable resources as this unit's cost.
-    Rescued units are discarded while all other collapsed units are destroyed.
-    
-
-\newpage
-  \subsection{Technical terms}
-  
-    \begin{description}
-        \item[Allied territory] \hfill \\
-        A front represents the battle on a frontier between two territories.
-        The \textbf{\textit{allied territory}} is the territory on
-        your side of the frontier.
-        \item[Active front] \hfill \\
-        An \textbf{\textit{active front}} is a front on which there is still a player
-        attacking or defending.
-        \item[Moving a unit] \hfill \\
-        \textbf{\textit{Moving a unit}} is the action of removing a unit from the front
-        where it has been played and adding it to another front without triggering
-        its immediate ability.
-        Units can only be moved to active fronts.
-        \item[Dooming and saving units] \hfill \\
-        Some unit's abilities allow them to \textbf{\textit{doom}} a unit.
-        At that moment, the \textbf{\textit{doomed units}}'s card is turned
-        sideways to the right.
-        All doomed units collapse during the post-combat phase,
-        after all post-combat abilities have been played.
-        Some other unit's abilities allow them to \textbf{\textit{save}} a unit,
-        which means canceling the effects of its dooming and making the unit
-        undoomed again.
-        At that moment, the unit's card is turned back to the left.\\
-        Please note that \textbf{undoomed units cannot be saved},
-        and that \textbf{doomed units cannot be doomed again}.
-        \item[Producing/Using temporary resources on a front] \hfill \\
-        \textbf{\textit{Mana}} is a temporary resource that may be produced
-        and spent during battle.\\
-        \textbf{Producing a temporary resource} is materialized by placing counters
-        besides your units of a front (your \textit{\textbf{reserve}} on this front).\\
-        \textbf{Using a temporary resources} means removing tokens from your reserve on
-        this front.
-        At the end of the post-combat phase, all reserves are emptied.
-        \item[Harvesting resources] \hfill \\
-        \textbf{\textit{Harvesting a territory's resource}} is the action of
-        putting on the allied territory as many new tokens of that type of resource
-        as the harvested territory's production capacity in that resource.
-    \end{description}
-
-
 \newpage
 \section{Frequently Asked Questions}
 
     \hspace{-2em}
-    \textbf{Q:} Do I have to discard my hand at the end of my turn?
+    \textbf{Q:} Some abilities have a formulation like "if X: Y" or "if X: do Z",
+     what does it mean?
     \newline
-    \textbf{A:} No, you don't have to. But you can use your "discard" action to discard
-    any card you don't want to have in your hand before replenishing it.
+    \textbf{A:} It means that the condition X has to be satisfied for effect Y to apply,
+    or to do the action Z.
 
     \hspace{-2em}
-    \textbf{Q:} I just conquered another player's territory, which had resources on it.
-    Can I use those resources ?
+    \textbf{Q:} Some abilities have a formulation like "do X to do Y".
+    What happens if I cannot do X?
     \newline
-    \textbf{A:} You can use your valuable resource and shards, but not other resources.
-
-    \hspace{-2em}
-    \textbf{Q:} Can I attack wild territories during a breakthrough?
-    \newline
-    \textbf{A:} Yes, you can. A breakthrough allows you to attack any territory in contact
-    with the player-controlled territories you conquered, whether those attacked
-    territories belong to the same player or to another player, and even wild territories.
-
-    \hspace{-2em}
-    \textbf{Q:} Can I use cards from my hands between an attack and a breakthrough?
-    \newline
-    \textbf{A:} Yes, you can. A breakthrough is a distinct action from an attack and
-    need not be played in succession.
-
-    \hspace{-2em}
-    \textbf{Q:} Can I discard cards from my hands when I transform my breakthrough into
-    a double breakthrough ?
-    \newline
-    \textbf{A:} No, you can't.
+    \textbf{A:} Doing X is some form of cost you need to pay in order to be able to
+    do Y. If you cannot do X, you cannot to Y either.
 
     \hspace{-2em}
     \textbf{Q:} My "Soldier" unit's immediate ability added another "Soldier"
     unit to the front. Can I trigger that unit's immediate ability?
     \newline
-    \textbf{A:} Yes, you can.
+    \textbf{A:} That unit was just added to the battle, so yes. You can.
+
+    \hspace{-2em}
+    \textbf{Q:} My "Digging Machine" unit's immediate ability says I can harvest
+    neighbouring territories' ore. Does it mean that I get fewer resources when
+    I play it from a territory on the edge of the map?
+    \newline
+    \textbf{A:} No. When looking at neighbouring territories,
+    everything happens as if there were black tiles beyond the edges of the map.
 
     \hspace{-2em}
     \textbf{Q:} My "Rocket Roll" unit's immediate ability says I can destroy a card
-    in my discard pile to purchase a unit and add it to my hand.
-    Do I have to pay for this unit?
+    in my discard pile to get the right to immediately purchase a unit
+    and add it to my hand. Do I have to pay for this unit?
     \newline
     \textbf{A:} Yes. You need to both discard Energy Crystal cards from your hand
     and remove resource tokens from your territories to pay that unit card's cost.
@@ -636,35 +585,185 @@
     \textbf{Q:} My "Charge Leader" unit's reaction ability added another
     "Charge Leader" unit to the front. Can I trigger that unit's reaction ability?
     \newline
-    \textbf{A:} Yes, you can.
+    \textbf{A:} Your other "Charge Leader" unit is added to the battle
+    while your hand is empty, so yes. You can.
     
     \hspace{-2em}
-    \textbf{Q:} My "Shaman" unit has several immediate abilities. Can I choose the order
-    in which I trigger them ?
+    \textbf{Q:} My "Shaman" unit has several immediate abilities.
+    Can I choose the order in which I trigger them ?
     \newline
     \textbf{A:} Yes, you can.
     
     \hspace{-2em}
-    \textbf{Q:} My "Shaman" unit's immediate ability says it affects my unit "for the
-    rest of the battle". What happens if the "Shaman" unit collapses?
+    \textbf{Q:} My "Shaman" unit's immediate ability says it affects my unit
+    "for the rest of the battle". What happens if the "Shaman" unit collapses?
     \newline
-    \textbf{A:} The "Shaman" unit's effect on your units stays effective until
+    \textbf{A:} The "Shaman" unit's effect stays in effect until
     the end of the battle, whether the Shaman remains in battle or not.
     
+    
 \newpage
-    \hspace{-2em}
-    \textbf{Q:} My "Warlord" unit's post-combat ability says that I can save it.
-    Doesn't that mean that it can't be destroyed?
-    \newline
-    \textbf{A:} No, it doesn't. This ability means that you can remove its doomed status
-    if it was doomed during battle.
-    It does not mean that you can automatically rescue it after it collapses.
-    Please also note that post-combat abilities are triggered abilities and can only
-    be triggered when the unit is still in battle.
-    
-    
-    
-
+\section{Glossary}
+  
+    \begin{description}
+        \item[Active Front] \hfill \\
+            A \textit{front} is said to be \textbf{\textit{active}} if there is still a player
+            who has not stopped attacking or defending.
+            
+        \item[Allied Territory] \hfill \\
+            On a given \textit{front}, a player's \textbf{\textit{allied territory}}
+            is the territory on his side of the frontier.
+            
+        \item[Allied Units] \hfill \\
+            A player's \textbf{\textit{allied units}} are the units he played on his side
+            of the \textit{fronts}.
+            
+        \item[Base Defense] \hfill \\
+            See section {base-defense}.
+            
+        \item[Collapse] \hfill \\
+            When a unit \textbf{\textit{collapses}},
+            it is removed from the battle and added to its player's collapsed unit pile,
+            where it stays until the unit-destruction phase.
+            
+        \item[Civilization Resource] \hfill \\
+            A player's \textbf{\textit{civilization resource}} is the type of resource
+            on which his civilization is based, and which that player needs to purchase
+            units from his \textit{World}.
+            
+        \item[Enemy Territory] \hfill \\
+            On a given \textit{front}, a player's \textbf{\textit{enemy territory}}
+            is the territory on the other side of the frontier.
+            
+        \item[Enemy Units] \hfill \\
+            A player's \textbf{\textit{enemy units}} are the units played on the other side
+            of the \textit{fronts} by opposing players.
+            
+        \item[Front] \hfill \\
+            A \textbf{\textit{front}} is a battle taking place at a given frontier.
+            Both attacking and defending players play units on their side of the front.
+            
+        \item[Full Control] \hfill \\
+            A player is said to have \textbf{\textit{full control}} over his portal territory
+            if his portal has not be destroyed.
+            Any territory under that player's control which is in contact with
+            a territory that the player fully controls is under his full control as well.
+            
+        \item[Destroy] \hfill \\
+            \textbf{\textit{Destroying a card}} is the action of putting a card back
+            where it comes from: in the player's World for unit cards and
+            in the corresponding pile for common cards.
+            
+        \item[Doom] \hfill \\
+            A \textbf{\textit{doomed unit}} \textit{collapses} during the post-combat
+            phase, just before discarding the participating units.
+            Dooming a unit is materialized by turning that unit's card
+            sideways to the right.
+            Doomed units cannot be doomed again.
+            
+        \item[Energy Count] \hfill \\
+            See section \ref{prod}.
+            
+        \item[Get Rid Of] \hfill \\
+            \textbf{\textit{Getting rid of a unit}} means making that unit
+            \textit{collapse}.
+            
+        \item[Harvest] \hfill \\
+            \textbf{\textit{Harvesting a territory's resource}} is the action of
+            placing as many resources of that type on the \textit{allied territory}
+            as the harvested territory's \textit{production capability} in that resource.
+            
+        \item[Mana] \hfill \\
+            A \textbf{\textit{mana}} is a type of \textit{temporary resource}.
+            
+        \item[Move] \hfill \\
+            \textbf{\textit{Moving a unit}} means to remove that unit from its
+            \textit{row} and place it somewhere else.
+            By default, moving a unit to a \textit{front} places it
+            under the bottom \textit{row} of that \textit{front}
+            (thus creating a new row).
+            If the moved unit keeps the \textit{status} it had before being moved.
+            Moving a unit does not count as adding a new unit to the battle.
+            
+        \item[Neighbouring Territories] \hfill \\
+            A territory's \textbf{\textit{neighbouring territories}} are the 6 territories
+            with which it shares a frontier.
+            If some of the territory's frontiers are on the edge of the map,
+            everything happens as if there were black tiles
+            on the other side of those frontiers.
+            
+        \item[Partial Control] \hfill \\
+            A \textbf{\textit{partially controlled territory}} is territory controlled
+            by a player, but not \textit{fully controlled} by that player.
+            
+        \item[Production capability] \hfill \\
+            The \textbf{\textit{production capability}} of a territory in one type
+            of resource measures the richness of this territory in that resource.
+            Ordinary territories have a production capability of 2 in the type of resource
+            in which they are rich (\textit{i.e.} the resource of their tile color,
+            and none for black tiles), and 1 in all other types of resources.
+            The Heart of Eden has a production capability of 2 in every type
+            of resource.
+            Portal territories have a production capability of 1 in every type of resource,
+            but it becomes 2 in their owner's \textit{civilization resource}
+            if the portals on them are still standing.
+            
+        \item[Purchase] \hfill \\
+            See sections \ref{how-to-purchase} and \ref{purchase}.
+            
+        \item[Reconfigure] \hfill \\
+            \textbf{\textit{Reconfiguring a unit}} is the action of replacing a unit
+            on its row by a combination of units (possibly only one unit)
+            of the same cost from its player's World.
+            Those units have the same \textit{status} as the reconfigured unit,
+            and their immediate abilities cannot be triggered.
+            
+        \item[Replenish] \hfill \\
+            \textbf{\textit{Replenishing one's hand}} is the action of drawing
+            cards from the top of one's deck until having up to 5 cards in one's hand.
+            
+        \item[Rescue] \hfill \\
+            \textbf{\textit{Rescuing a unit}} is the action of using resources
+            during the unit-destruction phase to discard a unit in the collasped unit
+            pile instead of \textit{destroying} it.
+            
+        \item[Restore] \hfill \\
+            \textbf{\textit{Restoring a unit}} is the action of removing
+            its \textit{doomed} status, which is materialized by turning
+            that unit's card back to the left.
+            Undoomed units cannot be restored.
+            
+        \item[Row] \hfill \\
+            A player's units are added to a \textit{front} one under the other,
+            and are therefore placed in \textbf{\textit{rows}}.
+            Some abilities allow units to be placed on the same row or
+            take advantage of the units placement.
+            If a row becomes empty, it disappears and the units in the rows
+            above and below are now in successive rows.
+            
+        \item[Status] \hfill \\
+            The \textbf{\textit{status}} of a unit is everything that affects how
+            that unit behaves, except for its placement.
+            It includes things like "having triggered an ability" and "being doomed".
+            
+        \item[Temporary Resources] \hfill \\
+            \textbf{\textit{Temporary resources}} are resources which do not appear
+            on the map, but can be produced and used during battle.
+            Temporary resources produced on a given \textit{front} can only be
+            used on this \textit{front}.
+            Counter tokens are used to materialize how many are available on each front,
+            and those remaining at the end of the battle are lost.
+            
+        \item[Using Energy Crystals] \hfill \\
+            See section \ref{how-to-purchase}.
+            
+        \item[Using Resources] \hfill \\
+            See section \ref{how-to-purchase}.
+            
+        \item[Wild Territory] \hfill \\
+            A \textbf{\textit{wild territory}} is a territory
+            which is not under any player's control.
+    \end{description}
 
 
 \end{document}
