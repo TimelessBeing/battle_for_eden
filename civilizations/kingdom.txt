@@ -40,6 +40,6 @@ Knight (Strength: 2)
 
 Immortal Unit (cost 6):
 
-General (Strength: 1)
+General (Strength: 2)
     Immediate: Reveal the top 3 cards of your deck. You may draw up to 2 non-General units of strength 1 into your hand. Discard any number of remaining cards and put the rest back on top of your deck in any order. If you drew 2 cards, add a unit from your hand to the battle on this front.
 

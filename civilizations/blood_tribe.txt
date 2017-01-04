@@ -17,7 +17,7 @@ Berserker (Strength: 2)
 Main Units (cost 3):
 
 Tribe Elder (Strength: 3)
-    Immediate: Restore an allied unit on this front to destroy a card from your hand.
+    Immediate: Restore an allied unit on this front to destroy a card from your hand. This ability cannot be used to restore a unit without destroying a card.
 
 Blood Alchemist (Strength: 3)
     Immediate: Doom an allied unit on this front to draw a card then either discard a card from your hand or doom an additional allied unit on this front.

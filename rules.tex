@@ -307,8 +307,14 @@
                 token on them.
         \end{itemize}
         
-        The players then place those resources on their territory tiles in any way
-        they want.
+        The players may then place those resources on their territory tiles
+        (possibly including the Heart of Eden tile or their Portal tile)
+        in any way they want.
+        
+        Note: Production normally happens simultaneously for all players.
+        Should conflict arise as to who does what first,
+        consider that everything happens as if the players went through
+        the production phase one after the other, starting with the first player.
 
 \newpage
     \subsection{Expansion phase}
@@ -333,22 +339,21 @@
                 If a battle against another player occurred,
                 that player may replenish his hand as well.
             \item If he won a battle against another player:
-                he draws the cards that he had set aside into his hand,
-                then sets aside as many.
-            \item If he won a battle against another player:
                 he may choose to return to step \ref{expand1},
                 with slightly altered steps:
                 \vspace{-0.5em}
                 \begin{itemize}
                     \item steps \ref{expand1} and \ref{expand3}:
-                        the player can discard cards but not set them aside.
+                        the player can discard cards but not set aside new cards;
+                        instead he can exchange any number of his set-aside cards
+                        with cards from his hand.
                     \item step \ref{expand2}:
                         attacking the same player twice during the same turn
                         is only allowed from newly conquered territories,
-                        and does not give the right use step \ref{expand6} again
+                        and does not give the right use step \ref{expand5} again
                         if the defending player's portal is still standing.
                 \end{itemize}
-                \label{expand6}
+                \label{expand5}
             \item He can choose to destroy his own portal.
                 If he makes this choice, the portal is effectively destroyed
                 during the next expansion phase, at the beginning of his turn.
@@ -375,6 +380,11 @@
         hands, then discard as many.        
         This phase ends with the first player giving the first player token
         to the next player.
+        
+        Note: All players normally purchase cards simultaneously.
+        Should conflict arise as to who does what first,
+        consider that everything happens as if the players went through
+        the purchasing phase one after the other, starting with the first player.
 
 
 \newpage
@@ -546,6 +556,26 @@
 \section{Frequently Asked Questions}
 
     \hspace{-2em}
+    \textbf{Q:} At the end of the first turn, since I put some cards aside,
+    I don't have enough cards in my deck to replenish my hand to 5 cards.
+    Is that normal?
+    \newline
+    \textbf{A:} Yes, it is.
+
+    \hspace{-2em}
+    \textbf{Q:} I replenished my hand to less than 5 cards, but after the purchasing
+    phase I now have cards in my discard pile. Can I replenish my hand to 5 cards.
+    \newline
+    \textbf{A:} No, you cannot.
+
+    \hspace{-2em}
+    \textbf{Q:} The opponent just won the battle and took my territory.
+    Can I use the resources on it during the post-combat phase
+    or unit-destruction phase.
+    \newline
+    \textbf{A:} No, you cannot. The territory shifts controllers before those phases.
+
+    \hspace{-2em}
     \textbf{Q:} Some abilities have a formulation like "if X: Y" or "if X: do Z",
      what does it mean?
     \newline
@@ -621,33 +651,15 @@
         \item[Base Defense] \hfill \\
             See section {base-defense}.
             
-        \item[Collapse] \hfill \\
-            When a unit \textbf{\textit{collapses}},
-            it is removed from the battle and added to its player's collapsed unit pile,
-            where it stays until the unit-destruction phase.
-            
         \item[Civilization Resource] \hfill \\
             A player's \textbf{\textit{civilization resource}} is the type of resource
             on which his civilization is based, and which that player needs to purchase
             units from his \textit{World}.
             
-        \item[Enemy Territory] \hfill \\
-            On a given \textit{front}, a player's \textbf{\textit{enemy territory}}
-            is the territory on the other side of the frontier.
-            
-        \item[Enemy Units] \hfill \\
-            A player's \textbf{\textit{enemy units}} are the units played on the other side
-            of the \textit{fronts} by opposing players.
-            
-        \item[Front] \hfill \\
-            A \textbf{\textit{front}} is a battle taking place at a given frontier.
-            Both attacking and defending players play units on their side of the front.
-            
-        \item[Full Control] \hfill \\
-            A player is said to have \textbf{\textit{full control}} over his portal territory
-            if his portal has not be destroyed.
-            Any territory under that player's control which is in contact with
-            a territory that the player fully controls is under his full control as well.
+        \item[Collapse] \hfill \\
+            When a unit \textbf{\textit{collapses}},
+            it is removed from the battle and added to its player's collapsed unit pile,
+            where it stays until the unit-destruction phase.
             
         \item[Destroy] \hfill \\
             \textbf{\textit{Destroying a card}} is the action of putting a card back
@@ -661,8 +673,26 @@
             sideways to the right.
             Doomed units cannot be doomed again.
             
+        \item[Enemy Territory] \hfill \\
+            On a given \textit{front}, a player's \textbf{\textit{enemy territory}}
+            is the territory on the other side of the frontier.
+            
+        \item[Enemy Units] \hfill \\
+            A player's \textbf{\textit{enemy units}} are the units played on the other side
+            of the \textit{fronts} by opposing players.
+            
         \item[Energy Count] \hfill \\
             See section \ref{prod}.
+            
+        \item[Front] \hfill \\
+            A \textbf{\textit{front}} is a battle taking place at a given frontier.
+            Both attacking and defending players play units on their side of the front.
+            
+        \item[Full Control] \hfill \\
+            A player is said to have \textbf{\textit{full control}} over his portal territory
+            if his portal has not be destroyed.
+            Any territory under that player's control which is in contact with
+            a territory that the player fully controls is under his full control as well.
             
         \item[Get Rid Of] \hfill \\
             \textbf{\textit{Getting rid of a unit}} means making that unit
