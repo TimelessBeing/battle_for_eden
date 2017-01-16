@@ -11,7 +11,7 @@ Huge Energy Crystal (cost: 8)
 
 
 Setback (cost: 1)
-    Permanent: You can only purchase this card once per turn. It is then put in the discard pile of a player who has more frontiers with other players than you.
+    Permanent: You can only purchase this card once per turn. At that time, you may either place it in the discard pile of a player with whom you share a frontier, or destroy it to destroy a Setback card in your own discard pile.
     Permanent: You may discard this card from your hand after adding a unit to a battle.
     Permanent: You may destroy this card from your hand at any time during your turn. This card cannot be destroyed in any other way.
 
