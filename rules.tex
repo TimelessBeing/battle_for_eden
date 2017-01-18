@@ -322,44 +322,45 @@
         Starting with the first player (the one who has the first player token),
         players take turn expanding their territories.
         
-        A player's turn goes like this, in this order:
-        \vspace{-1.3em}
-        \begin{enumerate}
-            \item He discards and/or sets aside any number of cards from his hand,
-                \label{expand1}
-            \item He may start battles on up to 2 frontiers of his territory
-                (see section \ref{battle-rules}),
-                either against \textit{wild territories}
-                ---~which are territories that no player control~---
-                or against ones controlled by the same player.
-                \label{expand2}
-            \item He discards and/or sets aside any number of cards from his hand.
-                \label{expand3}
-            \item He replenishes his hand.
-                If a battle against another player occurred,
-                that player may replenish his hand as well.
-            \item If he won a battle against another player:
-                he may choose to return to step \ref{expand1},
-                with slightly altered steps:
-                \vspace{-0.5em}
-                \begin{itemize}
-                    \item steps \ref{expand1} and \ref{expand3}:
-                        the player can discard cards but not set aside new cards;
-                        instead he can exchange any number of his set-aside cards
-                        with cards from his hand.
-                    \item step \ref{expand2}:
-                        attacking the same player twice during the same turn
-                        is only allowed from newly conquered territories,
-                        and does not give the right use step \ref{expand5} again
-                        if the defending player's portal is still standing.
-                \end{itemize}
-                \label{expand5}
-            \item He can choose to destroy his own portal.
-                If he makes this choice, the portal is effectively destroyed
-                during the next expansion phase, at the beginning of his turn.
-                At that time, all resources and energy counters on the portal tile
-                are destroyed with it.
-        \end{enumerate}        
+        During his turn, a player may attack either \textit{wild territories}
+        ---~which are territories that no player control~---
+        or territories controlled by any given player.
+        An attack is launched by starting battles on up to 2 frontiers of his territories,
+        which enfold as described in section \ref{battle-rules},
+        and ends with both players replenishing their hands.
+        
+        Taking territories from a given opponent for the first time in the player's turn
+        allows him to perform an additional attack,
+        also against either wild territories or territories controlled by any given player.
+        For each battle started during an additional attack,
+        the attacking player must use as many resources as the attacked
+        territory's distance to the player's portal territory,
+        using any combination of civilization resource and shards.
+        This means that as long as the player keeps winning and has enough resources,
+        he can for example attack each player with whom he shares a frontier,
+        then attack one of them a second time or attack a wild territory.
+        
+        Before and after the first attack,
+        the attacking player can choose to set aside
+        any number of cards from his hand.
+        Before and after each additional attack,
+        the attacking player can choose to exchange any number of cards
+        from his hand with the cards he set aside.
+        Setting aside cards helps players managing their hand
+        and is needed to purchase new units from their world
+        (see section \ref{how-to-purchase}).
+        
+        Before and after each attack,
+        the attacking player can also choose to discard any number of cards
+        from his hand
+        (note: players do not replenish their hands at the end of their turn,
+        so use this opportunity wisely).
+        
+        During his turn, the player can choose to destroy his own portal.
+        If he makes this choice, the portal is effectively destroyed
+        during the next expansion phase, at the beginning of his turn.
+        At that time, all resources and energy counters on the portal tile
+        are destroyed with it. 
         
     
     \subsection{Purchasing phase}
@@ -567,6 +568,12 @@
     phase I now have cards in my discard pile. Can I replenish my hand to 5 cards.
     \newline
     \textbf{A:} No, you cannot.
+
+    \hspace{-2em}
+    \textbf{Q:} Can I choose no to attack any territory during my turn of the
+    expansion phase?
+    \newline
+    \textbf{A:} Yes, you can.
 
     \hspace{-2em}
     \textbf{Q:} The opponent just won the battle and took my territory.
