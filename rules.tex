@@ -298,13 +298,15 @@
         while all other players add 1 to theirs.
     
         Following the pulse, ordinary territories produce resources.
-        Every player gets either one crystal shard or one of their civilization resource:
+        Every player gets a combination of their choice of crystal shards
+        and their civilization resource:
         \vspace{-1.3em}
         \begin{itemize}
-            \item for each ordinary territory they control,
-            \item for each of those territories rich in their civilization resource,
-            \item for each ordinary territory they control with a crystal shard richness
-                token on them.
+            \item 1 resource for each ordinary territory they control,
+            \item 1 additional resource for each of those territories
+                rich in their civilization resource,
+            \item 1 additional resource for each ordinary territory they control
+                with a crystal shard richness token on them.
         \end{itemize}
         
         The players may then place those resources on their territory tiles
@@ -322,41 +324,44 @@
         Starting with the first player (the one who has the first player token),
         players take turn expanding their territories.
         
-        During his turn, a player may attack either \textit{wild territories}
+        A player's turn is a succession of attack subphases.
+        During his first attack subphase, the player may start battles on up to 2 frontiers
+        of his territories (possibly 0), either against \textit{wild territories}
         ---~which are territories that no player control~---
-        or territories controlled by any given player.
-        An attack is launched by starting battles on up to 2 frontiers of his territories,
-        which enfold as described in section \ref{battle-rules},
-        and ends with both players replenishing their hands.
+        or against territories controlled by any given player.
+        Those battle enfold as described in section \ref{battle-rules}.        
         
         Taking territories from a given opponent for the first time in the player's turn
-        allows him to perform an additional attack,
-        also against either wild territories or territories controlled by any given player.
-        For each battle started during an additional attack,
+        earns him an additional attack subphase after the current one,
+        allowing him to start battles against either wild territories or territories
+        controlled by any given player, etc.
+        For each battle started during an additional attack subphase,
         the attacking player must use as many resources as the attacked
         territory's distance to the player's portal territory,
-        using any combination of civilization resource and shards.
+        using any combination of their civilization resource and crystal shards.
         This means that as long as the player keeps winning and has enough resources,
         he can for example attack each player with whom he shares a frontier,
         then attack one of them a second time or attack a wild territory.
         
-        Before and after the first attack,
-        the attacking player can choose to set aside
-        any number of cards from his hand.
-        Before and after each additional attack,
-        the attacking player can choose to exchange any number of cards
-        from his hand with the cards he set aside.
+        At the beginning and end of the first attack subphase,
+        the player can choose to discard any number of cards from his hand
+        and/or to set some aside.        
         Setting aside cards helps players managing their hand
         and is needed to purchase new units from their world
         (see section \ref{how-to-purchase}).
+        The first attack subphase concludes with both the player and his opponent
+        (if any) replenishing their hands.
         
-        Before and after each attack,
-        the attacking player can also choose to discard any number of cards
-        from his hand
-        (note: players do not replenish their hands at the end of their turn,
-        so use this opportunity wisely).
+        At the beginning and end of each additional attack subphase,
+        the player can choose to discard any number of cards from his hand
+        and/or to exchange some with his set-aside cards.
+        If there was a battle, and only if there was a battle,
+        the subphase concludes with both the player and his opponent (if any)
+        replenishing their hands (which means that the player cannot discard cards from
+        his hand and replenish it without starting battles).
         
-        During his turn, the player can choose to destroy his own portal.
+        During his turn, another choice available to the player
+        is to destroy his own portal.
         If he makes this choice, the portal is effectively destroyed
         during the next expansion phase, at the beginning of his turn.
         At that time, all resources and energy counters on the portal tile
