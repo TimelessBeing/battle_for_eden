@@ -2,15 +2,15 @@ Energy Shield (cost: 1)
     Permanent: When you purchase this card, place it visible in front of you. Whenever one of your units should be discarded or collapse due to your opponent in battle, you may choose to destroy this card instead. If you do, the opponent cannot discard or get rid of this unit until the end of the battle.
 
 
-Obliteration (cost: 3)
-    Permanent: When you purchase this card, place it visible in front of you. You may choose to destroy it after adding a unit to a front to get rid of up to 5 enemy units on that front.
+Temporary Rift (cost: 3)
+    Permanent: When you purchase this card, place it visible in front of you. You may choose to destroy it at any time during your turn to add units from your World with a total cost of 6 or less into your hand.
 
 
-Technological Breakthrough (cost: 5)
+Improved Portal (cost: 5)
     Permanent: When you purchase this card, place it visible in front of you. Until the end of the game, you may now draw 1 more card when replenishing your hand.
 
 
-Strength Without Equal (cost: 10)
+Unmatched Power (cost: 10)
     Permanent: When you purchase this card, place it visible in front of you. You may choose to destroy it at any time during your turn. If you do, you win the game at the beginning of your next turn.
 
 
