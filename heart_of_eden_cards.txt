@@ -3,7 +3,7 @@ Energy Shield (cost: 1)
 
 
 Obliteration (cost: 3)
-    Permanent: When you purchase this card, place it visible in front of you. Whenever you add a unit to a front, you may choose to destroy this card to get rid of all enemy units on that front.
+    Permanent: When you purchase this card, place it visible in front of you. You may choose to destroy it after adding a unit to a front to get rid of up to 5 enemy units on that front.
 
 
 Technological Breakthrough (cost: 5)
