@@ -1,16 +1,20 @@
 Energy Shield (cost: 1)
-    Permanent: When you purchase this card, place it visible in front of you. Whenever one of your units should be discarded or collapse due to your opponent in battle, you may choose to destroy this card instead. If you do, the opponent cannot discard or get rid of this unit until the end of the battle.
+    Permanent: When you purchase this card, place it visible in front of you.
+    Permanent: Whenever one of your units should be discarded or collapse due to your opponent in battle, you may choose to destroy this card instead. If you do, the opponent cannot discard or get rid of this unit until the end of the battle.
 
 
 Temporary Rift (cost: 3)
-    Permanent: When you purchase this card, place it visible in front of you. You may choose to destroy it at any time during your turn to draw any number of units from your World into your hand, for a total cost of 6 or less.
+    Permanent: When you purchase this card, place it visible in front of you.
+    Permanent: You may choose to destroy this card at any time during your turn to draw any number of units from your World into your hand, for a total cost of 6 or less.
 
 
 Improved Portal (cost: 5)
-    Permanent: When you purchase this card, place it visible in front of you. Until the end of the game, you may now draw 1 more card when replenishing your hand.
+    Permanent: When you purchase this card, place it visible in front of you.
+    Permanent: Until the end of the game, you may draw 1 more card when replenishing your hand.
 
 
 Unmatched Power (cost: 10)
-    Permanent: When you purchase this card, place it visible in front of you. You may choose to destroy it at any time during your turn. If you do, you win the game at the beginning of your next turn.
+    Permanent: When you purchase this card, place it visible in front of you.
+    Permanent: You may choose to destroy this card at any time during your turn. If you do, you win the game at the beginning of your next turn.
 
 

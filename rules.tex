@@ -137,16 +137,18 @@
                 make most of the map.
                 Their color determine a type of resources in which they are rich
                 (with black meaning none).
-                Controlling an ordinary territory brings a player 1 resource every turn
-                (see section \ref{prod}), and 2 if the territory is rich
+                Controlling an ordinary territory brings a player 1 resource at every
+                production phase (see section \ref{prod}), and 2 if the territory is rich
                 in that player's civilization resource.
                 Ordinary territories tile may have a token on them symbolizing richness
                 in crystal shards, in which case they bring an additional resource
                 each turn to their controller.
             
             \item \textbf{The Heart of Eden} is a mysterious mountain located near
-                the center of the map (see section \ref{prod}).
-                It is a special territory of great strategical importance.
+                the center of the map (see \ref{map-tiles}).
+                Controlling the Heart of Eden allows a player to extract
+                pure energy at every production phase (see section \ref{prod}),
+                which can be spent to purchase extremely powerful cards.
             
             \item \textbf{Portal territories} are what connects the various worlds
                 to Eden.
@@ -170,6 +172,7 @@
         a crystal shard richness token on them.
       
     \subsection{Place tiles on the map}
+        \label{map-tiles}
         Place the Heart of Eden tile at the center of the table as the first
         territory on the map.
         Starting with the first player, players take turn adding tiles to the map.
@@ -259,12 +262,19 @@
         Purchasing a card is done in two steps:
         \vspace{-1.3em}
         \begin{itemize}
-            \item first, the player pays the cost of the card by using Energy Crystals
-                and/or resources of the right type
+            \item first, the player pays the cost of the card by using pure energy,
+                Energy Crystals and/or resources of the right type
                 (note: the multi-color cube symbol corresponds to resources
                 which can be of any type, but must all be of the same type):
                 \vspace{-0.5em}
                 \begin{itemize}
+                    \item \textit{using N pure energy} means to decrease one's
+                    \textit{pure energy count} by N.
+                    All players start with a pure energy count equal to 0,
+                    which increases when they extract pure energy from the Heart of Eden
+                    (see section \ref{prod}).
+                    They keep track of their pure energy count using counter
+                    tokens placed on their portal territory,
                     \item \textit{using N Energy Crystals} means to discard Energy Crystal
                         cards whose total value is at least N,
                         usually from cards which have been previously set aside
@@ -273,6 +283,9 @@
                         they are discarded from the player's hand,
                     \item \textit{using N resources} means to remove N resources
                         from one's territories,
+                    \item a player may use 1 pure energy as if it were 5 crystal shards
+                    (but it does not work the other way around: shards cannot be used
+                    as pure energy).
                 \end{itemize}
             \item then the player puts the purchased card in his discard pile.
         \end{itemize}
@@ -291,14 +304,10 @@
     \subsection{Production phase: the pulse}
         \label{prod}
         The Heart of Eden pulses energy throughout Eden,
-        slowly building up energy that can be harvested by the various civilizations.
-        Using counter tokens placed on their portal territory tiles,
-        each player keeps track of how much energy his civilization could harvest.      
-        The controller of the Heart of Eden (if there is one) adds 3 to his energy count,
-        while all other players add 1 to theirs.
-    
-        Following the pulse, ordinary territories produce resources.
-        Every player gets a combination of their choice of crystal shards
+        making the land rich in resources.
+        
+        Ordinary territories produce resources:
+        every player gets a combination of their choice of crystal shards
         and their civilization resource:
         \vspace{-1.3em}
         \begin{itemize}
@@ -312,6 +321,10 @@
         The players may then place those resources on their territory tiles
         (possibly including the Heart of Eden tile or their Portal tile)
         in any way they want.
+        
+        The player who controls the Heart of Eden extracts pure energy from it:
+        he increases his \textit{pure energy count} by 1
+        (see section \ref{how-to-purchase}).
         
         Note: Production normally happens simultaneously for all players.
         Should conflict arise as to who does what first,
@@ -364,8 +377,8 @@
         is to destroy his own portal.
         If he makes this choice, the portal is effectively destroyed
         during the next expansion phase, at the beginning of his turn.
-        At that time, all resources and energy counters on the portal tile
-        are destroyed with it. 
+        At that time, all resources on it are removed from the tile,
+        and the player's pure energy count becomes 0. 
         
     
     \subsection{Purchasing phase}
@@ -375,12 +388,9 @@
         sustain more troops, accommodate reinforcements,
         and think of ways to get an edge over their enemies.
         
-        Every player can use the resources on their territories and Energy Crystal cards
-        that they had set aside to purchase common cards and units from their worlds
+        Every player can use their pure energy, their resources
+        and the Energy Crystal cards that they had set aside to make purchases
         (see section \ref{how-to-purchase} for the details on how to purchase cards).
-        If a player controls the Heart of Eden, he may use the energy as resources
-        of any combination of types (decrease the energy count by the number
-        of used resources).
         
         After the purchases, the players draw all remaining set-aside cards into their
         hands, then discard as many.        
@@ -440,10 +450,9 @@
         When a player takes control of another player's portal territory,
         he destroys that player's portal (by flipping the tile),
         hereby eliminating that player from the game.
-        The portal's energy count stay on it,
-        but it doesn't increase during the pulse anymore.
-        If the player that now controls the portal also controls the Heart of Eden,
-        he can use its energy during purchasing phases.
+        The resources that were on it stay on it,
+        as well as the counters representing the player's pure energy count.
+        They can now be used by the player controlling the portal territory.
         
         Even though the player has been eliminated,
         his territories are still considered under his partial control
@@ -488,12 +497,13 @@
                 from his hand under the bottom row of his allied units on this front.
             \item Go back to step \ref{battle4} until both players have stopped
                 attacking and defending.
-                \label{battle5}
+                \label{battle6}
             \item Players count their total strength (including possible bonuses).
                 On each front where the attacking player's strength is more than
                 the defending player's (or than the base defense of the territory
                 if the defending player did not defend it himself),
                 the attacking player takes control of his enemy territory.
+                \label{battle7}
             \item \textbf{Post-combat phase:}\\
                 Each player may choose to return some of his units to his World.
                 To do so, he must use as many civilization resources
@@ -532,8 +542,9 @@
         	        \item[Immediate abilities]
                        may be triggered just after the unit is added to the battle.
         	        \item[Delayed abilities]
-                       may be triggered at the end of step \ref{battle4} of the battle
-                       when all players have stopped attacking and defending.
+                       may be triggered between steps \ref{battle6} and \ref{battle7}
+                       of the battle, that is to say when all players have stopped
+                       attacking and defending but before counting their total strength.
         	        \item[Reaction abilities] may be event-based or condition-based.
 	                    \begin{description}
                             \item[Event-based reaction abilities]
@@ -562,86 +573,97 @@
 \section{Frequently Asked Questions}
 
     \hspace{-2em}
-    \textbf{Q:} At the end of the first turn, since I put some cards aside,
-    I don't have enough cards in my deck to replenish my hand to 5 cards.
+    \textbf{Q:} I put some cards aside during my first turn (of the expansion phase),
+    and now I don't have enough cards in my deck to replenish my hand to 5 cards.
     Is that normal?
     \newline
     \textbf{A:} Yes, it is.
 
     \hspace{-2em}
-    \textbf{Q:} I replenished my hand to less than 5 cards, but after the purchasing
-    phase I now have cards in my discard pile. Can I replenish my hand to 5 cards.
+    \textbf{Q:} I replenished my hand to less than 5 cards at the end of my turn,
+    but after the purchasing phase I now have cards in my discard pile.
+    Can I replenish my hand to 5 cards?
     \newline
-    \textbf{A:} No, you cannot.
+    \textbf{A:} No, you can't.
 
     \hspace{-2em}
-    \textbf{Q:} Can I choose no to attack any territory during my turn of the
-    expansion phase?
+    \textbf{Q:} Can I choose not to attack any territory during my turn?
     \newline
     \textbf{A:} Yes, you can.
 
     \hspace{-2em}
     \textbf{Q:} The opponent just won the battle and took my territory.
     Can I use the resources on it during the post-combat phase
-    or unit-destruction phase.
+    or unit-destruction phase, before the territory becomes his?
     \newline
-    \textbf{A:} No, you cannot. The territory shifts controllers before those phases.
+    \textbf{A:} No, you can't. The territory shifts controllers before just
+    before the post-combat phase.
 
     \hspace{-2em}
-    \textbf{Q:} Some abilities have a formulation like "if X: Y" or "if X: do Z",
+    \textbf{Q:} Some abilities have things like "if X: Y" or "if X: do Z" in them,
      what does it mean?
     \newline
     \textbf{A:} It means that the condition X has to be satisfied for effect Y to apply,
-    or to do the action Z.
+    or to perform action Z.
 
     \hspace{-2em}
-    \textbf{Q:} Some abilities have a formulation like "do X to do Y".
-    What happens if I cannot do X?
+    \textbf{Q:} Some abilities have things like "do X to do Y" in them,
+    what happens if I can't do X?
     \newline
     \textbf{A:} Doing X is some form of cost you need to pay in order to be able to
-    do Y. If you cannot do X, you cannot to Y either.
+    do Y. If you don't do X, you're not allowed to do Y either.
 
     \hspace{-2em}
-    \textbf{Q:} My "Soldier" unit's immediate ability added another "Soldier"
-    unit to the front. Can I trigger that unit's immediate ability?
+    \textbf{Q:} My "Infantry Squad" unit's immediate ability makes me reveal
+    the top 2 cards of my deck, but after discarding/playing the first card,
+    I can't do anything with the second one. Is that normal?
     \newline
-    \textbf{A:} That unit was just added to the battle, so yes. You can.
+    \textbf{A:} Yes, it is. It is meant to give you some information on what's
+    on top of your deck. If you don't discard/play the first card,
+    this also allows you to change the order of those cards when you place them back
+    on top of your deck.
+
+    \hspace{-2em}
+    \textbf{Q:} My "Infantry Squad" unit's immediate ability added
+    a "Captain" unit to the front. Can I trigger that unit's immediate ability?
+    \newline
+    \textbf{A:} Yes, you can. That unit was just added to the battle,
+    which is when immediate abilities can be triggered.
+    In similar cases, other kinds of abilities can be triggered
+    (for example when a "Charge Leader" unit is added to the front when your
+    hand is empty, or when a "Skeleton" unit is added to the front
+    between steps \ref{battle6} and \ref{battle7} of the battle).
 
     \hspace{-2em}
     \textbf{Q:} My "Digging Machine" unit's immediate ability says I can harvest
     neighbouring territories' ore. Does it mean that I get fewer resources when
     I play it from a territory on the edge of the map?
     \newline
-    \textbf{A:} No. When looking at neighbouring territories,
+    \textbf{A:} No, it doesn't. When looking at neighbouring territories,
     everything happens as if there were black tiles beyond the edges of the map.
 
     \hspace{-2em}
-    \textbf{Q:} My "Rocket Roll" unit's immediate ability says I can destroy a card
+    \textbf{Q:} My "Rocket Roll" unit's immediate ability says that I can destroy a card
     in my discard pile to get the right to immediately purchase a unit
     and add it to my hand. Do I have to pay for this unit?
     \newline
-    \textbf{A:} Yes. You need to both discard Energy Crystal cards from your hand
+    \textbf{A:} Yes, you do.
+    You need to both discard Energy Crystal cards from your hand
     and remove resource tokens from your territories to pay that unit card's cost.
-    
-    \hspace{-2em}
-    \textbf{Q:} My "Charge Leader" unit's reaction ability added another
-    "Charge Leader" unit to the front. Can I trigger that unit's reaction ability?
-    \newline
-    \textbf{A:} Your other "Charge Leader" unit is added to the battle
-    while your hand is empty, so yes. You can.
     
     \hspace{-2em}
     \textbf{Q:} My "Shaman" unit has several immediate abilities.
     Can I choose the order in which I trigger them ?
     \newline
-    \textbf{A:} Yes, you can.
+    \textbf{A:} Yes, you can. Your units' abilities are triggered in the order in which
+    you want to trigger them, and only if you want to trigger them.
     
     \hspace{-2em}
-    \textbf{Q:} My "Shaman" unit's immediate ability says it affects my unit
+    \textbf{Q:} My "Shaman" unit's immediate ability says it affects my units
     "for the rest of the battle". What happens if the "Shaman" unit collapses?
     \newline
-    \textbf{A:} The "Shaman" unit's effect stays in effect until
-    the end of the battle, whether the Shaman remains in battle or not.
+    \textbf{A:} The effect applies until the end of the battle,
+    whether the Shaman is still on the front or not.
     
     
 \newpage
@@ -692,9 +714,6 @@
         \item[Enemy Units] \hfill \\
             A player's \textbf{\textit{enemy units}} are the units played on the other side
             of the \textit{fronts} by opposing players.
-            
-        \item[Energy Count] \hfill \\
-            See section \ref{prod}.
             
         \item[Front] \hfill \\
             A \textbf{\textit{front}} is a battle taking place at a given frontier.
@@ -753,6 +772,9 @@
         \item[Purchase] \hfill \\
             See sections \ref{how-to-purchase} and \ref{purchase}.
             
+        \item[Pure Energy Count] \hfill \\
+            See section \ref{how-to-purchase}.
+            
         \item[Reconfigure] \hfill \\
             \textbf{\textit{Reconfiguring a unit}} is the action of replacing a unit
             on its row by a combination of units (possibly only one unit)
@@ -796,10 +818,7 @@
             Counter tokens are used to materialize how many are available on each front,
             and those remaining at the end of the battle are lost.
             
-        \item[Using Energy Crystals] \hfill \\
-            See section \ref{how-to-purchase}.
-            
-        \item[Using Resources] \hfill \\
+        \item[Using Energy Crystals/Pure Energy/Resources] \hfill \\
             See section \ref{how-to-purchase}.
             
         \item[Wild Territory] \hfill \\
