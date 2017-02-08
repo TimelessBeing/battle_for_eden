@@ -3,15 +3,15 @@ Valuable Resource: Ore
 Basic Unit (cost 1):
 
 Miner (Strength: 1)
-    Immediate: Harvest the allied territory's ore.
+    Immediate: Harvest ore from the allied territory and 2 neighbouring territories.
     Immediate: Reveal the top 2 cards of your deck. You may draw 1 revealed Energy Crystal card into your hand. Discard the rest.
 
 
 Shock Unit (cost 2):
 
 Artificer (Strength: 1)
-    Immediate: [Use 3 Energy Crystals then draw a card] to harvest the allied territory's ore.
-    Immediate: If you triggered the first ability: use 5 ore on the allied territory to get rid of a unit on this front. If that unit's cost is 2 or less, you may use only 2 ore instead.
+    Immediate: Use 3 Energy Crystals to draw a card and harvest ore from the allied territory and 1 neighbouring territory.
+    Immediate: If you triggered the first ability: use 5 ore on the allied territory to get rid of a unit on this front. If that unit's cost is 2 or less, you may use only 3 ore instead.
 
 
 Main Units (cost 3):
@@ -22,21 +22,21 @@ Rushed Cannon (Strength: 2)
     Post-combat: Destroy this unit.
 
 Digging Machine (Strength: 2)
-    Immediate: Harvest the allied territory's ore and the neighbouring territories' ore.
-    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. Draw the Energy Crystal card which is the closest to the top of your discard pile into your hand.
+    Immediate: Harvest ore from the allied territory and all neighbouring territories.
+    Immediate: Reveal the top 2 cards of your deck. Discard any number of those cards and put the rest on top of your deck in any order. You may also choose to draw one revealed Energy Crystal card into your hand. 
 
 Sentinel (Strength: 1)
-    Immediate: Discard one card to draw one card.
+    Immediate: Discard one card to draw one card and harvest ore from the allied territory.
     Permanent: +1, +2, +3 or +4 strength if 3 territories that you control each have at least 5, 10, 30 or 50 ore respectively on them.
 
 Specialist (Strength: 1)
-    Immediate: Put 5 new shard tokens on the allied territory.
+    Immediate: Discard an Energy Crystal card to put 5 new shard tokens on the allied territory.
 
 
 Champion Unit (cost 5):
 
 Blacksmith (Strength: 1)
-    Immediate: [Use 3 Energy Crystals then draw a card] to harvest the allied territory's ore.
+    Immediate: Use 3 Energy Crystals to draw a card and harvest ore from the allied territory.
     Delayed: If you triggered the first ability: for each allied unit on this front, you may use 1 ore from the allied territory to add 1 strength to that unit.
 
 
