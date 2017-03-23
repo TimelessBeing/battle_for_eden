@@ -9,23 +9,24 @@ Grunt (Strength: 1)
 Shock Unit (cost 2):
 
 Raider (Strength: 2)
-    Delayed: If your hand is empty: a player of your choice chooses and gets rid of one of his units on this front OR you may choose the targets of other Raider units on this front.
+    Immediate: Get rid of a unit of cost 2 or less on this front.
+    Delayed: If the first ability was not triggered: [Boost all Raider units on all fronts] OR [If your hand is empty or if this unit was boosted: get rid of an enemy unit of cost 2 or more on this front, chosen by you if both conditions are satisfied and by the other player otherwise].
 
 
 Main Units (cost 3):
 
 Shield Warrior (Strength: 3)
-    Immediate: Destroy a card from your hand.
+    Immediate: Destroy a set-aside card OR discard a card from your hand.
 
 Charge Leader (Strength: 3)
     Reaction (condition: your hand is empty): reveal the top card of your deck. If it is a unit, you may add it to this row. Otherwise discard it.
 
 Shaman (Strength: 2)
-    Immediate: Choose a type of unit. For the rest of the battle, undoomed allied units of this type that should collapse on this front are doomed instead.
+    Immediate: Choose a type of unit. For the rest of the battle, all allied units of this type are resistant.
     Immediate: Draw 1 card, then choose 1 card or more from your hand and put each of them either on top or at the bottom of your deck in any order.
 
 Brute (Strength: 4)
-    Permanent: If this unit should be destroyed while undoomed, and if your hand is not empty, doom this unit instead.
+    Permanent: Resistant when your hand is not empty.
 
 Champion Unit (cost 5):
 

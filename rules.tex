@@ -341,40 +341,41 @@
         players take turn expanding their territories.
         
         A player's turn is a succession of attack subphases.
-        During his first attack subphase, the player may start battles on up to 2 frontiers
-        of his territories (possibly 0), either against \textit{wild territories}
+        During each attack subphase, the player may start battles
+        on up to 2 frontiers of his territories (possibly 0),
+        either against \textit{wild territories}
         ---~which are territories that no player control~---
         or against territories controlled by any given player.
-        Those battle enfold as described in section \ref{battle-rules}.        
+        Those battle enfold as described in section \ref{battle-rules}.
         
-        Taking territories from a given opponent for the first time in the player's turn
-        earns him an additional attack subphase after the current one,
-        allowing him to start battles against either wild territories or territories
-        controlled by any given player, etc.
-        For each battle started during an additional attack subphase,
-        the attacking player must use as many resources as the attacked
-        territory's distance to the player's portal territory,
-        using any combination of their civilization resource and crystal shards.
-        This means that as long as the player keeps winning and has enough resources,
-        he can for example attack each player with whom he shares a frontier,
-        then attack one of them a second time or attack a wild territory.
+        A player can originally perform a single attack subphase,
+        but taking one or more territories from another player during that subphase
+        earns him the right to perform an additional attack subphase after this one.
+        In other words, as long as the player keeps winning against other players,
+        he can keep attacking.
         
-        At the beginning and end of the first attack subphase,
-        the player can choose to discard any number of cards from his hand
-        and/or to set some aside.        
+        At the beginning and end of each attack subphase,
+        the player can choose to set aside any number of cards from his hand.
         Setting aside cards helps players managing their hand
         and is needed to purchase new units from their world
         (see section \ref{how-to-purchase}).
-        The first attack subphase concludes with both the player and his opponent
-        (if any) replenishing their hands.
         
-        At the beginning and end of each additional attack subphase,
-        the player can choose to discard any number of cards from his hand
-        and/or to exchange some with his set-aside cards.
-        If there was a battle, and only if there was a battle,
-        the subphase concludes with both the player and his opponent (if any)
-        replenishing their hands (which means that the player cannot discard cards from
-        his hand and replenish it without starting battles).
+        The player may choose to discard any number of cards from his hand
+        before and after each battle (if there is any), and at the end of his first
+        attack subphase (even if there is no battle).
+        
+        At the very end of each subphase:
+        \vspace{-1.3em}
+        \begin{enumerate}
+            \item the player takes the cards he set aside back into his hand if he earned
+                     another attack subphase,
+            \item in all cases, both the player and his opponent (if any)
+                     replenish their hands.
+        \end{enumerate}
+        
+        \textbf{Note:} During each additional attack subphase,
+                              the player cannot set aside more cards than he got back from
+                              those set aside during the previous subphase.
         
         During his turn, another choice available to the player
         is to destroy his own portal.
@@ -702,7 +703,8 @@
             in the corresponding pile for common cards.
             
         \item[Doom] \hfill \\
-            A \textbf{\textit{doomed unit}} \textit{collapses} during the post-combat
+            A \textbf{\textit{doomed unit}} is a unit which still takes part in the
+            battle but \textit{collapses} during the post-combat
             phase, just before discarding the participating units.
             Dooming a unit is materialized by turning that unit's card
             sideways to the right.
@@ -791,6 +793,10 @@
             \textbf{\textit{Rescuing a unit}} is the action of using resources
             during the unit-destruction phase to discard a unit in the collasped unit
             pile instead of \textit{destroying} it.
+            
+        \item[Resistant] \hfill \\
+            A \textbf{\textit{resistant unit}} is a unit which becomes \textit{doomed}
+            instead of \textit{collapsing} if it is undoomed.
             
         \item[Restore] \hfill \\
             \textbf{\textit{Restoring a unit}} is the action of removing
