@@ -9,8 +9,9 @@ Grunt (Strength: 1)
 Shock Unit (cost 2):
 
 Raider (Strength: 2)
-    Immediate: Get rid of a unit of cost 2 or less on this front.
-    Delayed: If the first ability was not triggered: [Boost all Raider units on all fronts] OR [If your hand is empty or if this unit was boosted: get rid of an enemy unit of cost 2 or more on this front, chosen by you if both conditions are satisfied and by the other player otherwise].
+    Immediate: Get rid of a unit of cost 2 or less on this front. This unit's other abilities cannot be triggered anymore.
+    Delayed: If your hand is empty: improve this unit's last ability.
+    Delayed: [Improve the last ability of all Raider units on all fronts] OR [If this ability was improved: get rid of an enemy unit of cost 2 or more on this front, chosen by your opponent. If this ability was improved at least twice, you may choose it instead].
 
 
 Main Units (cost 3):
