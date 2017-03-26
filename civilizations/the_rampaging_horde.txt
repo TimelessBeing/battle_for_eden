@@ -9,10 +9,9 @@ Grunt (Strength: 1)
 Shock Unit (cost 2):
 
 Raider (Strength: 2)
-    Permanent: Only one of this unit's abilities can be triggered.
-    Immediate: Get rid of a unit of cost 2 or less on this front.
-    Delayed: If your hand is empty: get rid of an enemy unit of cost 2 or more on this front, chosen by the other player.
-    Delayed: Select another allied Raider unit with no ability triggered on any front. Its abilities cannot be triggered anymore. Get rid of an enemy unit of cost 2 or more on that front, chosen by the other player if your hand is not empty. You can repeat the whole process as many times as you want.
+    Immediate: Get rid of a unit of cost 2 or less on this front. This unit's other abilities cannot be triggered anymore.
+    Delayed: If your hand is empty: produce 1 ambush location.
+    Delayed: All other Raider units on all fronts each produce 1 ambush location OR use 1 ambush location to get rid of a unit of cost 2 or more on this front, chosen by the other player OR use 2 ambush locations to get rid of a unit of cost 2 or more on this front.
 
 
 Main Units (cost 3):
