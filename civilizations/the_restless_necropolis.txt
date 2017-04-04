@@ -10,7 +10,11 @@ Skeleton (Strength: 1)
 Shock Unit (cost 2):
 
 Flameskull (Strength: 2)
-    Immediate: [Reveal the top 2 cards of your deck, discard any number of them, and put the rest back in any order] OR [If there are at least 3 units in your discard pile: get rid of a unit of cost 2 or less on this front] OR [If there are at least twice as many units in your discard pile than cards in your deck: get rid of a unit on this front].
+    Permanent: +1 level if there are at least 3 units in your discard pile.
+               +1 level if there are at least twice as many units in your discard pile than cards in your deck.
+    Immediate: Level 1: reveal the top 2 cards of your deck, discard any number of them, and put the rest back in any order.
+               Level 2: get rid of a unit of cost 2 or less on this front.
+               Level 3: get rid of a unit on this front.
 
 
 Main Units (cost 3):
