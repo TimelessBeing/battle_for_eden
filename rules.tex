@@ -141,11 +141,11 @@
                 Their color determine a type of resources in which they are rich
                 (with black meaning none).
                 Controlling an ordinary territory brings a player 1 resource at every
-                production phase (see section \ref{prod}), and 2 if the territory is rich
+                production phase (see section \ref{prod}), or 2 if the territory is rich
                 in that player's civilization resource.
                 Ordinary territories tile may have a token on them symbolizing richness
-                in crystal shards, in which case they bring an additional resource
-                each turn to their controller.
+                in crystal shards (see section \ref{tile-distribution} and \ref{map-tiles}),
+                in which case they bring an additional resource each turn to their controller.
             
             \item \textbf{The Heart of Eden} is a mysterious mountain located near
                 the center of the map (see \ref{map-tiles}).
@@ -161,6 +161,7 @@
         \end{itemize}   
 
     \subsection{Distribute the tiles}
+        \label{tile-distribution}
         Each player receives 1 ordinary territory tile of each color (including black),
         places them face down in front of him, and shuffles them.
         Each player then receives the portal territory tile of his color
@@ -168,11 +169,10 @@
         and places them face up in front of him.
         
         \textbf{Note:} If a player's civilization resource is crystal shards,
-        that player must choose a color of ordinary territory tiles
-        at the beginning of the map creation phase.
-        The ordinary territory tile he receives is of that color,
-        and tiles of this color that he places on the map come with
-        a crystal shard richness token on them.
+        that player can choose the color of the face-up ordinary territory tile
+        he receives.
+        Whenever he places a tile of this color on the map,
+        place a crystal shard richness token on it.
       
     \subsection{Place tiles on the map}
         \label{map-tiles}
@@ -181,15 +181,16 @@
         Starting with the first player, players take turn adding tiles to the map.
         
         At his turn, a player draws one ordinary territory tile
-        (which can be the one which is face up or one of those which are face down),
-        looks at it and places it face up in contact with another tile on the map.
+        (either the face-up one or one of the face-down ones),
+        reveals it and places it face up in contact with another tile on the map.
         If this causes an ordinary territory tile to be in contact with at least
         4 different types of non-black ordinary territory tiles,
         place a crystal shard richness token on that territory.
         
-        After placing the ordinary territory tile, the player can ---~if he so chooses~---
-        place his portal territory tile in contact with another tile on the map,
-        remove it from the map or remove it then place it.
+        After placing the ordinary territory tile,
+        the player can choose to remove his portal territory tile from the map
+        (if it was already there),
+        then to place it anywhere in contact with another tile on the map.
         
 \newpage
         Keep in mind that:
@@ -217,6 +218,10 @@
         Once every player has placed his last ordinary territory tile,
         one last round allows players to remove then place their portal territory tiles
         if they want to.
+        
+        The first player to have placed his portal territory tile in its final position
+        takes the first player token and gives it to the player of his choice
+        (which can be himself).
     
 
 \section{Settle near the portals}
@@ -229,11 +234,17 @@
     \subsection{Deck}
         Every player places all unit cards of their civilization in front of them,
         face up (generally as one or more piles), to constitute their \textit{World}.
+
+        Similarly, \textit{common cards} (Small Energy Crystal, Medium Energy Crystal,
+        Huge Energy Crystal, Setback and Opportunity) and \textit{technology cards}
+        (Energy Shield, Temporary Rift, Improved Portal, Unmatched Power)
+        are placed face up somewhere where every player can access them.
         
-        They then take 3 cost-1 units from their World,
+        Each player then takes  3 cost-1 units from his World as well as
         1 Medium Energy Crystal card and from 3 to 5 Small Energy Crystal cards
-        (at their convenience),
-        shuffles them and places them face down as a pile called their \textit{deck}.
+        (at their convenience) from the common cards,
+        shuffles those cards and places them face down
+        as a pile called their \textit{deck}.
         
         Every player finally creates their \textit{hand} by drawing cards from the top
         of their deck until they have up to 5 cards in their hand.
@@ -241,18 +252,17 @@
         Whenever a player should draw or reveal more cards from his deck
         than it contains, he shuffles his \textit{discard pile}
         (which is an originally empty face up pile besides one's deck)
-        and puts the cards at the bottom of his deck.
+        and puts the cards at the bottom of his deck before doing so.
         
-        
+    
+\newpage
     \subsection{Resources, purchases}
         \label{how-to-purchase}
         Every player receives 2 resources (which can each be either a crystal shard
-        or their civilization resource) and places them as they wish on their territories.
+        or their civilization resource) and places them as he wishes on his territories.
         
-        Players who want to can \textit{purchase} cards,
-        whether they are \textit{common cards} (\textit{i.e.} Small Energy Crystal,
-        Medium Energy Crystal, Huge Energy Crystal, Setback or Opportunity)
-        or cards from their World.
+        Players can choose to \textit{purchase} cards,
+        whether they are common cards or cards from their World.
         Purchasing cards is a way to get new cards into your discard pile,
         and therefore into your future deck.
         
@@ -261,34 +271,30 @@
         destroyed common cards go into the corresponding piles,
         while destroyed unit cards go back to their World.
 
-\newpage
         Purchasing a card is done in two steps:
         \vspace{-1.3em}
         \begin{itemize}
-            \item first, the player pays the cost of the card by using pure energy,
-                Energy Crystals and/or resources of the right type
+            \item first, the player pays the cost of the card by Energy Crystals, 
+                 pure energy, and/or resources of the right type
                 (note: the multi-color cube symbol corresponds to resources
                 which can be of any type, but must all be of the same type):
                 \vspace{-0.5em}
                 \begin{itemize}
-                    \item \textit{using N pure energy} means to decrease one's
-                    \textit{pure energy count} by N.
-                    All players start with a pure energy count equal to 0,
-                    which increases when they extract pure energy from the Heart of Eden
+                    \item \textit{using N pure energy} means to decrease the
+                    \textit{pure energy count} on the Heart of Eden by N.
+                    This pure energy count starts at 0,
+                    and increases when players extract pure energy from the Heart of Eden
                     (see section \ref{prod}).
                     They keep track of their pure energy count using counter
                     tokens placed on their portal territory,
                     \item \textit{using N Energy Crystals} means to discard Energy Crystal
-                        cards whose total value is at least N,
-                        usually from cards which have been previously set aside
-                        (see section \ref{purchase});
-                        in all other contexts that allow purchases (like now),
+                        cards whose total value is at least N.
+                        During the purchase phase (see section \ref{purchase}),
+                        they are discarded from cards which have been previously set aside.
+                        In all other contexts that allow purchases (like now),
                         they are discarded from the player's hand,
                     \item \textit{using N resources} means to remove N resources
-                        from one's territories,
-                    \item a player may use 1 pure energy as if it were 4 crystal shards
-                    (but it does not work the other way around: shards cannot be used
-                    as pure energy).
+                        from one's territories.
                 \end{itemize}
             \item then the player puts the purchased card in his discard pile.
         \end{itemize}
@@ -326,18 +332,18 @@
         in any way they want.
         
         The player who controls the Heart of Eden extracts pure energy from it:
-        he increases his \textit{pure energy count} by 1
-        (see section \ref{how-to-purchase}).
+        he increases the \textit{pure energy count} by 1
+        (using counter tokens).
         
         Note: Production normally happens simultaneously for all players.
         Should conflict arise as to who does what first,
         consider that everything happens as if the players went through
-        the production phase one after the other, starting with the first player.
+        the production phase one after the other, starting with the first player
+        (\textit{i.e.} the one who has the first player token).
 
-\newpage
     \subsection{Expansion phase}
         \label{expansion}    
-        Starting with the first player (the one who has the first player token),
+        Starting with the first player,
         players take turn expanding their territories.
         
         A player's turn is a succession of attack subphases.
@@ -348,11 +354,11 @@
         or against territories controlled by any given player.
         Those battle enfold as described in section \ref{battle-rules}.
         
-        A player can originally perform a single attack subphase,
-        but taking one or more territories from another player during that subphase
-        earns him the right to perform an additional attack subphase after this one.
-        In other words, as long as the player keeps winning against other players,
-        he can keep attacking.
+        A player can originally perform a single attack subphase.
+        Taking one or more territories from another player during an attack subphase
+        earns him the right to perform an additional one.
+        In other words, as long as the player keeps attacking territories controlled by
+        other players and winning, he can keep attacking.
         
         At the beginning and end of each attack subphase,
         the player can choose to set aside any number of cards from his hand.
@@ -360,7 +366,7 @@
         and is needed to purchase new units from their world
         (see section \ref{how-to-purchase}).
         
-        The player may choose to discard any number of cards from his hand
+        The player may also choose to discard any number of cards from his hand
         before and after each battle (if there is any), and at the end of his first
         attack subphase (even if there is no battle).
         
@@ -376,13 +382,6 @@
         \textbf{Note:} During each additional attack subphase,
                               the player cannot set aside more cards than he got back from
                               those set aside during the previous subphase.
-        
-        During his turn, another choice available to the player
-        is to destroy his own portal.
-        If he makes this choice, the portal is effectively destroyed
-        during the next expansion phase, at the beginning of his turn.
-        At that time, all resources on it are removed from the tile,
-        and the player's pure energy count becomes 0. 
         
     
     \subsection{Purchasing phase}
@@ -425,64 +424,63 @@
         If the total strength of his units on one front is more than that territory's
         defense, he takes control of the corresponding enemy territory
         (note: this means that when attacking one territory on two fronts,
-        victory on one front is enough to take control of that territory).
+        victory on only one of them is enough to take control of that territory).
         Resources that were on the conquered territory stay on that territory.
         
     \subsection{Defense of a wild territory}
         The defense of a wild territory depends on its distance
         to the closest portal territory:
-        it is equal to 0  when the distance is less than 2,
-        becomes 1 when the distance is 2,
-        then increases by 2 each time the distance increases
-        (which means that territories at a distance of 1, 2, 3, 4, 5
-        to the closest portal territory have a base defense of  0, 1, 3, 5, 7
+        it is equal to 1 when the distance is 2,
+        then increases by 2 each time the distance increases by 1
+        (which means that territories at a distance of 2, 3, 4, 5
+        to the closest portal territory have a base defense of  1, 3, 5, 7
         respectively).
         
     \subsection{Defense of a player-controlled territory}
         \label{base-defense}
-        Within the territories that he controls, a player is said to have
-        \textit{full control} over his portal territory (if it has not been destroyed),
-        over territories in contact with it,
-        over territories in contact with those territories, etc
-        (all territories that the player controls which are in contact with a fully controlled
-        territory are also fully controlled).
-        The player is said to have \textit{partial control} over the territories
-        he controls but doesn't fully control.
+        All territories controlled by a player have a \textit{base defense},
+        which is 5 at the beginning of the game and increases by 1
+        (until a maximum of 14)
+        each time the player successfully defends one of his territories.
+        Players may place counter tokens on their portal territory tiles to keep
+        track of the base defense of their territories.
         
-        Each player-controlled territory also has a \textit{base defense},
-        which is 7 if the player controls 6 territories or less,
-        11 if he controls between 7 and 9 territories,
-        and 14 if he controls at least 10 territories.
+        Each territory controlled by a player can be either \textit{fully-controlled}
+        or \textit{partially-controlled}.
+        A player's fully-controlled territories are made up of its portal territory
+        (if his portal has not been destroyed), and recursively of all of his territories
+        which are in contact with his fully-controlled territories.
+        The rest of his territories are partially-controlled.
         
-        The defense of a player-controlled territory is equal to its base defense.
+        The defense of a partially-controlled territory is equal to its base defense.
         When a fully-controlled territory is attacked,
-        instead of relying on the territory's base defense,
-        the defending player may choose to use unit cards from his hand to defend it
-        himself (see section \ref{battle}).
+        the player may either choose to rely on its base defense
+        or use unit cards from his hand to defend it manually (see section \ref{battle}).
         
-    \subsection{Conquering a portal territory}
-        When a player takes control of another player's portal territory,
-        he destroys that player's portal (by flipping the tile),
-        hereby eliminating that player from the game.
-        The resources that were on it stay on it,
-        as well as the counters representing the player's pure energy count.
-        They can now be used by the player controlling the portal territory.
-        
-        Even though the player has been eliminated,
-        his territories are still considered under his partial control
-        (instead of becoming wild territories again).
+    \subsection{Special cases}
+        \begin{itemize}
+            \item When a player loses his portal territory,
+                     his portal is destroyed (the tile is flipped),
+                     and he is eliminated from the game.
+                     His territories are still considered under his partial control
+                     (\textit{i.e. } their defense is determined by his base defense
+                     and bonuses).
+                     Resources that were on the portal territory tile stay on it.
+            \item When a player loses control of the Heart of Eden,
+                     he is allowed to use the pure energy on it to purchase technology cards.
+        \end{itemize}
         
 \newpage
     \subsection{Bonuses}
         \begin{itemize}
-            \item If at least 5 resources on a player-controlled territory are either
-                crystal shards or the player's civilization resource,
-                that territory gives +1 strength to its side in both attack and defense.
-            \item If a player-controlled territory is in contact with at least 1 territory
-                in the above situation and controlled by the same player,
-                it also gives +1 strength to its side in both attack and defense.\\
+            \item If there are at least 5 resources on a territory which are either
+                crystal shards or its controller's civilization resource,
+                that territory gets +1 strength in both attack and defense.
+            \item If a territory is in contact with at least 1 other territory
+                in the above situation (controlled by the same player),
+                it also gets +1 strength in both attack and defense.\\
                 (note: this means that a territory that satisfies both conditions
-                can give a total of +2 to its side)
+                can get a total bonus of +2 strength)
         \end{itemize}
         
     \subsection{Battle}
@@ -801,7 +799,7 @@
             See sections \ref{how-to-purchase} and \ref{purchase}.
             
         \item[Pure Energy Count] \hfill \\
-            See section \ref{how-to-purchase}.
+            See section \ref{how-to-purchase} and \ref{prod}.
             
         \item[Reconfigure] \hfill \\
             \textbf{\textit{Reconfiguring a unit}} is the action of replacing a unit
