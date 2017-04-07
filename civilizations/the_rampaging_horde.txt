@@ -20,7 +20,7 @@ Raider (Strength: 2)
 Main Units (cost 3):
 
 Shield Warrior (Strength: 3)
-    Immediate: Destroy a set-aside card OR discard a card from your hand.
+    Immediate: Destroy one of your set-aside card OR discard a card from your hand.
 
 Charge Leader (Strength: 3)
     Reaction (condition: your hand is empty): reveal the top card of your deck. If it is a unit, you may add it to this row. Otherwise discard it.
