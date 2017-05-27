@@ -1,4 +1,4 @@
-Valuable Resource: Positronium
+Civilization Resource: Positronium
 
 Basic Unit (cost 1):
 
@@ -39,7 +39,7 @@ Champion Unit (cost 5):
 Core Module (Strength: 1)
     Immediate: Destroy 2 Building Blocks to move this unit to the left or right of another allied unit on this front.
     Immediate: Destroy 2 Building Blocks to move another allied unit on this front to the left or right of this unit.
-    Permanent: +2 strength to the units on the left and right of this unit. +2 strength to the non-Building Block units on the rows above and below this unit.
+    Permanent: +2 strength to the units on the left and right of this unit. +2 strength to the non-Building Block units on the previous row and on the next row.
 
 
 Immortal Unit (cost 6):

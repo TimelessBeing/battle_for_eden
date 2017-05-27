@@ -1,4 +1,4 @@
-Valuable Resource: Plants
+Civilization Resource: Plants
 
 Basic Unit (cost 1):
 

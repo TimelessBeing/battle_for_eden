@@ -4,6 +4,7 @@
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{indentfirst}
+\usepackage{array}
 
 \author{Adrien Matricon}
 
@@ -197,15 +198,16 @@
         \vspace{-1.3em}
         \begin{itemize}
             \item At any time, a portal territory tile cannot be at a distance
-                (number of frontiers one has to cross to go from one to the other)
-                of 3 or less of the Heart of Eden,
-                or at a distance of 4 or less of another portal territory tile,
+                (number of tiles to cross to get from one to the other)
+                of 2 or less of the Heart of Eden,
+                or at a distance of 3 or less of another portal territory tile,
             \item At any time, a portal territory cannot be in contact of 3 or more
                 ordinary territory tile,
             \item A portal territory tile cannot be removed
                 if it disconnects one part of the map from the other,
             \item A player cannot place an ordinary territory tile at a distance
-                or 3 or less of his portal territory tile (if it has been placed on the map).
+                or 2 or less of his portal territory tile (if it has been placed on the map),
+                or in contact with another player's portal territory tile.
         \end{itemize}
         
         After placing his last ordinary territory tile,
@@ -230,6 +232,8 @@
         and of the territories in direct contact with it.
         Controlled territories are materialized using the frontier tokens
         of the player's color.
+        Every player also receives 2 civilization resources
+        and places them as he wishes on his territories.
         
     \subsection{Deck}
         Every player places all unit cards of their civilization in front of them,
@@ -241,8 +245,8 @@
         are placed face up somewhere where every player can access them.
         
         Each player then takes  3 cost-1 units from his World as well as
-        1 Medium Energy Crystal card and from 3 to 5 Small Energy Crystal cards
-        (at their convenience) from the common cards,
+        1 Medium Energy Crystal card and from 3 Small Energy Crystal cards
+        from the common cards,
         shuffles those cards and places them face down
         as a pile called their \textit{deck}.
         
@@ -256,52 +260,6 @@
         
     
 \newpage
-    \subsection{Resources, purchases}
-        \label{how-to-purchase}
-        Every player receives 2 resources (which can each be either a crystal shard
-        or their civilization resource) and places them as he wishes on his territories.
-        
-        Players can choose to \textit{purchase} cards,
-        whether they are common cards or cards from their World.
-        Purchasing cards is a way to get new cards into your discard pile,
-        and therefore into your future deck.
-        
-        The opposite of  purchasing a card is called \textit{destroying a card}.
-        It means putting a card back in the pile where it comes from:
-        destroyed common cards go into the corresponding piles,
-        while destroyed unit cards go back to their World.
-
-        Purchasing a card is done in two steps:
-        \vspace{-1.3em}
-        \begin{itemize}
-            \item first, the player pays the cost of the card by Energy Crystals, 
-                 pure energy, and/or resources of the right type
-                (note: the multi-color cube symbol corresponds to resources
-                which can be of any type, but must all be of the same type):
-                \vspace{-0.5em}
-                \begin{itemize}
-                    \item \textit{using N pure energy} means to decrease the
-                    \textit{pure energy count} on the Heart of Eden by N.
-                    This pure energy count starts at 0,
-                    and increases when players extract pure energy from the Heart of Eden
-                    (see section \ref{prod}).
-                    They keep track of their pure energy count using counter
-                    tokens placed on their portal territory,
-                    \item \textit{using N Energy Crystals} means to discard Energy Crystal
-                        cards whose total value is at least N.
-                        During the purchase phase (see section \ref{purchase}),
-                        they are discarded from cards which have been previously set aside.
-                        In all other contexts that allow purchases (like now),
-                        they are discarded from the player's hand,
-                    \item \textit{using N resources} means to remove N resources
-                        from one's territories.
-                \end{itemize}
-            \item then the player puts the purchased card in his discard pile.
-        \end{itemize}
-        
-        Note: players don't get to replenish their hands after purchases.
-
-
 \section{To battle!}
 
     Now that all civilizations have crossed the portals and come to Eden,
@@ -331,8 +289,8 @@
         (possibly including the Heart of Eden tile or their Portal tile)
         in any way they want.
         
-        The player who controls the Heart of Eden extracts pure energy from it:
-        he increases the \textit{pure energy count} by 1
+        The player who controls the Heart of Eden extracts \textit{pure energy} from it:
+        he increases the \textit{pure energy count} on the Heart of Eden by 1
         (using counter tokens).
         
         Note: Production normally happens simultaneously for all players.
@@ -364,7 +322,7 @@
         the player can choose to set aside any number of cards from his hand.
         Setting aside cards helps players managing their hand
         and is needed to purchase new units from their world
-        (see section \ref{how-to-purchase}).
+        (see section \ref{purchase}).
         
         The player may also choose to discard any number of cards from his hand
         before and after each battle (if there is any), and at the end of his first
@@ -392,8 +350,38 @@
         and think of ways to get an edge over their enemies.
         
         Every player can use their pure energy, their resources
-        and the Energy Crystal cards that they had set aside to make purchases
-        (see section \ref{how-to-purchase} for the details on how to purchase cards).
+        and the Energy Crystal cards that they had set aside to \textit{purchase} cards,
+        whether they cards from their World, common cards or technology cards.
+        Purchasing cards is a way to get new cards into your discard pile,
+        and therefore into your future deck.
+        
+        The opposite of  purchasing a card is called \textit{destroying a card}.
+        It means putting a card back in the pile where it comes from:
+        destroyed common cards go into the corresponding piles,
+        while destroyed unit cards go back to their World.
+
+        Purchasing a card is done in two steps:
+        \vspace{-1.3em}
+        \begin{itemize}
+            \item first, the player pays the cost of the card by Energy Crystals, 
+                 pure energy, and/or resources of the right type
+                (note: the multi-color cube symbol corresponds to resources
+                which can be of any type, but must all be of the same type):
+                \vspace{-0.5em}
+                \begin{itemize}
+                    \item \textit{using N pure energy} means to decrease the
+                    pure energy count on the Heart of Eden by N.
+                    \item \textit{using N Energy Crystals} means to discard Energy Crystal
+                        cards whose total value is at least N.
+                        During the purchase phase (see section \ref{purchase}),
+                        they are discarded from cards which have been previously set aside.
+                        In all other contexts that allow purchases (like now),
+                        they are discarded from the player's hand,
+                    \item \textit{using N resources} means to remove N resources
+                        from one's territories.
+                \end{itemize}
+            \item then the player puts the purchased card in his discard pile.
+        \end{itemize}
         
         After the purchases, the players draw all remaining set-aside cards into their
         hands, then discard as many.        
@@ -429,12 +417,23 @@
         
     \subsection{Defense of a wild territory}
         The defense of a wild territory depends on its distance
-        to the closest portal territory:
-        it is equal to 1 when the distance is 2,
-        then increases by 2 each time the distance increases by 1
-        (which means that territories at a distance of 2, 3, 4, 5
-        to the closest portal territory have a base defense of  1, 3, 5, 7
-        respectively).
+        to the closest portal territory.
+        \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|}
+             \hline
+                  Distance & Defense \\
+              \hline
+                  1 & 1 \\
+                  2 & 3 \\
+                  3 & 5 \\
+                  4 & 7 \\
+                  5 & 9 \\
+                  6 or more & 11 \\
+              \hline
+        \end{tabular}
+        \end{table}
+        
         
     \subsection{Defense of a player-controlled territory}
         \label{base-defense}
@@ -575,8 +574,8 @@
     Note: if several abilities can be triggered at the same time,
     they don't preempt each other and may be triggered successively instead.
     The order in which they are triggered is decided by the player that triggers them.
-    If several players want to trigger an ability at the same time,
-    the priority goes to the attacking player.
+    If both players want to trigger an ability at the same time,
+    the order is decided by the attacking player.
     
     
 \newpage
@@ -629,44 +628,6 @@
     \newline
     \textbf{A:} This is equivalent to "[if this unit's level is X or more: A]
      OR [if this unit's level is Y or more: B]".
-
-    \hspace{-2em}
-    \textbf{Q:} My "Infantry Squad" unit's immediate ability makes me reveal
-    the top 2 cards of my deck, but after discarding/playing the first card,
-    I can't do anything with the second one. Is that normal?
-    \newline
-    \textbf{A:} Yes, it is. It is meant to give you some information on what's
-    on top of your deck. If you don't discard/play the first card,
-    this also allows you to change the order of those cards when you place them back
-    on top of your deck.
-
-    \hspace{-2em}
-    \textbf{Q:} My "Infantry Squad" unit's immediate ability added
-    a "Captain" unit to the front. Can I trigger that unit's immediate ability?
-    \newline
-    \textbf{A:} Yes, you can. That unit was just added to the battle,
-    which is when immediate abilities can be triggered.
-    In similar cases, other kinds of abilities can be triggered
-    (for example when a "Charge Leader" unit is added to the front when your
-    hand is empty, or when a "Skeleton" unit is added to the front
-    between steps \ref{battle6} and \ref{battle7} of the battle).
-
-    \hspace{-2em}
-    \textbf{Q:} My "Digging Machine" unit's immediate ability says I can harvest
-    neighbouring territories' ore. Does it mean that I get fewer resources when
-    I play it from a territory on the edge of the map?
-    \newline
-    \textbf{A:} No, it doesn't. When looking at neighbouring territories,
-    everything happens as if there were black tiles beyond the edges of the map.
-
-    \hspace{-2em}
-    \textbf{Q:} My "Rocket Roll" unit's immediate ability says that I can destroy a card
-    in my discard pile to get the right to immediately purchase a unit
-    and add it to my hand. Do I have to pay for this unit?
-    \newline
-    \textbf{A:} Yes, you do.
-    You need to both discard Energy Crystal cards from your hand
-    and remove resource tokens from your territories to pay that unit card's cost.
     
     \hspace{-2em}
     \textbf{Q:} My "Shaman" unit has several immediate abilities.
@@ -674,13 +635,6 @@
     \newline
     \textbf{A:} Yes, you can. Your units' abilities are triggered in the order in which
     you want to trigger them, and only if you want to trigger them.
-    
-    \hspace{-2em}
-    \textbf{Q:} My "Shaman" unit's immediate ability says it affects my units
-    "for the rest of the battle". What happens if the "Shaman" unit collapses?
-    \newline
-    \textbf{A:} The effect applies until the end of the battle,
-    whether the Shaman is still on the front or not.
     
     
 \newpage
@@ -717,14 +671,6 @@
             where it comes from: in the player's World for unit cards and
             in the corresponding pile for common cards.
             
-        \item[Doom] \hfill \\
-            A \textbf{\textit{doomed unit}} is a unit which still takes part in the
-            battle but \textit{collapses} during the post-combat
-            phase, just before discarding the participating units.
-            Dooming a unit is materialized by turning that unit's card
-            sideways to the right.
-            Doomed units cannot be doomed again.
-            
         \item[Enemy Territory] \hfill \\
             On a given \textit{front}, a player's \textbf{\textit{enemy territory}}
             is the territory on the other side of the frontier.
@@ -747,66 +693,15 @@
             \textbf{\textit{Getting rid of a unit}} means making that unit
             \textit{collapse}.
             
-        \item[Harvest] \hfill \\
-            \textbf{\textit{Harvesting a resource from a territory}} is the action of
-            placing as many resources of that type on the \textit{allied territory}
-            as the harvested territory's \textit{production capability} in that resource.
-            
-        \item[Level] \hfill \\
-            \textbf{\textit{Levels}} are a way to represent the fact
-            that a unit has been enabled to do more than it could originally
-            (by becoming stronger, having advantageous circumstances, etc).
-            All units are at level 1 when they arrive into battle,
-            then this level may be modified by some abilities or effect.
-            Other abilities or effects may depend on the unit's level.
-            
-        \item[Mana] \hfill \\
-            \textbf{\textit{Mana}} is a type of \textit{temporary resource}.
-            
-        \item[Move] \hfill \\
-            \textbf{\textit{Moving a unit}} means to remove that unit from its
-            \textit{row} and place it somewhere else.
-            By default, moving a unit to a \textit{front} places it
-            under the bottom \textit{row} of that \textit{front}
-            (thus creating a new row).
-            If the moved unit keeps the \textit{status} it had before being moved.
-            Moving a unit does not count as adding a new unit to the battle.
-            
-        \item[Neighbouring Territories] \hfill \\
-            A territory's \textbf{\textit{neighbouring territories}} are the 6 territories
-            with which it shares a frontier.
-            If some of the territory's frontiers are on the edge of the map,
-            everything happens as if there were black tiles
-            on the other side of those frontiers.
-            
         \item[Partial Control] \hfill \\
             A \textbf{\textit{partially controlled territory}} is territory controlled
             by a player, but not \textit{fully controlled} by that player.
             
-        \item[Production capability] \hfill \\
-            The \textbf{\textit{production capability}} of a territory in one type
-            of resource measures the richness of this territory in that resource.
-            Ordinary territories have a production capability of 2 in the type of resource
-            in which they are rich (\textit{i.e.} the resource of their tile color,
-            and none for black tiles), and 1 in all other types of resources.
-            The Heart of Eden has a production capability of 2 in every type
-            of resource.
-            Portal territories have a production capability of 1 in every type of resource,
-            but it becomes 2 in their owner's \textit{civilization resource}
-            if the portals on them are still standing.
-            
         \item[Purchase] \hfill \\
-            See sections \ref{how-to-purchase} and \ref{purchase}.
+            See section \ref{purchase}.
             
         \item[Pure Energy Count] \hfill \\
-            See section \ref{how-to-purchase} and \ref{prod}.
-            
-        \item[Reconfigure] \hfill \\
-            \textbf{\textit{Reconfiguring a unit}} is the action of replacing a unit
-            on its row by a combination of units (possibly only one unit)
-            of the same cost from its player's World.
-            Those units have the same \textit{status} as the reconfigured unit,
-            and their immediate abilities cannot be triggered.
+            See section \ref{purchase} and \ref{prod}.
             
         \item[Replenish] \hfill \\
             \textbf{\textit{Replenishing one's hand}} is the action of drawing
@@ -817,16 +712,6 @@
             during the unit-destruction phase to discard a unit in the collasped unit
             pile instead of \textit{destroying} it.
             
-        \item[Resistant] \hfill \\
-            A \textbf{\textit{resistant unit}} is a unit which becomes \textit{doomed}
-            instead of \textit{collapsing} if it is undoomed.
-            
-        \item[Restore] \hfill \\
-            \textbf{\textit{Restoring a unit}} is the action of removing
-            its \textit{doomed} status, which is materialized by turning
-            that unit's card back to the left.
-            Undoomed units cannot be restored.
-            
         \item[Row] \hfill \\
             A player's units are added to a \textit{front} one under the other,
             and are therefore placed in \textbf{\textit{rows}}.
@@ -835,21 +720,8 @@
             If a row becomes empty, it disappears and the units in the rows
             above and below are now in successive rows.
             
-        \item[Status] \hfill \\
-            The \textbf{\textit{status}} of a unit is everything that affects how
-            that unit behaves, except for its placement.
-            It includes things like "having triggered an ability" and "being doomed".
-            
-        \item[Temporary Resources] \hfill \\
-            \textbf{\textit{Temporary resources}} are resources which do not appear
-            on the map, but can be produced and used during battle.
-            Temporary resources produced on a given \textit{front} can only be
-            used on this \textit{front}.
-            Counter tokens are used to materialize how many are available on each front,
-            and those remaining at the end of the battle are lost.
-            
         \item[Using Energy Crystals/Pure Energy/Resources] \hfill \\
-            See section \ref{how-to-purchase}.
+            See section \ref{purchase}.
             
         \item[Wild Territory] \hfill \\
             A \textbf{\textit{wild territory}} is a territory

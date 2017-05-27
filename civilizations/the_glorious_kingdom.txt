@@ -1,4 +1,4 @@
-Valuable Resource: Ore
+Civilization Resource: Ore
 
 Basic Unit (cost 1):
 
@@ -20,12 +20,12 @@ Tactician (Strength: 1)
     Immediate: Reveal the top card of your deck, then discard it, destroy it or put it back on top of your deck.
 
 Heavy Infantry (Strength: 1)
-    Permanent: If this unit is added to the battle by an Infantry Squad, discard that Infantry Squad.
-    Permanent: +2 strength if this unit was added to the battle by an Infantry Squad.
+    Permanent: If this unit is revealed from the top of the deck by an ability, exchange it with a unit on the bottom row.
+    Permanent: +2 strength if this unit was added to the battle by being revealed.
 
 Captain (Strength: 1)
     Permanent: +1 strength if there are other units on this row.
-    Immediate: Copy the immediate ability of an allied unit on this front.
+    Immediate: Copy the immediate ability of an allied unit on this front. When copying an Infantry Squad's ability, units of strength 2 can be added to the row as if their strength was 1.
 
 Cavalry (Strength: 1)
     Immediate: Discard a unit of strength 1 from your hand to draw 3 cards, then discard 2 cards from your hand.

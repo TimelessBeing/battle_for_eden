@@ -1,4 +1,4 @@
-Valuable Resource: Ore
+Civilization Resource: Ore
 
 Basic Unit (cost 1):
 

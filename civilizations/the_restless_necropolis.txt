@@ -1,4 +1,4 @@
-Valuable Resource: Animals
+Civilization Resource: Animals
 
 Basic Unit (cost 1):
 

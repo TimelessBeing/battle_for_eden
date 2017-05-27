@@ -1,4 +1,4 @@
-Valuable Resource: Plants
+Civilization Resource: Plants
 
 Basic Unit (cost 1):
 
@@ -23,7 +23,7 @@ Blood Alchemist (Strength: 3)
     Immediate: Doom an allied unit on this front to draw a card then either discard a card from your hand or doom an additional allied unit on this front.
 
 Herbalist (Strength: 3)
-    Reaction(event: this unit is doomed or collapses while undoomed): Restore 1 allied unit on this front.
+    Reaction(event: this unit collapses): Restore 1 allied unit on this front.
     Post-combat: Restore up to 2 doomed allied units on this front.
 
 Tribe Protector (Strength: 3)
