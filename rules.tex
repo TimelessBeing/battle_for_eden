@@ -304,13 +304,31 @@
         Starting with the first player,
         players take turn expanding their territories.
         
-        A player's turn is a succession of attack subphases.
-        During each attack subphase, the player may start battles
-        on up to 2 frontiers of his territories (possibly 0),
-        either against \textit{wild territories}
-        ---~which are territories that no player control~---
-        or against territories controlled by any given player.
-        Those battle enfold as described in section \ref{battle-rules}.
+        A player starts his turn by placing any number of Energy Crystal cards
+        from his hand face up in front of him
+        (so that he can use them during the purchasing phase,
+        see section \ref{purchase}).
+        He may also discard any number of cards from his hand.
+        
+        The player can then perform an attack if he wishes,
+        which is performed in four steps:
+        \vspace{-1.3em}
+        \begin{enumerate}
+            \item discarding any number of cards from his hand,
+            \item starting battles on 1 or 2 fronts (see section \ref{battle-rules})
+                against the same opponent (note: wild territories are all
+                considered to belong to the same non-player opponent),
+            \item placing any number of additional Energy Crystal
+                cards from his hand face-up in front of him,
+            \item discarding any number of cards from his hand.
+        \end{enumerate}
+        
+        If during this attack the player has taken at least 1 territory
+        from another player, he is allowed replenish his hand,
+        with one fewer card for each Energy Crystal card in front of him,
+        then perform another attack.
+        As long as the player keeps taking territories from other players,
+        he can keep attacking this way.
         
         A player can originally perform a single attack subphase.
         Taking one or more territories from another player during an attack subphase
@@ -318,28 +336,7 @@
         In other words, as long as the player keeps attacking territories controlled by
         other players and winning, he can keep attacking.
         
-        At the beginning and end of each attack subphase,
-        the player can choose to set aside any number of cards from his hand.
-        Setting aside cards helps players managing their hand
-        and is needed to purchase new units from their world
-        (see section \ref{purchase}).
-        
-        The player may also choose to discard any number of cards from his hand
-        before and after each battle (if there is any), and at the end of his first
-        attack subphase (even if there is no battle).
-        
-        At the very end of each subphase:
-        \vspace{-1.3em}
-        \begin{enumerate}
-            \item the player takes the cards he set aside back into his hand if he earned
-                     another attack subphase,
-            \item in all cases, both the player and his opponent (if any)
-                     replenish their hands.
-        \end{enumerate}
-        
-        \textbf{Note:} During each additional attack subphase,
-                              the player cannot set aside more cards than he got back from
-                              those set aside during the previous subphase.
+        After his last attack, the player replenishes his hand.
         
     
     \subsection{Purchasing phase}
@@ -350,7 +347,7 @@
         and think of ways to get an edge over their enemies.
         
         Every player can use their pure energy, their resources
-        and the Energy Crystal cards that they had set aside to \textit{purchase} cards,
+        and the Energy Crystal cards in front of them to \textit{purchase} cards,
         whether they cards from their World, common cards or technology cards.
         Purchasing cards is a way to get new cards into your discard pile,
         and therefore into your future deck.
@@ -373,10 +370,10 @@
                     pure energy count on the Heart of Eden by N.
                     \item \textit{using N Energy Crystals} means to discard Energy Crystal
                         cards whose total value is at least N.
-                        During the purchase phase (see section \ref{purchase}),
-                        they are discarded from cards which have been previously set aside.
-                        In all other contexts that allow purchases (like now),
-                        they are discarded from the player's hand,
+                        By default, the Energy Crystal cards are discarded from those
+                        that the player placed face-up in front of him during his
+                        turn of the expansion phase.
+                        Some effects or abilities may specify otherwise.
                     \item \textit{using N resources} means to remove N resources
                         from one's territories.
                 \end{itemize}
@@ -414,6 +411,19 @@
         (note: this means that when attacking one territory on two fronts,
         victory on only one of them is enough to take control of that territory).
         Resources that were on the conquered territory stay on that territory.
+        
+    \subsection{Special cases}
+        \begin{itemize}
+            \item When a player loses his portal territory,
+                     his portal is destroyed (the tile is flipped),
+                     and he is eliminated from the game.
+                     His territories are still considered under his partial control
+                     (\textit{i.e. } their defense is determined by his base defense
+                     and bonuses).
+                     Resources that were on the portal territory tile stay on it.
+            \item When a player loses control of the Heart of Eden,
+                     he is allowed to use the pure energy on it to purchase technology cards.
+        \end{itemize}
         
     \subsection{Defense of a wild territory}
         The defense of a wild territory depends on its distance
@@ -456,27 +466,15 @@
         the player may either choose to rely on its base defense
         or use unit cards from his hand to defend it manually (see section \ref{battle}).
         
-    \subsection{Special cases}
-        \begin{itemize}
-            \item When a player loses his portal territory,
-                     his portal is destroyed (the tile is flipped),
-                     and he is eliminated from the game.
-                     His territories are still considered under his partial control
-                     (\textit{i.e. } their defense is determined by his base defense
-                     and bonuses).
-                     Resources that were on the portal territory tile stay on it.
-            \item When a player loses control of the Heart of Eden,
-                     he is allowed to use the pure energy on it to purchase technology cards.
-        \end{itemize}
-        
 \newpage
     \subsection{Bonuses}
         \begin{itemize}
-            \item If there are at least 5 resources on a territory which are either
+            \item At the start of the battle,
+                if there are at least 5 resources on a territory which are either
                 crystal shards or its controller's civilization resource,
                 that territory gets +1 strength in both attack and defense.
             \item If a territory is in contact with at least 1 other territory
-                in the above situation (controlled by the same player),
+                (controlled by the same player) in the above situation,
                 it also gets +1 strength in both attack and defense.\\
                 (note: this means that a territory that satisfies both conditions
                 can get a total bonus of +2 strength)
@@ -492,7 +490,7 @@
                 and if he was already attacked during this expansion phase,
                 he may discard any number of cards from his hand then replenish it.
             \item If there is a defending player,
-                he plays a unit from his hand on each front he chose to defend himself.
+                he plays a unit from his hand on each front he chose to defend manually.
             \item On each front on which he has not finished attacking,
                 the attacking player may either stop attacking or add a unit
                 from his hand under the bottom row of his allied units on this front
@@ -501,17 +499,21 @@
                 some abilities (see section \ref{abilities}) allow units to be placed
                 on the same row or take advantage of the units placement).
                 \label{battle4}
-            \item On each front on which he has not finished defending,
+            \item On each front on which he is still manually defending,
                 the defending player may either stop defending or add a unit
                 from his hand under the bottom row of his allied units on this front.
             \item Go back to step \ref{battle4} until both players have stopped
                 attacking and defending.
                 \label{battle6}
-            \item Players count their total strength (including possible bonuses).
+            \item \textbf{End of combat:}\\
+                Players count their total strength (including possible bonuses).
                 On each front where the attacking player's strength is more than
                 the defending player's (or than the base defense of the territory
                 if the defending player did not defend it himself),
                 the attacking player takes control of his enemy territory.
+                For each front where it's not the case,
+                the defending player adds 1 to the Base Defense of his territories.
+                The defending player then replenishes his hand.
                 \label{battle7}
             \item \textbf{Post-combat phase:}\\
                 Each player may choose to return some of his units to his World.

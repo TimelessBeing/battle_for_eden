@@ -10,7 +10,7 @@ Miner (Strength: 1)
 Shock Unit (cost 2):
 
 Artificer (Strength: 1)
-    Immediate: Use 3 Energy Crystals to draw a card and harvest ore from the allied territory and 1 neighbouring territory.
+    Immediate: Use 3 Energy Crystals from your hand to draw a card and harvest ore from the allied territory and 1 neighbouring territory.
     Immediate: If you triggered the first ability: use 5 ore on the allied territory to get rid of a unit on this front. If that unit's cost is 2 or less, you may use only 3 ore instead.
 
 
@@ -36,13 +36,13 @@ Specialist (Strength: 1)
 Champion Unit (cost 5):
 
 Blacksmith (Strength: 1)
-    Immediate: Use 3 Energy Crystals to draw a card and harvest ore from the allied territory.
+    Immediate: Use 3 Energy Crystals from your hand to draw a card and harvest ore from the allied territory.
     Delayed: If you triggered the first ability: for each allied unit on this front, you may use 1 ore from the allied territory to add 1 strength to that unit.
 
 
 Immortal Unit (cost 6):
 
 Rocket Roll (Strength: 3)
-    Immediate: [Move any number of resources between two territories you control] OR [destroy a card from your discard pile to get the right to immediately purchase a unit from your World and add it to your hand].
+    Immediate: [Move any number of resources between two territories you control] OR [destroy a card from your discard pile to immediately purchase a unit from your World and add it to your hand. Pay that unit cost using Energy Crystal cards from your hand and resources from your territories].
 
 
