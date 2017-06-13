@@ -20,7 +20,7 @@ Tribe Elder (Strength: 3)
     Immediate: Restore an allied unit on this front to destroy a card from your hand. This ability cannot be used to restore a unit without destroying a card.
 
 Blood Alchemist (Strength: 3)
-    Immediate: Doom an allied unit on this front to draw a card then either discard a card from your hand or doom an additional allied unit on this front.
+    Reaction(event: this unit collapses OR an allied unit is added to the battle): If this ability has not been triggered before: doom an allied unit on this front to draw a card then either discard a card from your hand or doom an additional allied unit on this front.
 
 Herbalist (Strength: 3)
     Reaction(event: this unit collapses): Restore 1 allied unit on this front.
