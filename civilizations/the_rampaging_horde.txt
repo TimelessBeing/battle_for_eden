@@ -3,7 +3,8 @@ Civilization Resource: Animals
 Basic Unit (cost 1):
 
 Grunt (Strength: 1)
-    Permanent: +2 strength if your hand is empty.
+    Permanent: +1 strength if your hand is empty.
+    Permanent: +1 strength if this unit is on the top row.
 
 
 Shock Unit (cost 2):
@@ -13,14 +14,14 @@ Raider (Strength: 2)
     Immediate: Get rid of a unit of cost 2 or less on this front.
     Delayed: If the first ability was not triggered:
              Level 1: +1 level to all Raider units on all fronts.
-             Level 2: get rid of a unit of cost 2 or more on this front, chosen by the other player.
+             Level 2: get rid of an enemy unit of cost 2 or more on this front, chosen by the other player.
              Level 3: get rid of a unit of cost 2 or more on this front.
 
 
 Main Units (cost 3):
 
 Shield Warrior (Strength: 3)
-    Immediate: Destroy one of your set-aside cards OR discard a card from your hand.
+    Immediate: Discard a card from your hand OR [turn one of your face-up Energy Crystal cards horizontally to the right. It is destroyed at the end of the expansion phase].
 
 Charge Leader (Strength: 3)
     Reaction (condition: your hand is empty): reveal the top card of your deck. If it is a unit, you may add it to this row. Otherwise discard it.
@@ -30,7 +31,8 @@ Shaman (Strength: 2)
     Immediate: Draw 1 card, then choose 1 card or more from your hand and put each of them either on top or at the bottom of your deck in any order.
 
 Brute (Strength: 4)
-    Permanent: Resistant when your hand is not empty.
+    Permanent: This unit is resistant.
+    Permanent: When adding new allied units to the battle on this front, you may add them to this unit's row instead of adding them to the bottom row.
 
 Champion Unit (cost 5):
 
