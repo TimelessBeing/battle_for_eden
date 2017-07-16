@@ -27,8 +27,8 @@ Charge Leader (Strength: 3)
     Reaction (condition: your hand is empty): reveal the top card of your deck. If it is a unit, you may add it to this row. Otherwise discard it.
 
 Shaman (Strength: 2)
-    Immediate: Choose a type of unit. For the rest of the battle, all allied units of this type are resistant.
     Immediate: Draw 1 card, then choose 1 card or more from your hand and put each of them either on top or at the bottom of your deck in any order.
+    Immediate: Choose a type of unit. For the rest of the battle, all allied units of this type are resistant.
 
 Brute (Strength: 4)
     Permanent: This unit is resistant.

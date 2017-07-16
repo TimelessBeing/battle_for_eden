@@ -4,6 +4,7 @@ Basic Unit (cost 1):
 
 Skeleton (Strength: 1)
     Permanent: You may discard this card from your hand at any time to draw a card.
+    Permanent: If an ability reveals this card, you may choose to discard it and reveal another card instead.
     Delayed: If there is a total of 4 allied units or less on all fronts, add a Skeleton from your discard pile to the battle on this front.
 
 
@@ -26,7 +27,7 @@ Death Knight (Strength: 2)
     Immediate: [Reveal the top card of your deck, then either discard it or put it back on top of your deck] OR [draw the non-Grim-Reaper unit card which is the closest to the top of your discard pile into your hand].
 
 Skeleton Rider (Strength: 2)
-    Immediate: Reveal the top 3 cards of your deck. You may exchange 1 unit card revealed in this way with a unit card from your hand. Discard the revealed cards in any order.
+    Immediate: You may shuffle your discard pile and place it under your deck. Reveal the top 3 cards of your deck. You may exchange 1 unit card revealed in this way with a unit card from your hand. Discard the revealed cards in any order.
 
 Bone Golem (Strength: 3)
     Permanent: +2 strength for each Skeleton unit on this front.
