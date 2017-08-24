@@ -10,24 +10,29 @@ Infantry Squad (Strength: 1)
 Shock Unit (cost 2):
 
 Archery Squad (Strength: 1)
+    Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
     Immediate: Discard a unit of strength 1 from your hand to draw 1 card from the bottom of your deck and get rid of a unit on this front. This ability cannot be triggered when this unit is added to the battle by an Infantry Squad.
 
 
 Main Units (cost 3):
 
 Tactician (Strength: 1)
+    Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
     Permanent: +1 strength if there is at least 1 Infantry Squad and 1 Archery Squad on this front.
     Immediate: Reveal the top card of your deck, then discard it, destroy it or put it back on top of your deck.
 
 Heavy Infantry (Strength: 1)
+    Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
     Permanent: If this unit is revealed from the top of the deck by the ability of an Infantry Squad or Captain, you may exchange it with an allied unit on the bottom row.
     Permanent: +2 strength if this unit was added to the battle by replacing another unit.
 
 Captain (Strength: 1)
+    Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
     Permanent: +1 strength if there are other units on this row.
     Immediate: Copy the immediate ability of an allied unit of strength 1 on this front. When copying an Infantry Squad's ability, units of strength 2 can be added to the row as if their strength was 1.
 
 Cavalry (Strength: 1)
+    Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
     Immediate: Discard a unit of strength 1 from your hand to draw 3 cards, then discard 2 cards from your hand.
     Permanent: +1 strength if the first ability was triggered.
 
