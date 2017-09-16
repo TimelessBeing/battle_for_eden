@@ -19,7 +19,7 @@ Main Units (cost 3):
 Tactician (Strength: 1)
     Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
     Permanent: +1 strength if there is at least 1 Infantry Squad and 1 Archery Squad on this front.
-    Immediate: Reveal the top card of your deck, then discard it, destroy it or put it back on top of your deck.
+    Reaction(event: you reveal cards from the top of your deck): If this ability has not been triggered before: you may destroy one of the revealed cards.
 
 Heavy Infantry (Strength: 1)
     Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.

@@ -17,7 +17,7 @@ Weaponry Module (Strength: 2)
 Main Units (cost 3):
 
 Recycling Module (Strength: 3)
-    Immediate: Destroy a card from your hand to add a Building Block from your World to the battle on this front. Do not trigger its immediate ability.
+    Immediate: Destroy a card from your hand to add a Building Block from your World to this row. Do not trigger its immediate ability.
     Immediate: Reconfigure this unit.
 
 Production Module (Strength: 3)
