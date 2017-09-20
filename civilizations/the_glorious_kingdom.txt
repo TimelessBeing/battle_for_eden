@@ -34,7 +34,7 @@ Captain (Strength: 1)
 Cavalry (Strength: 1)
     Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
     Immediate: Discard a unit of strength 1 from your hand to draw 3 cards, then discard 2 cards from your hand.
-    Permanent: +1 strength if the first ability was triggered.
+    Permanent: +1 strength if the immediate ability was triggered.
 
 
 Champion Unit (cost 5):

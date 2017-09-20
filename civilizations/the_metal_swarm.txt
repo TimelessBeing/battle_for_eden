@@ -3,6 +3,7 @@ Civilization Resource: Positronium
 Basic Unit (cost 1):
 
 Building Block (Strength: 0)
+    Permanent: This unit cannot be returned to your World during the post-combat phase.
     Immediate: Destroy 2 Building Blocks on this front to add a Weaponry Module from your World to the battle on this front.
     Delayed: Against wild territories: doom this unit add 2 to its strength.
 
