@@ -27,8 +27,8 @@ Herbalist (Strength: 3)
     Post-combat: Restore up to 2 doomed allied units on this front.
 
 Tribe Protector (Strength: 3)
+    Permanent: Whenever this unit becomes doomed or collapses while undoomed, immediately add two Tribal Warriors from your World to this row without triggering their immediate abilities.
     Immediate: Doom another allied unit on this front.
-    Reaction (event: this unit is doomed or collapses while undoomed): Add two Tribal Warriors from your World to this row. Do not trigger their immediate abilities.
 
 
 Champion Unit (cost 5):

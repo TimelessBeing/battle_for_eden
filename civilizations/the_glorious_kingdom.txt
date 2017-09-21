@@ -4,7 +4,7 @@ Basic Unit (cost 1):
 
 Infantry Squad (Strength: 1)
     Permanent: Discard this unit when a unit on its row collapses or is discarded.
-    Immediate: Reveal the top 2 cards of your deck. You may discard the first card or, if it is a unit of strength 1 and there are 2 Infantry Squads or less on this row, add it to the row. Put back the remaining cards on top of your deck in any order.
+    Immediate: Reveal the top card of your deck. You may discard it. If it is a unit of strength 1 and there are 2 Infantry Squads or less on this row: you may add it to the row. You may reveal another card from the top of your deck. Put back the remaining cards on top of your deck in any order.
 
 
 Shock Unit (cost 2):
