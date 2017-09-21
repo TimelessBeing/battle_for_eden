@@ -1,0 +1,100 @@
+Concept: when the civilizations arrive, Eden is ruled by dragons
+         their pack leader, the King of Eden, lives on the HoE
+         the civilizations will have to defeat the King of Eden
+         if they want to get this land resources
+
+Victory condition: conquer the HoE before all portals are destroyed
+
+Map creation:
+ - the HoE is in the center
+ - players each have 7+1 tiles as usual
+ - they use 3 random tiles to place their portals at distance 3 of the HoE,
+   then place the tile of their color in contact with their portal tile
+ - they take turn placing random tiles on the map,
+   but don't look at them before choosing the location
+ - some map examples will be needed for beginners
+
+Mechanics:
+ - Dragons have their own territories, initially only the HoE
+ - Starting from the 2nd turn,
+   they participate in the expansion phase as the last player
+ - There is a deck of dragon action cards to decide what territories the dragons
+   attack during their turn.
+   Initially, all cards of the deck are in the discard pile
+   except 3 minimum distance ones
+ - They attack using a deck of dragon cards.
+   All attacks happen independently in an order chosen by the players
+   When a player is attacked more than once,
+   he obviously replenishes at the end of each battle,
+   and is allowed to discard any number of cards then replenish between battles
+ - The attack itself consists of 5 cards from the dragon deck (a hand),
+   played a random order
+   making the dragons discard a card discards a random card from this hand
+   getting rid of a dragon unit discards it
+   if the dragons must choose a unit,
+   they choose the one with either the highest or lowest strength,
+   whichever is most detrimental to the player in terms of direct strength
+ - A player can support another player with whom he shares a frontier
+   In this case, the supported player defends normally,
+   while everything happens for the supporting player as if he owned
+   the attacked territory and was the only one attacked.
+   Then, to determine if the dragon won, the sum of their strengths over
+   both battles is compared to the sum of the players' strengths
+ - When the dragons conquer a territory, all resources on it are destroyed.
+   If it's a Portal territory, the portal is destroyed
+ - They automatically win against wild territories
+ - When a player attacks the HoE,
+   the dragons start the battle with the King of Eden on the first row
+ - When players attack other dragon territories,
+   everything happens as if they were wild territories
+   with a defense equal to their base defense
+   (materialized by counters on the HoE),
+   which starts at 5 and increases by 2 during their turn if they were attacked
+   during the expansion phase up to a maximum of 15
+ - If a dragon territory is disconnected from the HoE,
+   it is still considered a dragon territory for defense,
+   but not for the action cards
+   
+
+Dragon action cards:
+- 5x Attack on all frontiers with territories at minimum distance from the HoE
+- 2x Attack on all frontiers with territories at minimum distance from the HoEx2
+- 2x Attack on all frontiers with territories at maximum distance from the HoE
+- 1x Attack on all frontiers with territories at maximum distance from the HoEx2
+
+Dragon battle cards:
+- 1x  King of Eden
+      strength 10, cost 6
+      can't collapse or be discarded
+- 10x Baby Dragon
+      strength 1, cost 1
+      if King of Eden: +1 card
+      else: -2 cards
+      at the end of the dragons' turn, the card is destroyed
+      (max 2 destroyed per turn)
+- 3x  White Dragon
+      strength 2, cost 2
+      Get rid of an enemy unit chosen by the player
+- 3x  Grey Dragon
+      strength 2, cost 2
+      if the player is manually defending, he discards one card from his hand
+- 6x  Black Dragon
+      strength 2, cost 2
+      Get rid of the most expensive unit on the player's bottom row
+      (in case of equality, the player can choose)
+      if the player is not manually defending: +1 card
+- 5x  Red Dragon Cub
+      strength 2, cost 3
+- 6x  Red Dragon
+      strength 3, cost 3
+- 5x  Ancient Red Dragon
+      strength 4, cost 3
+- 2x  Blue Dragon Cub
+      strength 2, cost 3
+      +1 card
+- 4x  Blue Dragon
+      strength 3, cost 3
+      +1 card
+- 2x  Ancient Blue Dragon
+      strength 4, cost 3
+      +1 card
