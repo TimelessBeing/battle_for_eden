@@ -18,10 +18,10 @@ Mechanics:
  - Dragons have their own territories, initially only the HoE
  - Starting from the 2nd turn,
    they participate in the expansion phase as the last player
- - There is a deck of dragon action cards to decide what territories the dragons
+ - There is a deck of dragon target cards to decide what territories the dragons
    attack during their turn.
-   Initially, all cards of the deck are in the discard pile
-   except 3 minimum distance ones
+ - The attacks only take place on the frontiers of the dragon territories
+   that are connected to the Heart of Eden.
  - They attack using a deck of dragon cards.
    All attacks happen independently in an order chosen by the players
    When a player is attacked more than once,
@@ -56,22 +56,33 @@ Mechanics:
    but not for the action cards
    
 
-Dragon action cards:
-- 5x Attack on all frontiers with territories at minimum distance from the HoE
-- 2x Attack on all frontiers with territories at minimum distance from the HoEx2
-- 2x Attack on all frontiers with territories at maximum distance from the HoE
-- 1x Attack on all frontiers with territories at maximum distance from the HoEx2
+Dragon target cards:
+- numbered, 10 in total
+- the deck is initially cards 1 and 2
+- when we reach the end, we remove the one with the lowest number, add the 2 next ones, and shuffle
+
+1)  Closest territories to the HoE
+2)  Closest territories to the HoE
+3)  Closest territories to the HoE
+4)  Closest territories to the HoE belonging to players not attacked during the last turn (all players if there is none)
+5)  Closest territories to the HoE x2 
+6)  Furthest territories to the HoE
+7)  Closest territories to the HoE x2
+8)  Furthest territories to the HoE belonging to players not attacked during the last turn (all players if there is none)
+9)  Furthest territories to the HoE
+10) Furthest territories to the HoE x2. Shuffle.
+
 
 Dragon battle cards:
 - 1x  King of Eden
       strength 10, cost 6
       can't collapse or be discarded
-- 10x Baby Dragon
+- 20x Baby Dragon
       strength 1, cost 1
       if King of Eden: +1 card
-      else: -2 cards
-      at the end of the dragons' turn, the card is destroyed
-      (max 2 destroyed per turn)
+      else: -1 cards
+      at the end of the dragons' turn, destroy 2 Baby Dragon cards,
+      then shuffle the deck and discard pile together
 - 3x  White Dragon
       strength 2, cost 2
       Get rid of an enemy unit chosen by the player
@@ -82,7 +93,7 @@ Dragon battle cards:
       strength 2, cost 2
       Get rid of the most expensive unit on the player's bottom row
       (in case of equality, the player can choose)
-      if the player is not manually defending: +1 card
+      if the player is not manually defending: +2 strength
 - 5x  Red Dragon Cub
       strength 2, cost 3
 - 6x  Red Dragon
