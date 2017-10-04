@@ -20,7 +20,6 @@ Main Units (cost 3):
 Tactician (Strength: 1)
     Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
     Immediate: If there is at least 1 other unit on the row: destroy a card from your hand.
-    Permanent: Whenever this unit is revealed by an ability, you may destroy one of the other revealed cards.
 
 Heavy Infantry (Strength: 1)
     Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
