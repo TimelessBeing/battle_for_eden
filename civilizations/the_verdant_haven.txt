@@ -22,16 +22,16 @@ Druid (Strength: 3)
     
 Ranger (Strength: 3)
     Immediate: Produce 3 mana if either the allied territory or half of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 2 mana.
-    Reaction (event: allied mana production on this front): Use 6 mana to draw a card or make your opponent choose and discard one from his hand.
+    Reaction (event: allied mana production on this front): Use 8 mana to draw a card or make your opponent choose and discard one from his hand.
 
 Channeler (Strength: 3)
     Permanent: Whenever this unit should collapse, you may use 4 mana to prevent it.
-    Immediate: Produce 10 mana if either the allied territory or half of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 6 mana.
+    Immediate: Produce 8 mana if either the allied territory or half of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 6 mana.
 
 Mystic (Strength: 3)
     Permanent: Whenever this unit should collapse, you may use 4 mana to prevent it.
     Immediate: Produce 6 mana if either the allied territory or half of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 4 mana.
-    Immediate: Use 2 mana to draw a card then discard a card.
+    Immediate: Draw a card then discard a card.
 
 
 Champion Unit (cost 5):
