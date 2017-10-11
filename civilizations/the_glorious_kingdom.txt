@@ -6,13 +6,12 @@ Infantry Squad (Strength: 1)
     Permanent: Discard this unit when a unit on its row collapses or is discarded.
     Immediate: If there are 2 Infantry Squad units or less on this row: reveal cards from the top of your deck until you reveal a unit of strength 1 or there is no more card to reveal. You may add this unit to the row. Put back the revealed cards on top of your deck in the order in which they were revealed.
 
-Infantry Squad unit card for free.
-    Immediate: 
+
 Shock Unit (cost 2):
 
 Archery Squad (Strength: 1)
     Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
-    Immediate: Discard a unit of strength 1 from your hand to draw 1 card and get rid of a unit on this front.
+    Immediate: Discard a unit of strength 1 from your hand to draw 1 card. If you do, and there is at least 1 other unit on the row, you may get rid of a unit on this front.
 
 
 Main Units (cost 3):
