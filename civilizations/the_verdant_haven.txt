@@ -11,17 +11,17 @@ Shock Unit (cost 2):
 
 Marksman (Strength: 2)
     Immediate: Produce 3 mana if either the allied territory or half of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 2 mana.
-    Reaction (event: allied mana production on this front): Use 8 mana to get rid of a unit on this front. If that unit's cost is 2 or less, you may use only 4 mana instead.
+    Reaction (event: allied mana production on this front): Use 8 mana to get rid of a unit on this front. If that unit's cost is 2 or less, you may use only 4 mana instead. The cost increases by 2 each time this ability is triggered.
 
 
 Main Units (cost 3):
 
 Druid (Strength: 3)
     Immediate: Produce 3 mana if either the allied territory or half of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 2 mana.
-    Reaction (event: allied mana production on this front): Use 4 mana to destroy a card from your hand.
+    Reaction (event: allied mana production on this front): Use 4 mana to destroy a card from your hand. The cost increases by 2 each time this ability is triggered.
     
 Ranger (Strength: 3)
-    Immediate: Produce 3 mana if either the allied territory or half of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 2 mana.
+    Immediate: Produce 3 mana if either the allied territory or half of its neighbours have a production capacity of 2 in plants or animals. Otherwise produce 2 mana. The cost increases by 2 each time this ability is triggered.
     Reaction (event: allied mana production on this front): Use 8 mana to draw a card or make your opponent choose and discard one from his hand.
 
 Channeler (Strength: 3)

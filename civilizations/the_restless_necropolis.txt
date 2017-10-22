@@ -30,7 +30,7 @@ Skeleton Rider (Strength: 2)
     Immediate: You may shuffle your discard pile and place it under your deck. Reveal the top 3 cards of your deck. You may exchange 1 unit card revealed in this way with a unit card from your hand. Discard the revealed cards in any order.
 
 Bone Golem (Strength: 3)
-    Permanent: +2 strength for each Skeleton unit on this front.
+    Delayed: Doom any number of Skeleton units on this front to add 2 strength for each Skeleton unit doomed in this way.
 
 
 Champion Unit (cost 5):

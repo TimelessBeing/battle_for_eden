@@ -88,12 +88,21 @@ Dragon battle cards:
       Get rid of an enemy unit chosen by the player
 - 3x  Grey Dragon
       strength 2, cost 2
-      if the player is manually defending, he discards one card from his hand
+      Get rid of a unit of cost 5 on the player's bottom row,
+      or the most expensive unit if there is none
+      (in case of equality, the player can choose
+      among those adding the most strength to his side)
+      if the player is not manually defending: +2 strength
 - 6x  Black Dragon
       strength 2, cost 2
-      Get rid of the most expensive unit on the player's bottom row
-      (in case of equality, the player can choose)
+      Get rid of an enemy unit of cost 5,
+      or the most expensive unit if there is none
+      (in case of equality, the player can choose
+      among those adding the most strength to his side)
       if the player is not manually defending: +2 strength
+- 3x  Green Dragon
+      strength 2, cost 2
+      if the player is manually defending, he discards one card of his choice from his hand
 - 5x  Red Dragon Cub
       strength 2, cost 3
 - 6x  Red Dragon
