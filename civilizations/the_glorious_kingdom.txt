@@ -18,8 +18,7 @@ Main Units (cost 3):
 
 Tactician (Strength: 1)
     Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.
-    Immediate: If there is at least 1 other unit on the row: destroy a card from your hand.
-    Immediate: Remove this unit from the battle and place it on the bottom of your deck.
+    Immediate: Remove this unit from the battle and place it on the bottom of your deck OR [if there is at least 1 other unit on the row: destroy a card from your hand].
 
 Heavy Infantry (Strength: 1)
     Permanent: When you purchase this card, you may purchase 1 Infantry Squad unit card for free.

@@ -30,7 +30,7 @@ Sentinel (Strength: 1)
     Permanent: +1, +2, +3 or +4 strength if 3 territories that you control each have at least 5, 10, 30 or 50 ore respectively on them.
 
 Specialist (Strength: 1)
-    Immediate: Discard an Energy Crystal card to put 5 new shard tokens on the allied territory.
+    Immediate: Discard an Energy Crystal card to produce 5 shards on the allied territory.
 
 
 Champion Unit (cost 5):
