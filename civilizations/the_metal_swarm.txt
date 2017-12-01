@@ -4,8 +4,8 @@ Basic Unit (cost 1):
 
 Building Block (Strength: 0)
     Permanent: This unit cannot be returned to your World during the post-combat phase.
+    Permanent: +1 strength when all ally and enemy units on this front are Building Blocks.
     Immediate: Destroy 2 Building Blocks on this front to add a Weaponry Module from your World to the battle on this front.
-    Delayed: Against wild territories: doom this unit add 2 to its strength.
 
 
 Shock Unit (cost 2):
@@ -46,5 +46,5 @@ Core Module (Strength: 1)
 Immortal Unit (cost 6):
 
 Assembly Module (Strength: 1)
-    Immediate: Destroy up to 3 Building Blocks on this front. You may add a unit of cost equal to or less than the number of units destroyed in this way to the battle on this front. Doom that unit.
+    Immediate: Destroy up to 3 Building Blocks on this front. You may add a unit of cost equal to or less than the number of units destroyed in this way to the battle on this front.
 
