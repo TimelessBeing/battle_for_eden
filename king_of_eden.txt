@@ -49,28 +49,29 @@ Mechanics:
    everything happens as if they were wild territories
    with a defense equal to their base defense
    (materialized by counters on the HoE),
-   which starts at 5 and increases by 2 during their turn if they were attacked
-   during the expansion phase up to a maximum of 15
+   which starts at 5.
  - If a dragon territory is disconnected from the HoE,
-   it is still considered a dragon territory for defense,
+   it is still considered a dragon territory for defense, with -5 to its strength,
    but not for the action cards
+ - At the beginning of the dragons' turn, starting turn 3,
+   their Base Defense increases by 2 and their deck is improved then shuffled.
+   Improving the dragons' deck means removing 2 Baby Dragons from the deck
+   if there are any left, or otherwise adding a cost-5 dragon chosen at random to the deck.
    
 
 Dragon target cards:
-- numbered, 10 in total
-- the deck is initially cards 1 and 2
-- when we reach the end, we remove the one with the lowest number, add the 2 next ones, and shuffle
+- numbered, 8 in total
+- the deck is initially phase 1 cards
+- when we reach the end, we switch to phase 2 cards and shuffle, and same thing the next times with phase 3, 4, 5
 
-1)  Closest territories to the HoE
-2)  Closest territories to the HoE
-3)  Closest territories to the HoE
-4)  Closest territories to the HoE belonging to players not attacked during the last turn (all players if there is none)
-5)  Closest territories to the HoE x2 
-6)  Furthest territories to the HoE
-7)  Closest territories to the HoE x2
-8)  Furthest territories to the HoE belonging to players not attacked during the last turn (all players if there is none)
-9)  Furthest territories to the HoE
-10) Furthest territories to the HoE x2. Shuffle.
+1, 2)  Closest territories to the HoE
+1, 2)  Closest territories to the HoE
+2, 3)  Closest territories to the HoE belonging to players not attacked during the last turn (all players if there is none)
+3, 4)  Closest territories to the HoE x2 
+3, 4, 5)  Furthest territories to the HoE
+4, 5)  Closest territories to the HoE x2
+4, 5)  Furthest territories to the HoE belonging to players not attacked during the last turn (all players if there is none)
+5) Furthest territories to the HoE x2. Shuffle.
 
 
 Dragon battle cards:
@@ -78,6 +79,25 @@ Dragon battle cards:
       strength 10, cost 6
       can't collapse or be discarded
       +1 strength/dragon territory other than HoE
+- 2x  Golden Dragon
+      strength 6, cost 5
+      +2 strength to all other dragon units on this front.
+- 2x  Red King/Queen
+      strength 7, cost 5
+      The abilities of Ancient Blue Dragon/Blue Dragon/Blue Dragon Cub become [draw 1 card].
+- 2x  Blue King/Queen
+      strength 5, cost 5
+      Draw 2 cards
+- 2x  Green King/Queen
+      strength 6, cost 5
+      The player discards 1 card from his hand at random
+- 2x  Black King/Queen
+      strength 5, cost 5
+      Get rid of 2 enemy units of cost 5,
+      or the most expensive units if there are not enough
+      (in case of equality, the player can choose
+      among those adding the most strength to his side)
+      if the player is not manually defending: +2 strength
 - 20x Baby Dragon
       strength 1, cost 1
       if King of Eden: +1 card
