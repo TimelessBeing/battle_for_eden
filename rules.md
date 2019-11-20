@@ -20,6 +20,7 @@ on a map of the world, Eden, and building your deck to improve
 the quality of your army.
 
 The game is played in two parts:
+
 - first, the players first use hexagonal tiles to create a map of Eden,
   including the Heart of Eden and the portals connecting Eden to each civilization
 - then, the conquest begins: players initially control the tiles near their
@@ -49,7 +50,7 @@ It is the map's first tile, and it's now time to add the rest!
 
 Starting from the first player, players take turns building the map.
 During their turn, a player first draws a non-portal tile
-- choosing to either draw the face-up one or one of the face down ones -
+— choosing to either draw the face-up one or one of the face down ones —
 and adds it to the map by placing it in contact with another tile from the map.
 They may then if they so choose add their portal tile to the map,
 remove their portal tile from the map (if it is already part of it),
@@ -57,6 +58,7 @@ or do both (removing the tile then adding it elsewhere).
 
 During map creation, players are only allowed to place tiles
 in such locations that the following conditions are met:
+
 - there must be at least 3 tiles between each portal tile and the Heart of Eden tile
 - there must be at least 4 tiles between any two portal tiles
 - each portal must be in contact with at most 2 tiles
@@ -118,9 +120,10 @@ making it their territory and allowing them to extract resources from it.
 
 The conquest is a succession of rounds, each composed of the 3 same phases,
 until a player wins. Those 3 phases are:
-- the Expansion phase, in which players use their army to gain control of new territories
-- the Production phase, in which the players' territories earns them resources
-- the Reinforcements phase, in which the players' receive new troops and use those resources to improve their army
+
+- the **Expansion phase**, in which players use their army to gain control of new territories
+- the **Production phase**, in which the players' territories earns them resources
+- the **Reinforcements phase**, in which the players' receive new troops and use those resources to improve their army
 
 To gain time, the Production and Reinforcements phases can generally
 be performed by all players at the same time, except if some of them want
@@ -199,6 +202,7 @@ to discard the cards remaining in your hand and may keep any number of them).
 However, if the player has taken at least 1 territory from other players
 during their turn, they have a chance to continue their conquest if they want to,
 but with some constraints:
+
 - first, all Energy Crystal cards in front of them (those played during the turn)
   return to their hand
 - then, they replenish their hand to 5 cards
@@ -314,6 +318,7 @@ but this time the players create a separate attacking army and defending army fo
 
 Players still take turn playing unit cards from their hands, one at a time,
 starting from the attacking player, but with two differences:
+
 - when playing a unit, the player chooses on which of the two fronts that unit must be added,
   i.e. which army it will join
 - during their first turn, instead of playing 1 unit card on a front of their choice,
@@ -328,6 +333,7 @@ but this time again the players create a separate attacking army and defending a
 
 Players still take turn playing unit cards from their hands (following turn order), one at a time,
 starting from the attacking player, but with two differences:
+
 - when playing a unit, the attacking player chooses on which of the two fronts that unit must be added,
   i.e. which army it will join
 - during their first turn, instead of playing 1 unit card on a front of their choice,
@@ -372,21 +378,23 @@ The units that a player adds to a battle generally do more than just add strengt
 to their army, and allow their player to trigger various effects if they want to.
 
 Abilities are divided into 4 types, depending on when they can be triggered:
-- immediate abilities may be triggered just after a unit has been added to the battle
+
+- **immediate abilities** may be triggered just after a unit has been added to the battle
   (until it's the next player's turn to play a unit from their hand)
-- delayed abilities may be triggered after all players have stopped
+- **delayed abilities** may be triggered after all players have stopped
   playing units from their hands (before the strength of each army is tallied)
-- post-combat abilities may be triggered just after the strength
+- **post-combat abilities** may be triggered just after the strength
   of each army has been tallied (before the unit cards are discarded)
-- reaction abilities may be triggered:
-   - if they're event-based: just after a specific event happens
-                             (until it's the next player's turn to play a unit from their hand)
-                             and possibly several times during the same turn
-                             (example event: "this unit collapses")
-   - if they're condition-based: as if it was based on the event "the condition became satisfied",
-                                 as well as if it was an immediate ability if the condition
-                                 was already satisfied when the card was added to the battle
-                                 (example condition: "your hand is empty")
+- **reaction abilities** may be triggered:
+   - if they're **event-based**: just after a specific event happens
+                                 (until it's the next player's turn to play a unit from their hand)
+                                 and possibly several times during the same turn
+                                 (example event: "this unit collapses")
+   - if they're **condition-based**: as if it was based on the event
+                                     "the condition became satisfied",
+                                     as well as if it was an immediate ability if the condition
+                                     was already satisfied when the card was added to the battle
+                                     (example condition: "your hand is empty")
 
 Keep in mind that using an ability is always optional,
 and that the player may always choose in which order to trigger their units' abilities.
