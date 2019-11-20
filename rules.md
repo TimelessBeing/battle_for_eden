@@ -33,7 +33,7 @@ The game is played in two parts:
 
 ## Setup
 
-Each player choses a civilization and a color.
+Each player chooses a civilization and a color.
 Players must then determine a first player in any way they choose.
 
 Each player receives 1 tile of each of the 7 colors (including black),
@@ -58,12 +58,12 @@ or do both (removing the tile then adding it elsewhere).
 During map creation, players are only allowed to place tiles
 in such locations that the following conditions are met:
 - there must be at least 3 tiles between each portal tile and the Heart of Eden tile
-- there must be at least 4 tiles between any two portals tiles
+- there must be at least 4 tiles between any two portal tiles
 - each portal must be in contact with at most 2 tiles
 - tiles cannot be placed in direct contact with a portal tile which is already on the map
 - if a player's portal tile is already on the map, they are not allowed to place
   tiles on the map unless there is at least 3 tiles between the one they are placing
-  and their portal tile
+  and their own portal tile
 
 While placing tiles, keep track of those which are energy-rich locations,
 by putting an energy-rich-location token on any tile which is in contact
@@ -148,15 +148,16 @@ Then, if they want to, they can create battles on up to 2 fronts
 
 To create a battle on 1 front, the player chooses a frontier between
 one of their territories and another territory they want to conquer.
-They then leave 1 troop on the center of their territory
+They then leave at least 1 troop on the center of their territory
 (which stays behind to occupy it), place the rest near the frontier,
 and play a unit card from their hand to start the battle.
 
 To create a battle on 2 fronts, the player proceeds similarly,
-choosing 2 frontiers, placing troops near both frontiers,
-and playing a unit cards to start each battle.
+choosing 2 frontiers, leaving troops behind on the attacking territories,
+placing troops near the frontiers, and playing a unit cards to start each battle.
 If the player is attacking from the same territory at the same time,
-they must divide their troops and choose which ones are sent to each front.
+they must divide the troops they place near the frontiers
+and choose how much are sent to each front.
 
 After the fronts are created, more units may then be added
 (see section on Combat for more details),
@@ -195,15 +196,18 @@ the player first shuffles their discard pile
 (note: contrary to many other deckbuilding games, you are not forced
 to discard the cards remaining in your hand and may keep any number of them).
 
-However, if the player has conquered at least 1 territory during their turn,
-they have a chance to continue their conquest if they want to,
+However, if the player has taken at least 1 territory from other players
+during their turn, they have a chance to continue their conquest if they want to,
 but with some constraints:
 - first, all Energy Crystal cards in front of them (those played during the turn)
   return to their hand
 - then, they replenish their hand to 5 cards
-- they now start a new turn,
-  but this time starting a battle on a front has a cost:
-  the player must remove 1 troop from the attacking territory first
+- they now start a bonus turn, but this time they may only attack
+  from the territories they took from other players during their previous turn
+- during a bonus turn, starting battles has a cost:
+  the player must first remove 1 troop from each attacking territory
+  before sending troops to the frontier
+  (2 if there are 2 fronts for that attacking territory)
 
 Note that if they have enough troops and are successful in battle,
 a player might be able to play many turns in a row.
@@ -217,10 +221,10 @@ that goes only through that player's territories.
 Sometimes however, after losing one or more territories,
 some may become disconnected from the player's portal.
 
-Each players receive 1 resource (materialized by ???) for each non-disconnected territory they control
+Each players receive 1 resource (materialized by ???) for each connected territory they control
 (including their portal territory or the Heart of Eden),
-plus 1 resource per non-disconnected territory of their color they control,
-plus 1 resource per non-disconnected energy-rich location they control
+plus 1 resource per connected territory of their color they control,
+plus 1 resource per connected energy-rich location they control
 
 In addition to that, a player controlling the Heart of Eden receives 1 pure energy
 (materialized by a counter token) if that territory isn't disconnected,
