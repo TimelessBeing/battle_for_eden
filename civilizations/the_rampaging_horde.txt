@@ -1,6 +1,12 @@
-Civilization Resource: Animals
 
-Basic Unit (cost 1):
+Dedicated Mechanics:
+
+- "Protect a unit" = Differentiate that unit.
+  The next time it should collapse, undo that unit's protecting instead.
+
+- "Support a unit" = Differentiate that unit.
+  That unit's abilities may behave differently when it is supported.
+
 
 Grunt (Strength: 1)
     Permanent: +1 strength if your hand is empty.
@@ -10,40 +16,49 @@ Grunt (Strength: 1)
 Shock Unit (cost 2):
 
 Raider (Strength: 2)
-    Permanent: +1 level when your hand is empty.
-    Immediate: Get rid of a unit of cost 2 or less on this front.
-    Delayed: If the first ability was not triggered:
-             Level 1: +1 level to all Raider units on all fronts.
-             Level 2: get rid of an enemy unit of cost 2 or more on this front, chosen by the other player.
-             Level 3: get rid of a unit of cost 2 or more on this front.
+    Immediate:
+      Differentiate this unit.
+      [Support all Raiders on this front]
+      OR [Destroy a unit of cost 2 or less]
+      OR [Destroy an enemy unit (chosen by you if this unit is supported, otherwise by the opponent)]
+    Delayed: Trigger the first ability if it has not been triggered.
 
 
 Main Units (cost 3):
 
 Shield Warrior (Strength: 3)
-    Immediate: Discard a card from your hand OR [turn one of your face-up Energy Crystal cards horizontally to the right. It is destroyed at the end of the expansion phase].
+    Immediate:
+      Discard a card from your hand OR [differentiate one of the Energy Crystal cards
+      you have played this turn. It is destroyed at the end of the expansion phase].
 
 Charge Leader (Strength: 3)
-    Reaction (condition: your hand is empty): reveal the top card of your deck. If it is a unit, you may add it to this row. Otherwise discard it.
+    Reaction (condition: your hand is empty):
+      reveal the top card of your deck. If it is a unit, you may add it to this row. Otherwise discard it.
 
 Shaman (Strength: 2)
-    Immediate: Draw 1 card, then choose 1 card or more from your hand and put each of them either on top or at the bottom of your deck in any order.
-    Immediate: Choose a type of unit.
-    Permanent: All allied units of the chosen type are resistant.
+    Immediate:
+      [Draw 1 card, then choose 1 card or more from your hand and put each of them
+      either on top or at the bottom of your deck in any order]
+      OR [Choose a type of unit. Protect all units of that type]
+    Reaction (event: a unit of the chosen type is added to the battle):
+      Protect that unit.
 
 Brute (Strength: 4)
-    Permanent: This unit is resistant.
-    Permanent: When adding new allied units to the battle on this front, you may add them to this unit's row instead of adding them to the bottom row.
+    Immediate: Protect this unit.
+    Permanent:
+      When adding new allied units to the battle on this front,
+      you may add them to this unit's row instead of adding them to the bottom row.
 
 Champion Unit (cost 5):
 
 Warlord (Strength: 5)
     Permanent: +4 strength when your hand is empty.
-    Post-combat: If your hand is empty, restore this unit.
 
 
-Immortal Unit (cost 6):
+Supremacy Unit (cost 6):
 
 Far Seer (Strength: 4)
-    Immediate: Reveal up to 5 cards from the bottom of your deck. You may exchange one of those with a card from your hand. Put back each revealed card either on top or at the bottom of your deck in any order.
-
+    Immediate:
+      Reveal up to 5 cards from the bottom of your deck.
+      You may exchange one of those with a card from your hand.
+      Put back each revealed card either on top or at the bottom of your deck in any order.

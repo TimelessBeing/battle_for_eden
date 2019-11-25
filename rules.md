@@ -225,14 +225,15 @@ that goes only through that player's territories.
 Sometimes however, after losing one or more territories,
 some may become disconnected from the player's portal.
 
-Each players receive 1 resource (materialized by ???) for each connected territory they control
-(including their portal territory or the Heart of Eden),
-plus 1 resource per connected territory of their color they control,
-plus 1 resource per connected energy-rich location they control
+Each players receive 1 shard (the game's main resource, materialized by white cubes)
+for each connected territory they control (including their portal territory or the Heart of Eden),
+plus 1 shard for each connected territory of their color they control
+(which represents the kind of terrain most advantageous to their civilization),
+plus 1 shard for each connected energy-rich location they control.
 
 In addition to that, a player controlling the Heart of Eden receives 1 pure energy
-(materialized by a counter token) if that territory isn't disconnected,
-which they place on the Heart of Eden.
+(materialized by a counter token on the Heart of Eden),
+if that territory isn't disconnected.
 
 To gain time, the Production phase is generally performed by all players
 at the same time, except if some of them want to base their choices on the previous players'.
@@ -243,15 +244,15 @@ at the same time, except if some of them want to base their choices on the previ
 During the Reinforcement phase, each player may purchase units
 to increase the quality of their army.
 
-To do so, they spend as much resources as the cost of the units they want
+To do so, they spend as much shards as the cost of the units they want
 to purchase, then place those units in their discard pile in any order.
-The maximum amount of resources that each player can spend on units during
+The maximum amount of shards that each player can spend on units during
 the Reinforcements phase is determined by the Energy Crystal cards
 they played during the Expansion phase: they cannot spend more
 than the total values of those cards.
 
 In addition to that the player may purchase one common card,
-without cost limitations, again by spending as much resources
+without cost limitations, again by spending as much shards
 as the cost of the card they want to purchase then placing that card in their discard pile.
 If they want, they may then purchase a second one for twice the price,
 then a third one for 3 times the price, etc.
@@ -422,3 +423,17 @@ which we'll describe here.
   unless its player spends 1 troop on that front,
   which they are only allowed to do if it leaves at least
   1 attacking troop near the frontier and 1 defending troop on the territory.
+
+- "Allied" refers to the player's side of a front.
+  Their territory is the "allied territory",
+  and their units are the "allied units".
+
+- "Enemy" refer to the opposing player's side of a front.
+  Their territory is the "enemy territory",
+  and their units are the "enemy units".
+
+- "Differentiating a card" means turning the card horizontally
+  or putting tokens on it to remember what has happened to it
+  or what will happen to it
+  (*e.g.* whether a unit has triggered its ability,
+  or whether is should be destroyed at the end of the battle)
