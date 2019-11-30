@@ -21,7 +21,7 @@ the quality of your army.
 
 The game is played in two parts:
 
-- first, the players first use hexagonal tiles to create a map of Eden,
+- first, the players use hexagonal tiles to create a map of Eden,
   including the Heart of Eden and the portals connecting Eden to each civilization
 - then, the conquest begins: players initially control the tiles near their
   portal, and to win they must either conquer and destroy all other portals
@@ -107,6 +107,10 @@ During the game, the player will play cards from their hands, which will
 afterwards be discarded.
 Discarded cards are placed face-up besided the deck, in the order they were
 discarded (with the most recent one on top), forming the player's discard pile.
+Whenever a player must draw more cards (or reveal more cards)
+from their deck than it contains,
+they shuffle the cards in their discard pile face down
+then place them under their deck.
 
 After that, each player receives 5 troops (i.e. cubes of their color),
 which they place on their portal tile as well as the tiles in direct contact with it
@@ -154,6 +158,8 @@ one of their territories and another territory they want to conquer.
 They then leave at least 1 troop on the center of their territory
 (which stays behind to occupy it), place the rest near the frontier,
 and play a unit card from their hand to start the battle.
+At least 1 troop must be sent to the frontier,
+otherwise the player is not allowed to start the battle.
 
 To create a battle on 2 fronts, the player proceeds similarly,
 choosing 2 frontiers, leaving troops behind on the attacking territories,
@@ -167,6 +173,7 @@ After the fronts are created, more units may then be added
 then the strength of all units is tallied to determine who won on each front.
 Each troop near the frontier gives a +1 bonus to the attacking side,
 while each troop on the defending territory gives a +1 bonus to the defending side.
+In case of equality, victory goes tot he defending side.
 
 Once the winner on each front is known,
 one troop from the losing side is removed from the corresponding tile.
@@ -301,7 +308,7 @@ all units below it move up a row so that there is no empty row).
 
 Once both players have stopped adding units to their armies,
 the strength of each army is determined by summing the strength of all units
-in that army, which allows to determined the winner (see Expansion phase section).
+in that army, which allows to determine the winner (see Expansion phase section).
 
 After the winner has been determined,
 both players discard all the units from their armies,
@@ -380,25 +387,42 @@ to their army, and allow their player to trigger various effects if they want to
 
 Abilities are divided into 4 types, depending on when they can be triggered:
 
-- **immediate abilities** may be triggered just after a unit has been added to the battle
-  (until it's the next player's turn to play a unit from their hand)
-- **delayed abilities** may be triggered after all players have stopped
-  playing units from their hands (before the strength of each army is tallied)
-- **post-combat abilities** may be triggered just after the strength
-  of each army has been tallied (before the unit cards are discarded)
+- **immediate abilities** may be triggered once,
+  just after a unit has been added to the battle
+  (until it's the next player's turn to play a unit from their hand).
+- **delayed abilities** may be triggered once,
+  after all players have stopped playing units from their hands
+  (before the strength of each army is tallied).
+- **post-combat abilities** may be triggered once,
+  just after the strength of each army has been tallied
+  (before the unit cards are discarded).
 - **reaction abilities** may be triggered:
-   - if they're **event-based**: just after a specific event happens
-                                 (until it's the next player's turn to play a unit from their hand)
-                                 and possibly several times during the same turn
-                                 (example event: "this unit collapses")
-   - if they're **condition-based**: as if it was based on the event
-                                     "the condition became satisfied",
-                                     as well as if it was an immediate ability if the condition
-                                     was already satisfied when the card was added to the battle
-                                     (example condition: "your hand is empty")
+   - if they're **event-based**:
+     once each time a specific event happens
+     (until it's the next player's turn to play a unit from their hand),
+     which might mean several times during the same turn
+     (example event: "this unit collapses").
+   - if they're **condition-based**:
+     once each time a specific condition becomes satisfied
+     (until it's the next player's turn to play a unit from their hand);
+     if the condition is already satisfied when the unit is added
+     to the battle, it also counts as the condition becoming satisfied
+     (example condition: "your hand is empty").
 
-Keep in mind that using an ability is always optional,
-and that the player may always choose in which order to trigger their units' abilities.
+Some things to keep in mind:
+- using an ability is always optional,
+  and the player may always choose in which order to trigger their units' abilities.
+- a unit's immediate abilities may be triggered even if that unit
+  was added to the battle by another unit and not from the player's hand,
+  even if it happened after all player have stopped playing units
+  from their hand (*e.g.* if it was added by a delayed ability).
+- even if a unit has been added to the battle by an ability
+  after all players had stopped playing units,
+  that unit's delayed, post-combat or reaction abilities
+  may be triggered normally when it is time to trigger such abilities
+  (*e.g.* if a unit has a delayed ability allowing it to add another unit
+  to the battle, that unit may then also trigger its own delayed abilities).
+
 If several players want to trigger an ability at the same time,
 the priority follows turn order, starting from the attacking player.
 

@@ -1,0 +1,60 @@
+
+## Basic Unit (cost 1):
+
+### Skeleton (Strength: 1)
+- **Permanent:**
+  If this card is revealed by an ability, you may discard it and reveal another one instead.
+  You may also discard this card from your hand at any time to draw a card.
+- **Immediate:**
+  Discard a card from your hand.
+- **Delayed:**
+  If there is a total of 4 allied units or less on all fronts,
+  add a Skeleton from your discard pile to this row.
+
+
+## Shock Unit (cost 2):
+
+### Exploding Corpse (Strength: 2)
+- **Immediate:**
+  Shuffle 3 units from your discard pile into your deck to get rid of a unit on this front.
+
+
+## Main Units (cost 3):
+
+### Flameskull (Strength: 2)
+- **Immediate:**
+  Destroy the top card of your discard pile.
+
+### Death Knight (Strength: 2)
+- **Immediate:**
+  [Reveal the top card of your deck, then either discard it or put it back on top of your deck]
+  OR [draw the non-Grim-Reaper unit card which is the closest to the top of your discard pile into your hand].
+
+### Skeleton Rider (Strength: 2)
+- **Immediate:**
+  You may shuffle your discard pile and place it under your deck.
+  Reveal the top 3 cards of your deck. You may exchange 1 unit card
+  revealed in this way with a unit card from your hand. Discard the revealed cards in any order.
+
+### Bone Golem (Strength: 3)
+- **Permanent:**
+  +2 strength for each Skeleton unit on this row.
+- **Delayed:**
+  Move any number of Skeleton units on this front to this row.
+
+
+## Champion Unit (cost 5):
+
+### Lich (Strength: 3)
+- **Permanent:**
+  +1 strength for each unit in your discard pile.
+
+
+## Supremacy Unit (cost 6):
+
+### Grim Reaper (Strength: 3)
+- **Immediate:**
+  Choose a type of unit. Put all units of that type
+  that are in your discard pile at its bottom.
+  Draw the non-Grim-Reaper unit card which is the closest
+  to the top of your discard pile into your hand.
