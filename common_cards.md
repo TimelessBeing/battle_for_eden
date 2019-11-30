@@ -1,19 +1,19 @@
-## Small Energy Crystal (cost: 0)
+### Small Energy Crystal (cost: 0)
 - **Value:**
   1 Energy Crystal
 
 
-## Medium Energy Crystal (cost: 2)
+### Medium Energy Crystal (cost: 2)
 - **Value:**
   2 Energy Crystals
 
 
-## Huge Energy Crystal (cost: 15)
+### Huge Energy Crystal (cost: 15)
 - **Value:**
   3 Energy Crystals
 
 
-## Setback (cost: 0)
+### Setback (cost: 0)
 - **Permanent:**
   You can only purchase this card if it's the only common card you purchase
   during this round.
@@ -26,7 +26,7 @@
   This card cannot be destroyed in any other way.
 
 
-## Opportunity (cost: 15)
+### Opportunity (cost: 15)
 - **Permanent:**
   If an ability reveals this card,
   you may choose to discard it and reveal another card instead.
