@@ -51,7 +51,7 @@
   When adding a Grunt to the battle on this front,
   you may add it to this unit's row instead of adding it to the bottom row.
 
-Champion Unit (cost 5):
+## Champion Unit (cost 5):
 
 ### Warlord (Strength: 5)
 - **Permanent:**
