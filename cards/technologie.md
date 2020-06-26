@@ -1,32 +1,32 @@
-### Energy Shield (cost: 1)
-- **Permanent:**
-  When you purchase this card, place it visible in front of you.
-  You may purchase this card at any time during your turn outside of battles.
-- **Permanent:**
-  Whenever one of your units should or collapse in battle,
-  you may choose to destroy this card instead.
-  If you do, this unit cannot collapse until the end of the battle.
+### Bouclier d'Énergie
+- **Coût :** 1
+- **Permanent :**
+  Lorsque vous achetez cette carte, placez-là face visible devant vous.
+- **Permanent :**
+  Cette carte peut-être détruite durant un combat pour annuler
+  la neutralisation d'une unité. Cette unité ne peut plus être neutralisée
+  jusqu'à la fin du combat.
 
 
-### Temporary Rift (cost: 2)
-- **Permanent:**
-  When you purchase this card, place it visible in front of you.
-  You may purchase this card at any time during your turn outside of battles.
-- **Permanent:**
-  You may choose to destroy this card at any time during your turn
-  either to purchase 1 common card without paying its cost
-  or to draw up to 2 units from your World (for a total cost of 6 or less)
-  into your hand.
+### Faille Temporaire
+- **Coût :** 2
+  Lorsque vous achetez cette carte, placez-là face visible devant vous.
+- **Permanent :**
+  Cette carte peut être détruite à tout moment de votre tour de la phase
+  d'Expansion, hors combats, pour ajouter immédiatement à votre main
+  sans payer jusqu'à 2 unités (coût total max 6) ou 1 carte commune.
 
 
-### Improved Portal (cost: 4)
-- **Permanent:**
-  When you purchase this card, place it visible in front of you.
-- **Permanent:**
-  Until the end of the game,
-  you may draw 1 more card when replenishing your hand.
+### Portail Amélioré
+- **Coût :** 4
+- **Permanent :**
+  Lorsque vous achetez cette carte, placez-là face visible devant vous.
+- **Permanent :**
+  Jusqu'à la fin de la partie, vous pouvez piocher une carte supplémentaire
+  lorsque vous recomplétez votre main.
 
 
-### Unmatched Power (cost: 5)
-- **Permanent:**
-  When you purchase this card, you immediately win the game.
+### Suprématie
+- **Coût :** 5
+- **Permanent :**
+  Lorsque vous achetez cette carte, vous gagnez instantanément la partie.
