@@ -1,35 +1,37 @@
-### Small Energy Crystal (cost: 0)
-- **Value:**
-  1 Energy Crystal
+### Cristal d'Énergie (petit)
+- **Coût :** 1
+- **Valeur :** 1
 
 
-### Medium Energy Crystal (cost: 2)
-- **Value:**
-  2 Energy Crystals
+### Cristal d'Énergie (moyen)
+- **Coût :** 2
+- **Valeur :** 2
 
 
-### Huge Energy Crystal (cost: 15)
-- **Value:**
-  3 Energy Crystals
+### Cristal d'Énergie (grand)
+- **Coût :** 15
+- **Valeur :** 3
 
 
-### Setback (cost: 0)
+### Contretemps
+- **Coût :* 0
+- **Permanent :**
+  Lorsque vous achetez cette carte, placez-la dans la défausse d'un joueur
+  avec qui vous partagez une frontière.
+  S'il fait de même, les deux cartes sont immédiatement détruites.
+- **Permanent :**
+  Cette carte peut être défaussée à tout moment durant un combat,
+  ou détruite à tout moment durant votre tour
+  de la phase d'Expansion.
+
+
+### Opportunité
+- **Coût :* 15
+- **Permanent :**
+  Le coût de cette carte est augmenté de 15 par carte Opportunité que vous
+  avez déjà acheté durant ce tour.
 - **Permanent:**
-  You can only purchase this card if it's the only common card you purchase
-  during this round.
-  At that time, place it in the discard pile
-  of a player with whom you share a frontier.
-- **Permanent:**
-  You may destroy this card from your hand at any time during your turn.
-  You may also destroy it from your discard pile
-  by destroying a Setback card you just purchased.
-  This card cannot be destroyed in any other way.
-
-
-### Opportunity (cost: 15)
-- **Permanent:**
-  If an ability reveals this card,
-  you may choose to discard it and reveal another card instead.
-- **Permanent:**
-  At any time, you may destroy this card from your hand
-  to draw up to 3 cards or discard it to draw up to 1 card.
+  À tout moment, cette carte peut être défaussée pour piocher jusqu'à 1 carte,
+  ou détruite pour piocher jusqu'à 3 cartes.
+  Si elle est révélée depuis votre deck par un capacité,
+  défaussez-la et révélez la carte suivante.
