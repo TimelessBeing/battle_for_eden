@@ -1,463 +1,551 @@
-# Lore
+# Introduction
 
-Civilizations rise and fall across the multiverse.
+Le multivers.
 
-Meanwhile, a place is left untouched, never knowing magic or technology.
-A land filled with all kinds of riches, all kinds of resources,
-and in which the ever so rare energy crystals are commonly found: a land called Eden!
+Un espace infini où s'écoule un temps infini.
 
-At its center, at the very heart of Eden, energy is building up in its purest form.
-When this energy starts resonating with natural formations throughout Eden,
-and portals connecting it to the multiverse suddenly open,
-it is time for civilizations to go to war!
-War for crystals! War for resources! This is the battle for Eden!
+Une infinité d'univers y naissent puis s'y éteignent,
+et d'encore plus nombreuses civilisations s'y étendent
+puis s'y effondrent.
 
+Mais pas les grandes civilisations,
+celles qui sont capable de quitter leur univers pour survivre
+à la destruction de celui-ci.
 
-#  How the game works
+Bien qu'elles aient maîtrisé le voyage interunivers,
+un monde leur reste inaccessible, un monde isolé,
+resté vierge de toute civilisation,
+un monde débordant de richesses et où rien ne manque.
+Toutes sortes de ressources y sont à la portée de quiconque
+daignera se pencher pour les ramasser,
+au point qu'il est simple d'y condenser ces cristaux d'énergie
+si rares dans le reste du multivers.
+Un monde convoité qu'on appelle Eden!
 
-Battle For Eden is a conquest game involving moving troops
-on a map of the world, Eden, and building your deck to improve
-the quality of your army.
+Ce qui fait la spécificité de ce monde,
+c'est la montagne en son centre, baptisée le Cœur d'Eden.
+Pour une raison inconnue l'énergie s'y accumule
+et s'y condense naturellement sous sa forme la plus pure
+avant d'être relâchée en un torrent d'énergie incontrôlée,
+déclenchant à cette occasion divers phénomènes mystérieux.
 
-The game is played in two parts:
+Et aujourd'hui est un jour qui rentrera dans l'histoire,
+car l'énergie relâchée par le Cœur d'Eden est entrée en résonance
+avec des formations naturelles en divers points d'Eden,
+les transformant en autant de portails vers le reste du multivers.
+Une nouvelle bataille s'annonce.
+Pour les cristaux! Pour l'énergie! Pour Eden!
 
-- first, the players use hexagonal tiles to create a map of Eden,
-  including the Heart of Eden and the portals connecting Eden to each civilization
-- then, the conquest begins: players initially control the tiles near their
-  portal, and to win they must either conquer and destroy all other portals
-  (thus eliminating other civilizations's access to Eden)
-  or extract enough pure energy from the Heart of Eden to become
-  the uncontested sovereign of Eden
 
+# Comment jouer
 
-# Map creation
+*Battle For Eden* est un jeu de conquête dans lequel les joueurs
+font évoluer leurs troupes sur la carte du monde, extraient des ressources
+de leurs territoires, et utilisent ces ressources pour améliorer la qualité
+de leur armée via des mécaniques de deck building.
 
-## Setup
+Une partie de *Battle For Eden* se déroule en deux temps :
 
-Each player chooses a civilization and a color.
-Players must then determine a first player in any way they choose.
+- dans un premier temps, **les joueurs créent la carte du monde** à l'aide de
+  tuiles hexagonales, représentant divers territoires dont notamment
+  le Cœur d'Eden et les portails par lesquels arrivent les diverses civilisations,
 
-Each player receives 1 tile of each of the 7 colors (including black),
-which they shuffle and place as a face-down pile in front of them.
-In addition to those tiles, each player receives a tile of the color they chose,
-as well as the portal tile of their color, which they both place face-up in front of them.
+- dans un second temps, **la conquête commence** : les joueurs prennent le contrôle
+  de leur portail ainsi que des territoires immédiatement au contact de celui-ci,
+  et pour gagner ils doivent bloquer l'accès des autres civilisations à Eden,
+  soit en conquérant les portails des autres joueurs, soit en extrayant assez d'énergie
+  pure du Cœur d'Eden pour arriver à leurs fins.
 
-The Heart of Eden tile is then placed at the center of the table.
-It is the map's first tile, and it's now time to add the rest!
 
+# Création de la carte du monde
 
-## Building the map
+## Mise en place
 
-Starting from the first player, players take turns building the map.
-During their turn, a player first draws a non-portal tile
-— choosing to either draw the face-up one or one of the face down ones —
-and adds it to the map by placing it in contact with another tile from the map.
-They may then if they so choose add their portal tile to the map,
-remove their portal tile from the map (if it is already part of it),
-or do both (removing the tile then adding it elsewhere).
+Les joueurs choisissent chacun une civilisation ainsi
+qu'une des 6 couleurs,
+puis désignent collectivement un premier joueur.
 
-During map creation, players are only allowed to place tiles
-in such locations that the following conditions are met:
+Chaque joueur reçoit ensuite une tuile de chacune des 6 couleurs, ainsi qu'une tuile noire,
+puis mélange ces 7 tuiles pour en faire une pile de tuiles face cachée qu'il place devant lui.
+En plus de cette pile, chaque joueur reçoit une tuile de sa couleur ainsi
+que la tuile portail de sa couleur, et les place face visible devant eux.
 
-- there must be at least 3 tiles between each portal tile and the Heart of Eden tile
-- there must be at least 4 tiles between any two portal tiles
-- each portal must be in contact with at most 2 tiles
-- tiles cannot be placed in direct contact with a portal tile which is already on the map
-- if a player's portal tile is already on the map, they are not allowed to place
-  tiles on the map unless there is at least 3 tiles between the one they are placing
-  and their own portal tile
+La tuile Cœur d'Eden est ensuite placée au centre de la table.
+Il s'agit de la première tuile de la carte, et il est maintenant
+temps d'y ajouter les autres!
 
-While placing tiles, keep track of those which are energy-rich locations,
-by putting an energy-rich-location token on any tile which is in contact
-with tiles of at least 4 different types, including portal tiles
-but excluding black tiles as well as the Heart of Eden tile.
 
-After placing their last non-portal tile, players who haven't done so already
-must add their portal tile to the map. If if is impossible to do so without
-violating the previous conditions, they are given just enough black tiles
-to make them able to place them then add their portal tile to the map
-(1 black tile should generally be enough).
+## Comment construire la carte
 
-Each player - following turn order - is then given a last chance
-to move their portal tile to another valid location if they so choose.
+Les joueurs participent à tour de rôle à la création de la carte,
+en commençant par le premier joueur puis dans le sens des aiguilles d'une montre.
 
-That's it, the map is done!
-Now that we know what Eden looks like, let's move on to the conquest!
+Lorsque c'est son tour, un joueur doit tout d'abord piocher une tuile non portail
+— soit en la prenant dans sa pile, soit en prenant la tuile face visible —
+puis l'ajouter à la carte. Avant de finir son tour, s'il le souhaite, il peut ensuite
+ajouter sa tuile portail à la carte (si elle n'y est pas déjà),
+retirer sa tuile portail de la carte, ou les deux
+(c'est-à-dire retirer la tuile puis l'ajouter ailleurs).
 
+Lorsque le joueur ajoute sa dernière tuile non portail à la carte,
+il est obligé d'ajouter également sa tuile portail si ce n'est pas déjà fait.
 
-# Conquest
+Pour ajouter une tuile à la carte, le joueur la place au contact d'une tuile
+de la carte, à une position qui vérifie les conditions suivantes :
 
-## Setup
+- il doit y avoir au moins 3 tuiles entre chaque tuile portail et la tuile Cœur d'Eden,
+- il doit y avoir au moins 4 tuiles entre chaque paire de tuiles portails,
+- il doit y avoir un maximum de 2 tuiles au contact d'une tuile portail,
+- une tuile ne peut pas être ajoutée au contact d'une tuile portail,
+- il doit y avoir au moins 3 tuiles entre la tuile posée par le joueur et sa tuile portail si celle-ci est sur la carte.
 
-The first player to have put their portal tile in their final location
-during the map creation phase receives the first player token.
+Si un joueur essaie d'ajouter sa tuile portail à la carte mais qu'il n'existe pas
+de position valide, alors le joueur reçoit juste assez de tuiles noires (une seule suffit en général)
+pour que poser celles-ci crée une position valide pour la tuile portail.
 
-Common cards (Small Energy Crystal, Medium Energy Crystal, Huge Energy Crystal,
-Setback and Opportunity) and technology cards
-(Energy Shield, Temporary Rift, Improved Portal, Unmatched Power)
-are placed around the map so that they are easy to access,
-and each player receives his civilization's World
-(i.e. the booklet containing that civilization's unit cards).
+Le territoire représenté par une tuile ordinaire est dit *riche en énergie*
+si la tuile est entourée de tuiles d'au moins 4 différentes couleurs
+(sans compter les tuiles noires ou la tuile Cœur d'Eden).
+Lorsqu'une tuile est ajoutée ou retirée de la carte,
+utilisez les marqueurs correspondants pour garder trace
+des territoires riches en énergie.
 
-Each player then takes 3 Small Energy Crystal cards and 1 Medium Energy Crystal
-from the common cards, 3 cost-1 units form their World, and shuffles
-those cards into a deck, i.e. a pile which they place face-down in front of them.
-They then draw 5 cards from the top of their decks to create their hand.
-During the game, the player will play cards from their hands, which will
-afterwards be discarded.
-Discarded cards are placed face-up besided the deck, in the order they were
-discarded (with the most recent one on top), forming the player's discard pile.
-Whenever a player must draw more cards (or reveal more cards)
-from their deck than it contains,
-they shuffle the cards in their discard pile face down
-then place them under their deck.
-
-After that, each player receives 5 troops (i.e. cubes of their color),
-which they place on their portal tile as well as the tiles in direct contact with it
-(they may choose how they divide their troops, but there must be at least 1 troop per tile).
-
-
-## Basics
-
-Having at least 1 troop on a tile gives a player control of it,
-making it their territory and allowing them to extract resources from it.
-
-The conquest is a succession of rounds, each composed of the 3 same phases,
-until a player wins. Those 3 phases are:
-
-- the **Expansion phase**, in which players use their army to gain control of new territories
-- the **Production phase**, in which the players' territories earns them resources
-- the **Reinforcements phase**, in which the players' receive new troops and use those resources to improve their army
-
-To gain time, the Production and Reinforcements phases can generally
-be performed by all players at the same time, except if some of them want
-to base their choices on the previous players'.
-
-At the end of the Reinforcements phase, the 2nd player receives the 1st player token,
-thus becoming the 1st player for the next round.
-
-Now, let's get into more details.
-
-
-## The Expansion phase
-
-This is the phase during which players use their cards.
-
-First, during their turn, a player may play any number
-of Small/Medium/Large Energy Crystal cards from their hand,
-placing those cards in front of them so that they can later
-be used during the Reinforcement phase.
-They may also discard any number of cards they want from their hand,
-or return any number of unit cards from their hand to their World.
-
-Then, if they want to, they can create battles on up to 2 fronts
-(note: a front is a frontier on which there is an ongoing battle).
-
-To create a battle on 1 front, the player chooses a frontier between
-one of their territories and another territory they want to conquer.
-They then leave at least 1 troop on the center of their territory
-(which stays behind to occupy it), place the rest near the frontier,
-and play a unit card from their hand to start the battle.
-At least 1 troop must be sent to the frontier,
-otherwise the player is not allowed to start the battle.
-
-To create a battle on 2 fronts, the player proceeds similarly,
-choosing 2 frontiers, leaving troops behind on the attacking territories,
-placing troops near the frontiers, and playing a unit cards to start each battle.
-If the player is attacking from the same territory at the same time,
-they must divide the troops they place near the frontiers
-and choose how much are sent to each front.
-
-After the fronts are created, more units may then be added
-(see section on Combat for more details),
-then the strength of all units is tallied to determine who won on each front.
-Each troop near the frontier gives a +1 bonus to the attacking side,
-while each troop on the defending territory gives a +1 bonus to the defending side.
-In case of equality, victory goes tot he defending side.
-
-Once the winner on each front is known,
-one troop from the losing side is removed from the corresponding tile.
-If the attack against a territory is successful on at least 1 front, that territory is conquered.
-
-Defending troops remaining on a conquered territory may be moved in any way by the defending
-player to other territories that they control and which are in contact with the one they lost.
-If there is none, the troops are simply removed from the tile.
-If the conquered territory was the Heart of Eden,
-the defending player must immediately spend all the pure energy they have
-accumulated (see section on the Reinforcements phase for more details).
-
-After successfully conquering a territory, the attacking player may freely divide
-all troops attacking that territory between the territories they came from
-and the conquered territory (possibly moving troops from one attacking territory
-to another).
-
-If the conquered territory was the defending player's portal territory,
-then that player is eliminated from the game, and all that player's
-remaining troops are replaced by troops from the attacking player.
-
-After resolving the battles they created, the player may once again play any number
-of Energy Crystal cards (which they may for example have drawn during the battle),
-discard cards, or return unit cards from their hand to their World.
-
-This is normally the end of the player's turn, in which case they replenish
-their hand to 5 cards and we move on to the next player.
-If there aren't enough cards to draw in the deck,
-the player first shuffles their discard pile
-(note: contrary to many other deckbuilding games, you are not forced
-to discard the cards remaining in your hand and may keep any number of them).
-
-However, if the player has taken at least 1 territory from other players
-during their turn, they have a chance to continue their conquest if they want to,
-but with some constraints:
-
-- first, all Energy Crystal cards in front of them (those played during the turn)
-  return to their hand
-- then, they replenish their hand to 5 cards
-- they now start a bonus turn, but this time they may only attack
-  from the territories they took from other players during their previous turn
-- during a bonus turn, starting battles has a cost:
-  the player must first remove 1 troop from each attacking territory
-  before sending troops to the frontier
-  (2 if there are 2 fronts for that attacking territory)
-
-Note that if they have enough troops and are successful in battle,
-a player might be able to play many turns in a row.
-
-
-## The Production phase
-
-The territories a player controls are usually connected to the portal of that
-player, i.e. there is a path from those territories to the player's portal
-that goes only through that player's territories.
-Sometimes however, after losing one or more territories,
-some may become disconnected from the player's portal.
-
-Each players receive 1 shard (the game's main resource, materialized by white cubes)
-for each connected territory they control (including their portal territory or the Heart of Eden),
-plus 1 shard for each connected territory of their color they control
-(which represents the kind of terrain most advantageous to their civilization),
-plus 1 shard for each connected energy-rich location they control.
-
-In addition to that, a player controlling the Heart of Eden receives 1 pure energy
-(materialized by a counter token on the Heart of Eden),
-if that territory isn't disconnected.
-
-To gain time, the Production phase is generally performed by all players
-at the same time, except if some of them want to base their choices on the previous players'.
-
-
-## The Reinforcements phase
-
-During the Reinforcement phase, each player may purchase units
-to increase the quality of their army.
-
-To do so, they spend as much shards as the cost of the units they want
-to purchase, then place those units in their discard pile in any order.
-The maximum amount of shards that each player can spend on units during
-the Reinforcements phase is determined by the Energy Crystal cards
-they played during the Expansion phase: they cannot spend more
-than the total values of those cards.
-
-In addition to that the player may purchase one common card,
-without cost limitations, again by spending as much shards
-as the cost of the card they want to purchase then placing that card in their discard pile.
-If they want, they may then purchase a second one for twice the price,
-then a third one for 3 times the price, etc.
-
-If the player controls the Heart of Eden,
-they may also purchase technology cards by spending pure energy.
-
-The player then discards the Energy Crystal cards in front of them in any order,
-and receives 3 new troops, or 4 if they control the Heart of Eden,
-which they may freely place on any of their territories.
-They are also free to move troops across the borders
-between their territories.
-
-To gain time, the Reinforcements phase is generally performed by all players
-at the same time, except if some of them want to base their choices on the previous players'.
+Une fois toutes les tuiles posées, on réalise un dernier tour
+lors duquel les joueurs peuvent s'ils le souhaitent déplacer (c'est-à-dire retirer puis ajouter) leur tuile portail.
+
+Ça y est, la carte est prête!
+Maintenant que nous savons à quoi ressemble Eden,
+il est temps de passer à la conquête!
+
+
+# Conquête
+
+## Mise en place
+
+Le joueur qui a été le premier à placer sa tuile portail à sa position finale
+sur la carte prend le jeton de premier joueur.
+
+Placez les *cartes communes* (Contretemps, Opportunité, et les 3 types de cartes Cristal d'Énergie)
+ainsi que les *cartes de technologie* (Bouclier d'énergie, Faille Temporaire,
+Portail Amélioré, Suprématie) à un endroit facile d'accès
+pour tous les joueurs (par exemple autour de la carte),
+et les *troupes* de chaque joueur (cubes de sa couleur) là où il peut les atteindre.
+Chaque joueur reçoit ensuite le *Monde* de sa civilisation
+(c'est-à-dire le livret listant les règles additionnelles
+s'appliquant à celle-ci et contenant les cartes d'unités associées).
+
+Chaque joueur prend ensuite 3 cartes Cristal d'Énergie de coût 1,
+ainsi qu'1 carte Cristal d'Énergie de coût 2, et 3 unités de son Monde de coût 1.
+Il mélange alors ces 7 cartes pour former un *deck*,
+c'est-à-dire une pile qu'il place face cachée devant lui.
+Il pioche ensuite les 5 cartes du dessus du deck pour créer sa *main*.
+
+Durant la partie, le joueur jouera des cartes de sa main,
+qui seront ensuite *défaussées*, c'est-à-dire placées
+dans une pile face visible à côté du deck appelée la *défausse* du joueur, dans l'ordre où elles ont été défaussées (la plus récente en haut).
+Chaque fois que le joueur devra piocher ou révéler plus de cartes
+de son deck que celui-ci n'en contient, il mélangera préalablement
+sa défausse et la placera face cachée sous son deck.
+
+Après avoir créé leurs mains, les joueurs reçoivent chacun 5 troupes, qu'ils répartissent comme bon
+leur semble entre leur tuile portail et les tuiles qui sont
+directement au contact de celle-ci (il doit y avoir au moins 1 troupe par tuile;
+pour une première partie il est recommandé de ne laisser qu'une
+troupe sur sa tuile portail).
+
+
+## Les bases de la conquête
+
+Un joueur *contrôle* tous les territoires sur lesquels il dispose d'au moins 1 troupe,
+ce qui lui permet d'extraire des ressources de ces territoires
+et d'attaquer les territoires voisins depuis ceux-ci.
+
+La conquête est une succession de *jours*, chacun composé de 3 *phases*,
+chacune jouée à tour de rôle par chaque joueur dans le sens des aiguilles
+d'une montre en commençant par le joueur qui détient le jeton de premier joueur.
+
+Les trois phases sont jouées en boucle jusqu'à ce qu'un joueur gagne
+et que la partie prenne fin. Ces phases sont :
+
+- la phase d'**Expansion**, durant laquelle les joueurs utilisent leurs troupes et leurs cartes
+  pour prendre le contrôle de nouveaux territoires,
+
+- la phase de **Production**, durant laquelle les joueurs extraient
+  des ressources de leurs territoires,
+
+- la phase de **Logistique**, durant laquelle les joueurs reçoivent de nouvelles troupes
+  et utilisent leurs ressources pour améliorer la qualité de leur armée (c'est-à-dire acheter de nouvelles cartes).
+
+À la fin de la phase de Logistique, l'actuel 2e joueur
+reçoit le jeton de premier joueur, et devient ainsi le premier joueur pour le jour suivant.
+
+Rentrons dans les détails.
+
+
+## La phase d'Expansion
+
+Il s'agit de la phase lors de laquelle les joueurs utilisent les cartes
+de leurs mains.
+
+Durant son tour, un joueur peut tout d'abord jouer autant de cartes
+Cristal d'Energie qu'il le souhaite. Ces cartes sont placées verticalement
+et face visible devant le joueur, et serviront lors de la phase de Logistique.
+Le joueur peut aussi défausser autant de cartes de sa main qu'il le souhaite,
+et renvoyer dans son Monde autant de cartes d'unités de sa main qu'il le souhaite.
+
+Ensuite, s'il le souhaite, le joueur peut *lancer des offensives* contre
+jusqu'à deux territoires voisins des siens (on parle de *combat* sur 1 ou 2 *fronts*).
+Voir la section correspondante pour plus de détails.
+
+Une fois les combats résolus, le joueur peut à nouveau jouer autant de cartes
+Cristal d'Energie qu'il le souhaite (par exemple des cartes piochées pendant le combat),
+défausser autant de cartes de sa main qu'il le souhaite,
+et renvoyer dans son Monde autant de cartes d'unités de sa main qu'il le souhaite.
+
+Le joueur a alors la possibilité finir son tour en recomplétant sa main jusqu'à un maximum de 5 cartes
+(note : contrairement à de nombreux autres jeux de deckbuilding,
+rien n'oblige le joueur à défausser le reste de sa main avant de compléter celle-ci).
+S'il n'y a pas assez de cartes à piocher dans son deck, le joueur
+mélange préalablement sa défausse et la place face cachée sous celui-ci.
+
+Si le joueur a pris au moins un territoire à un autre joueur durant son tour,
+il a le choix au lieu de finir son tour de continuer sa phase d'Expansion
+depuis les territoires conquis, auquel cas :
+
+- il reprend en main les cartes Cristal d'Énergie devant lui
+  (c'est-à-dire celles qu'il a jouées ce tour-ci),
+- il complète sa main jusqu'à un maximum de 5 cartes,
+- il commence un tour bonus, lors duquel :
+  - il n'est autorisé à lancer des offensives que depuis un territoire
+    conquis au tour précédent (c'est-à-dire qu'il vient de conquérir),
+  - lancer des offensives successives a un coût,
+    une des troupes envoyées sur chaque front étant immédiatement perdue.
+
+Un joueur a donc potentiellement l'opportunité de jouer de nombreux
+tours de suite s'il dispose d'assez de troupes et remporte ses combats.
+
+
+## La phase de Production
+
+Les territoires qu'un joueur contrôle sont généralement *connectés* au portail de ce joueur,
+c'est-à-dire qu'il existe des chemins reliant chacun d'entre eux à ce portail
+en passant uniquement par des territoires du joueur.
+Il arrive cependant que des territoires se retrouvent *déconnectés*
+du portail de leur joueur lorsque celui-ci perd des territoires.
+
+Les territoires connectés au portail d'un joueur sont exploitables par celui-ci,
+c'est-à-dire que ce joueur peut chaque jour en extraire des ressources.
+
+Malgré des conceptions du monde et des technologies différentes,
+les diverses civilisations s'intéressent en réalité toutes principalement à la même ressource,
+et ce qu'elles l'appellent "mana", "énergie nécrotique" ou "positronium", *etc*,
+et qu'elles l'extraient du sol, des être vivants ou de l'air ambiant, *etc*.
+Les ressources extraites de leurs territoires seront désignée de façon générique sous le nom
+de *stocks d'énergie*, et seront matérialisée par des cubes blancs
+que les joueurs conservent devant eux jusqu'à ce qu'ils les utilisent.
+
+Bien que les civilisations s'intéressent à la même ressource,
+leurs méthodes d'extractions diffèrent, et chaque civilisation
+dispose d'un type de territoire privilégié (les tuiles de la couleur du joueur)
+où elle est capable d'extraire plus de ressources que les autres civilisations
+(les forêts pour les elfes, les montagnes pour les nains, *etc*).
+
+Lors de la phase de production, chaque joueur reçoit donc :
+
+- 1 stock d'énergie pour chacun de ses territoires connectés (y compris des portails ou le Cœur d'Eden),
+- 1 stock d'énergie supplémentaire pour chacun de ses territoires connectés de sa couleur (y compris son portail),
+- 1 stock d'énergie supplémentaire pour chacun de ses territoires connectés riche en énergie.
+
+En plus des stocks d'énergie, si un joueur compte le Cœur d'Eden
+parmi ses territoires connectés,
+il ajoute 1 cube blanc à la tuile Cœur d'Eden,
+qui représente l'accumulation d'énergie pure sur ce territoire.
+
+**Note :** pour gagner du temps, la phase de Production peut généralement
+être jouée simultanément par tous les joueurs, sauf si certains souhaitent baser
+leurs choix sur ceux des joueurs précédents (ou s'il y a suspicion de triche).
+
+
+## La phase de Logistique
+
+Durant la phase de Logistique, les joueurs peuvent dépenser
+les ressources qu'ils ont accumulé pour se donner un avantage
+lors des jours suivants:
+
+- L'énergie pure accumulée sur le Cœur d'Eden peut être utilisée par le joueur
+qui contrôle ce territoire pour développer diverses technologies
+(achat de cartes de technologies).
+
+- Les stocks d'énergie accumulés par chaque joueur peuvent quant à eux être
+utilisés par ces derniers pour réaliser diverses opérations (achat de cartes communes).
+Il peut s'agir d'opérations ponctuelles (cartes à usage unique),
+ou de construction d'infrastructures fournissant un accès régulier
+à certaines ressources (cartes communes qui deviennent une partie intégrante du deck).
+
+- Les stocks d'énergie peuvent également être dépensés pour installer
+des cristaux d'énergie sur le portail du joueur, ce qui permet à celui-ci
+d'améliorer la qualité de son armée
+(achat de cartes d'unités du Monde du joueur, ce qui requière donc de dépenser
+autant de cristaux d'énergie que de stocks d'énergie).
+
+Pour acheter des cartes, un joueur doit payer la somme des coûts de ces cartes,
+indiqués en haut à droite de celles-ci, et il peut ensuite placer les cartes
+ainsi achetées au sommet de sa défausse dans l'ordre de son choix
+(pour les avoir en main, le joueur devra donc épuiser les cartes actuellement dans
+son deck puis, une fois la défausse mélangée et placée sous le deck, attendre de les piocher).
+
+Voici comment payer les divers coûts :
+
+- dépenser de l'énergie pure
+  = retirer autant de cubes blancs de la tuile Cœur d'Eden,
+- dépenser des stocks d'énergie
+  = retirer autant de cubes blancs des ressources possédées par le joueur,
+- dépenser des cristaux d'énergie
+  = utiliser des cartes Cristal d'Énergie jouées par le joueur lors de la phase
+    d'Expansion, pour une valeur totale supérieure ou égale au coût,
+    en les tournant horizontalement (chaque carte ne peut donc être utilisée
+    qu'une fois par phase de Logistique)
+
+Une fois ses achats terminés, le joueur:
+
+- défausse les cartes Cristal d'Énergie devant lui dans l'ordre de son choix,
+-  reçoit 3 nouvelles troupes, ou 4 s'il contrôle le Cœur d'Eden, et les place alors où il le souhaite sur ses territoires,
+- déplacer librement ses troupes s'il le souhaite entre les territoires connectés à son portail,
+- recomplète sa main jusqu'à un maximum de 5 cartes
+(si elle n'est pas déjà pleine).
+
+**Note:** pour gagner du temps, la phase de Logistique peut généralement
+être jouée simultanément par tous les joueurs, sauf si certains souhaitent baser
+leurs choix sur ceux des joueurs précédents (ou s'il y a suspicion de triche).
 
 
 # Combat
 
-As was said in the Expansion Phase section, a player may during their turn
-start a battle on up to 2 fronts by playing a unit on those fronts.
-This section is about what happens after that.
+## Attaquer un territoire d'un autre joueur sur un front
 
-## Simplest case: a player attacks another player's territory on one front.
+Le joueur attaquant choisit une frontière entre un de ses territoires
+et un territoire contrôlé par un autre joueur.
+S'il s'agit d'un tour bonus de la phase d'Expansion,
+une troupe du territoire attaquant est alors immédiatement retirée de la carte.
+Le joueur répartit ensuite les troupes présentes sur le territoire attaquant
+en un groupe d'au moins 1 troupe qui reste sur le territoire pour le défendre
+(que le joueur place au centre de sa tuile de territoire)
+et un autre groupe d'au moins 1 troupe qui part au front (que le joueur place proche de la frontière),
+puis il joue une carte d'unité de sa main en la plaçant face visible devant lui.
+Si le joueur n'a pas assez de troupes ou d'unités pour faire cela,
+alors il n'est pas autorisé à lancer son offensive.
 
-Starting with the attacking player (when he starts the battle),
-both players take turns playing unit cards from their hands, one at a time.
-When one of them cannot continue doing so, or doesn't want to,
-they lose their right to play unit cards until the end of the battle,
-while the other player is free to keep playing any number of unit
-cards from their hand, until they too cannot or do not want to continue
-(note: while the attacking player has to play at least one unit card on a front
-to start the battle on that front,
-it is possible for the defending player not to play any unit card).
+À commencer par le joueur défenseur, le joueur attaquant et le joueur défenseur
+jouent ensuite chacun leur tour une carte d'unité de leur main,
+et ce jusqu'à ce que l'un d'entre eux ne puisse ou ne veule plus jouer de carte d'unité
+(note: il est donc possible pour le défenseur de ne jouer aucune carte unité,
+alors que l'attaquant doit au moins en jouer une pour lancer l'offensive).
 
-Units played by each player during the battle are placed in front of that player,
-making up the attacking and defending armies.
-Within an army, a players unit are placed in the order they were played,
-from top to bottom.
-A unit's position within its army is referred to as that unit's row.
-By default there is only one unit per row, but some abilities
-(see Abilities section) may move units from one row to another,
-allowing several units to be on the left or right of each other, on the same row
-(note: if moving a unit leaves a row empty,
-all units below it move up a row so that there is no empty row).
+Les unités de chaque joueur constituent l'*armée* de celui-ci,
+et sont placées devant lui, en colonne dans l'ordre où elles ont été ajoutées au combat,
+la plus ancienne en haut. Cette disposition est importante car certaines capacités
+(voir section correspondante) permettront de déplacer des unités pour les placer
+sur la même ligne qu'une autre, à gauche ou à droite de celle-ci,
+ou affecteront spécifiquement les unités se trouvant sur une certaine ligne ou colonne, *etc*.
+Durant le combat, si une unité d'un joueur quitte sa position (par exemple si elle est déplacée
+ou retirée du combat), les unités situées à sa gauche ou à sa droite sur sa ligne
+(au choix du joueur) sont décalées d'un cran pour combler le vide.
+De même, si une ligne se retrouve dépourvue d'unités,
+les lignes du dessous montent d'un cran pour combler le vide.
 
-Once both players have stopped adding units to their armies,
-the strength of each army is determined by summing the strength of all units
-in that army, which allows to determine the winner (see Expansion phase section).
+Une fois qu'un des joueurs a arrêté de jouer des cartes d'unité,
+l'autre joueur est libre de continuer à jouer autant de cartes
+d'unité de sa main qu'il le souhaite (une par une),
+puis on détermine le vainqueur du combat en sommant la force des unités de chaque armée,
+le plus grand total l'emportant.
+Chaque troupe partie au front donne un bonus de +1 à l'attaquant,
+et chaque troupe sur le territoire attaqué donne un bonus de +1 au défenseur.
+En cas d'égalité, la victoire va au défenseur.
 
-After the winner has been determined,
-both players discard all the units from their armies,
-from the first row to the last, from left to right on each row.
+Une fois le vainqueur déterminé, une troupe du camp perdant est retirée de la carte,
+et chaque joueur défausse les cartes d'unité de son armée,
+ligne par ligne du haut vers le bas, en commençant par la gauche sur chaque ligne.
+Le joueur défenseur est ensuite libre de défausser autant de cartes de sa main
+qu'il le souhaite, puis de recompléter sa main jusqu'à un maximum de 5 cartes.
 
-The defending player may also discard any number of cards from their hand,
-then replenish it to 5 cards.
+En cas de victoire de l'attaquant, le territoire attaqué est conquis.
+S'il reste des troupes au joueur défenseur sur celui-ci,
+il peut les déplacer librement vers des territoire directement adjacents qu'il contrôle, s'il y en a.
+Toute troupe laissée sur le territoire est ensuite retirée de la carte.
+L'attaquant quant à lui place une des troupes parties au front
+sur le territoire conquis pour en prendre le contrôle,
+et est libre de répartir le reste de celles-ci entre le territoire attaquant et le territoire conquis.
 
+Si un joueur perd le contrôle du Cœur d'Eden,
+il doit immédiatement dépenser toute l'énergie pure qu'il y avait accumulée
+(voir section sur la phase de Logistique pour plus de détails).
 
-## Attacking another player's territories on two fronts
-
-When attacking another player's territories on two fronts,
-everything happens mostly like when attacking only one territory on one front,
-but this time the players create a separate attacking army and defending army for each front.
-
-Players still take turn playing unit cards from their hands, one at a time,
-starting from the attacking player, but with two differences:
-
-- when playing a unit, the player chooses on which of the two fronts that unit must be added,
-  i.e. which army it will join
-- during their first turn, instead of playing 1 unit card on a front of their choice,
-  the attacking player must play 1 unit card on each front
-
-
-## Attacking two territories belonging to different players
-
-When attacking territories from 2 different players at once,
-everything happens mostly like when attacking only one territory on one front,
-but this time again the players create a separate attacking army and defending army for each front.
-
-Players still take turn playing unit cards from their hands (following turn order), one at a time,
-starting from the attacking player, but with two differences:
-
-- when playing a unit, the attacking player chooses on which of the two fronts that unit must be added,
-  i.e. which army it will join
-- during their first turn, instead of playing 1 unit card on a front of their choice,
-  the attacking player must play 1 unit card on each front
+Si un joueur perd le contrôle de son portail, il est éliminé.
+Sur chaque territoire qu'il contrôlait, ses troupes sont remplacées
+par 1 troupe du joueur attaquant.
 
 
-## Attacking a wild territory (i.e. a territory that no player controls)
+## Attaquer les territoires d'un autre joueur sur deux fronts
 
-If one or more of the territories that a player attacks are wild territories,
-everything happens as if that territory was controlled by a player
-that chose not to play any unit card.
+À quelques nuances près, on procède ici de la même façon
+que dans le cas d'une attaque sur un seul territoire sur un seul front :
 
-Then, when determining the defending army's strength,
-the wild territory's strength is determined by counting the number of tile
-between that territory and the closest portal territory and multiplying that number by 2
-(e.g. if there are 2 tiles between the wild territory and the closest portal,
-then that territory's strength is 4 and the attacking player needs an army
-of strength 5 or more to conquer it).
-
-
-# Cards effects
-
-## Permanent effects
-
-In Battle For Eden many cards,
-whether they're unit cards, common cards or technology cards,
-have additional rules applying to them called permanent effects.
-
-Some of them are explicitly optional. Those are usually beneficial effects,
-giving their player new options
-(ex: "If an ability reveals this card, you may choose to discard it and reveal another card instead").
-
-In the general case however, permanent effects are not optional,
-whether they're beneficial effects (ex: "+1 strength if your hand is empty")
-or detrimental effects limiting the player's options
-(ex: "This unit can only be returned to its player's world by being destroyed during combat").
-
-
-## Abilities
-
-The units that a player adds to a battle generally do more than just add strength
-to their army, and allow their player to trigger various effects if they want to.
-
-Abilities are divided into 4 types, depending on when they can be triggered:
-
-- **immediate abilities** may be triggered once,
-  just after a unit has been added to the battle
-  (until it's the next player's turn to play a unit from their hand).
-- **delayed abilities** may be triggered once,
-  after all players have stopped playing units from their hands
-  (before the strength of each army is tallied).
-- **post-combat abilities** may be triggered once,
-  just after the strength of each army has been tallied
-  (before the unit cards are discarded).
-- **reaction abilities** may be triggered:
-   - if they're **event-based**:
-     once each time a specific event happens
-     (until it's the next player's turn to play a unit from their hand),
-     which might mean several times during the same turn
-     (example event: "this unit collapses").
-   - if they're **condition-based**:
-     once each time a specific condition becomes satisfied
-     (until it's the next player's turn to play a unit from their hand);
-     if the condition is already satisfied when the unit is added
-     to the battle, it also counts as the condition becoming satisfied
-     (example condition: "your hand is empty").
-
-Some things to keep in mind:
-- using an ability is always optional,
-  and the player may always choose in which order to trigger their units' abilities.
-- a unit's immediate abilities may be triggered even if that unit
-  was added to the battle by another unit and not from the player's hand,
-  even if it happened after all player have stopped playing units
-  from their hand (*e.g.* if it was added by a delayed ability).
-- even if a unit has been added to the battle by an ability
-  after all players had stopped playing units,
-  that unit's delayed, post-combat or reaction abilities
-  may be triggered normally when it is time to trigger such abilities
-  (*e.g.* if a unit has a delayed ability allowing it to add another unit
-  to the battle, that unit may then also trigger its own delayed abilities).
-
-If several players want to trigger an ability at the same time,
-the priority follows turn order, starting from the attacking player.
+- le joueur attaquant choisit deux frontières entre un de ses territoires et un territoire
+  contrôlé par un autre joueur,
+- s'il s'agit d'un tour bonus de la phase d'Expansion, deux de ses troupes
+  sont immédiatement retirées de la carte (une sur chaque territoire attaquant),
+- il sépare ses troupes en groupes d'au moins 1 troupe, ceux partant sur chaque front
+  et ceux restant défendre les territoires attaquants
+  (il faut donc constituer 4 groupes, ou 3 si le territoire attaquant est le même pour les deux fronts),
+- il joue une carte de sa main pour chaque front, constituant deux armées distinctes,
+  en précisant bien quelle armée correspond à quel front
+  (et de même le joueur défenseur constituera deux armées pour leur faire face,
+   en précisant bien quelle armée correspond à quel front),
+- à commencer par le joueur défenseur, le joueur attaquant et le joueur défenseur
+  jouent chacun leur tour une carte d'unité de leur main, en choisissant à chaque
+  fois sur quel front ils jouent cette carte
+  (c'est-à-dire laquelle de leurs armées l'unité rejoint),
+  jusqu'à ce que l'un d'entre eux ne puisse ou ne veule plus le faire,
+  l'autre joueur pouvant alors jouer une par une autant de cartes d'unités
+  de sa main qu'il le souhaite,
+- sur chaque front, on somme la force des unités, avec un bonus de +1 à l'attaquant
+  par troupe partie sur ce front et un bonus de +1 au défenseur par troupe
+  sur le territoire attaqué, la victoire allant au total le plus élevé,
+  ou au défenseur en cas d'égalité,
+- sur chaque front, une troupe du camp perdant est retirée de la carte,
+- chaque joueur défausse les unités de ses armées (en commençant par l'armée de son choix),
+- le joueur défenseur peut défausser autant de cartes de sa main qu'il le souhaite,
+  puis recompléter sa main jusqu'à un maximum de 5 cartes,
+- pour chaque victoire de l'attaquant, le territoire attaqué est conquis
+  (si le territoire attaqué était le même pour les deux fronts,
+  une seule victoire suffit donc à le conquérir).
 
 
-## Common effects from abilities
+## Attaquer simultanément deux territoires appartenant à des joueurs différents
 
-Many civilization rely on mechanics specific to that civilization,
-which are described in that civilization's World.
+On procède ici de la même façon que dans le cas d'une attaque sur deux territoires
+d'un même joueur, la seule différence étant que c'est maintenant trois joueurs
+qui jouent une carte d'unité à tour de rôle, suivant l'ordre du tour
+(en commençant par le premier défenseur).
 
-There are however also mechanics common to several civilization,
-which we'll describe here.
+Lorsqu'un des joueurs ne peut plus ou ne veut plus jouer de carte d'unité,
+son tour est sauté jusqu'à ce qu'un deuxième joueur arrêté également de jouer
+des cartes d'unité, et le dernier joueur est alors libre de jouer une par une
+autant de cartes d'unité de sa main qu'il le souhaite.
 
-- "Destroying a card" means putting that card back where is was purchased from
-  (whether a pile of common or technology cards, or the civilization's World).
 
-- "Getting rid of a unit" means choosing a unit and making it collapse,
-  i.e. removing it from the battle. A player's collapsed unit are stacked
-  into a face-up pile in the order they collapsed,
-  which is put in the player's discard pile after the battle,
-  just before the remaining unit cards are discarded.
-  When a cost-5 unit collapses, it is immediately destroyed
-  unless its player spends 1 troop on that front,
-  which they are only allowed to do if it leaves at least
-  1 attacking troop near the frontier and 1 defending troop on the territory.
+## Attaquer un ou des territoires sauvages (c'est-à-dire qu'aucun joueur ne contrôle)
 
-- "Allied" refers to the player's side of a front.
-  Their territory is the "allied territory",
-  and their units are the "allied units".
+On procède ici comme si le territoire sauvage était contrôlé par un joueur
+défenseur qui choisit de ne jouer aucune carte d'unité.
 
-- "Enemy" refer to the opposing player's side of a front.
-  Their territory is the "enemy territory",
-  and their units are the "enemy units".
+Au moment de sommer la force des unités du joueur défenseur,
+la force totale du territoire sauvage est prise égale au double du nombre de tuiles
+entre celui-ci et le portail le plus proche.
+S'il y a 2 tuiles entre le territoire sauvage et le portail le plus proche,
+sa force totale vaudra donc 4, et le joueur attaquant aura besoin
+d'une armée de force 5 ou plus pour le conquérir.
 
-- "Differentiating a card" means turning the card horizontally
-  or putting tokens on it to remember what has happened to it
-  or what will happen to it
-  (*e.g.* whether a unit has triggered its ability,
-  or whether is should be destroyed at the end of the battle)
+
+# Effets des cartes
+
+## Effets permanents
+
+Qu'il s'agisse de cartes d'unité, de cartes communes ou de cartes de technologie,
+de nombreuses cartes font l'objet de règles additionnelles appelées des *effets permanents*.
+Ceux-ci peuvent par exemple contraindre quand ces cartes peuvent être jouées ou achetées,
+faire varier le coût ou la valeur des cartes en fonction des circonstances,
+ou leur permettre d'avoir un effet depuis la main du joueur sans que celui-ci ait à les jouer.
+
+Certains de ces effets permanents, généralement des effets positifs,
+sont explicitement optionnels (ex: "À tout moment, cette carte peut être défaussée
+pour piocher jusqu'à 1 carte, ou détruite pour piocher jusqu'à 3 cartes.").
+Gardez cependant en tête que, sauf mention du contraire,
+**les effets permanents ne sont pas optionnels**,
+et ce qu'il s'agisse d'effets positifs (ex: "Force +1 si votre main est vide")
+ou négatifs (ex: "Cette unité ne peut être renvoyée dans le Monde du joueur qu'en étant détruite en combat").
+
+
+## Capacités
+
+Les unités ajoutées au combat par un joueur font généralement plus qu'ajouter
+leur force à son armée, et fournissent à celui-ci de multiples capacités
+qu'il peut activer pour produire divers effets.
+Contrairement aux effets permanents,
+**les joueurs ont toujours le choix d'activer ou non une capacité**.
+
+Les capacités sont divisées en 4 types, selon le moment où elles peuvent être activées:
+
+- les **capacités immédiates** d'une unité peuvent être activées
+  une unique fois chacune, lorsque cette unité vient d'être ajoutée au combat
+  (c'est-à-dire jusqu'à ce qu'un joueur ait à choisir de jouer ou non
+   une carte d'unité de sa main),
+
+- les **capacités retardées** d'une unité peuvent être activées
+  une unique fois après que tous les joueurs ont fini de jouer
+  des unités de leurs mains (c'est-à-dire avant de déterminer le vainqueur),
+
+- les **capacités post-combat** d'une unité peuvent être activées
+  une unique fois chacune, juste après que le vainqueur a été déterminé
+  (c'est-à-dire avant de défausser les unités des armées),
+
+- les **capacités de réaction** d'une unité sont liées
+  soit à un **événement** (ex: "cette unité est neutralisée")
+  soit à une **condition** (ex: "votre main est vide");
+  la capacité peut être activée une fois
+  (jusqu'à ce qu'un joueur ait à choisir de jouer ou non une carte d'unité de sa main)
+  à chaque fois que l'événement a lieu ou que la condition devient vérifiée,
+  ainsi que lorsque l'unité est ajoutée au combat si la condition est vérifiée.
+
+**Précision sur les cas particuliers :**
+
+- si un joueur peut activer plusieurs capacités de ses unités,
+  il est libre de choisir dans quelle ordre il active celles-ci,
+- si plusieurs joueurs souhaitent activer une capacité avant les autres,
+  la priorité va au joueur attaquant, puis suit l'ordre du tour,
+- si une capacité ajoute une unité au combat,
+  les capacités de cette unité peuvent être activées normalement
+  (y compris ses capacités immédiates et retardées,
+   même si la capacité qui l'a ajoutée au combat était déjà une capacité retardée).
+
+
+## Effets courants des capacités
+
+La plupart des civilisations introduisent une ou plusieurs mécaniques
+propre à celles-ci, avec un vocabulaire dédié.
+
+Voici quelques explications en ce qui concerne les mécaniques ou le vocabulaire
+commun aux diverses civilisation :
+
+- Sur un front donné, le territoire du joueur est appelé *territoire allié*,
+  ses troupes les *troupes alliées*, et ses unités les *unités alliées*.
+  Le territoire du joueur adverse est appelé *territoire ennemi*,
+  ses troupe les *troupes ennemies*, et ses unités les *unités ennemies*.
+
+- *Détruire une carte* signifie reposer cette carte là d'où on peut l'acheter
+  (c'est-à-dire dans la pile correspondante pour une cartes commune ou de technologie,
+   ou à l'emplacement correspondant du Monde du joueur pur une carte d'unité).
+
+- *Neutraliser une unité* signifie choisir une unité et la retirer du combat:
+  - à l'exception des unités de coût 5, les unités neutralisées d'un joueur
+    sont placées en une pile face visible, dans l'ordre où elles ont été retirées du combat,
+    et sont défaussées dans cet ordre à la fin de celui-ci, juste avant les unités des armées du joueur,
+
+  - dans le cas d'une unité de coût 5, l'unité est en revanche immédiatement détruite
+    et le joueur perd alors une troupe sur le front concerné
+    (c'est-à-dire parmi celles envoyées au front s'il s'agit du joueur attaquant,
+     ou sur le territoire attaqué s'il s'agit du joueur défenseur),
+
+  - lors de la détermination du camp vainqueur, si l'attaquant n'a plus de troupes au front,
+    il perd le combat sur ce front même si la somme des forces de ses troupes est supérieure
+    à celle du défenseur,
+
+  - en revanche, le défenseur peut l'emporter même s'il n'a plus de troupe sur son territoire;
+    s'il gagne sur tous les fronts concernés, il reçoit une troupe à placer sur ce dernier
+    (ce qui lui permet de conserver le contrôle de celui-ci).
+
+- *Marquer une carte* signifie garder trace de cette carte
+  (en la tournant horizontalement, en plaçant un objet dessus,
+   en notant cela sur un feuille à part...) afin de se rappeler d'informations
+  importantes la concernant (si certaines de ses capacités ont été activées,
+  si elle doit être détruite à la fin du combat, *etc*).
