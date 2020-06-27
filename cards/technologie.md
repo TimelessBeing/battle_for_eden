@@ -8,7 +8,7 @@
   jusqu'à la fin du combat.
 
 
-### Faille Temporaire
+### Amplificateur de Résonance
 - **Coût :** 2
   Lorsque vous achetez cette carte, placez-là face visible devant vous.
 - **Permanent :**
@@ -17,7 +17,7 @@
   sans payer jusqu'à 2 unités (coût total max 6) ou 1 carte commune.
 
 
-### Portail Amélioré
+### Stabilisateur de Portail
 - **Coût :** 4
 - **Permanent :**
   Lorsque vous achetez cette carte, placez-là face visible devant vous.
