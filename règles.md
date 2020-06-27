@@ -345,13 +345,13 @@ Les unités de chaque joueur constituent l'*armée* de celui-ci,
 et sont placées devant lui, en colonne dans l'ordre où elles ont été ajoutées au combat,
 la plus ancienne en haut. Cette disposition est importante car certaines capacités
 (voir section correspondante) permettront de déplacer des unités pour les placer
-sur la même ligne qu'une autre, à gauche ou à droite de celle-ci,
-ou affecteront spécifiquement les unités se trouvant sur une certaine ligne ou colonne, *etc*.
+sur la même rangée qu'une autre, à gauche ou à droite de celle-ci,
+ou affecteront spécifiquement les unités se trouvant sur une certaine rangée ou colonne, *etc*.
 Durant le combat, si une unité d'un joueur quitte sa position (par exemple si elle est déplacée
-ou retirée du combat), les unités situées à sa gauche ou à sa droite sur sa ligne
+ou retirée du combat), les unités situées à sa gauche ou à sa droite sur sa rangée
 (au choix du joueur) sont décalées d'un cran pour combler le vide.
-De même, si une ligne se retrouve dépourvue d'unités,
-les lignes du dessous montent d'un cran pour combler le vide.
+De même, si une rangée se retrouve dépourvue d'unités,
+les rangée du dessous montent d'un cran pour combler le vide.
 
 Une fois qu'un des joueurs a arrêté de jouer des cartes d'unité,
 l'autre joueur est libre de continuer à jouer autant de cartes
@@ -364,7 +364,7 @@ En cas d'égalité, la victoire va au défenseur.
 
 Une fois le vainqueur déterminé, une troupe du camp perdant est retirée de la carte,
 et chaque joueur défausse les cartes d'unité de son armée,
-ligne par ligne du haut vers le bas, en commençant par la gauche sur chaque ligne.
+rangée par rangée du haut vers le bas, en commençant par la gauche sur chaque rangée.
 Le joueur défenseur est ensuite libre de défausser autant de cartes de sa main
 qu'il le souhaite, puis de recompléter sa main jusqu'à un maximum de 5 cartes.
 

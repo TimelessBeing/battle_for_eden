@@ -1,81 +1,93 @@
 
-## Dedicated Mechanics:
+## Mécanique propre:
 
-- **Conscript**
-  - add an Infantry Squad unit card from your World to your discard pile
+- **Lever des troupes**
+  - Ajouter gratuitement une carte Escouade d'Infanterie de votre Monde (s'il en reste)
+    à votre défausse.
 
 
-## Basic Unit (cost 1):
+## Unités
 
-### Infantry Squad (Strength: 1)
+### Escouade d'Infanterie
+- **Coût :** 1
+- **Valeur :** 1
 - **Permanent:**
-  Discard this unit if another unit on its row collapses
-- **Immediate:**
-  If there are 3 Infantry Squad units or less on this row:
-  reveal cards from the top of your deck until you reveal
-  a unit of strength 1 or there is no more cards to reveal.
-  You may add this unit to the row.
-  Put back the revealed cards on top of your deck
-  in the order in which they were revealed.
+  Cette carte est neutralisée si une unité de sa rangée est retirée du combat.
+- **Immédiat:**
+  S'il y au plus 3 Escouades d'Infanterie sur cette rangée:
+  ajoutez à droite de cette rangée l'unité de force 1 la plus
+  proche du sommet de votre deck (en révélant puis replaçant les cartes au-dessus).
 
 
-## Shock Unit (cost 2):
-
-### Archery Squad (Strength: 1)
+### Escouade d'Archers
+- **Coût :** 2
+- **Valeur :** 1
 - **Permanent:**
-  When you purchase this card, conscript.
-- **Immediate:**
-  Discard a unit of strength 1 from your hand to draw 1 card.
-  If you do, and there is at least 1 other unit on the row,
-  you may get rid of a unit on this front.
+  Lorsque vous achetez cette carte, levez des troupes.
+- **Immédiat:**
+  S'il y a au moins 1 autre unité sur cette rangée:
+  défaussez une unité de force 1 de votre main pour piocher une carte
+  et neutraliser une unité sur ce front.
 
 
-## Main Units (cost 3):
-
-### Tactician (Strength: 1)
+### Tacticien
+- **Coût :** 3
+- **Valeur :** 1
 - **Permanent:**
-  When you purchase this card, conscript.
-- **Immediate:**
-  [Remove this unit from the battle and place it
-  at the bottom of your deck]
-  OR [if there is at least 1 other unit on the row:
-  destroy a card from your hand].
-
-### Heavy Infantry (Strength: 1)
+  Lorsque vous achetez cette carte, levez des troupes.
 - **Permanent:**
-  When you purchase this card, conscript.
+  Au lieu d'ajouter cette carte au combat, vous pouvez la placer sous votre deck.
+- **Immédiat:**
+  S'il y a au moins 1 autre unité sur cette rangée:
+  détruisez une carte de votre main.
+
+
+### Infanterie Lourde
+- **Coût :** 3
+- **Valeur :** 1
 - **Permanent:**
-  +2 strength if there is at least 1 other unit on the row.
-
-### Captain (Strength: 1)
+  Lorsque vous achetez cette carte, levez des troupes.
 - **Permanent:**
-  When you purchase this card, conscript.
-- **Immediate:**
-  Discard a unit of strength 1 from your hand to draw 1 card
-  and copy the immediate ability of an allied unit of strength 1
-  on this front.
-  When copying an Infantry Squad's ability, units of strength 2
-  can be added to the row as if their strength was 1.
+  Force +2 s'il y a au moins 1 autre unité sur cette rangée.
 
-### Cavalry (Strength: 1)
+
+### Capitaine
+- **Coût :** 3
+- **Valeur :** 1
 - **Permanent:**
-  When you purchase this card, conscript.
-- **Immediate:**
-  Discard a unit of strength 1 from your hand to draw 3 cards,
-  then discard 2 cards from your hand. Differentiate this unit.
+  Lorsque vous achetez cette carte, levez des troupes.
+- **Immédiat:**
+  Défaussez une unité de force 1 de votre main pour piocher 1 carte
+  et copier la capacité immédiate d'une unité alliée de coût 3 ou moins.
+  Pour cette copie, toutes les unités sont considérées comme étant
+  de force 1.
+
+
+### Escadron de Cavalerie
+- **Coût :** 3
+- **Valeur :** 1
 - **Permanent:**
-  +1 strength if the immediate ability was triggered.
-
-
-## Champion Unit (cost 5):
-
-### Knight (Strength: 2)
+  Lorsque vous achetez cette carte, levez des troupes.
+- **Immédiat:**
+  Défaussez une unité de force 1 de votre main pour piocher 3 cartes
+  et défausser 2 cartes de votre main. Marquez alors cette unité.
 - **Permanent:**
-  +1 strength to all Infantry Squads and Archery Squads on this front.
+  Force +1 si cette unité a été utilisée pour piocher des cartes.
 
 
-## Supremacy Unit (cost 6):
+### Centurion
+- **Coût :** 5
+- **Valeur :** 2
+- **Permanent:**
+  Lorsque vous achetez cette carte, levez des troupes.
+- **Permanent:**
+  Force +1 à toutes les unités alliées de coût 2 ou moins.
 
-### General (Strength: 2)
-- **Immediate:**
-  Draw 1 card.
+
+### Général
+- **Coût :** 6
+- **Valeur :** 2
+- **Permanent:**
+  Lorsque vous achetez cette carte, levez des troupes.
+- **Immédiat:**
+  Piochez 1 carte.
