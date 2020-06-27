@@ -1,9 +1,9 @@
 
 ## Mécanique propre:
 
-- **Lever des troupes**
-  - Ajouter gratuitement une carte Escouade d'Infanterie de votre Monde (s'il en reste)
-    à votre défausse.
+- **Être rejoint par une Escouade d'Infanterie**
+  - Ajouter gratuitement une carte unité Escouade d'Infanterie de votre Monde
+    (s'il en reste) à votre défausse.
 
 
 ## Unités
@@ -23,7 +23,7 @@
 - **Coût :** 2
 - **Valeur :** 1
 - **Permanent:**
-  Lorsque vous achetez cette carte, levez des troupes.
+  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
 - **Immédiat:**
   S'il y a au moins 1 autre unité sur cette rangée:
   défaussez une unité de force 1 de votre main pour piocher une carte
@@ -34,7 +34,7 @@
 - **Coût :** 3
 - **Valeur :** 1
 - **Permanent:**
-  Lorsque vous achetez cette carte, levez des troupes.
+  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
 - **Permanent:**
   Au lieu d'ajouter cette carte au combat, vous pouvez la placer sous votre deck.
 - **Immédiat:**
@@ -46,7 +46,7 @@
 - **Coût :** 3
 - **Valeur :** 1
 - **Permanent:**
-  Lorsque vous achetez cette carte, levez des troupes.
+  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
 - **Permanent:**
   Force +2 s'il y a au moins 1 autre unité sur cette rangée.
 
@@ -55,7 +55,7 @@
 - **Coût :** 3
 - **Valeur :** 1
 - **Permanent:**
-  Lorsque vous achetez cette carte, levez des troupes.
+  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
 - **Immédiat:**
   Défaussez une unité de force 1 de votre main pour piocher 1 carte
   et copier la capacité immédiate d'une unité alliée de coût 3 ou moins.
@@ -67,7 +67,7 @@
 - **Coût :** 3
 - **Valeur :** 1
 - **Permanent:**
-  Lorsque vous achetez cette carte, levez des troupes.
+  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
 - **Immédiat:**
   Défaussez une unité de force 1 de votre main pour piocher 3 cartes
   et défausser 2 cartes de votre main. Marquez alors cette unité.
@@ -79,7 +79,7 @@
 - **Coût :** 5
 - **Valeur :** 2
 - **Permanent:**
-  Lorsque vous achetez cette carte, levez des troupes.
+  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
 - **Permanent:**
   Force +1 à toutes les unités alliées de coût 2 ou moins.
 
@@ -88,6 +88,6 @@
 - **Coût :** 6
 - **Valeur :** 2
 - **Permanent:**
-  Lorsque vous achetez cette carte, levez des troupes.
+  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
 - **Immédiat:**
   Piochez 1 carte.
