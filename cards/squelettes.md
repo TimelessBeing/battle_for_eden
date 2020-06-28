@@ -1,60 +1,65 @@
 
-## Basic Unit (cost 1):
+## Unités
 
-### Skeleton (Strength: 1)
-- **Permanent:**
-  If this card is revealed by an ability, you may discard it and reveal another one instead.
-  You may also discard this card from your hand at any time to draw a card.
-- **Immediate:**
-  Discard a card from your hand.
-- **Delayed:**
-  If there is a total of 4 allied units or less on all fronts,
-  add a Skeleton from your discard pile to this row.
-
-
-## Shock Unit (cost 2):
-
-### Exploding Corpse (Strength: 2)
-- **Immediate:**
-  Shuffle 3 units from your discard pile into your deck to get rid of a unit on this front.
+### Soldat Décharné
+- **Coût :** 1
+- **Valeur :** 1
+- **Permanent :**
+  À tout moment, cette carte peut être défaussée pour piocher jusqu'à 1 carte.
+  Si elle est révélée depuis votre deck par un capacité, défaussez-la et révélez la carte suivante.
+- **Retardé :**
+  S'il y a au plus 4 de vos unités au combat sur l'ensemble des fronts:
+  ajoutez un Soldat Décharné de votre défausse à droite de cette rangée.
 
 
-## Main Units (cost 3):
-
-### Flameskull (Strength: 2)
-- **Immediate:**
-  Destroy the top card of your discard pile.
-
-### Death Knight (Strength: 2)
-- **Immediate:**
-  [Reveal the top card of your deck, then either discard it or put it back on top of your deck]
-  OR [draw the non-Grim-Reaper unit card which is the closest to the top of your discard pile into your hand].
-
-### Skeleton Rider (Strength: 2)
-- **Immediate:**
-  You may shuffle your discard pile and place it under your deck.
-  Reveal the top 3 cards of your deck. You may exchange 1 unit card
-  revealed in this way with a unit card from your hand. Discard the revealed cards in any order.
-
-### Bone Golem (Strength: 3)
-- **Permanent:**
-  +2 strength for each Skeleton unit on this row.
-- **Delayed:**
-  Move any number of Skeleton units on this front to this row.
+### Cadavre Explosif
+- **Coût :** 2
+- **Valeur :** 2
+- **Immédiat :**
+  Mélangez 3 unités de votre défausse à votre deck pour neutraliser une unité ennemie.
 
 
-## Champion Unit (cost 5):
+### Crâne Infernal
+- **Coût :** 3
+- **Valeur :** 2
+- **Immédiat :**
+  Détruisez la carte du dessus de votre défausse.
 
-### Lich (Strength: 3)
-- **Permanent:**
-  +1 strength for each unit in your discard pile.
+### Chevalier Abyssal
+- **Coût :** 3
+- **Valeur :** 2
+- **Immédiat :**
+  Ajoutez l'unité de coût inférieur ou égal la plus proche du dessus de votre défausse à votre main.
+
+### Chevaucheur Vespéral
+- **Coût :** 3
+- **Valeur :** 2
+- **Immédiat :**
+  Mélangez si vous le souhaitez votre défausse à votre deck,
+  puis défaussez les 3 premières cartes de celui-ci dans n'importe quel ordre.
+  Vous pouvez échanger une unité de votre main avec une des cartes ainsi défaussées.
+
+### Golem d'Os
+- **Coût :** 3
+- **Valeur :** 3
+- **Permanent :**
+  Force +2 aux autres unités sur cette rangée.
+- **Retardé :**
+  Placez jusqu'à 2 unités Soldat Décharné alliées à droite de cette rangée.
 
 
-## Supremacy Unit (cost 6):
+### Thaumaturge Nécrotique
+- **Coût :** 5
+- **Valeur :** 3
+- **Permanent :**
+  Force +1 pour chaque unité dans votre défausse.
 
-### Grim Reaper (Strength: 3)
-- **Immediate:**
-  Choose a type of unit. Put all units of that type
-  that are in your discard pile at its bottom.
-  Draw the non-Grim-Reaper unit card which is the closest
-  to the top of your discard pile into your hand.
+
+### Liche
+- **Coût :** 6
+- **Valeur :** 3
+- **Immédiat :**
+  Révélez jusqu'à 1 carte du dessus de votre deck, puis reposez-la ou défaussez-la.
+  Placez toutes les unités de votre défausse d'un type au choix en bas de celle-ci.
+- **Immédiat :**
+  Ajoutez l'unité de coût inférieur ou égal la plus proche du dessus de votre défausse à votre main.
