@@ -463,7 +463,7 @@ pour piocher jusqu'à 1 carte, ou détruite pour piocher jusqu'à 3 cartes.").
 Gardez cependant en tête que, sauf mention du contraire,
 **les effets permanents ne sont pas optionnels**,
 et ce qu'il s'agisse d'effets positifs (ex: "Force +1 si votre main est vide")
-ou négatifs (ex: "Cette unité ne peut être renvoyée dans le Monde du joueur qu'en étant détruite en combat").
+ou négatifs (ex: "Cette unité ne peut être renvoyée dans le Monde du joueur qu'en étant détruite par une capacité").
 
 
 ## Capacités

@@ -1,96 +1,98 @@
 
-## Dedicated Mechanics:
+## Mécanique propre:
 
-- **Reconfigure a unit**
-  - return a unit to your World
-  - replace it with a combination of units
-    of lesser or equal cost from your World
-  - those units take the place of the reconfigured unit in its row,
-    and their immediate abilities cannot be triggered
-  - if the reconfigured unit was differentiated,
-    the units that replace must be differentiated too,
-    and all effects or abilities applying to the reconfigured unit
-    now apply to them
+- **Reconfigurer une unité**
+  - détruire une unité pour la remplacer sur sa rangée par une combinaison
+    d'unités de coût total inférieur ou égal, prises gratuitement dans votre Monde,
+  - les capacités immédiates des unités ainsi ajoutées ne peuvent être activées,
+  - si l'unité reconfigurée était marquée, la combinaison d'unité l'est également,
+    et les effets correspondants s'appliquent à chacune d'entre elles.
 
 
-## Basic Unit (cost 1):
+## Unités
 
-### Building Block (Strength: 0)
-- **Permanent:**
-  This unit cannot be returned to your World
-  except by being destroyed by an ability.
-- **Permanent:**
-  +1 strength when attacking a wild territory.
-- **Immediate:**
-  Destroy 2 Building Blocks on this front to add a Weaponry Module
-  from your World to the battle on this front.
-
-
-## Shock Unit (cost 2):
-
-### Weaponry Module (Strength: 2)
-- **Immediate:
-  Destroy a Building Block on this front to get rid of a unit
-  on this front.
-- **Immediate:**
-  Reconfigure this unit.
+### Bloc de Matériaux
+- **Coût :** 1
+- **Valeur :** 0
+- **Permanent :**
+  Cette unité ne peut être renvoyée dans le Monde du joueur qu'en étant détruite par une capacité.
+- **Permanent :**
+  Force +1 si le territoire ennemi est un territoire sauvage.
+- **Immédiat :**
+  Détruisez cette carte et 1 Bloc de Matériaux allié pour ajouter
+  gratuitement à droite de cette rangée un Module d'Armement de votre Monde.
 
 
-## Main Units (cost 3):
-
-### Recycling Module (Strength: 3)
-- **Immediate:**
-  Destroy a card from your hand to add a Building Block
-  from your World to this row.
-  Do not trigger its immediate ability.
-- **Immediate:**
-  Reconfigure this unit.
-
-### Production Module (Strength: 3)
-- **Immediate:**
-  Add all Building Blocks from your World to this row.
-  Do not trigger their immediate abilities.
-- **Immediate:**
-  Reconfigure this unit.
-
-### Flight Module (Strength: 3)
-- **Immediate:**
-  Remove a Building Block from a front and add it to another one
-  without triggering its immediate ability.
-  You may do this as many times as you want.
-- **Immediate:**
-  Destroy a Building Block on this front to draw a card.
-- **Immediate:**
-  Reconfigure this unit.
-
-### Efficiency Module (Strength: 3)
-- **Post-combat:**
-  Destroy any number of Building Blocks on this front.
-- **Immediate:**
-  Reconfigure this unit.
+### Module d'Armement
+- **Coût :** 2
+- **Valeur :** 2
+- **Immédiat :
+  Détruisez 1 Bloc de Matériaux allié pour neutraliser une unité ennemie.
+- **Immédiat :**
+  Reconfigurez cette unité.
 
 
-## Champion Unit (cost 5):
-
-### Core Module (Strength: 1)
-- **Immediate:**
-  Destroy 2 Building Blocks to move this unit
-  to the left or right of another allied unit on this front.
-- **Immediate:**
-  Destroy 2 Building Blocks to move another allied unit on this front
-  to the left or right of this unit.
-- **Permanent:**
-  +2 strength to the units on the immediate left and right of this unit.
-  +2 strength to the non-Building Block units
-  on the rows above and below this unit.
+### Module de Recyclage
+- **Coût :** 3
+- **Valeur :** 3
+- **Immédiat :**
+  Détruisez une carte de votre main pour ajouter gratuitement
+  à droite de cette rangée un Bloc de Matériaux de votre Monde,
+  sans activer sa capacité immédiate.
+- **Immédiat :**
+  Reconfigurez cette unité.
 
 
-## Supremacy Unit (cost 6):
+### Module de Production
+- **Coût :** 3
+- **Valeur :** 3
+- **Immédiat :**
+  Ajouter gratuitement à droite de cette rangée toutes les unités
+  Bloc de Matériaux de votre Monde,
+  sans activer leurs capacités immédiates.
+- **Immédiat :**
+  Reconfigurez cette unité.
 
-### Assembly Module (Strength: 1)
-- **Immediate:**
-  Destroy up to 3 Building Blocks on this front.
-  You may add a unit of cost lesser or equal to the number of units
-  destroyed in this way to the battle on this front.
-  If you do, differentiate the added unit.
-  It is destroyed after the end of the battle.
+
+### Module de Propulsion
+- **Coût :** 3
+- **Valeur :** 3
+- **Immédiat :**
+  Chaque Bloc de Matériaux au combat peut être déplacé
+  d'un front vers un autre, d'une rangée vers une autre,
+  à n'importe quelle position.
+- **Immédiat :**
+  Détruisez 1 Bloc de Matériaux allié pour piocher une carte.
+- **Immédiat :**
+  Reconfigurez cette unité.
+
+
+### Module d'Optimisation
+- **Coût :** 3
+- **Valeur :** 3
+- **Post-combat :**
+  Détruisez toutes les unités Bloc de Matériaux alliées.
+- **Immédiat :**
+  Reconfigurez cette unité.
+
+
+### Module de Coordination
+- **Coût :** 5
+- **Valeur :** 1
+- **Immédiat :**
+  Détruisez 2 unités Bloc de Matériaux alliées pour placer cette unité à droite d'une unité alliée.
+- **Immédiat :**
+  Détruisez 2 unités Bloc de Matériaux alliées pour placer une unité alliée à droite de cette unité.
+- **Permanent :**
+  Force +2 aux unités directement à gauche ou à droite de cette unité,
+  ainsi qu'aux unités de coût 2 ou plus sur les rangées directement au-dessus ou en-dessous.
+
+
+### Module d'Assemblage
+- **Coût :** 6
+- **Valeur :** 1
+- **Immédiat :**
+  Détruisez jusqu'à 3 unités Bloc de Matériaux alliés
+  pour ajouter gratuitement à ce front une unité de votre Monde
+  de coût total inférieur ou égal.
+  L'unité ajoutée est marquée et sera détruite après le combat au lieu d'être défaussée.
