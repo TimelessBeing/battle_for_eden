@@ -1,109 +1,112 @@
 
-## Dedicated Mechanics:
+## Mécaniques propres :
 
-- **Extract shards from a territory**
-  - place 1 shard near the units on that front,
-  - +1 if the territory is a mountain (*i.e.* a territory of your color),
-  - +1 if the territoy is energy-rich
-  - some abilities will allow you to spend those shards during battle;
-    the remaining shards are given to the winner at the end of the battle
+- **Acheter des cartes Cristal d'Énergie :**
+  - les cartes Cristal d'Énergie ne peuvent pas être achetées durant la phase de Logistique,
+  - l'acquisition de cartes Cristal d'Énergie doit donc se faire à la place à l'aide d'effets d'autres cartes.
 
-- **Use X Energy Crystal**
-  - discard Energy Crystal cards from your hand for a total value of X or more
+- **Utiliser X cristaux :**
+  - Défausser des cartes Cristal d'Énergie de votre main pour une valeur totale de X ou plus.
 
-- **Place shards on a territory**
-  - put the shards on that territory's tile
-  - those shards may not be used by anyone.
-  - if they want to, the owner of the territory may retrieve the shards
-    during their turn of the Production phase,
-    but only if that territory is connected to their Portal
+- **Entreposer X stocks d'énergie sur un territoire :**
+  - prendre X de votre réserve de stocks d'énergie et les placer sur la tuile de ce territoire,
+  - les stocks d'énergie entreposées ne peuvent pas être dépensées lors de la phase de Logistique,
+  - durant la phase de Production, un joueur peut enlever autant de stocks d'énergie
+    qu'il le souhaite de ses territoires connectées pour les ajouter à sa réserve.
 
-- **Buying Energy Crystal cards:**
-  - be aware that you are not allowed to purchase any Energy Crystal card
-    during the Reinforcements phase, due to the Specialist permanent effect
-
-
-## Basic Unit (cost 1):
-
-### Miner (Strength: 1)
-- **Immediate:**
-  Extract shards from the allied territory
-  and 2 territories in direct contact with it.
-- **Immediate:**
-  Reveal the top 2 cards of your deck.
-  You may draw 1 revealed Energy Crystal card into your hand.
-  Discard the rest.
+- **Creuser sous un territoire :**
+  - recevoir entre 1 et 3 stocks d'énergie
+    (selon ce que le territoire rapporte durant la phase de Production),
+    et les placer sur la carte d'unité,
+  - certaines capacités permettent de les dépenser durant le combat,
+  - les stocks d'énergie restants sont donnés au vainqueur sur chaque front.
 
 
-## Shock Unit (cost 2):
+## Unités
 
-### Artificer (Strength: 1)
-- **Immediate:**
-  Use 3 Energy Crystals from your hand to draw a card and extract shards
-  from the allied territory and 1 territory in direct contact with it.
-  Differentiate this unit.
-- **Immediate:**
-  If you triggered the first ability:
-  use 5 shards extracted on this front to get rid of a unit on this front.
-  If that unit's cost is 2 or less, you may use only 3 instead.
-
-
-## Main Units (cost 3):
-
-### Rushed Cannon (Strength: 2)
-- **Permanent:**
-  You may purchase this unit at any moment.
-  When you do, put it in your hand instead of your discard pile.
-- **Immediate:**
-  Discard an Energy Crystal card from your hand then draw a card.
-- **Post-combat:**
-  Destroy this unit.
-
-### Digging Machine (Strength: 2)
-- **Immediate:**
-  Extract shards from the allied territory
-  and all territories in direct contact with it.
-- **Immediate:**
-  Reveal the top 2 cards of your deck.
-  Discard any number of those cards
-  and put the rest on top of your deck in any order.
-  You may also choose to draw one revealed Energy Crystal card into your hand.
-
-### Sentinel (Strength: 1)
-- **Immediate:**
-  Discard one card to draw one card
-  and extract shards from the allied territory.
-- **Permanent:**
-  +1, +2, +3 or +4 strength if 3 territories that you control
-  each have at least 5, 10, 30 or 50 shards respectively on them.
-
-### Specialist (Strength: 1)
-- **Permanent:**
-  You may not purchase Energy Crystal cards during the Reinforcements phase
-  (this applies during the whole game, whether you purchase this unit or not).
-- **Immediate:**
-  Immediately purchase an Energy Crystal card.
-  Add that card to your hand instead of your discard pile.
-
-## Champion Unit (cost 5):
-
-### Blacksmith (Strength: 1)
-- **Immediate:**
-  Use 3 Energy Crystals from your hand to draw a card
-  and extract shards from the allied territory.
-  Differentiate this unit.
-- **Delayed:**
-  If you triggered the first ability:
-  for each allied unit on this front, you may use 1 shard extracted
-  on this front to add 1 strength to that unit.
+### Mineur
+- **Coût :** 1
+- **Valeur :** 1
+- **Immédiat :**
+  Creusez sous le territoire allié et 2 territoires adjacents à celui-ci.
+- **Immédiat :**
+  Défaussez les deux cartes du dessus de votre deck.
+  Vous pouvez ajouter 1 carte Cristal d'Énergie ainsi défaussée à votre main.
 
 
-## Supremacy Unit (cost 6):
+### Artificier
+- **Coût :** 2
+- **Valeur :** 1
+- **Immédiat :**
+  Utilisez 3 cristaux pour piocher une carte et creuser sous le territoire
+  allié et 1 territoire adjacent à celui-ci.
+- **Immédiat :**
+  S'il y a des stocks d'énergie sur cette unité:
+  dépensez 5 stocks d'énergie qui sont sur les unités alliées pour neutraliser une unité ennemie
+  (3 s'il s'agit d'une unité de coût 2 ou moins).
 
-### Rocket Roll (Strength: 3)
-- **Immediate:**
-  Place any number of shards on one of your territories.
-  You may destroy a card from your discard pile to immediately play
-  Energy Crystal cards from your hand and purchase a unit from your World.
-  Add that unit to your hand instead of your discard pile,
-  then discard the Energy Crystal cards.
+
+### Canon Improvisé
+- **Coût :** 3
+- **Valeur :** 2
+- **Permanent :**
+  Cette unité peut être achetée pendant ou avant un combat,
+  et est alors ajoutée à votre main au lieu de votre défausse.
+- **Immédiat :**
+  Défaussez une carte Énergie Cristal pour piocher une carte.
+- **Post-combat :**
+  Détruisez cette unité.
+
+
+### Engin Foreur
+- **Coût :** 3
+- **Valeur :** 2
+- **Immédiat :**
+  Creusez sous le territoire allié et les 6 territoires adjacents à celui-ci
+  (emplacements libres = tuiles noires).
+- **Immédiat :**
+  Révélez jusqu'à 2 cartes du dessus de votre deck.
+  Vous pouvez ajouter 1 carte Cristal d'Énergie ainsi révélée à votre main.
+  Reposez ou défaussez le reste dans l'ordre de votre choix.
+
+
+### Sentinelle
+- **Coût :** 3
+- **Valeur :** 2
+- **Immédiat :**
+  Utilisez 3 cristaux pour piocher une carte et creuser sous le territoire allié.
+- **Permanent :**
+  Force +1 (respectivement +2, +3 ou +4) si 3 de vos territoires comptent chacun
+  au moins 5 stocks d'énergie entreposés (respectivement 10, 30 ou 50).
+
+
+### Spécialiste
+- **Coût :** 3
+- **Valeur :** 1
+- **Immédiat :**
+  Vous pouvez acheter une carte Cristal d'Énergie,
+  et l'ajouter à votre main au lieu de votre défausse
+  (rappel: vous ne pouvez pas acheter de cartes Cristal d'Énergie durant la phase de Logistique).
+
+
+### Forgeron
+- **Coût :** 5
+- **Valeur :** 1
+- **Immédiat :**
+  Utilisez 3 cristaux pour piocher une carte, creuser sous le territoire allié
+  et déplacer autant de stocks d'énergie que vous le souhaitez des unités alliées vers cette unité.
+- **Retardé :**
+  Dépensez jusqu'à 1 stock d'énergie qui est sur cette carte par unité alliée
+  pour donner Force +1 à ces unités.
+
+
+### Véhicule Expérimental n°45
+- **Coût :** 6
+- **Valeur :** 3
+- **Immédiat :**
+  Entreposez autant de stocks d'énergie que vous le souhaitez
+  sur un de vos territoires.
+- **Immédiat :**
+  Détruisez une carte de votre défausse pour jouer immédiatement des cartes Cristal d'Énergie
+  de votre main, acheter une unité, puis défausser les cartes ainsi jouées.
+  L'unité est alors ajoutée à votre main au lieu de votre défausse.

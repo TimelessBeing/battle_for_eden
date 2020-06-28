@@ -1,7 +1,7 @@
 
-## Mécanique propre:
+## Mécaniques propres :
 
-- **Reconfigurer une unité**
+- **Reconfigurer une unité :**
   - détruire une unité pour la remplacer sur sa rangée par une combinaison
     d'unités de coût total inférieur ou égal, prises gratuitement dans votre Monde,
   - les capacités immédiates des unités ainsi ajoutées ne peuvent être activées,

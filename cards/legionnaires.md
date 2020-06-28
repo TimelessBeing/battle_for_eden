@@ -1,7 +1,7 @@
 
-## Mécanique propre:
+## Mécaniques propres :
 
-- **Être rejoint par une Escouade d'Infanterie**
+- **Être rejoint par une Escouade d'Infanterie :**
   - Ajouter gratuitement une carte unité Escouade d'Infanterie de votre Monde
     (s'il en reste) à votre défausse.
 
