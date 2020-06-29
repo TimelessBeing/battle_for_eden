@@ -1,93 +1,88 @@
 
-## Dedicated Mechanics:
-
-- **Natural Energy**
-  - temporary resource specific to your civilization
-  - it is specific to the front on which it is generated,
-    materialized by counter tokens placed near the unit cards
-    on that front, and all the unspent Natural Energy
-    is lost when the battle ends
-
-- **Gather Natural Energy**
-  - generate 2 Natural Energy
-  - +1 if one of the two territories engaged in battles,
-    or 2 of the territories in direct contact with them,
-    are forests (*i.e.* territories of your color)
+## Mécaniques propres :
 
 
-## Basic Unit (cost 1):
+- **Canaliser du mana :**
+  - recevoir 2 stocks d'énergie et les placer sur la carte d'unité
+    (3 si le territoire allié, le territoire ennemi,
+    ou 2 territoires adjacents à ceux-ci sont de votre couleur),
+  - certaines capacités permettent de les dépenser durant le combat,
+  - les stocks d'énergie non dépensés disparaissent à la fin du combat.
 
-### Hunter (Strength: 1)
-- **Immediate:**
-  Gather Natural Energy.
-- **Delayed:**
-  Use 2 Natural Energy to add 1 strength to this unit.
-
-
-## Shock Unit (cost 2):
-
-### Marksman (Strength: 2)
-- **Immediate:**
-  Gather Natural Energy.
-- **Reaction (event: Natural Energy production on this front):**
-  Differentiate this unit.
-  Use 8 Natural Energy to get rid of a unit on this front.
-  If that unit's cost is 2 or less, you may use only 4 instead.
-  The cost is increased by 4 if this unit's reaction ability
-  has already been triggered.
+- **Dépenser X mana :**
+  - retirer X stocks d'énergie posées sur des unités alliées
 
 
-## Main Units (cost 3):
-
-### Druid (Strength: 3)
-- **Immediate:**
-  Gather Natural Energy.
-- **Reaction (event: Natural Energy production on this front):**
-  Differentiate this unit.
-  Use 4 Natural Energy to destroy a card from your hand.
-  The cost is increased by 4 if this unit's reaction ability
-  has already been triggered.
-
-### Ranger (Strength: 3)
-- **Immediate:**
-  Gather Natural Energy.
-- Reaction (event: Natural Energy production on this front):**
-  Differentiate this unit.
-  Use 8 Natural Energy to draw a card or make your opponent
-  choose and discard one from his hand.
-  The cost is increased by 4 if this unit's reaction ability
-  has already been triggered.
-
-### Channeler (Strength: 3)
-- **Permanent:**
-  Whenever this unit should collapse,
-  you may use 4 Natural Energy to prevent it.
-- **Immediate:**
-  Gather Natural Energy 3 times.
-
-### Mystic (Strength: 3)
-- **Permanent:**
-  Whenever this unit should collapse,
-  you may use 4 Natural Energy to prevent it.
-- **Immediate:**
-  Gather Natural Energy twice.
-- **Immediate:**
-  Draw a card then discard a card.
+### Chasseur
+- **Coût :** 1
+- **Valeur :** 1
+- **Immédiat :**
+  Canalisez du mana.
+- **Retardé :**
+  Utilisez 2 mana pour donner Force +1 à cette unité.
 
 
-## Champion Unit (cost 5):
+### Tireur d'Élite
+- **Coût :** 2
+- **Valeur :** 2
+- **Immédiat :**
+  Canalisez du mana.
+- **Réaction (Événement : mana canalisé par une unité alliée) :**
+  Utilisez 8 mana pour neutraliser une unité ennemie, puis marquez cette unité.
+  Coût +4 si l'unité est de coût 3 ou plus.
+  Coût +4 à chaque nouvelle activation.
 
-### Forest Guardian (Strength: 4)
-- **Immediate:**
-  Gather Natural Energy.
-- **Delayed:**
-  Use up to 6 Natural Energy to add as much strength to this unit.
+
+### Arboriste
+- **Coût :** 3
+- **Valeur :** 3
+- **Immédiat :**
+  Canalisez du mana.
+- **Réaction (Événement : mana canalisé par une unité alliée) :**
+  Utilisez 8 mana pour détruire une carte de votre main, puis marquez cette unité.
+  Coût +4 à chaque nouvelle activation.
 
 
-## Supremacy Unit (cost 6):
+### Druide
+- **Coût :** 3
+- **Valeur :** 3
+- **Immédiat :**
+  Canalisez du mana.
+- Réaction (Événement : mana canalisé par une unité alliée) :**
+  Utilisez 8 mana pour piocher une carte ou faire défausser une carte de son
+  choix à l'adversaire, puis marquez cette unité.
+  Coût +4 à chaque nouvelle activation.
 
-### Priest of Life (Strength: 4)
-- **Permanent:**
-  Each time you gather Natural Energy, you get 2 more.
-- **Immediate:**
-  Gather Natural Energy.
+
+### Spiritualiste
+- **Coût :** 3
+- **Valeur :** 3
+- **Immédiat :**
+  Canalisez du mana 3 fois.
+
+
+### Mystique
+- **Coût :** 3
+- **Valeur :** 3
+- **Immédiat :**
+  Canalisez du mana 2 fois.
+- **Immédiat :**
+  Piochez une carte puis défaussez une carte.
+
+
+### Gardien de la Forêt
+- **Coût :** 5
+- **Valeur :** 4
+- **Immédiat :**
+  Canalisez du mana.
+- **Retardé :**
+  Utilisez jusqu'à 6 mana pour augmenter d'autant la force de cette unité.
+
+
+### Sage
+- **Coût :** 6
+- **Valeur :** 4
+- **Permanent :**
+  Chaque fois qu'une unité alliée canalise du mana, elle en reçoit 2 de plus.
+- **Immédiat :**
+  Canalisez du mana.
