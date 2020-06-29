@@ -1,68 +1,82 @@
 
-## Dedicated Mechanics:
+## Mécaniques propres :
 
-- **Protect a unit**
-  - differentiate that unit
-  - the next time it should collapse, undo that unit's protection instead
-
-
-### Grunt (Strength: 1)
-- **Permanent:**
-  +1 strength if your hand is empty.
-- **Permanent:**
-  +1 strength if this unit is on the top row.
+- **Protéger une unité :**
+  - marquer cette unité, pour matérialiser qu'elle bénéficie d'une protection
+  - la prochaine fois que cette unité doit être neutralisée, elle perd sa protection à la place
 
 
-## Shock Unit (cost 2):
+## Unités
 
-### Raider (Strength: 2)
-- **Delayed:**
-  Move all Raider units on this front to the top row
-  OR [if this unit is on the first row or if your hand is empty:
-  get rid of an enemy unit on this front.
-  If both conditions are not satisfied,
-  that unit is chosen by the opposing player].
-
-
-
-## Main Units (cost 3):
-
-### Shield Warrior (Strength: 3)
-- **Immediate:**
-  Discard or destroy a card from your hand.
-
-### Charge Leader (Strength: 3)
-- **Reaction (condition: your hand is empty):**
-  reveal the top card of your deck.
-  If it is a unit, you may add it to this row. Otherwise discard it.
-
-### Shaman (Strength: 2)
-- **Immediate:**
-  [Draw 1 card, then choose 1 card or more from your hand and put each of them
-  either on top or at the bottom of your deck in any order]
-  OR [Choose a type of unit. Protect all units of that type]
-- **Reaction (event: a unit of the chosen type is added to the battle):**
-  Protect that unit.
-
-### Brute (Strength: 4)
-- **Immediate:**
-  Protect this unit.
-- **Permanent:**
-  When adding a Grunt to the battle on this front,
-  you may add it to this unit's row instead of adding it to the bottom row.
-
-## Champion Unit (cost 5):
-
-### Warlord (Strength: 5)
-- **Permanent:**
-  +4 strength when your hand is empty.
+### Tête Brûlée
+- **Coût :** 1
+- **Valeur :** 1
+- **Permanent :**
+  Force +1 si votre main est vide.
+- **Permanent :**
+  Force +1 si cette unité est sur la rangée du haut.
 
 
-## Supremacy Unit (cost 6):
+### Chevaucheur de Loup
+- **Coût :** 2
+- **Valeur :** 2
+- **Retardé :**
+  Placez toutes les unités Chevaucheur de Loup alliées sur la rangée du haut.
+  OU
+  Si votre main est vide ou que cette unité est sur la rangée du haut:
+  neutralisez une unité ennemie. Si les deux conditions ne sont pas vérifiés,
+  celle-ci est choisie par l'adversaire.
 
-### Far Seer (Strength: 4)
-- **Immediate:**
-  Reveal up to 5 cards from the bottom of your deck.
-  You may exchange one of those with a card from your hand.
-  Put back each revealed card either on top or at the bottom
-  of your deck in any order.
+
+### Porte-Bouclier
+- **Coût :** 3
+- **Valeur :** 3
+- **Immédiat :**
+  Défaussez ou détruisez une carte de votre main.
+
+
+### Meneur de Charge
+- **Coût :** 3
+- **Valeur :** 3
+- **Réaction (Condition : votre main est vide) :**
+  Révélez la carte du dessus de votre deck.
+  Si c'est une unité, ajoutez-là à droite de cette rangée.
+  Sinon, défaussez-la.
+
+
+### Devin
+- **Coût :** 3
+- **Valeur :** 2
+- **Immédiat :**
+  Piochez une carte puis placez une carte de votre main sur ou sous votre deck.
+  OU
+  Protégez les unités alliées d'un type au choix.
+- **Réaction (Événement : unité du type choisi ajoutée à ce front) :**
+  Protégez l'unité en question.
+
+
+### Grosse Brute
+- **Coût :** 3
+- **Valeur :** 4
+- **Immédiat :**
+  Protégez cette unité.
+- **Permanent :**
+  Lorsqu'une Tête Brûlée est ajoutée à ce front,
+  vous pouvez la placer à droite de cette rangée.
+
+
+### Chef de Guerre
+- **Coût :** 5
+- **Valeur :** 5
+- **Permanent :**
+  Force +4 quand votre main est vide.
+
+
+### Grand Prophète
+- **Coût :** 6
+- **Valeur :** 4
+- **Immédiat :**
+  Révélez jusqu'à 5 cartes du dessous de votre deck.
+  Vous pouvez échanger une d'entre elle avec une carte de votre main.
+  Placez chaque carte révélée au-dessus ou en-dessous de votre deck,
+  dans l'ordre de votre choix.
