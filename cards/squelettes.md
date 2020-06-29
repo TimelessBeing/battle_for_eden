@@ -29,7 +29,8 @@
 - **Coût :** 3
 - **Valeur :** 2
 - **Immédiat :**
-  Ajoutez l'unité de coût inférieur ou égal la plus proche du dessus de votre défausse à votre main.
+  Ajoutez l'unité de coût inférieur ou égal la plus proche du dessus de votre défausse à votre main,
+  puis jouez immédiatement une unité sur ce front.
 
 ### Chevaucheur Vespéral
 - **Coût :** 3

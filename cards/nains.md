@@ -19,7 +19,7 @@
     (selon ce que le territoire rapporte durant la phase de Production),
     et les placer sur la carte d'unité,
   - certaines capacités permettent de les dépenser durant le combat,
-  - les stocks d'énergie restants sont donnés au vainqueur sur chaque front.
+  - les stocks d'énergie non dépensés sont donnés au vainqueur sur chaque front.
 
 
 ## Unités
@@ -96,11 +96,11 @@
   Utilisez 3 cristaux pour piocher une carte, creuser sous le territoire allié
   et déplacer autant de stocks d'énergie que vous le souhaitez des unités alliées vers cette unité.
 - **Retardé :**
-  Dépensez jusqu'à 1 stock d'énergie qui est sur cette carte par unité alliée
+  Dépensez jusqu'à 1 stock d'énergie sur cette carte par unité alliée
   pour donner Force +1 à ces unités.
 
 
-### Véhicule Expérimental n°45
+### Tunnelier
 - **Coût :** 6
 - **Valeur :** 3
 - **Immédiat :**
