@@ -81,7 +81,6 @@
 - **Valeur :** 1
 - **Immédiat :**
   Détruisez 2 unités Bloc de Matériaux alliées pour placer cette unité à droite d'une unité alliée.
-- **Immédiat :**
   Détruisez 2 unités Bloc de Matériaux alliées pour placer une unité alliée à droite de cette unité.
 - **Permanent :**
   Force +2 aux unités directement à gauche ou à droite de cette unité,
