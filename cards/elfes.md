@@ -1,7 +1,6 @@
 
 ## Mécaniques propres :
 
-
 - **Canaliser du mana :**
   - recevoir 2 stocks d'énergie et les placer sur la carte d'unité
     (3 si le territoire allié, le territoire ennemi,
@@ -43,7 +42,7 @@
   Coût +4 à chaque nouvelle activation.
 
 
-### Druide
+### Mystique
 - **Coût :** 3
 - **Valeur :** 3
 - **Immédiat :**
@@ -54,14 +53,14 @@
   Coût +4 à chaque nouvelle activation.
 
 
-### Spiritualiste
+### Druide
 - **Coût :** 3
 - **Valeur :** 3
 - **Immédiat :**
   Canalisez du mana 3 fois.
 
 
-### Mystique
+### Sage
 - **Coût :** 3
 - **Valeur :** 3
 - **Immédiat :**
@@ -79,7 +78,7 @@
   Utilisez jusqu'à 6 mana pour augmenter d'autant la force de cette unité.
 
 
-### Sage
+### Enfant d'Yggdrasil
 - **Coût :** 6
 - **Valeur :** 4
 - **Permanent :**
