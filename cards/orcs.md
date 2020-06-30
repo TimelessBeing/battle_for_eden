@@ -2,7 +2,7 @@
 ## Mécaniques propres :
 
 - **Protéger une unité :**
-  - marquer cette unité, pour matérialiser qu'elle bénéficie d'une protection
+  - marquer cette unité pour matérialiser qu'elle bénéficie d'une protection
   - la prochaine fois que cette unité doit être neutralisée, elle perd sa protection à la place
 
 

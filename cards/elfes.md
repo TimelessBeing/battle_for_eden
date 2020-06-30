@@ -12,6 +12,8 @@
   - retirer X stocks d'énergie posées sur des unités alliées
 
 
+## Unités
+
 ### Chasseur
 - **Coût :** 1
 - **Valeur :** 1
