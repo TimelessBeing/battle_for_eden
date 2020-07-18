@@ -50,8 +50,9 @@
 - **Coût :** 3
 - **Valeur :** 2
 - **Permanent :**
-  Cette unité peut être achetée pendant ou avant un combat,
-  et est alors ajoutée à votre main au lieu de votre défausse.
+  À tout moment, si cette carte est dans votre Monde,
+  vous pouvez utiliser 3 cristaux et dépenser 3 stocks d'énergie
+  pour l'ajouter à votre main.
 - **Immédiat :**
   Défaussez une carte Énergie Cristal pour piocher une carte.
 - **Post-combat :**
@@ -107,6 +108,6 @@
   Entreposez autant de stocks d'énergie que vous le souhaitez
   sur un de vos territoires.
 - **Immédiat :**
-  Détruisez une carte de votre défausse pour jouer immédiatement des cartes Cristal d'Énergie
-  de votre main, acheter une unité, puis défausser les cartes ainsi jouées.
-  L'unité est alors ajoutée à votre main au lieu de votre défausse.
+  Choisissez une carte unité de votre Monde.
+  Utilisez autant de cristaux et dépensez autant de stocks d'énergie que son coût
+  pour l'ajouter à votre main.
