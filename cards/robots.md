@@ -21,6 +21,10 @@
 - **Immédiat :**
   Détruisez cette carte et 1 Bloc de Matériaux allié pour ajouter
   gratuitement à droite de cette rangée un Module d'Armement de votre Monde.
+- **Conseil :**
+  Une unité qui ne se trouvera généralement dans votre deck que contre votre gré.
+  Gardez en tête qu'un Module d'Armement ajouté au combat par cette unité peut à son tour
+  activer ses capacités immédiates, contrairement à une reconfiguration.
 
 
 ### Module d'Armement
@@ -30,6 +34,8 @@
   Détruisez 1 Bloc de Matériaux allié pour neutraliser une unité ennemie.
 - **Immédiat :**
   Reconfigurez cette unité.
+- **Conseil :**
+  La seule unité qui vous permette de neutraliser des unités ennemies.
 
 
 ### Module de Recyclage
@@ -41,6 +47,8 @@
   sans activer sa capacité immédiate.
 - **Immédiat :**
   Reconfigurez cette unité.
+- **Conseil :**
+  La seule unité qui vous permette d'éliminer les cartes inutiles de votre deck.
 
 
 ### Module de Production
@@ -52,6 +60,10 @@
   sans activer leurs capacités immédiates.
 - **Immédiat :**
   Reconfigurez cette unité.
+- **Conseil :**
+  Une unité qui donne accès à des unités Bloc de Matériaux,
+  afin que celles-ci puissent être détruites par vos autres unités.
+  Attention à ce qu'ils ne finissent pas dans votre deck.
 
 
 ### Module de Propulsion
@@ -65,6 +77,11 @@
   Détruisez 1 Bloc de Matériaux allié pour piocher une carte.
 - **Immédiat :**
   Reconfigurez cette unité.
+- **Conseil :**
+  Une unité qui permet de piocher, donc de faire plus de choses.
+  Elle permet aussi de répartir les unités Bloc de Matériaux
+  entre plusieurs fronts afin que les unités jouées sur ceux-ci puissent
+  utiliser leurs effets.
 
 
 ### Module d'Optimisation
@@ -74,6 +91,12 @@
   Détruisez toutes les unités Bloc de Matériaux alliées.
 - **Immédiat :**
   Reconfigurez cette unité.
+- **Conseil :**
+  Une unité relativement inutile, mais qui permet d'éviter que des unités Bloc de Matériaux
+  finissent dans votre deck contre votre gré.
+  Il est courant de reconfigurer un Module de Production en Module d'Optimisation
+  après avoir activé sa capacité immédiate, puis de reconfigurer celui-ci
+  en Module de Production dès que possible.
 
 
 ### Module de Coordination
@@ -85,6 +108,10 @@
 - **Permanent :**
   Force +2 aux unités directement à gauche ou à droite de cette unité,
   ainsi qu'aux unités de coût 2 ou plus sur les rangées directement au-dessus ou en-dessous.
+- **Conseil :**
+  Votre unité la plus puissante, que l'adversaire cherchera à neutraliser.
+  Elle permet également d'éliminer un grand nombre d'unités Bloc de Matériaux,
+  évitant ainsi que celles-ci finissent dans votre deck contre votre gré.
 
 
 ### Module d'Assemblage
@@ -95,3 +122,7 @@
   pour ajouter gratuitement à ce front une unité de votre Monde
   de coût total inférieur ou égal.
   L'unité ajoutée est marquée et sera détruite après le combat au lieu d'être défaussée.
+- **Conseil :**
+  Une unité qui permet d'obtenir en combat une unité adaptée à la situation.
+  Elle permet également d'éliminer un grand nombre d'unités Bloc de Matériaux,
+  évitant ainsi que celles-ci finissent dans votre deck contre votre gré.
