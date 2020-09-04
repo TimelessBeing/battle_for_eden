@@ -537,8 +537,9 @@ commun aux diverses civilisation :
      ou sur le territoire attaqué s'il s'agit du joueur défenseur),
 
   - lors de la détermination du camp vainqueur, si l'attaquant n'a plus de troupes au front,
-    il perd le combat sur ce front même si la somme des forces de ses troupes est supérieure
-    à celle du défenseur,
+    il perd le combat sur ce front indépendamment de la force de ses unités et de celles
+    du défenseur (à noter cependant que comme l'attaquant n'a plus de troupes
+    sur ce front, cette défaite n'entraîne pas la perte d'une troupe),
 
   - en revanche, le défenseur peut l'emporter même s'il n'a plus de troupe sur son territoire;
     s'il gagne sur tous les fronts concernés, il reçoit une troupe à placer sur ce dernier

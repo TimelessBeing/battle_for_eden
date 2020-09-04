@@ -16,8 +16,8 @@
 ### Contretemps
 - **Coût :* 0
 - **Permanent :**
-  Lorsque vous achetez cette carte, placez-la dans la défausse d'un joueur
-  avec qui vous partagez une frontière.
+  Lorsque vous achetez cette carte (1 max par jour et par joueur),
+  placez-la dans la défausse d'un joueur avec qui vous partagez une frontière.
   S'il fait de même, les deux cartes sont immédiatement détruites.
 - **Permanent :**
   Cette carte peut être défaussée à tout moment durant un combat,
