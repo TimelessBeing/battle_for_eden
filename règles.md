@@ -127,36 +127,53 @@ il est temps de passer à la conquête!
 
 ## Mise en place
 
-Le joueur qui a été le premier à placer sa tuile portail à sa position finale
-sur la carte prend le jeton de premier joueur.
+Le joueur qui a été le premier à placer sa tuile portail
+à sa position finale sur la carte prend le jeton
+de premier joueur.
+
+Placer au centre de chaque tuile portail un cube de la couleur
+correspondantes, et au centre de chaque tuile directement
+au contact de celle-ci deux cubes de la même couleur.
+
+Placer un marqueur territoire sauvage au centre de chaque tuile
+ne comportant pas de cube de couleur :
+- d'abord un marqueur de valeur 2 sur chaque tuile adjacente
+  à des cubes de couleur
+- ensuite un marqueur de valeur 4 sur chaque tuile restante
+  adjacente à un marqueur de valeur 2
+- puis un marqueur de valeur 6 sur chaque tuile restante
+  adjacente à un marqueur de valeur 4
+- puis un marqueur de valeur 8 sur chaque tuile restante.
 
 Placez les *cartes communes* (Contretemps, Opportunité, et les 3 types de cartes Cristal d'Énergie)
 ainsi que les *cartes de technologie* (Bouclier d'énergie, Faille Temporaire,
 Portail Amélioré, Suprématie) à un endroit facile d'accès
 pour tous les joueurs (par exemple autour de la carte),
-et les *troupes* de chaque joueur (cubes de sa couleur) là où il peut les atteindre.
-Chaque joueur reçoit ensuite le *Monde* de sa civilisation
+les *troupes* de chaque joueur (cubes de sa couleur) là où il peut les atteindre,
+et donner à chaque joueur le *Monde* de sa civilisation
 (c'est-à-dire le livret listant les règles additionnelles
 s'appliquant à celle-ci et contenant les cartes d'unités associées).
 
-Chaque joueur prend ensuite 3 cartes Cristal d'Énergie de coût 1,
-ainsi qu'1 carte Cristal d'Énergie de coût 2, et 3 unités de son Monde de coût 1.
-Il mélange alors ces 7 cartes pour former un *deck*,
-c'est-à-dire une pile qu'il place face cachée devant lui.
-Il pioche ensuite les 5 cartes du dessus du deck pour créer sa *main*.
-
-Durant la partie, le joueur jouera des cartes de sa main,
-qui seront ensuite *défaussées*, c'est-à-dire placées
-dans une pile face visible à côté du deck appelée la *défausse* du joueur, dans l'ordre où elles ont été défaussées (la plus récente en haut).
+> Battle For Eden est un jeu comportant une mécanique
+de deckbuilding. Les joueurs jouent des cartes à partir
+de leur main comme dans un jeu de cartes classique,
+mais chaque joueur dispose d'un ensemble de cartes
+qui lui sont propres, son *deck*, qui évoluera lors
+de la partie à mesure que le joueur y ajoute et supprime des cartes.
+Le joueur tire donc les cartes de sa propre pioche
+(une pile de cartes face cachée, placée devant lui),
+et lorsques ses cartes sont défaussées celles-ci vont
+dans sa propre défausse
+(une pile de cartes faces visibles, placée à côté de sa pioche).
 Chaque fois que le joueur devra piocher ou révéler plus de cartes
-de son deck que celui-ci n'en contient, il mélangera préalablement
-sa défausse et la placera face cachée sous son deck.
+de sa pioche que celle-ci n'en contient,
+il mélangera préalablement sa défausse et la placera
+face cachée sous son deck.
 
-Après avoir créé leurs mains, les joueurs reçoivent chacun 5 troupes, qu'ils répartissent comme bon
-leur semble entre leur tuile portail et les tuiles qui sont
-directement au contact de celle-ci (il doit y avoir au moins 1 troupe par tuile;
-pour une première partie il est recommandé de ne laisser qu'une
-troupe sur sa tuile portail).
+Chaque joueur mélange 3 cartes Cristal d'Énergie de coût 1,
+1 carte Cristal d'Énergie de coût 2,
+et 3 unités de coût 1 de son Monde pour former son deck,
+pioche 5 cartes pour constituer sa main de départ.
 
 
 ## Les bases de la conquête
