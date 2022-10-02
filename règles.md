@@ -68,7 +68,7 @@ puis désignent collectivement un premier joueur.
 Chaque joueur reçoit ensuite une tuile de chacune des 6 couleurs, ainsi qu'une tuile noire,
 puis mélange ces 7 tuiles pour en faire une pile de tuiles face cachée qu'il place devant lui.
 En plus de cette pile, chaque joueur reçoit une tuile de sa couleur ainsi
-que la tuile portail de sa couleur, et les place face visible devant eux.
+que la tuile portail de sa couleur, et les place face visible devant lui.
 
 La tuile Cœur d'Eden est ensuite placée au centre de la table.
 Il s'agit de la première tuile de la carte, et il est maintenant
@@ -87,9 +87,6 @@ ajouter sa tuile portail à la carte (si elle n'y est pas déjà),
 retirer sa tuile portail de la carte, ou les deux
 (c'est-à-dire retirer la tuile puis l'ajouter ailleurs).
 
-Lorsque le joueur ajoute sa dernière tuile non portail à la carte,
-il est obligé d'ajouter également sa tuile portail si ce n'est pas déjà fait.
-
 Pour ajouter une tuile à la carte, le joueur la place au contact d'une tuile
 de la carte, à une position qui vérifie les conditions suivantes :
 
@@ -97,18 +94,26 @@ de la carte, à une position qui vérifie les conditions suivantes :
 - il doit y avoir au moins 4 tuiles entre chaque paire de tuiles portails,
 - il doit y avoir un maximum de 2 tuiles au contact d'une même tuile portail,
 - une tuile ne peut pas être ajoutée au contact d'une tuile portail,
-- il doit y avoir au moins 3 tuiles entre la tuile posée par le joueur et sa tuile portail si celle-ci est sur la carte.
+- il doit y avoir au moins 3 tuiles entre la tuile posée par le joueur et sa tuile portail si celle-ci est déjà sur la carte.
 
-Si un joueur essaie d'ajouter sa tuile portail à la carte mais qu'il n'existe pas
-de position valide, alors le joueur reçoit juste assez de tuiles noires (une seule suffit en général)
-pour que poser celles-ci crée une position valide pour la tuile portail.
+Chaque fois qu'une tuile est ajoutée ou retirée de la carte,
+on ajoute ou retire en fonction les marqueurs désignant
+les territoires *riches en énergie*.
+Ceux-ci doivent être placés sur les tuiles ordinaires qui,
+indépendamment de leur couleur propre,
+sont au contact de tuiles d'au moins 4 couleurs différentes
+(les tuiles portail comptent, mais pas les tuiles noires
+ou la tuile Cœur d'Eden).
 
-Le territoire représenté par une tuile ordinaire est dit *riche en énergie*
-si la tuile est entourée de tuiles d'au moins 4 différentes couleurs
-(sans compter les tuiles noires ou la tuile Cœur d'Eden).
-Lorsqu'une tuile est ajoutée ou retirée de la carte,
-utilisez les marqueurs correspondants pour garder trace
-des territoires riches en énergie.
+
+Lorsque le joueur ajoute sa dernière tuile non portail
+à la carte, il est obligé d'ajouter également sa tuile portail
+si ce n'est pas déjà fait.
+S'il n'existe pas de position valide où poser sa tuile portail,
+alors ce joueur reçoit une tuile noire qu'il doit immédiatement
+ajouter à la carte de façon à créer une position valide.
+S'il est impossible de créer une position valide avec une seule
+tuile noire, alors le joueur en reçoit deux à la place.
 
 Une fois toutes les tuiles posées, on réalise un dernier tour
 lors duquel les joueurs peuvent s'ils le souhaitent déplacer (c'est-à-dire retirer puis ajouter) leur tuile portail.
