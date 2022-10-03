@@ -178,25 +178,32 @@ pioche 5 cartes pour constituer sa main de départ.
 
 ## Les bases de la conquête
 
-Un joueur *contrôle* tous les territoires sur lesquels il dispose d'au moins 1 troupe,
-ce qui lui permet d'extraire des ressources de ces territoires
-et d'attaquer les territoires voisins depuis ceux-ci.
+Chaque troupe présente sur la carte peut être présente soit
+sur un territoire (*i.e.* au centre d'une tuile),
+soit à la frontière entre deux territoires
+(*i.e.* le long du côté de la tuile,
+en direction d'une tuile adjacente),
+d'un côté ou de l'autre de la frontière.
 
-La conquête est une succession de *jours*, chacun composé de 3 *phases*,
-chacune jouée à tour de rôle par chaque joueur dans le sens des aiguilles
-d'une montre en commençant par le joueur qui détient le jeton de premier joueur.
+Avoir ses troupes sur un territoire place ce territoire
+sous le *contrôle* d'un joueur,
+ce qui lui permet de le défendre des troupes ennemies,
+d'en extraire des ressources, et d'envoyer des troupes
+à la frontière pour tenter de conquérir un territoire voisin.
 
-Les trois phases sont jouées en boucle jusqu'à ce qu'un joueur gagne
-et que la partie prenne fin. Ces phases sont :
+La conquête est une succession de *jours*,
+chacun composé de 3 *phases*, jusqu'à ce que la partie prenne fin. Ces phases sont dans l'ordre :
 
-- la phase d'**Expansion**, durant laquelle les joueurs utilisent leurs troupes et leurs cartes
-  pour prendre le contrôle de nouveaux territoires,
+- la phase de **Production**, durant laquelle les joueurs
+extraient des ressources de leurs territoires,
 
-- la phase de **Production**, durant laquelle les joueurs extraient
-  des ressources de leurs territoires,
+- la phase d'**Expansion**, durant laquelle les joueurs
+utilisent leurs troupes et leurs cartes pour prendre le contrôle
+de nouveaux territoires,
 
-- la phase de **Logistique**, durant laquelle les joueurs reçoivent de nouvelles troupes
-  et utilisent leurs ressources pour améliorer la qualité de leur armée (c'est-à-dire acheter de nouvelles cartes).
+- la phase de **Logistique**, durant laquelle les joueurs
+reçoivent de nouvelles troupes et achètent des cartes
+pour améliorer la qualité de leur armée.
 
 À la fin de la phase de Logistique, l'actuel 2e joueur
 reçoit le jeton de premier joueur, et devient ainsi le premier joueur pour le jour suivant.
@@ -204,141 +211,118 @@ reçoit le jeton de premier joueur, et devient ainsi le premier joueur pour le j
 Rentrons dans les détails.
 
 
-## La phase d'Expansion
-
-Il s'agit de la phase lors de laquelle les joueurs utilisent les cartes
-de leurs mains.
-
-Durant son tour, un joueur peut tout d'abord jouer autant de cartes
-Cristal d'Energie qu'il le souhaite. Ces cartes sont placées verticalement
-et face visible devant le joueur, et serviront lors de la phase de Logistique.
-Le joueur peut aussi défausser autant de cartes de sa main qu'il le souhaite,
-et renvoyer dans son Monde autant de cartes d'unités de sa main qu'il le souhaite.
-
-Ensuite, s'il le souhaite, le joueur peut *lancer des offensives* contre
-jusqu'à deux territoires voisins des siens (on parle de *combat* sur 1 ou 2 *fronts*).
-Voir la section correspondante pour plus de détails.
-
-Une fois les combats résolus, le joueur peut à nouveau jouer autant de cartes
-Cristal d'Energie qu'il le souhaite (par exemple des cartes piochées pendant le combat),
-défausser autant de cartes de sa main qu'il le souhaite,
-et renvoyer dans son Monde autant de cartes d'unités de sa main qu'il le souhaite.
-
-Le joueur a alors la possibilité finir son tour en recomplétant sa main jusqu'à un maximum de 5 cartes
-(note : contrairement à de nombreux autres jeux de deckbuilding,
-rien n'oblige le joueur à défausser le reste de sa main avant de compléter celle-ci).
-S'il n'y a pas assez de cartes à piocher dans son deck, le joueur
-mélange préalablement sa défausse et la place face cachée sous celui-ci.
-
-Si le joueur a pris au moins un territoire à un autre joueur durant son tour,
-il a le choix au lieu de finir son tour de continuer sa phase d'Expansion
-depuis les territoires conquis, auquel cas :
-
-- il reprend en main les cartes Cristal d'Énergie devant lui
-  (c'est-à-dire celles qu'il a jouées ce tour-ci),
-- il complète sa main jusqu'à un maximum de 5 cartes,
-- il commence un tour bonus, lors duquel :
-  - il n'est autorisé à lancer des offensives que depuis un territoire
-    conquis au tour précédent (c'est-à-dire qu'il vient de conquérir),
-  - lancer des offensives successives a un coût,
-    une des troupes envoyées sur chaque front étant immédiatement perdue.
-
-Un joueur a donc potentiellement l'opportunité de jouer de nombreux
-tours de suite s'il dispose d'assez de troupes et remporte ses combats.
-
-
 ## La phase de Production
 
-Les territoires qu'un joueur contrôle sont généralement *connectés* au portail de ce joueur,
-c'est-à-dire qu'il existe des chemins reliant chacun d'entre eux à ce portail
-en passant uniquement par des territoires du joueur.
-Il arrive cependant que des territoires se retrouvent *déconnectés*
-du portail de leur joueur lorsque celui-ci perd des territoires.
-
-Les territoires connectés au portail d'un joueur sont exploitables par celui-ci,
-c'est-à-dire que ce joueur peut chaque jour en extraire des ressources.
-
+Certaines civilisation sont à la recherche d'un minerai
+nommé positronium qu'elles extraient du sol.
+D'autres de mana qu'elles tirent du vivant,
+ou encore d'énergie nécrotique qu'elles tirent des morts.
 Malgré des conceptions du monde et des technologies différentes,
-les diverses civilisations s'intéressent en réalité toutes principalement à la même ressource,
-et ce qu'elles l'appellent "mana", "énergie nécrotique" ou "positronium", *etc*,
-et qu'elles l'extraient du sol, des être vivants ou de l'air ambiant, *etc*.
-Les ressources extraites de leurs territoires seront désignée de façon générique sous le nom
-de *stocks d'énergie*, et seront matérialisée par des cubes blancs
-que les joueurs conservent devant eux jusqu'à ce qu'ils les utilisent.
+les diverses civilisations s'intéressent en réalité toutes
+à une seule et même ressource.
+Ce qu'elles obtiennent de leurs territoires sera désigné
+de façon générique sous le nom de *stocks d'énergie*,
+matérialisés par des cubes blancs que les joueurs conserveront
+devant eux jusqu'à ce qu'ils les utilisent.
 
-Bien que les civilisations s'intéressent à la même ressource,
-leurs méthodes d'extractions diffèrent, et chaque civilisation
-dispose d'un type de territoire privilégié (les tuiles de la couleur du joueur)
-où elle est capable d'extraire plus de ressources que les autres civilisations
+Chaque civilisation obtient cependant cependant cette ressource
+à sa façon, et dispose ainsi d'un type de territoire privilégié
+(représenté par les tuiles de la couleur du joueur),
+où elle est capable d'obtenir plus de ressources que les autres
 (les forêts pour les elfes, les montagnes pour les nains, *etc*).
 
-Lors de la phase de production, chaque joueur reçoit donc :
+Lors de la phase de production,
+chaque joueur reçoit simultanément :
 
-- 1 stock d'énergie pour chacun de ses territoires connectés (y compris des portails ou le Cœur d'Eden),
-- 1 stock d'énergie supplémentaire pour chacun de ses territoires connectés de sa couleur (y compris son portail),
-- 1 stock d'énergie supplémentaire pour chacun de ses territoires connectés riche en énergie.
+- 1 stock d'énergie pour chacun des territoires
+qu'il contrôle (y compris portails et Cœur d'Eden),
+- 1 stock d'énergie supplémentaire pour chacun
+de ces territoires qui est de sa couleur (y compris son portail),
+- 1 stock d'énergie supplémentaire pour chacun
+de ces territoires qui est riche en énergie,
+- s'il contrôle le Cœur d'Eden, 1 stock d'énergie
+à placer immédiatement sur celui-ci, qui représente
+l'accumulation d'énergie pure sur ce territoire.
 
-En plus des stocks d'énergie, si un joueur compte le Cœur d'Eden
-parmi ses territoires connectés,
-il ajoute 1 cube blanc à la tuile Cœur d'Eden,
-qui représente l'accumulation d'énergie pure sur ce territoire.
+**Attention cependant, un territoire déconnecté du portail
+du joueur ne lui rapporte aucun stock d'énergie**
+(un territoire est considéré comme déconnecté s'il est impossible
+d'aller de ce territoire au portail du joueur en ne passant
+que par des territoires sous le contrôle de celui-ci).
 
-**Note :** pour gagner du temps, la phase de Production peut généralement
-être jouée simultanément par tous les joueurs, sauf si certains souhaitent baser
-leurs choix sur ceux des joueurs précédents (ou s'il y a suspicion de triche).
+
+## La phase d'Expansion
+
+Dans l'ordre du tour et en commençant par le premier joueur,
+chaque joueur peut placer sur un de ses territoire des troupes
+qui étaient à la frontière de celui-ci et/ou déplacer des troupes
+d'un territoire vers une ou plusieurs de ses frontières,
+et ce autant de fois qu'il le souhaite.
+
+**Attention cependant, s'il y a des troupes ennemies à la frontière de son territoire avec un autre, alors le joueur ne peux pas y envoyer ses propres troupes**
+(cela peut arriver si le joueur conquiert un territoire qui
+avait envoyé des troupes à la frontière).
+
+On détermine ensuite les combats à résoudre :
+- un à chaque frontière où les deux territoires
+ont envoyé des troupes
+- un à chaque territoire dont au moins une frontière
+ne comporte des troupes que de l'autre côté
+
+> Note: si des troupes sont sur la frontière d'un territoire
+ennemi avec un autre territoire ennemi, comme dans le cas décrit
+précédemment, alors celles-ci doivent donc se battre deux fois.
+
+Le premier joueur choisit un combat à résoudre.
+S'il y a des combats non résolus impliquant uniquement
+des troupes différentes, alors le joueur suivant en choisit un,
+et ainsi de suite dans l'ordre du tour.
+Lorsque cela n'est plus possible, on résout les combats choisis
+(voir plus loin), puis on reprend où on en était dans l'ordre
+du tour pour choisir quels combats seront les prochains à être résolus.
+Après chaque résolution, les joueurs qui ont pris part au combat
+choisissent de défausser ou non le reste de leur main,
+puis recomplètent celle-ci à 5 cartes.
+
+Chaque joueur peut par ailleurs, une fois par phase d'Expansion
+et hors résolution de combat, jouer autant de cartes
+Cristal d'Énergie de sa main qu'il le souhaite,
+pour mettre de côté jusqu'à autant de ses stocks d'énergie
+que la valeur totale de ces cartes.
+Seuls les stocks d'énergie ainsi mis de côté pourront être
+utilisés pour acheter des cartes d'unité durant la phase
+de Logistique.
+Le joueur défausse alors le reste de sa main et la recomplète
+à 5 cartes.
 
 
 ## La phase de Logistique
 
-Durant la phase de Logistique, les joueurs peuvent dépenser
-les ressources qu'ils ont accumulé pour se donner un avantage
+Durant la phase de Logistique, jouée simultanément par tous
+les joueurs, ceux-ci peuvent dépenser les ressources
+qu'ils ont accumulé pour se donner un avantage
 lors des jours suivants:
 
-- L'énergie pure accumulée sur le Cœur d'Eden peut être utilisée par le joueur
-qui contrôle ce territoire pour développer diverses technologies
-(achat de cartes de technologies).
+- Si un joueur contrôle le Cœur d'Eden, il peut dépenser
+l'énergie pure accumulée sur celui-ci pour acheter
+des cartes de technologie.
+- Un joueur peut dépenser les stocks d'énergie qu'il a mis
+de côté durant la dernière phase d'Expansion à l'aide
+de cartes Cristal d'Énergie pour acheter des cartes d'unité
+de son Monde.
+- Un joueur peut dépenser ses stocks d'énergie
+(mis de côté ou non) pour acheter des cartes communes.
 
-- Les stocks d'énergie accumulés par chaque joueur peuvent quant à eux être
-utilisés par ces derniers pour réaliser diverses opérations (achat de cartes communes).
-Il peut s'agir d'opérations ponctuelles (cartes à usage unique),
-ou de construction d'infrastructures fournissant un accès régulier
-à certaines ressources (cartes communes qui deviennent une partie intégrante du deck).
+Les cartes ainsi achetées sont placées dans la défausse
+du joueur.
 
-- Les stocks d'énergie peuvent également être dépensés pour installer
-des cristaux d'énergie sur le portail du joueur, ce qui permet à celui-ci
-d'améliorer la qualité de son armée
-(achat de cartes d'unités du Monde du joueur, ce qui requière donc de dépenser
-autant de cristaux d'énergie que de stocks d'énergie).
-
-Pour acheter des cartes, un joueur doit payer la somme des coûts de ces cartes,
-indiqués en haut à droite de celles-ci, et il peut ensuite placer les cartes
-ainsi achetées au sommet de sa défausse dans l'ordre de son choix
-(pour les avoir en main, le joueur devra donc épuiser les cartes actuellement dans
-son deck puis, une fois la défausse mélangée et placée sous le deck, attendre de les piocher).
-
-Voici comment payer les divers coûts :
-
-- dépenser de l'énergie pure
-  = retirer autant de cubes blancs de la tuile Cœur d'Eden,
-- dépenser des stocks d'énergie
-  = retirer autant de cubes blancs des ressources possédées par le joueur,
-- dépenser des cristaux d'énergie
-  = utiliser des cartes Cristal d'Énergie jouées par le joueur lors de la phase
-    d'Expansion, pour une valeur totale supérieure ou égale au coût,
-    en les tournant horizontalement (chaque carte ne peut donc être utilisée
-    qu'une fois par phase de Logistique)
-
-Une fois ses achats terminés, le joueur:
-
-- défausse les cartes Cristal d'Énergie devant lui dans l'ordre de son choix,
--  reçoit 3 nouvelles troupes, ou 4 s'il contrôle le Cœur d'Eden, et les place alors où il le souhaite sur ses territoires,
-- déplacer librement ses troupes s'il le souhaite entre les territoires connectés à son portail,
-- recomplète sa main jusqu'à un maximum de 5 cartes
-(si elle n'est pas déjà pleine).
-
-**Note:** pour gagner du temps, la phase de Logistique peut généralement
-être jouée simultanément par tous les joueurs, sauf si certains souhaitent baser
-leurs choix sur ceux des joueurs précédents (ou s'il y a suspicion de triche).
+Une fois ces achats effectués :
+- Les stocks d'énergie mis de côté mais pas dépensés
+sont replacés avec les autres stocks d'energie du joueur,
+- Chaque joueur reçoit 3 nouvelles
+troupes, +1 s'il contrôle le Cœur d'Eden, et les place sur sa tuile portail
+- Chaque joueur peut librement déplacer ses troupes entre les territoires voisins qu'il contrôle
+(sans toucher aux troupes aux frontières).
 
 
 # Combat
