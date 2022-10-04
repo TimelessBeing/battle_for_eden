@@ -264,10 +264,13 @@ et ce autant de fois qu'il le souhaite.
 avait envoyé des troupes à la frontière).
 
 On détermine ensuite les combats à résoudre :
-- un à chaque frontière où les deux territoires
-ont envoyé des troupes
+- un à chaque frontière comportant des troupes des deux côté
+  (troupes d'un côté contre celles de l'autre côté)
 - un à chaque territoire dont au moins une frontière
-ne comporte des troupes que de l'autre côté
+est attaquée mais pas défendue
+(troupes du défenseur contre celles des attaquants,
+ou troupes des attaquants entre elles si le défenseur a perdu
+le contrôle du territoire)
 
 > Note: si des troupes sont sur la frontière d'un territoire
 ennemi avec un autre territoire ennemi, comme dans le cas décrit
@@ -325,133 +328,102 @@ troupes, +1 s'il contrôle le Cœur d'Eden, et les place sur sa tuile portail
 (sans toucher aux troupes aux frontières).
 
 
-# Combat
+# Résoudre un combat
 
-## Attaquer un territoire d'un autre joueur sur un front
+## Principe général
 
-Le joueur attaquant choisit une frontière entre un de ses territoires
-et un territoire contrôlé par un autre joueur.
-S'il s'agit d'un tour bonus de la phase d'Expansion,
-une troupe du territoire attaquant est alors immédiatement retirée de la carte.
-Le joueur répartit ensuite les troupes présentes sur le territoire attaquant
-en un groupe d'au moins 1 troupe qui reste sur le territoire pour le défendre
-(que le joueur place au centre de sa tuile de territoire)
-et un autre groupe d'au moins 1 troupe qui part au front (que le joueur place proche de la frontière),
-puis il joue une carte d'unité de sa main en la plaçant face visible devant lui.
-Si le joueur n'a pas assez de troupes ou d'unités pour faire cela,
-alors il n'est pas autorisé à lancer son offensive.
+Les joueurs dont les troupes sont impliquées peuvent,
+dans l'ordre du tour mais en commençant par ceux dont
+les troupes sont à la frontière, jouer ou non une carte d'unité
+de leur main.
+Ceux qui le font peuvent ensuite (dans le même ordre) jouer
+ou non une nouvelle carte d'unité, et ainsi de suite jusqu'à ce
+que plus aucun joueur n'en pose.
 
-À commencer par le joueur défenseur, le joueur attaquant et le joueur défenseur
-jouent ensuite chacun leur tour une carte d'unité de leur main,
-et ce jusqu'à ce que l'un d'entre eux ne puisse ou ne veule plus jouer de carte d'unité
-(note: il est donc possible pour le défenseur de ne jouer aucune carte unité,
-alors que l'attaquant doit au moins en jouer une pour lancer l'offensive).
+Les unités jouées par chaque joueur forment son *armée*,
+et sont disposées en colonne dans l'ordre où elles ont été
+ajoutées au combat, la plus ancienne en haut.
+Certaines capacités (voir section correspondante) permettront de placer des unités à gauche ou à droite d'une autre
+sur la même rangée, ou pourront affecter spécifiquement
+une rangée ou colonne ennemie.
 
-Les unités de chaque joueur constituent l'*armée* de celui-ci,
-et sont placées devant lui, en colonne dans l'ordre où elles ont été ajoutées au combat,
-la plus ancienne en haut. Cette disposition est importante car certaines capacités
-(voir section correspondante) permettront de déplacer des unités pour les placer
-sur la même rangée qu'une autre, à gauche ou à droite de celle-ci,
-ou affecteront spécifiquement les unités se trouvant sur une certaine rangée ou colonne, *etc*.
-Durant le combat, si une unité d'un joueur quitte sa position (par exemple si elle est déplacée
-ou retirée du combat), les unités situées à sa gauche ou à sa droite sur sa rangée
-(au choix du joueur) sont décalées d'un cran pour combler le vide.
-De même, si une rangée se retrouve dépourvue d'unités,
-les rangée du dessous montent d'un cran pour combler le vide.
+> Note : Il ne doit pas y avoir de rangée vide,
+ou de vide entre deux cartes d'une même rangée.
+Si une unité quitte sa position (par exemple si elle est
+retirée du combat), le joueur décale au choix ses autres
+unités vers la gauche ou vers la droite pour combler le trou.
+De même, si une rangée se retrouve vide,
+les rangées du dessous montent d'un cran.
 
-Une fois qu'un des joueurs a arrêté de jouer des cartes d'unité,
-l'autre joueur est libre de continuer à jouer autant de cartes
-d'unité de sa main qu'il le souhaite (une par une),
-puis on détermine le vainqueur du combat en sommant la force des unités de chaque armée,
-le plus grand total l'emportant.
-Chaque troupe partie au front donne un bonus de +1 à l'attaquant,
-et chaque troupe sur le territoire attaqué donne un bonus de +1 au défenseur.
-En cas d'égalité, la victoire va au défenseur.
+Chaque joueur détermine ensuite sa force de combat,
+qui est égale au nombre de ses troupes impliquées,
+à laquelle s'ajoute la somme des forces des unités de son armée.
 
-Une fois le vainqueur déterminé, une troupe du camp perdant est retirée de la carte,
-et chaque joueur défausse les cartes d'unité de son armée,
-rangée par rangée du haut vers le bas, en commençant par la gauche sur chaque rangée.
-Le joueur défenseur est ensuite libre de défausser autant de cartes de sa main
-qu'il le souhaite, puis de recompléter sa main jusqu'à un maximum de 5 cartes.
+## Fin du combat
 
-En cas de victoire de l'attaquant, le territoire attaqué est conquis.
-S'il reste des troupes au joueur défenseur sur celui-ci,
-il peut les déplacer librement vers des territoire directement adjacents qu'il contrôle, s'il y en a.
-Toute troupe laissée sur le territoire est ensuite retirée de la carte.
-L'attaquant quant à lui place une des troupes parties au front
-sur le territoire conquis pour en prendre le contrôle,
-et est libre de répartir le reste de celles-ci entre le territoire attaquant et le territoire conquis.
+### Entre des troupes des deux côtés d'une frontière
 
-Si un joueur perd le contrôle du Cœur d'Eden,
-il doit immédiatement dépenser toute l'énergie pure qu'il y avait accumulée
-(voir section sur la phase de Logistique pour plus de détails).
+Sauf égalité, le joueur dont la force est la plus grande
+l'emporte. Son adversaire perd 1 troupe + 1 pour chaque
+3 points de force d'écart (arrondi à l'inférieur).
+Si le joueur vaincu n'a pas assez de troupes à perdre,
+les troupes manquantes sont prises sur le territoire
+dont c'est la frontière (à condition bien sûr qu'il soit
+encore sous le contrôle du joueur).
+Il est possible qu'il perde ainsi le contrôle de son territoire,
+auquel cas :
+- si au moins une frontière du territoire est attaquée
+mais pas défendue, rien ne se passe
+(mais le vainqueur pourra prendre part au combat correspondant
+si celui-ci n'a pas encore été résolu),
+- dans le cas contraire, il prend immédiatement le contrôle du
+territoire en y plaçant ses troupes.
 
-Si un joueur perd le contrôle de son portail, il est éliminé.
-Sur chaque territoire qu'il contrôlait, ses troupes sont remplacées
-par 1 troupe du joueur attaquant.
+### Défenseur contre attaquants
 
+Chaque attaquant dont la force est inférieure à celle du
+défenseur perd 1 troupe + 1 pour chaque 3 points de force
+d'écart (arrondi à l'inférieur), ou toutes ses troupes
+s'il n'a pas assez de troupes à perdre.
 
-## Attaquer les territoires d'un autre joueur sur deux fronts
+Pour chaque attaquant dont la force est supérieure à celle
+du défenseur, celui-ci perd également 1 troupe + 1 pour
+chaque 3 points de force d'écart (arrondi à l'inférieur),
+ou toutes ses troupes s'il n'a pas assez de troupes à perdre.
 
-À quelques nuances près, on procède ici de la même façon
-que dans le cas d'une attaque sur un seul territoire sur un seul front :
+Si le défenseur perd le contrôle de son territoire
+et qu'il n'y a qu'un seul attaquant, alors celui-ci prend
+le contrôle du territoire en y plaçant ses troupes.
 
-- le joueur attaquant choisit deux frontières entre un de ses territoires et un territoire
-  contrôlé par un autre joueur,
-- s'il s'agit d'un tour bonus de la phase d'Expansion, deux de ses troupes
-  sont immédiatement retirées de la carte (une sur chaque territoire attaquant),
-- il sépare ses troupes en groupes d'au moins 1 troupe, ceux partant sur chaque front
-  et ceux restant défendre les territoires attaquants
-  (il faut donc constituer 4 groupes, ou 3 si le territoire attaquant est le même pour les deux fronts),
-- il joue une carte de sa main pour chaque front, constituant deux armées distinctes,
-  en précisant bien quelle armée correspond à quel front
-  (et de même le joueur défenseur constituera deux armées pour leur faire face,
-   en précisant bien quelle armée correspond à quel front),
-- à commencer par le joueur défenseur, le joueur attaquant et le joueur défenseur
-  jouent chacun leur tour une carte d'unité de leur main, en choisissant à chaque
-  fois sur quel front ils jouent cette carte
-  (c'est-à-dire laquelle de leurs armées l'unité rejoint),
-  jusqu'à ce que l'un d'entre eux ne puisse ou ne veule plus le faire,
-  l'autre joueur pouvant alors jouer une par une autant de cartes d'unités
-  de sa main qu'il le souhaite,
-- sur chaque front, on somme la force des unités, avec un bonus de +1 à l'attaquant
-  par troupe partie sur ce front et un bonus de +1 au défenseur par troupe
-  sur le territoire attaqué, la victoire allant au total le plus élevé,
-  ou au défenseur en cas d'égalité,
-- sur chaque front, une troupe du camp perdant est retirée de la carte,
-- chaque joueur défausse les unités de ses armées (en commençant par l'armée de son choix),
-- le joueur défenseur peut défausser autant de cartes de sa main qu'il le souhaite,
-  puis recompléter sa main jusqu'à un maximum de 5 cartes,
-- pour chaque victoire de l'attaquant, le territoire attaqué est conquis
-  (si le territoire attaqué était le même pour les deux fronts,
-  une seule victoire suffit donc à le conquérir).
+### Entre attaquants
 
+Sauf égalité, le joueur dont la force est la plus grande
+l'emporte.
+Chacun de ses adversaire perd 1 troupe + 1 pour chaque
+3 points de force d'écart (arrondi à l'inférieur),
+ou toutes ses troupes s'il n'a pas assez de troupes à perdre.
 
-## Attaquer simultanément deux territoires appartenant à des joueurs différents
+Si plus aucun de ses adversaires n'a de troupes,
+le vainqueur prend le contrôle du territoire en y plaçant
+les siennes.
 
-On procède ici de la même façon que dans le cas d'une attaque sur deux territoires
-d'un même joueur, la seule différence étant que c'est maintenant trois joueurs
-qui jouent une carte d'unité à tour de rôle, suivant l'ordre du tour
-(en commençant par le premier défenseur).
+## Cas particuliers
 
-Lorsqu'un des joueurs ne peut plus ou ne veut plus jouer de carte d'unité,
-son tour est sauté jusqu'à ce qu'un deuxième joueur arrêté également de jouer
-des cartes d'unité, et le dernier joueur est alors libre de jouer une par une
-autant de cartes d'unité de sa main qu'il le souhaite.
-
-
-## Attaquer un ou des territoires sauvages (c'est-à-dire qu'aucun joueur ne contrôle)
-
-On procède ici comme si le territoire sauvage était contrôlé par un joueur
-défenseur qui choisit de ne jouer aucune carte d'unité.
-
-Au moment de sommer la force des unités du joueur défenseur,
-la force totale du territoire sauvage est prise égale au double du nombre de tuiles
-entre celui-ci et le portail le plus proche.
-S'il y a 2 tuiles entre le territoire sauvage et le portail le plus proche,
-sa force totale vaudra donc 4, et le joueur attaquant aura besoin
-d'une armée de force 5 ou plus pour le conquérir.
-
+- S'il y a un marqueur territoire sauvage sur un territoire,
+alors le nombre sur le marqueur indique sa force de combat
+en tant que défenseur, et en cas de défaite le marqueur est
+retiré et on considère que le défenseur a perdu le contrôle
+du territoire.
+- Si un même combat met en jeu au moins deux frontières
+d'un même joueur, avant de jouer des cartes unités
+celui-ci peut, pour chaque frontière au-delà de la première,
+défausser autant de cartes de sa main qu'il le souhaite
+puis recompléter celle-ci à 5 cartes
+- Si un joueur perd le contrôle du Cœur d'Eden,
+il doit immédiatement dépenser toute l'énergie pure qu'il y avait accumulée (achat de cartes de technologie).
+- Si un joueur perd le contrôle de son portail, il est éliminé.
+Sur chaque territoire qu'il contrôlait, ses troupes
+sont remplacées par 1 troupe du joueur attaquant.
 
 # Effets des cartes
 
@@ -538,18 +510,6 @@ commun aux diverses civilisation :
     et sont défaussées dans cet ordre à la fin de celui-ci, juste avant les unités des armées du joueur,
 
   - dans le cas d'une unité de coût 5, l'unité est en revanche immédiatement détruite
-    et le joueur perd alors une troupe sur le front concerné
-    (c'est-à-dire parmi celles envoyées au front s'il s'agit du joueur attaquant,
-     ou sur le territoire attaqué s'il s'agit du joueur défenseur),
-
-  - lors de la détermination du camp vainqueur, si l'attaquant n'a plus de troupes au front,
-    il perd le combat sur ce front indépendamment de la force de ses unités et de celles
-    du défenseur (à noter cependant que comme l'attaquant n'a plus de troupes
-    sur ce front, cette défaite n'entraîne pas la perte d'une troupe),
-
-  - en revanche, le défenseur peut l'emporter même s'il n'a plus de troupe sur son territoire;
-    s'il gagne sur tous les fronts concernés, il reçoit une troupe à placer sur ce dernier
-    (ce qui lui permet de conserver le contrôle de celui-ci).
 
 - *Marquer une carte* signifie garder trace de cette carte
   (en la tournant horizontalement, en plaçant un objet dessus,
