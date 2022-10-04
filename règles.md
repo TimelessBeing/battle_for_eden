@@ -356,8 +356,11 @@ De même, si une rangée se retrouve vide,
 les rangées du dessous montent d'un cran.
 
 Chaque joueur détermine ensuite sa force de combat,
-qui est égale au nombre de ses troupes impliquées,
-à laquelle s'ajoute la somme des forces des unités de son armée.
+qui est égale au nombre de ses troupes impliquées
+auquel on ajoute la somme des forces des unités de son armée.
+
+Les cartes d'unités jouées par les joueurs,
+y compris celles retirées du combat, son alors défaussées.
 
 ## Fin du combat
 
