@@ -506,23 +506,20 @@ les interpréter lors d'un combat qui sort de ce cadre :
 - Les effets des cartes affectant "les adversaires" affectent
   tous les joueurs de tous les camps adverses.
 - Les événements ou conditions relatifs à "un adversaire"
-  concernent tous les joueurs de tous les camps adverses,
-  mais les mentions de "l'adversaire" dans les effets des
-  capacités de réaction correspondantes ne se réfèrent qu'au
-  joueur auquel la capacité réagit.
+  peuvent réagir au joueur principal de n'importe quel
+  camp adverse, et les mentions de "l'adversaire" dans les
+  effets liés affectent tous les joueurs de ce camp.
 - Les autres effets de cartes affectant "un adversaire" affectent
   tous les joueurs d'un camp adverse au choix du joueur.
 - Cependant, si un joueur n'est pas le combattant principal
   de son camp, alors rien de ce que fait ce joueur ne doit
   affecter la situation des autres joueurs (main, armée, etc).
-  Cela signifie notamment (liste non exhaustive) :
-  - que les effets de ses cartes affectant les autres joueurs
-    sont ignorés,
-  - que ses actions ne peuvent déclencher des capacités
-    de réaction d'un joueur adverse que si celles-ci ne
-    modifient pas elles-mêmes la situation de ce joueur,
-  - que ses cartes sont ignorées par tout effet comptabilisant
-    les unités ennemies.
+  Cela signifie notamment que les effets de ses cartes affectant
+  les autres joueurs sont ignorés,que ses actions ne peuvent
+  déclencher des capacités de réaction d'un joueur adverse
+  (comme dit plus haut), et que les effets adverses
+  comptabilisant des unités, cartes en main ou territoires
+  ignorent ceux du joueur.
 
 > Note : Lorsqu'un joueur défend son territoire contre plusieurs
 attaquants, le défenseur peut donc jouer une carte pour
