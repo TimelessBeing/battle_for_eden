@@ -339,8 +339,12 @@ le souhaite ses placements à ceux des joueurs précédents.
 Le combat met en jeu plusieurs joueurs
 (ceux dont les troupes sont impliquées),
 qui sont répartis en au moins deux camps.
+
+Il est nécessaire pour les effets des cartes
+(voir section correspondate) qu'un joueur de chaque camp
+soit identifié comme étant combattant principal de ce camp.
 Si un camp comporte au moins deux joueurs,
-alors ceux-ci doivent désigner un combattant principal
+ceux-ci doivent donc désigner un combattant principal
 (voir section sur les effets des cartes).
 S'ils ne parviennent pas à se mettre d'accord,
 le choix revient au premier joueur dans l'ordre du tour
@@ -372,7 +376,9 @@ qui est égale au nombre de ses troupes impliquées
 auquel on ajoute la somme des forces des unités de son armée.
 
 Les cartes d'unités jouées par les joueurs,
-y compris celles retirées du combat, son alors défaussées.
+y compris celles retirées du combat, sont alors défaussées,
+ou renvoyées dans le Monde du joueur si celui-ci en fait
+le choix.
 
 ## Fin du combat
 
@@ -400,59 +406,15 @@ dans un combat à la frontière, alors ses troupes pourront prendre
 part au combat sur le territoire de l'autre côté
 de cette frontière si celui-ci n'a pas encore été résolu.
 
-### Entre des troupes des deux côtés d'une frontière
-
-Sauf égalité, le joueur dont la force est la plus grande
-l'emporte. Son adversaire perd 1 troupe + 1 pour chaque
-3 points de force d'écart (arrondi à l'inférieur).
-Si le joueur vaincu n'a pas assez de troupes à perdre,
-les troupes manquantes sont prises sur le territoire
-dont c'est la frontière (à condition bien sûr qu'il soit
-encore sous le contrôle du joueur).
-Il est possible qu'il perde ainsi le contrôle de son territoire,
-auquel cas :
-- si au moins une frontière du territoire est attaquée
-mais pas défendue, rien ne se passe
-(mais le vainqueur pourra prendre part au combat correspondant
-si celui-ci n'a pas encore été résolu),
-- dans le cas contraire, il prend immédiatement le contrôle du
-territoire en y plaçant ses troupes.
-
-### Défenseur contre attaquants
-
-Chaque attaquant dont la force est inférieure à celle du
-défenseur perd 1 troupe + 1 pour chaque 3 points de force
-d'écart (arrondi à l'inférieur), ou toutes ses troupes
-s'il n'a pas assez de troupes à perdre.
-
-Pour chaque attaquant dont la force est supérieure à celle
-du défenseur, celui-ci perd également 1 troupe + 1 pour
-chaque 3 points de force d'écart (arrondi à l'inférieur),
-ou toutes ses troupes s'il n'a pas assez de troupes à perdre.
-
-Si le défenseur perd le contrôle de son territoire
-et qu'il n'y a qu'un seul attaquant, alors celui-ci prend
-le contrôle du territoire en y plaçant ses troupes.
-
-### Entre attaquants
-
-Sauf égalité, le joueur dont la force est la plus grande
-l'emporte.
-Chacun de ses adversaire perd 1 troupe + 1 pour chaque
-3 points de force d'écart (arrondi à l'inférieur),
-ou toutes ses troupes s'il n'a pas assez de troupes à perdre.
-
-Si plus aucun de ses adversaires n'a de troupes,
-le vainqueur prend le contrôle du territoire en y plaçant
-les siennes.
 
 ## Cas particuliers
 
 - S'il y a un marqueur territoire sauvage sur un territoire,
-alors le nombre sur le marqueur indique sa force de combat
-en tant que défenseur, et en cas de défaite le marqueur est
-retiré et on considère que le défenseur a perdu le contrôle
-du territoire.
+le combat se déroule comme s'il y avait un défenseur,
+avec autant de troupes sur le territoire que le nombre indiqué
+sur le marqueur. En cas de défaite du défenseur, le marqueur
+est retiré et on considère que les défenseur a perdu toutes
+ses troupes sur le territoire.
 - Si un même combat met en jeu au moins deux frontières
 d'un même joueur, avant de jouer des cartes unités
 celui-ci peut, pour chaque frontière au-delà de la première,
@@ -485,73 +447,85 @@ ou négatifs (ex: "Cette unité ne peut être renvoyée dans le Monde du joueur 
 
 ## Capacités
 
-Les unités ajoutées au combat par un joueur font généralement plus qu'ajouter
-leur force à son armée, et fournissent à celui-ci de multiples capacités
+### Principe
+
+Les unités ajoutées au combat par un joueur font
+généralement plus qu'ajouter leur force à son armée,
+et fournissent à celui-ci de multiples capacités
 qu'il peut activer pour produire divers effets.
 Contrairement aux effets permanents,
 **les joueurs ont toujours le choix d'activer ou non une capacité**.
 
+### Types de capacités
+
 Les capacités sont divisées en 4 types, selon le moment où elles peuvent être activées:
 
 - les **capacités immédiates** d'une unité peuvent être activées
-  une unique fois chacune, lorsque cette unité vient d'être ajoutée au combat
-  (c'est-à-dire jusqu'à ce qu'un joueur ait à choisir de jouer ou non
-   une carte d'unité de sa main),
+  une unique fois chacune, lorsque cette unité vient d'être ajoutée au combat,
 
 - les **capacités retardées** d'une unité peuvent être activées
   une unique fois après que tous les joueurs ont fini de jouer
-  des unités de leurs mains (c'est-à-dire avant de déterminer le vainqueur),
+  des unités de leurs mains (c'est-à-dire avant de déterminer
+  la force de combat des diverses armées),
 
 - les **capacités post-combat** d'une unité peuvent être activées
-  une unique fois chacune, juste après que le vainqueur a été déterminé
-  (c'est-à-dire avant de défausser les unités des armées),
+  une unique fois chacune, juste avant de défausser les cartes
+  d'unités,
 
 - les **capacités de réaction** d'une unité sont liées
   soit à un **événement** (ex: "cette unité est neutralisée")
   soit à une **condition** (ex: "votre main est vide");
-  la capacité peut être activée une fois
-  (jusqu'à ce qu'un joueur ait à choisir de jouer ou non une carte d'unité de sa main)
-  à chaque fois que l'événement a lieu ou que la condition devient vérifiée,
-  ainsi que lorsque l'unité est ajoutée au combat si la condition est vérifiée.
+  la capacité peut être activée à chaque fois que l'événement
+  a lieu, ou pour une condition si celle-ci est vérifiée
+  lorsque l'unité est ajoutée au combat ainsi qu'à chaque fois
+  que la condition n'était pas vérifiée et le devient.
 
-**Précision sur les cas particuliers :**
+### Cas particuliers
 
-- si un joueur peut activer plusieurs capacités de ses unités,
-  il est libre de choisir dans quelle ordre il active celles-ci,
-- si plusieurs joueurs souhaitent activer une capacité avant les autres,
-  la priorité va au joueur attaquant, puis suit l'ordre du tour,
-- si une capacité ajoute une unité au combat,
-  les capacités de cette unité peuvent être activées normalement
-  (y compris ses capacités immédiates et retardées,
-   même si la capacité qui l'a ajoutée au combat était déjà une capacité retardée).
+- Si une capacité peut être activée, elle reste activable jusqu'à
+  ce que le joueur aie fini d'activer des capacités pour
+  son tour (ex: si un effet ajoute deux unités au combat,
+  activer la capacité immédiate de l'une n'empêche pas d'activer
+  celle de l'autre).
+- Si un joueur peut activer plusieurs capacités de ses unités,
+  il est libre de les activer dans l'ordre de son choix.
+- Si une capacité ajoute une unité au combat,
+  les capacités de celle-ci peuvent être activées normalement
+  (ex: une unité ajoutée au combat par une capacité retardée
+      peut à son tour activer des capacités immédiates
+      ou retardées).
+- Si plusieurs joueurs souhaitent activer une capacité avant
+  les autres, la priorité suit l'ordre du tour.
 
+## Combat à plus de 2 joueurs
 
-## Effets courants des capacités
+Les effets des cartes sont avant tout formulés pour des combats
+mettant en jeu 2 camps de 1 joueur chacun. Voici comment
+les interpréter lors d'un combat qui sort de ce cadre :
 
-La plupart des civilisations introduisent une ou plusieurs mécaniques
-propre à celles-ci, avec un vocabulaire dédié.
+- Les effets des cartes affectant "les adversaires" affectent
+  tous les joueurs de tous les camps adverses.
+- Les événements ou conditions relatifs à "un adversaire"
+  concernent tous les joueurs de tous les camps adverses,
+  mais les mentions de "l'adversaire" dans les effets des
+  capacités de réaction correspondantes ne se réfèrent qu'au
+  joueur auquel la capacité réagit.
+- Les autres effets de cartes affectant "un adversaire" affectent
+  tous les joueurs d'un camp adverse au choix du joueur.
+- Cependant, si un joueur n'est pas le combattant principal
+  de son camp, alors rien de ce que fait ce joueur ne doit
+  affecter la situation des autres joueurs (main, armée, etc).
+  Cela signifie notamment (liste non exhaustive) :
+  - que les effets de ses cartes affectant les autres joueurs
+    sont ignorés,
+  - que ses actions ne peuvent déclencher des capacités
+    de réaction d'un joueur adverse que si celles-ci ne
+    modifient pas elles-mêmes la situation de ce joueur,
+  - que ses cartes sont ignorées par tout effet comptabilisant
+    les unités ennemies.
 
-Voici quelques explications en ce qui concerne les mécaniques ou le vocabulaire
-commun aux diverses civilisation :
-
-- Sur un front donné, le territoire du joueur est appelé *territoire allié*,
-  ses troupes les *troupes alliées*, et ses unités les *unités alliées*.
-  Le territoire du joueur adverse est appelé *territoire ennemi*,
-  ses troupe les *troupes ennemies*, et ses unités les *unités ennemies*.
-
-- *Détruire une carte* signifie reposer cette carte là d'où on peut l'acheter
-  (c'est-à-dire dans la pile correspondante pour une cartes commune ou de technologie,
-   ou à l'emplacement correspondant du Monde du joueur pur une carte d'unité).
-
-- *Neutraliser une unité* signifie choisir une unité et la retirer du combat:
-  - à l'exception des unités de coût 5, les unités neutralisées d'un joueur
-    sont placées en une pile face visible, dans l'ordre où elles ont été retirées du combat,
-    et sont défaussées dans cet ordre à la fin de celui-ci, juste avant les unités des armées du joueur,
-
-  - dans le cas d'une unité de coût 5, l'unité est en revanche immédiatement détruite
-
-- *Marquer une carte* signifie garder trace de cette carte
-  (en la tournant horizontalement, en plaçant un objet dessus,
-   en notant cela sur un feuille à part...) afin de se rappeler d'informations
-  importantes la concernant (si certaines de ses capacités ont été activées,
-  si elle doit être détruite à la fin du combat, *etc*).
+> Note : Lorsqu'un joueur défend son territoire contre plusieurs
+attaquants, le défenseur peut donc jouer une carte pour
+retirer du combat une unité de chaque attaquant alors que
+seul l'attaquant principal peut retirer du combat des unités
+du défenseur.
