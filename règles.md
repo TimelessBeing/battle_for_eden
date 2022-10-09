@@ -173,7 +173,7 @@ face cachée sous son deck.
 Chaque joueur mélange 3 cartes Cristal d'Énergie de coût 1,
 1 carte Cristal d'Énergie de coût 2,
 et 3 unités de coût 1 de son Monde pour former son deck,
-pioche 5 cartes pour constituer sa main de départ.
+et pioche 5 cartes pour constituer sa main de départ.
 
 
 ## Les bases de la conquête
@@ -265,11 +265,11 @@ avait envoyé des troupes à la frontière).
 
 On détermine ensuite les combats à résoudre :
 - un à chaque frontière comportant des troupes des deux côté
-  (troupes d'un côté contre celles de l'autre côté)
+  (camp d'un côté contre camp de l'autre côté)
 - un à chaque territoire dont au moins une frontière
 est attaquée mais pas défendue
-(troupes du défenseur contre celles des attaquants,
-ou troupes des attaquants entre elles si le défenseur a perdu
+(camp du défenseur contre camp des attaquants,
+ou chacun pour soi avec un camp par attaquant si le défenseur a perdu
 le contrôle du territoire)
 
 > Note: si des troupes sont sur la frontière d'un territoire
@@ -317,25 +317,37 @@ de son Monde.
 (mis de côté ou non) pour acheter des cartes communes.
 
 Les cartes ainsi achetées sont placées dans la défausse
-du joueur.
+du joueur (sauf si la carte dit le contraire).
 
 Une fois ces achats effectués :
 - Les stocks d'énergie mis de côté mais pas dépensés
-sont replacés avec les autres stocks d'energie du joueur,
+rejoignent les autres stocks d'energie du joueur,
 - Chaque joueur reçoit 3 nouvelles
 troupes, +1 s'il contrôle le Cœur d'Eden, et les place sur sa tuile portail
-- Chaque joueur peut librement déplacer ses troupes entre les territoires voisins qu'il contrôle
+- Chaque joueur peut déplacer des troupes entre deux territoires voisins qu'il contrôle, et ce autant de fois qu'il le souhaite
 (sans toucher aux troupes aux frontières).
+Les joueurs annoncent qu'ils ont fini de déplacer leurs troupes
+à tour de rôle, dans l'ordre du tour et en commençant
+par le premier joueur, afin que chacun puisse ajuster s'il
+le souhaite ses placements à ceux des joueurs précédents.
 
 
 # Résoudre un combat
 
 ## Principe général
 
-Les joueurs dont les troupes sont impliquées peuvent,
-dans l'ordre du tour mais en commençant par ceux dont
-les troupes sont à la frontière, jouer ou non une carte d'unité
-de leur main.
+Le combat met en jeu plusieurs joueurs
+(ceux dont les troupes sont impliquées),
+qui sont répartis en au moins deux camps.
+Si un camp comporte au moins deux joueurs,
+alors ceux-ci doivent désigner un combattant principal
+(voir section sur les effets des cartes).
+S'ils ne parviennent pas à se mettre d'accord,
+le choix revient au premier joueur dans l'ordre du tour
+qui appartient à un autre camp.
+
+Les joueurs peuvent alors, toujours dans l'ordre du tour,
+jouer ou non une carte d'unité de leur main.
 Ceux qui le font peuvent ensuite (dans le même ordre) jouer
 ou non une nouvelle carte d'unité, et ainsi de suite jusqu'à ce
 que plus aucun joueur n'en pose.
@@ -363,6 +375,30 @@ Les cartes d'unités jouées par les joueurs,
 y compris celles retirées du combat, son alors défaussées.
 
 ## Fin du combat
+
+Chaque joueur perd 1 troupe impliquée par joueur adverse dont
+la force de combat est strictement supérieure à la sienne.
+S'il perd des troupes ainsi, il perd 1 troupe impliquée
+supplémentaire pour chaque 3 points d'écart
+(arrondi à l'inférieur) entre sa force de combat et celle
+de l'adversaire dont la force de combat est la plus élevée.
+
+Dans le cas d'un combat entre des troupes des deux côtés
+d'une frontière, si le joueur n'a pas assez de troupes
+à perdre alors les troupes manquantes sont prises sur
+le territoire dont c'est la frontière, si celui-ci est
+toujours sous contrôle du joueur.
+
+Si un joueur avait envoyé des troupes à la frontière avec
+un autre territoire, et qu'à la suite du combat il n'y a plus
+d'autres troupes ni sur le territoires ni d'un côté ou de l'autre
+d'aucune de ses frontières, alors ce joueur prend le contrôle
+du territoire avec toutes ses troupes à la frontière.
+
+> Note : Si un joueur élimine toutes les troupes adverses
+dans un combat à la frontière, alors ses troupes pourront prendre
+part au combat sur le territoire de l'autre côté
+de cette frontière si celui-ci n'a pas encore été résolu.
 
 ### Entre des troupes des deux côtés d'une frontière
 
