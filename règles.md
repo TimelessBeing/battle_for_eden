@@ -388,18 +388,21 @@ S'il perd des troupes ainsi, il perd 1 troupe impliquée
 supplémentaire pour chaque 3 points d'écart
 (arrondi à l'inférieur) entre sa force de combat et celle
 de l'adversaire dont la force de combat est la plus élevée.
+Si le joueur n'a pas assez de troupe à perdre, il perd l'ensemble
+de ses troupes impliquées.
 
 Dans le cas d'un combat entre des troupes des deux côtés
 d'une frontière, si le joueur n'a pas assez de troupes
-à perdre alors les troupes manquantes sont prises sur
-le territoire dont c'est la frontière, si celui-ci est
-toujours sous contrôle du joueur.
+à perdre mais dispose de troupes sur le territoire dont
+c'est le frontière, alors les troupes manquantes
+sont prises sur ce territoire dans la limite des troupes
+disponibles.
 
 Si un joueur avait envoyé des troupes à la frontière avec
 un autre territoire, et qu'à la suite du combat il n'y a plus
 d'autres troupes ni sur le territoires ni d'un côté ou de l'autre
 d'aucune de ses frontières, alors ce joueur prend le contrôle
-du territoire avec toutes ses troupes à la frontière.
+du territoire en y déplaçant toutes ses troupes à la frontière.
 
 > Note : Si un joueur élimine toutes les troupes adverses
 dans un combat à la frontière, alors ses troupes pourront prendre
