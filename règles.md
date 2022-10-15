@@ -18,7 +18,7 @@ resté vierge de toute civilisation,
 un monde débordant de richesses et où rien ne manque.
 Toutes sortes de ressources y sont à la portée de quiconque
 daignera se pencher pour les ramasser,
-au point qu'il est simple d'y condenser ces cristaux d'énergie
+au point qu'il est simple d'y condenser des cristaux d'énergie,
 si rares dans le reste du multivers.
 Un monde convoité qu'on appelle Eden!
 
@@ -372,8 +372,9 @@ De même, si une rangée se retrouve vide,
 les rangées du dessous montent d'un cran.
 
 Chaque joueur détermine ensuite sa force de combat,
-qui est égale au nombre de ses troupes impliquées
-auquel on ajoute la somme des forces des unités de son armée.
+qui est égale à la somme des forces des unités de son armée,
+à laquelle on ajoute 1 pour chacune de ses troupes impliquées,
+et 1 pour chaque autre joueur dans son camp.
 
 Les cartes d'unités jouées par les joueurs,
 y compris celles retirées du combat, sont alors défaussées,
@@ -428,6 +429,8 @@ il doit immédiatement dépenser toute l'énergie pure qu'il y avait accumulée 
 - Si un joueur perd le contrôle de son portail, il est éliminé.
 Sur chaque territoire qu'il contrôlait, ses troupes
 sont remplacées par 1 troupe du joueur attaquant.
+S'il contrôlait le Cœur d'Eden, l'énergie pure accumulée
+reste sur le territoire.
 
 # Effets des cartes
 
