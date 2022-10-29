@@ -485,12 +485,16 @@ Les capacités sont divisées en 4 types, selon le moment où elles peuvent êtr
   d'unités,
 
 - les **capacités de réaction** d'une unité sont liées
-  soit à un **événement** (ex: "cette unité est neutralisée")
-  soit à une **condition** (ex: "votre main est vide");
-  la capacité peut être activée à chaque fois que l'événement
-  a lieu, ou pour une condition si celle-ci est vérifiée
-  lorsque l'unité est ajoutée au combat ainsi qu'à chaque fois
-  que la condition n'était pas vérifiée et le devient.
+  soit à un **événement** (ex: "cette unité est neutralisée"),
+  auquel cas elles peuvent être activées à chaque fois
+  que l'événement a lieu,
+  soit à une **condition** (ex: "votre main est vide"),
+  auquel cas elles peuvent être activées à chaque fois
+  que la condition devient satisfaite ainsi que lorsque l'unité
+  est ajoutée au combat si la condition était déjà satisfaite
+  (dans l'exemple précédent : si la main du joueur est vide
+  lorsqu'il joue l'unité, puis à nouveau si des effets lui
+  font piocher des cartes puis vider à nouveau sa main).
 
 ### Cas particuliers
 
