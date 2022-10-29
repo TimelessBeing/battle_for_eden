@@ -159,7 +159,8 @@ de deckbuilding. Les joueurs jouent des cartes à partir
 de leur main comme dans un jeu de cartes classique,
 mais chaque joueur dispose d'un ensemble de cartes
 qui lui sont propres, son *deck*, qui évoluera lors
-de la partie à mesure que le joueur y ajoute et supprime des cartes.
+de la partie à mesure que le joueur y ajoute et supprime
+des cartes.
 Le joueur tire donc les cartes de sa propre pioche
 (une pile de cartes face cachée, placée devant lui),
 et lorsques ses cartes sont défaussées celles-ci vont
@@ -169,6 +170,11 @@ Chaque fois que le joueur devra piocher ou révéler plus de cartes
 de sa pioche que celle-ci n'en contient,
 il mélangera préalablement sa défausse et la placera
 face cachée sous son deck.
+Chaque joueur peut librement consulter son Monde ou ceux de ses
+adversaires (y compris pour savoir quelles cartes ont été
+achetées), ainsi que sa défausse et celles de ses adversaires.
+L'ordre des cartes dans la défausse n'a pas d'importance
+et peut être librement modifié.
 
 Chaque joueur mélange 3 cartes Cristal d'Énergie de coût 1,
 1 carte Cristal d'Énergie de coût 2,
@@ -317,7 +323,7 @@ de son Monde.
 (mis de côté ou non) pour acheter des cartes communes.
 
 Les cartes ainsi achetées sont placées dans la défausse
-du joueur (sauf si la carte dit le contraire).
+du joueur.
 
 Une fois ces achats effectués :
 - Les stocks d'énergie mis de côté mais pas dépensés
@@ -376,11 +382,6 @@ qui est égale à la somme des forces des unités de son armée,
 à laquelle on ajoute 1 pour chacune de ses troupes impliquées,
 et 1 pour chaque autre joueur dans son camp.
 
-Les cartes d'unités jouées par les joueurs,
-y compris celles retirées du combat, sont alors défaussées,
-ou renvoyées dans le Monde du joueur si celui-ci en fait
-le choix.
-
 ## Fin du combat
 
 Chaque joueur perd 1 troupe impliquée par joueur adverse dont
@@ -409,6 +410,11 @@ du territoire en y déplaçant toutes ses troupes à la frontière.
 dans un combat à la frontière, alors ses troupes pourront prendre
 part au combat sur le territoire de l'autre côté
 de cette frontière si celui-ci n'a pas encore été résolu.
+
+Le combat est maintenant terminé, et les cartes d'unités jouées par les joueurs
+sont défaussées, y compris celles retirées du combat.
+Un joueur peut choisir, pour chaque carte d'unité allant ainsi dans sa défausse,
+de la renvoyer dans son Monde à la place.
 
 
 ## Cas particuliers
