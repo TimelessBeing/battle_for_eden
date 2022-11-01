@@ -412,7 +412,8 @@ part au combat sur le territoire de l'autre côté
 de cette frontière si celui-ci n'a pas encore été résolu.
 
 Le combat est maintenant terminé, et les cartes d'unités jouées par les joueurs
-sont défaussées, y compris celles retirées du combat.
+sont défaussées, y compris celles qui auront été retirées
+du combat par l'effet de certaines cartes.
 Un joueur peut choisir, pour chaque carte d'unité allant ainsi dans sa défausse,
 de la renvoyer dans son Monde à la place.
 
@@ -485,7 +486,7 @@ Les capacités sont divisées en 4 types, selon le moment où elles peuvent êtr
   d'unités,
 
 - les **capacités de réaction** d'une unité sont liées
-  soit à un **événement** (ex: "cette unité est neutralisée"),
+  soit à un **événement** (ex: "cette unité est retirée du combat"),
   auquel cas elles peuvent être activées à chaque fois
   que l'événement a lieu,
   soit à une **condition** (ex: "votre main est vide"),
