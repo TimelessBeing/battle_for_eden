@@ -26,6 +26,12 @@
 - **Force +X :**
   * La force de cette unité dans l'armée du joueur
     est augmentée de X
+- **Synergie +X :**
+  * À l'exception des unités Bloc de Matériaux,
+    toute unité se trouvant sur la rangée au-dessus
+    de cette carte, sur la rangée en-dessous de cette carte,
+    ou qui est adjacente à cette carte sur la même rangée,
+    obtient Force +X
 - **Alimenter X :**
   * Détruire X autres unités de votre armée
 - **Produire X :**
@@ -49,11 +55,6 @@
   * L'unité pourra activer ses capacités normalement,
     mais sera détruite lorsqu'elle sera défaussée ou retirée
     du combat
-- **Coordonner +X :**
-  * À l'exception des unités Bloc de Matériaux,
-    toute unité se trouvant sur la rangée au-dessus
-    de cette carte, sur la rangée en-dessous de cette carte,
-    ou qui est adjacente à cette carte sur la même rangée, obtient Force +X
 - **Réassigner :**
   * Renvoyer dans votre Montre les unités de votre choix,
     parmi vos unités retirées du combat et celles actuellement
@@ -107,9 +108,9 @@
 - **Coût :** 5
 - **Valeur :** 1
 - **Permanent :** Champion
-- **Permanent :** Coordonner +2
-- **Immédiat :** Alimenter 2 pour placer cette unité à gauche ou à droite d'une de vos unités
-- **Immédiat :** Alimenter 2 pour placer une de vos unités à gauche ou à droite de celle-ci
+- **Permanent :** Synergie +2
+- **Immédiat :** Alimenter 2 pour déplacer cette unité à gauche ou à droite d'une de vos unités
+- **Immédiat :** Alimenter 2 pour déplacer une de vos unités à gauche ou à droite de celle-ci
 
 
 ### Module d'Assemblage
