@@ -169,7 +169,7 @@ dans sa propre défausse
 Chaque fois que le joueur devra piocher ou révéler plus de cartes
 de sa pioche que celle-ci n'en contient,
 il mélangera préalablement sa défausse et la placera
-face cachée sous son deck.
+face cachée sous sa pioche.
 Chaque joueur peut librement consulter son Monde ou ceux de ses
 adversaires (y compris pour savoir quelles cartes ont été
 achetées), ainsi que sa défausse et celles de ses adversaires.
