@@ -16,11 +16,6 @@
 
 ## Mots clés
 
-- **Marquer une unité :**
-  * Un effet dépend/dépendra de si cette unité a été ou non
-    marquée, et il faut donc garder trace de cette information
-    (par exemple en tournant la carte horizontalement
-     ou en plaçant un cube dessus).
 - **Révéler X :**
   * Montrer à tous les joueurs les X cartes du dessus
     de votre pioche, puis les replacer sur celle-ci
