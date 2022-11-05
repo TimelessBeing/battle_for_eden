@@ -1,14 +1,62 @@
 
-## Mécaniques propres :
+## Règles additionnelles
 
-- **Emprisonner un démon dans une unité :**
-  - marquer cette unité pour matérialiser qu'elle renferme un démon,
-  - elle est détruite à la fin du combat,
-  - on ne peut pas emprisonner un démon dans une unité qui en renferme déjà un.
+N/A
 
-- **Exorciser une unité :**
-  - l'unité ne renferme plus de démon,
-  - on ne peut pas exorciser une unité qui ne renferme pas de démon.
+## Mots clés
+
+- **Marquer une unité :**
+  * Un effet dépend/dépendra de si cette unité a été ou non
+    marquée, et il faut donc garder trace de cette information
+    (par exemple en tournant la carte horizontalement
+     ou en plaçant un cube dessus).
+- **Détruire une carte :**
+  * Placer la carte en question dans la pile ou le Monde
+    d'où elle peut être achetée
+- **Épurer :**
+  * Détruire une carte de votre main
+- **Champion :**
+  * Si cette unité doit être retirée du combat,
+    elle est détruite à la place
+- **Force +X :**
+  * La force de cette unité dans l'armée du joueur
+    est augmentée de X
+- **Renouveler X :**
+  * Piocher X cartes puis défausser X cartes de votre main
+    (au choix)
+- **Hôte :**
+  * Cette unité est marquée pour indiquer qu'elle
+    renferme un démon en elle
+  * Si cette unité est retirée du combat, elle arrête
+    d'être un hôte
+  * Si cette unité doit être défaussée,
+    elle est détruite à la place
+- **Sceller X :**
+  * X unités non hôtes de votre armée (au choix)
+    sont désormais des hôtes
+- **Sceller X ≠  :**
+  * Comme Sceller X mais cette unité ne peut être choisie
+- **Exorciser X :**
+  * X unités hôtes de votre armée (au choix)
+    ne sont désormais plus des hôtes
+- **Exorciser X 🠕:**
+  * Comme Exorciser X mais les unités doivent être choisies
+    en priorité dans les rangées les plus basses
+- **Lien mortel :**
+  * Marquer cette unité ainsi qu'une unité de l'armée de
+    l'adversaire (au choix)
+  * Si cette unité devient hôte ou est retirée du combat,
+    retirez l'unité de l'adversaire du combat
+- **Dernier souffle :**
+  * Si cette unité est retirée du combat,
+    vous pouvez activer immédiatement ses capacités post-combat
+- **Mobiliser X :**
+  * Ajouter X unités Combattant Maudit à droite de cette unité
+    sur la même rangée, prises gratuitement dans votre Monde
+    (dans la limite de leur disponibilité)
+  * Les capacités immédiates des unités ainsi ajoutées
+    ne peuvent pas être activées
+
 
 
 ## Unités
@@ -16,100 +64,85 @@
 ### Combattant Maudit
 - **Coût :** 1
 - **Valeur :** 1
-- **Permanent :**
-  Force +1 si cette unité renferme un démon.
-- **Immédiat :**
-  Emprisonnez un démon dans cette unité.
-- **Conseil :**
-  Une unité basique, qui peut être exorcisée par les autres unités
-  (ou dans laquelle un démon peut être emprisonné par les autres unités, si besoin).
-
-
+- **Permanent :** Force +1 si cette unité est hôte
+- **Immédiat :** Sceller 1
 
 
 ### Vengeur Sacrifié
 - **Coût :** 2
 - **Valeur :** 2
-- **Réaction (Événement : cette unité est jouée ou exorcisée):**
-  Marquez une unité ennemie. <br /> Elle est la nouvelle cible de cette unité.
-- **Réaction (Événement : un démon est emprisonné dans cette unité ou elle est neutralisée):**
-  Neutralisez la cible de cette unité.
-- **Conseil :**
-  La seule unité qui vous permette de neutraliser des unités ennemies.
+- **Réaction (Condition : non hôte):**
+  Lien mortel
 
 
 ### Veilleur Nocturne
 - **Coût :** 3
 - **Valeur :** 3
-- **Immédiat :**
-  Si vous avez au moins une carte en main:
-  exorcisez une unité alliée pour détruire une carte de votre main.
-- **Conseil :**
-  La seule unité qui vous permette d'éliminer les cartes inutiles de votre deck.
+- **Immédiat :** Épurer pour Exorciser 1
 
 
 ### Chercheur en Démonologie
 - **Coût :** 3
 - **Valeur :** 3
-- **Réaction (Événement : une unité alliée est ajoutée au combat):**
-  Si cette capacité n'a pas encore été activée:
-  emprisonnez 2 démons dans des unités alliées pour piocher une carte,
-  ou un seul pour piocher une carte puis en défausser une de votre main.
-- **Conseil :**
-  Une unité qui permet de piocher, donc de faire plus de choses.
-  L'ajout de cette unité compte bel et bien comme un événement
-  "une unité alliée est ajoutée au combat".
-  Gardez également en tête que cette unité peut se cibler elle-même.
+- **Immédiat :** [Sceller 2 pour piocher une carte] OU [Sceller 1 pour Renouveler 1]
 
 
 ### Purificateur
 - **Coût :** 3
 - **Valeur :** 3
-- **Réaction (Événement : cette unité est neutralisée):**
-  Exorcisez jusqu'à 2 unités alliées, en commençant par les rangées les plus basses.
-- **Post-combat :**
-  Exorcisez jusqu'à 2 unités alliées, en commençant par les rangées les plus basses.
-- **Conseil :**
-  Une unité qui ne fait pas grand chose en combat mais qui vous permet de conserver
-  vos unités à la fin de celui-ci.
+- **Permanent:** Dernier souffle
+- **Post-combat :** [Exorciser 1 🠕] OU [Exorciser 2 🠕]
 
 
-### Recruteur
+### Sacrificateur
 - **Coût :** 3
 - **Valeur :** 3
-- **Réaction (Événement : cette unité est neutralisée ou un démon est emprisonné en elle):**
-  Ajoutez 2 unités Combattant Maudit de votre Monde à droite de cette unité sans activer leurs capacités immédiates.
-- **Immédiat :**
-  Emprisonnez un démon dans une autre unité alliée.
-- **Conseil :**
-  Une unité qui ajoute des unités Combattant Maudit au combat.
-  En plus d'apporter leur force, celles-ci donnent des cibles à vos autres unités
-  (notamment le Maître des Sceaux).
-  Attention, si ces unités ne sont pas détruites durant le combat,
-  elles resteront dans votre deck.
-  Gardez également en tête que le Recruteur ne peut activer sa capacité de réaction
-  par lui-même.
+- **Réaction (Condition : hôte ou retiré du combat):** Mobiliser 2
+- **Réaction (Condition : unité(s) sur rangée en-dessous):** Sceller 1 ≠
 
 
 ### Maître des Sceaux
 - **Coût :** 5
 - **Valeur :** 2
-- **Permanent :**
-  Force +1 pour chaque unité alliée qui renferme un démon.
-- **Immédiat :**
-  Emprisonnez des démons dans jusqu'à 2 unités alliées.
-- **Conseil :**
-  Votre unité la plus puissante, que l'adversaire cherchera à neutraliser.
+- **Permanent :** Champion
+- **Immédiat :** [Sceller 1] OU [Sceller 2]
+- **Permanent :** Force +1 pour chaque unité hôte
 
 
 ### Sauveur
 - **Coût :** 6
 - **Valeur :** 4
-- **Immédiat :**
-  Emprisonnez un démon dans une unité alliée pour exorciser une autre unité alliée.
-- **Réaction (Événement : cette unité est neutralisée):**
-  Exorcisez jusqu'à 2 unités alliées.
-- **Post-combat :**
-  Exorcisez jusqu'à 2 unités alliées.
-- **Conseil :**
-  Une version améliorée du Purificateur.
+- **Permanent:** Dernier souffle
+- **Post-combat :** [Exorciser 1] OU [Exorciser 2]
+- **Immédiat :** Exorciser 1 pour Sceller 1
+
+## Exemples
+
+- Pascal joue un Purificateur
+- Pascal joue un Sacrificateur
+- Il joue un Vengeur Sacrifié
+  * Il active sa capacité de réaction et cible une unité de son adversaire (de force 3)
+  * Il active la deuxième capacité de réaction du Sacrificateur et scelle un démon
+    dans le Vengeur Sacrifié
+  * L'unité ciblée par le Vengeur Sacrifié est donc retirée du combat
+- Il joue un Chercheur en Démonologie
+  * Il active sa capacité et scelle des démons dans le Sacrificateur
+    et le Chercheur en Démonologie pour piocher une carte
+  * Il active la capacité de réaction du Sacrificateur et ajoute
+    2 Combattants Maudits à droite de celui-ci
+- Il joue un Sauveur
+  * Il active sa capacité et exorcise le Vengeur Sacrifié pour sceller un démon
+    dans un des Combatants Maudits
+  * Il active la capacité de réaction du Vengeur Sacrifié et cible le champion
+    de son adversaire (de force 10)
+- Il joue un Maître des Sceaux
+  * Il active sa capacité pour sceller un démon dans le second Combattant Maudit
+    et dans le vengeur sacrifié
+  * L'unité ciblée par le Vengeur Sacrifié est donc retirée du combat
+- La force totale de son armée est de 26, et il a pu enlever 13
+  de force à celle de son adversaire
+- Avant de défausser les unités de son armée,
+  Pascal active la capacité post-combat de son Purificateur
+  pour éviter que son Chercheur en Démonologie et son Vengeur Sacrifié soient détruits,
+  et celle de son Sauveur pour éviter que son Sacrificateur soit détruit
+- Les Combattants Sacrifiés étant des hôtes, ils sont détruits au lieu d'être défaussés
