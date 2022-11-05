@@ -449,13 +449,16 @@ Ceux-ci peuvent par exemple contraindre quand ces cartes peuvent être jouées o
 faire varier le coût ou la valeur des cartes en fonction des circonstances,
 ou leur permettre d'avoir un effet depuis la main du joueur sans que celui-ci ait à les jouer.
 
-Certains de ces effets permanents, généralement des effets positifs,
-sont explicitement optionnels (ex: "À tout moment, cette carte peut être défaussée
-pour piocher jusqu'à 1 carte, ou détruite pour piocher jusqu'à 3 cartes.").
+Certains de ces effets permanents, généralement des effets
+positifs, sont explicitement optionnels (ex: "Si cette carte est
+dans votre main, vous pouvez choisir de la défausser").
 Gardez cependant en tête que, sauf mention du contraire,
 **les effets permanents ne sont pas optionnels**,
-et ce qu'il s'agisse d'effets positifs (ex: "Force +1 si votre main est vide")
-ou négatifs (ex: "Cette unité ne peut être renvoyée dans le Monde du joueur qu'en étant détruite par une capacité").
+et ce qu'il s'agisse d'effets positifs
+(ex: "La force de cette unité dans l'armée du joueur
+est augmentée de X")
+ou négatifs (ex: "Si cette unité doit être retirée du combat,
+elle est détruite à la place").
 
 
 ## Capacités
