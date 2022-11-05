@@ -469,6 +469,13 @@ qu'il peut activer pour produire divers effets.
 Contrairement aux effets permanents,
 **les joueurs ont toujours le choix d'activer ou non une capacité**.
 
+Une fois une capacité activée, son effet doit être intégralement
+résolu. Si l'effet d'une capacité ne peut être intégralement
+résolu, alors celle-ci ne peut être activée.
+En particulier, les capacités ayant des effets de la forme
+"X pour Y" ne peuvent être activées que si X et Y peuvent
+être accomplis.
+
 ### Types de capacités
 
 Les capacités sont divisées en 4 types, selon le moment où elles peuvent être activées:
