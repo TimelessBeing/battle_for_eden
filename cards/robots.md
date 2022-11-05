@@ -18,8 +18,8 @@
 - **Épurer :**
   * Détruire une carte de votre main
 - **Neutraliser :**
-  * Retirer du combat une unité de votre choix de l'armée
-    d'un adversaire
+  * Retirer du combat une unité de l'armée de l'adversaire
+    (au choix)
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
@@ -58,7 +58,7 @@
 - **Réassigner :**
   * Renvoyer dans votre Montre les unités de votre choix,
     parmi vos unités retirées du combat et celles actuellement
-    dans votre armée
+    dans votre armée (y compris la carte activant cette capacité)
 
 
 ## Unités

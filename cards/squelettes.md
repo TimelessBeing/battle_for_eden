@@ -1,16 +1,17 @@
 
 ## Règles additionnelles
 
-- Chaque carte que vous défaussez doit être placée au-dessus
-  de votre défausse (si plusieurs sont défaussées en même temps,
-  vous êtes libres de choisir leur ordre relatif)
 - L'ordre de votre défausse ne doit pas être alteré avant que
   celle-ci soit mélangée puis placée sous votre pioche,
   à moins qu'une carte dise explicitement le contraire
-- À la fin d'un combat, défaussez d'abord vos unités hors
-  de votre armée dans l'ordre où elles ont été retirées du
-  combat. Défaussez ensuite les unités de votre armée,
-  rangée par rangée en commençant par le haut,
+- Chaque fois que vous défaussez une carte, celle-ci doit être
+  placée sur le dessus de votre défausse
+  (si plusieurs sont défaussées en même temps,
+  vous êtes libre de choisir leur ordre relatif)
+- Lorsque vous défaussez vos unités à la fin d'un combat,
+  défaussez d'abord les unités retirées du combat dans l'ordre
+  où elles l'ont été. Défaussez ensuite les unités de votre
+  armée, rangée par rangée (en commençant par celle du haut),
   et de gauche à droite au sein d'une même rangée
 
 ## Mots clés
@@ -30,8 +31,8 @@
 - **Profaner :**
   * Détruire la carte du dessus de votre défausse
 - **Neutraliser :**
-  * Retirer du combat une unité de votre choix de l'armée
-    d'un adversaire
+  * Retirer du combat une unité de l'armée de l'adversaire
+    (au choix)
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
