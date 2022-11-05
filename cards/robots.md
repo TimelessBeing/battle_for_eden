@@ -49,6 +49,9 @@
   * Si l'unité reconfigurée était marquée, la combinaison
     d'unité l'est également, et les effets correspondants
     s'appliquent à chacune d'entre elles.
+- **Connecter :**
+  * Déplacer cette unité à gauche ou à droite d'une de vos unités,
+    ou déplacer une de vos unités pour la placer à gauche ou à droite de celle-ci
 - **Assembler X :**
   * Ajouter au combat une unité de coût X,
     prise gratuitement dans votre Monde, et la marquer
@@ -109,8 +112,7 @@
 - **Valeur :** 1
 - **Permanent :** Champion
 - **Permanent :** Synergie +2
-- **Immédiat :** Alimenter 2 pour déplacer cette unité à gauche ou à droite d'une de vos unités
-- **Immédiat :** Alimenter 2 pour déplacer une de vos unités à gauche ou à droite de celle-ci
+- **Immédiat :** Jusqu'à 2 fois: Alimenter 2 pour Connecter
 
 
 ### Module d'Assemblage
@@ -131,11 +133,10 @@
   * Elle active la première capacité du Module de Propulsion,
     et détruit un Bloc de Matériaux pour piocher une carte
 - Elle joue un Module de Coordination
-  * Elle active sa première capacité immédiate et détruit 2 Blocs
-    de Matériaux pour le placer à droite du Module d'Assemblage
-  * Elle active sa deuxième capacité immédiate et détruit 2
-    Blocs de Matériaux pour placer le Module de Propulsion
-    à sa droite
+  * Elle active sa capacité immédiate et détruit 2 Blocs
+    de Matériaux pour le connecter à la droite du Module
+    d'Assemblage, ainsi que 2 Blocs de Matériaux pour connecter
+    le Module de Propulsion à sa droite
 - Elle joue un second Module de Production
   * Elle active sa première capacité et ajoute 8 nouveaux Blocs
     de Matériaux à son armée
