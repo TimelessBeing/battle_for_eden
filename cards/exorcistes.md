@@ -24,28 +24,28 @@ N/A
 - **Renouveler X :**
   * Piocher X cartes puis défausser X cartes de votre main
     (au choix)
-- **Hôte :**
+- **Réceptacle :**
   * Cette unité est marquée pour indiquer qu'elle
     renferme un démon en elle
   * Si cette unité est retirée du combat, elle arrête
-    d'être un hôte
+    d'être un receptacle
   * Si cette unité doit être défaussée,
     elle est détruite à la place
 - **Sceller X :**
-  * X unités non hôtes de votre armée (au choix)
-    sont désormais des hôtes
+  * X unités non receptacles de votre armée (au choix)
+    sont désormais des receptacles
 - **Sceller X ≠  :**
   * Comme Sceller X mais cette unité ne peut être choisie
 - **Exorciser X :**
-  * X unités hôtes de votre armée (au choix)
-    ne sont désormais plus des hôtes
+  * X unités receptacles de votre armée (au choix)
+    ne sont désormais plus des receptacles
 - **Exorciser X 🠕:**
   * Comme Exorciser X mais les unités doivent être choisies
     en priorité dans les rangées les plus basses
 - **Lien mortel :**
   * Marquer cette unité ainsi qu'une unité de l'armée de
     l'adversaire (au choix)
-  * Si cette unité devient hôte ou est retirée du combat,
+  * Si cette unité devient receptacle ou est retirée du combat,
     retirez l'unité de l'adversaire du combat
 - **Dernier souffle :**
   * Si cette unité est retirée du combat,
@@ -64,14 +64,14 @@ N/A
 ### Combattant Maudit
 - **Coût :** 1
 - **Valeur :** 1
-- **Permanent :** Force +1 si cette unité est hôte
+- **Permanent :** Force +1 si cette unité est receptacle
 - **Immédiat :** Sceller 1
 
 
 ### Vengeur Sacrifié
 - **Coût :** 2
 - **Valeur :** 2
-- **Réaction (Condition : non hôte):**
+- **Réaction (Condition : non receptacle):**
   Lien mortel
 
 
@@ -97,7 +97,7 @@ N/A
 ### Sacrificateur
 - **Coût :** 3
 - **Valeur :** 3
-- **Réaction (Condition : hôte ou retiré du combat):** Mobiliser 2
+- **Réaction (Condition : receptacle ou retiré du combat):** Mobiliser 2
 - **Réaction (Condition : unité(s) sur rangée en-dessous):** Sceller 1 ≠
 
 
@@ -106,7 +106,7 @@ N/A
 - **Valeur :** 2
 - **Permanent :** Champion
 - **Immédiat :** [Sceller 1] OU [Sceller 2]
-- **Permanent :** Force +1 pour chaque unité hôte
+- **Permanent :** Force +1 pour chaque unité receptacle
 
 
 ### Sauveur
@@ -145,4 +145,4 @@ N/A
   Pascal active la capacité post-combat de son Purificateur
   pour éviter que son Chercheur en Démonologie et son Vengeur Sacrifié soient détruits,
   et celle de son Sauveur pour éviter que son Sacrificateur soit détruit
-- Les Combattants Sacrifiés étant des hôtes, ils sont détruits au lieu d'être défaussés
+- Les Combattants Sacrifiés étant des receptacles, ils sont détruits au lieu d'être défaussés
