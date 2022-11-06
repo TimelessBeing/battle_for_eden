@@ -7,39 +7,48 @@
 
 ## Mots clés
 
-- **Marquer une unité :**
-  * Un effet dépend/dépendra de si cette unité a été ou non
-    marquée, et il faut donc garder trace de cette information
-    (par exemple en tournant la carte horizontalement
-     ou en plaçant un cube dessus).
+- **Alimenter X :**
+  * Détruire X autres unités de votre armée
+- **Assembler X :**
+  * Ajouter au combat une unité de coût X,
+    prise gratuitement dans votre Monde, et la marquer
+  * L'unité pourra activer ses capacités normalement,
+    mais sera détruite lorsqu'elle sera défaussée ou retirée
+    du combat
+- **Champion :**
+  * Si cette unité doit être retirée du combat,
+    elle est détruite à la place
+- **Connecter :**
+  * Déplacer cette unité pour la placer à gauche ou à droite
+    d'une autre unité de votre armée,
+    ou déplacer une unité de votre armée pour la placer à gauche
+    ou à droite de celle-ci
 - **Détruire une carte :**
   * Placer la carte en question dans la pile ou le Monde
     d'où elle peut être achetée
 - **Épurer :**
   * Détruire une carte de votre main
-- **Neutraliser :**
-  * Retirer du combat une unité de l'armée de l'adversaire
-    (au choix)
-- **Champion :**
-  * Si cette unité doit être retirée du combat,
-    elle est détruite à la place
 - **Force +X :**
   * La force de cette unité dans l'armée du joueur
     est augmentée de X
-- **Synergie +X :**
-  * À l'exception des unités Bloc de Matériaux,
-    toute unité se trouvant sur la rangée au-dessus
-    de cette carte, sur la rangée en-dessous de cette carte,
-    ou qui est adjacente à cette carte sur la même rangée,
-    obtient Force +X
-- **Alimenter X :**
-  * Détruire X autres unités de votre armée
+- **Marquer une unité :**
+  * Un effet dépend/dépendra de si cette unité a été ou non
+    marquée, et il faut donc garder trace de cette information
+    (par exemple en tournant la carte horizontalement
+    ou en plaçant un cube dessus)
+- **Neutraliser :**
+  * Retirer du combat une unité de l'armée de l'adversaire
+    (au choix)
 - **Produire X :**
   * Ajouter X unités Bloc de Matériaux à droite de cette unité
     sur la même rangée, prises gratuitement dans votre Monde
     (dans la limite de leur disponibilité)
   * Les capacités immédiates des unités ainsi ajoutées
     ne peuvent pas être activées
+- **Réassigner :**
+  * Renvoyer dans votre Montre les unités de votre choix,
+    parmi vos unités retirées du combat et celles actuellement
+    dans votre armée (y compris la carte activant cette capacité)
 - **Reconfigurer X :**
   * Détruire cette unité, puis la remplacer sur sa rangée
     par une combinaison d'unités de coût total inférieur ou égal
@@ -48,20 +57,13 @@
     ne peuvent pas être activées
   * Si l'unité reconfigurée était marquée, la combinaison
     d'unité l'est également, et les effets correspondants
-    s'appliquent à chacune d'entre elles.
-- **Connecter :**
-  * Déplacer cette unité à gauche ou à droite d'une de vos unités,
-    ou déplacer une de vos unités pour la placer à gauche ou à droite de celle-ci
-- **Assembler X :**
-  * Ajouter au combat une unité de coût X,
-    prise gratuitement dans votre Monde, et la marquer
-  * L'unité pourra activer ses capacités normalement,
-    mais sera détruite lorsqu'elle sera défaussée ou retirée
-    du combat
-- **Réassigner :**
-  * Renvoyer dans votre Montre les unités de votre choix,
-    parmi vos unités retirées du combat et celles actuellement
-    dans votre armée (y compris la carte activant cette capacité)
+    s'appliquent à chacune d'entre elles
+- **Synergie +X :**
+  * À l'exception des unités Bloc de Matériaux,
+    toute unité se trouvant sur la rangée au-dessus de cette
+    carte, se trouvant sur la rangée en-dessous de cette carte,
+    ou étant adjacente à cette carte sur la même rangée,
+    obtient Force +X
 
 
 ## Unités

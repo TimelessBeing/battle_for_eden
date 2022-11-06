@@ -16,33 +16,41 @@
 
 ## Mots clés
 
-- **Révéler X :**
-  * Montrer à tous les joueurs les X cartes du dessus
-    de votre pioche, puis les replacer sur celle-ci
-    dans le même ordre
-- **Détruire une carte :**
-  * Placer la carte en question dans la pile ou le Monde
-    d'où elle peut être achetée
-- **Profaner :**
-  * Détruire la carte du dessus de votre défausse
-- **Neutraliser :**
-  * Retirer du combat une unité de l'armée de l'adversaire
-    (au choix)
+- **Appel d'os X :**
+  * Déplacer jusqu'à X de vos unités Soldat Décharné
+    à droite de cette unité
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
+- **Détruire une carte :**
+  * Placer la carte en question dans la pile ou le Monde
+    d'où elle peut être achetée
+- **Exhumer X :**
+  * Mélanger X unités de votre défausse à votre pioche
 - **Force +X :**
   * La force de cette unité dans l'armée du joueur
     est augmentée de X
-- **Ossification +X :**
-    Toute unité se trouvant sur la même rangée que cette unité
-    obtient Force +X
+- **Nécromancie X :**
+  * Ajoutez l'unité de coût X ou moins la plus proche du fond
+    de votre défausse à votre main
+- **Neutraliser :**
+  * Retirer du combat une unité de l'armée de l'adversaire
+    (au choix)
 - **Ossement oublié :**
   * Si un effet révèle cette carte, vous pouvez choisir de la
     défausser pour révéler une carte de plus
   * Si cette carte est dans votre main, vous pouvez
     choisir de la défausser à tout moment pour piocher
     une carte
+- **Ossification +X :**
+  * Toute unité se trouvant sur la même rangée que cette unité
+    obtient Force +X
+- **Profaner :**
+  * Détruire la carte du dessus de votre défausse
+- **Révéler des cartes :**
+  * Montrer à tous les joueurs des cartes du dessus
+    de votre pioche, puis les replacer sur celle-ci
+    dans le même ordre
 - **Rôdage nocturne X :**
   * Révéler jusqu'à X cartes. Vous pouvez choisir
     de défausser ou non chaque carte ainsi révélée
@@ -50,14 +58,6 @@
   * Ajouter au combat des unités Soldat Décharné prises
     dans votre défausse jusqu'à ce que votre armée
     comporte un maximum de 5 unités
-- **Exhumer X :**
-  * Mélanger X unités de votre défausse à votre pioche
-- **Nécromancie X :**
-  * Ajoutez l'unité de coût X ou moins la plus proche du fond
-    de votre défausse à votre main
-- **Appel d'os X :**
-  * Déplacer jusqu'à X de vos unités Soldat Décharné
-    à droite de cette unité
 
 
 ## Unités

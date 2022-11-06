@@ -5,57 +5,56 @@ N/A
 
 ## Mots clés
 
-- **Marquer une unité :**
-  * Un effet dépend/dépendra de si cette unité a été ou non
-    marquée, et il faut donc garder trace de cette information
-    (par exemple en tournant la carte horizontalement
-     ou en plaçant un cube dessus).
+- **Champion :**
+  * Si cette unité doit être retirée du combat,
+    elle est détruite à la place
+- **Dernier souffle :**
+  * Si cette unité est retirée du combat,
+    vous pouvez activer immédiatement ses capacités post-combat
 - **Détruire une carte :**
   * Placer la carte en question dans la pile ou le Monde
     d'où elle peut être achetée
 - **Épurer :**
   * Détruire une carte de votre main
-- **Champion :**
-  * Si cette unité doit être retirée du combat,
-    elle est détruite à la place
-- **Force +X :**
-  * La force de cette unité dans l'armée du joueur
-    est augmentée de X
-- **Renouveler X :**
-  * Piocher X cartes puis défausser X cartes de votre main
-    (au choix)
-- **Réceptacle :**
-  * Cette unité est marquée pour indiquer qu'elle
-    renferme un démon en elle
-  * Si cette unité est retirée du combat, elle arrête
-    d'être un receptacle
-  * Si cette unité doit être défaussée,
-    elle est détruite à la place
-- **Sceller X :**
-  * X unités non receptacles de votre armée (au choix)
-    sont désormais des receptacles
-- **Sceller X ≠  :**
-  * Comme Sceller X mais cette unité ne peut être choisie
 - **Exorciser X :**
   * X unités receptacles de votre armée (au choix)
     ne sont désormais plus des receptacles
 - **Exorciser X 🠕:**
   * Comme Exorciser X mais les unités doivent être choisies
-    en priorité dans les rangées les plus basses
+    sur les rangées les plus basses possibles
+- **Force +X :**
+  * La force de cette unité dans l'armée du joueur
+    est augmentée de X
 - **Lien mortel :**
   * Marquer cette unité ainsi qu'une unité de l'armée de
     l'adversaire (au choix)
   * Si cette unité devient receptacle ou est retirée du combat,
     retirez l'unité de l'adversaire du combat
-- **Dernier souffle :**
-  * Si cette unité est retirée du combat,
-    vous pouvez activer immédiatement ses capacités post-combat
+- **Marquer une unité :**
+  * Un effet dépend/dépendra de si cette unité a été ou non
+    marquée, et il faut donc garder trace de cette information
+    (par exemple en tournant la carte horizontalement
+    ou en plaçant un cube dessus)
 - **Mobiliser X :**
   * Ajouter X unités Combattant Maudit à droite de cette unité
     sur la même rangée, prises gratuitement dans votre Monde
     (dans la limite de leur disponibilité)
   * Les capacités immédiates des unités ainsi ajoutées
     ne peuvent pas être activées
+- **Réceptacle :**
+  * Cette unité est marquée pour indiquer qu'un démon
+    est enfermé en elle. Si elle doit être défaussée,
+    elle est détruite à la place
+  * Si cette unité est retirée du combat, elle arrête
+    d'être un receptacle
+- **Renouveler X :**
+  * Piocher X cartes puis défausser X cartes de votre main
+    (au choix)
+- **Sceller X :**
+  * X unités non receptacles de votre armée (au choix)
+    sont désormais des receptacles
+- **Sceller X ≠  :**
+  * Comme Sceller X mais cette unité ne peut être choisie
 
 
 
