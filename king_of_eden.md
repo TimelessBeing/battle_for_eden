@@ -57,20 +57,20 @@ Mechanics:
    their Base Defense increases by 2 and their deck is improved then shuffled.
    Improving the dragons' deck means removing 2 Baby Dragons from the deck
    if there are any left, or otherwise adding a cost-5 dragon chosen at random to the deck.
-   
+
 
 Dragon target cards:
 - numbered, 8 in total
 - the deck is initially phase 1 cards
 - when we reach the end, we switch to phase 2 cards and shuffle, and same thing the next times with phase 3, 4, 5
 
-1, 2)  Closest territories to the HoE
-1, 2)  Closest territories to the HoE
-2, 3)  Closest territories to the HoE belonging to players not attacked during the last turn (all players if there is none)
-3, 4)  Closest territories to the HoE x2 
-3, 4, 5)  Furthest territories to the HoE
-4, 5)  Closest territories to the HoE x2
-4, 5)  Furthest territories to the HoE belonging to players not attacked during the last turn (all players if there is none)
+1, 2)  Closest territories to the HoE\
+1, 2)  Closest territories to the HoE\
+2, 3)  Closest territories to the HoE belonging to players not attacked during the last turn (all players if there is none)\
+3, 4)  Closest territories to the HoE x2 \
+3, 4, 5)  Furthest territories to the HoE\
+4, 5)  Closest territories to the HoE x2\
+4, 5)  Furthest territories to the HoE belonging to players not attacked during the last turn (all players if there is none)\
 5) Furthest territories to the HoE x2. Shuffle.
 
 
