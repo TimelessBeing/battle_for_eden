@@ -1,9 +1,67 @@
 
-## Mécaniques propres :
+## Règles additionnelles
 
-- **Être rejoint par une Escouade d'Infanterie :**
-  - Ajouter gratuitement une carte unité Escouade d'Infanterie de votre Monde
-    (s'il en reste) à votre défausse.
+- Chaque fois que vous achetez une carte d'unité,
+  vous pouvez ajoutez une carte Escouade d'Infanterie
+  à votre défausse, prise gratuitement dans votre Monde
+  (dans la limite de leur disponibilité)
+- Si une unité de votre armée est retirée du combat,
+  toutes les unités qui étaient sur la même rangée
+  le sont également
+
+## Mots clés
+
+- **Champion :**
+  * Si cette unité doit être retirée du combat,
+    elle est détruite à la place
+- **Déléguer X:**
+  * Activer (même si celle-ci avait déjà été activée)
+    la capacité immédiate ou de réaction
+    (si la condition est remplie) d'une autre unité
+    de votre armée de coût inférieur ou égal à celle-ci
+- **Dépêcher :**
+  * Défausser une unité de force 1 de votre main
+    puis piocher une carte
+- **Détruire une carte :**
+   * Placer la carte en question dans la pile ou le Monde
+     d'où elle peut être achetée
+- **Discernement :**
+  * Si un effet révèle cette carte, vous pouvez choisir de la
+    défausser ou de la placer sous votre pioche. Si vous le
+    faîtes, révélez une autre carte à la place
+- **Épurer :**
+  * Détruire une carte de votre main
+- **Expert en formations :**
+  * Lorsque cette unité active une capacité Formation
+    en tortue X, à chaque fois qu'une unité de force 2
+    est révélée, vous pouvez choisir de l'ajouter à droite
+    de cette unité comme si elle était de force 1
+- **Force +X :**
+  * La force de cette unité dans l'armée du joueur
+    est augmentée de X
+- **Formation en tortue X :**
+  * Révéler des cartes jusqu'à ce qu'il y ait X
+    unités sur la rangée ou qu'il n'y ait plus de carte
+    à révéler
+  * À chaque fois qu'une unité de force 1 est révélée,
+    ajoutez là à droite de cette unité
+- **Marquer une unité :**
+  * Un effet dépend/dépendra de si cette unité a été ou non
+    marquée, et il faut donc garder trace de cette information
+    (par exemple en tournant la carte horizontalement
+    ou en plaçant un cube dessus)
+- **Neutraliser :**
+  * Retirer du combat une unité de l'armée de l'adversaire
+    (au choix)
+- **Renouveler X :**
+  * Piocher X cartes puis défausser X cartes de votre main
+    (au choix)
+- **Révéler des cartes :**
+  * Montrer à tous les joueurs des cartes du dessus
+    de votre pioche, puis les replacer sur celle-ci
+    dans le même ordre
+- **Supervision +X :**
+  * Toute unité de votre armée de coût 1 ou 2 obtient Force +X
 
 
 ## Unités
@@ -11,119 +69,49 @@
 ### Escouade d'Infanterie
 - **Coût :** 1
 - **Valeur :** 1
-- **Permanent :**
-  Cette carte est neutralisée si une unité de sa rangée est retirée du combat.
-- **Immédiat :**
-  S'il y au plus 3 Escouades d'Infanterie sur cette rangée:
-  ajoutez à droite de cette rangée l'unité de force 1 la plus
-  proche du sommet de votre deck (en révélant puis replaçant les cartes au-dessus).
-- **Conseil :**
-  Une unité qui en ajoute d'autres au combat.
-  Les unités ainsi ajoutées peuvent à leur tour activer leurs capacités,
-  certaines n'atteignant leur plein potentiel que dans ce contexte.
-  Attention, lorsqu'une unité est neutralisée, toutes les Escouades d'Infanterie
-  de sa rangée le sont également.
+- **Immédiat :** Formation en tortue 3
 
 
 ### Escouade d'Archers
 - **Coût :** 2
 - **Valeur :** 1
-- **Permanent :**
-  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
-- **Immédiat :**
-  S'il y a au moins 1 autre unité sur cette rangée:
-  défaussez une unité de force 1 de votre main pour piocher une carte
-  et neutraliser une unité ennemie.
-- **Conseil :**
-  La seule unité qui vous permette de neutraliser des unités ennemies.
-  Attention, cette carte est peu utile lorsque jouée directement de votre main.
+- **Réaction (Condition : autre(s) unité(s) sur cette rangée):** Dépêcher pour Neutraliser
 
 
 ### Tacticien
 - **Coût :** 3
 - **Valeur :** 1
-- **Permanent :**
-  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
-- **Permanent :**
-  Si cette carte est révélée depuis votre deck par une capacité,
-  vous pouvez la placer sous votre deck et révéler la carte suivante à la place.
-- **Immédiat :**
-  S'il y a au moins 1 autre unité sur cette rangée:
-  détruisez une carte de votre main.
-- **Conseil :**
-  La seule unité qui vous permette d'éliminer les cartes inutiles de votre deck.
-  Attention, cette carte est peu utile lorsque jouée directement de votre main.
+- **Permanent :** Discernement
+- **Réaction (Condition : autre(s) unité(s) sur cette rangée):** Épurer
 
 
 ### Infanterie Lourde
 - **Coût :** 3
 - **Valeur :** 1
-- **Permanent :**
-  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
-- **Permanent :**
-  Force +2 s'il y a au moins 1 autre unité sur cette rangée.
-- **Conseil :**
-  Une unité forte, qu'il ne faut pas trop tarder à acheter, sous peine
-  de manquer de force même avec la totalité des unités de votre deck au combat.
-  Attention, cette carte est peu utile lorsque jouée directement de votre main.
+- **Permanent :** Force +2 si autre(s) unité(s) sur cette rangée
 
 
 ### Capitaine
 - **Coût :** 3
 - **Valeur :** 1
-- **Permanent :**
-  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
-- **Immédiat :**
-  Défaussez une unité de force 1 de votre main pour piocher 1 carte
-  et copier la capacité immédiate d'une unité alliée de coût 3 ou moins.
-  Pour cette copie, toutes les unités sont considérées comme étant
-  de force 1.
-- **Conseil :**
-  Une unité polyvalente, qui peut être jouée après les unités Escouade d'Infanterie
-  pour mettre en jeu les unités de force 2 restées sur le dessus de votre deck.
+- **Permanent :** Expert en formations
+- **Immédiat :** Dépêcher pour Déléguer
 
 
 ### Escadron de Cavalerie
 - **Coût :** 3
 - **Valeur :** 1
-- **Permanent :**
-  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
-- **Immédiat :**
-  Défaussez une unité de force 1 de votre main pour piocher 3 cartes
-  et défausser 2 cartes de votre main. Marquez alors cette unité.
-- **Permanent :**
-  Force +1 si cette unité a été utilisée pour piocher des cartes.
-- **Conseil :**
-  Une unité qui permet de remplacer les unités que l'on ne souhaite pas
-  jouer de sa main par des cartes plus utiles, ou qui peut être jouée
-  après les Escouades d'Infanterie pour piocher les cartes Cristal d'Énergie
-  restées sur le dessus de votre deck.
-  Ne tardez pas trop à l'acheter, car il devient de plus en plus difficile
-  d'avoir plusieurs cartes Cristal d'Énergie en main à mesure que votre deck
-  se remplit de cartes d'unités.
+- **Immédiat :** Dépêcher pour Renouveler 2 et Force +1 (marquer cette unité)
 
 
 ### Centurion
 - **Coût :** 5
 - **Valeur :** 2
-- **Permanent :**
-  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
-- **Permanent :**
-  Force +1 à toutes les unités alliées de coût 2 ou moins.
-- **Conseil :**
-  Votre unité la plus puissante, que l'adversaire cherchera à neutraliser.
-  Attention, elle est de force 2 et ne peut donc pas être ajoutée au combat
-  par une Escouade d'Infanterie.
+- **Permanent :** Champion
+- **Permanent :** Supervision +1
 
 
 ### Général
 - **Coût :** 6
 - **Valeur :** 2
-- **Permanent :**
-  Lorsque vous achetez cette carte, une Escouade d'Infanterie vous rejoint.
-- **Immédiat :**
-  Piochez 1 carte.
-- **Conseil :**
-  Une unité qui permet de piocher, donc de faire plus de choses.
-  Attention, elle est de force 2 et ne peut donc pas être ajoutée au combat
-  par une Escouade d'Infanterie.
+- **Immédiat :** Piocher 1 carte
