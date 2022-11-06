@@ -25,6 +25,10 @@
 - **Détruire une carte :**
   * Placer la carte en question dans la pile ou le Monde
     d'où elle peut être achetée
+- **Discernement :**
+  * Si un effet révèle cette carte, vous pouvez choisir de la
+    défausser ou de la placer sous votre pioche. Si vous le
+    faîtes, révélez une autre carte à la place
 - **Exhumer X :**
   * Mélanger X unités de votre défausse à votre pioche
 - **Force +X :**
@@ -36,17 +40,15 @@
 - **Neutraliser :**
   * Retirer du combat une unité de l'armée de l'adversaire
     (au choix)
-- **Ossement oublié :**
-  * Si un effet révèle cette carte, vous pouvez choisir de la
-    défausser pour révéler une carte de plus
-  * Si cette carte est dans votre main, vous pouvez
-    choisir de la défausser à tout moment pour piocher
-    une carte
 - **Ossification +X :**
   * Toute unité se trouvant sur la même rangée que cette unité
     obtient Force +X
 - **Profaner :**
   * Détruire la carte du dessus de votre défausse
+- **Renouvelable :**
+  * Si cette carte est dans votre main, vous pouvez
+    choisir de la défausser à tout moment pour piocher
+    une carte
 - **Révéler des cartes :**
   * Montrer à tous les joueurs des cartes du dessus
     de votre pioche, puis les replacer sur celle-ci
@@ -65,7 +67,8 @@
 ### Soldat Décharné
 - **Coût :** 1
 - **Valeur :** 1
-- **Permanent :** Ossement oublié
+- **Permanent :** Discernement
+- **Permanent :** Renouvable
 - **Retardé :** Sortir de terre 5
 
 
