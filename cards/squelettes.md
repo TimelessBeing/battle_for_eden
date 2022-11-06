@@ -18,7 +18,7 @@
 
 - **Appel d'os X :**
   * Déplacer jusqu'à X de vos unités Soldat Décharné
-    à droite de cette unité
+    à droite de cette rangée
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place

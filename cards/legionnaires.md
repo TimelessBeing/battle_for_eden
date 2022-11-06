@@ -15,8 +15,7 @@
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
 - **Déléguer X:**
-  * Activer (même si celle-ci avait déjà été activée)
-    la capacité immédiate ou de réaction
+  * Copier la capacité immédiate ou de réaction
     (si la condition est remplie) d'une autre unité
     de votre armée de coût inférieur ou égal à celle-ci
 - **Dépêcher :**
@@ -32,10 +31,10 @@
 - **Épurer :**
   * Détruire une carte de votre main
 - **Expert en formations :**
-  * Lorsque cette unité active une capacité Formation
-    en tortue X, à chaque fois qu'une unité de force 2
-    est révélée, vous pouvez choisir de l'ajouter à droite
-    de cette unité comme si elle était de force 1
+  * À chaque fois qu'une unité de force 2 est révélée
+    par la capacité Formation en tortue X d'une unité
+    de cette rangée, vous pouvez choisir d'ajouter l'unité
+    révélée à droite de cette rangée
 - **Force +X :**
   * La force de cette unité dans l'armée du joueur
     est augmentée de X
@@ -44,7 +43,7 @@
     unités sur la rangée ou qu'il n'y ait plus de carte
     à révéler
   * À chaque fois qu'une unité de force 1 est révélée,
-    ajoutez là à droite de cette unité
+    ajoutez l'unité révélée à droite de cette rangée
 - **Marquer une unité :**
   * Un effet dépend/dépendra de si cette unité a été ou non
     marquée, et il faut donc garder trace de cette information
@@ -115,3 +114,51 @@
 - **Coût :** 6
 - **Valeur :** 2
 - **Immédiat :** Piocher 1 carte
+
+
+## Exemple
+
+- Jeanne joue une Escouade d'Infanterie
+  * Elle active sa capacité immédiate et révèle un Général,
+    qu'elle ne peut pas ajouter au combat (il est de force 2),
+    puis deux autres Escouades d'Infanterie qu'elle ajoute
+    successivement à son armée
+- Elle joue un Capitaine
+  * Elle active sa capacité immédiate, copie celle d'une
+    Escouade d'Infanterie et révèle une Escouade d'Infanterie
+    et une Escouade d'Archers qu'elle ajoute successivement
+    à son armée
+  * Elle active la capacité de réaction de l'Escouade d'Archers,
+    défausse une Infanterie Lourde et repioche une carte
+    pour neutraliser une unité de l'adversaire (de force 3)
+- Elle joue une Escouade d'Infanterie
+  * Elle active sa capacité immédiate et révèle une Infanterie
+    Lourde puis un Escadron de Cavalerie qu'elle ajoute
+    successivement à son armée
+  * Elle active la capacité immédiate de l'Escadron de Cavalerie,
+    et défausse une Escouade d'Archers pour piocher 3 cartes
+    puis en défausser 2
+- Elle joue une autre Escouade d'Infanterie
+  * Elle active sa capacité immédiate et révèle un Centurion,
+    qu'elle ne peut pas ajouter au combat (il est de force 2),
+    puis un Capitaine et un Général qu'elle ajoute
+    successivement à son armée (l'effet permanent du Capitaine
+    lui permettant cette fois d'ajouter le Général)
+  * Elle active la capacité immédiate du Général
+    et pioche une carte
+  * Elle active la capacité immédiate du Capitaine, copie
+    celle de l'Escadron de Cavalerie et défausse un autre
+    Escadron de Cavalerie piocher 3 cartes puis en défausser 2
+- Elle joue une autre Escouade d'Infanterie
+  * Elle active sa capacité immédiate et une Escouade d'Archers
+    et une Infanterie Lourde qu'elle ajoute successivement
+    à son armée
+  * Elle active la capacité immédiate de l'Escouade d'Archers,
+    défausse une Infanterie Lourde et repioche une carte
+    pour neutraliser le champion de son adversaire (de force 10)
+- Elle joue un autre Capitaine
+  * Elle active sa capacité immédiate, copie celle d'une
+    Escouade d'Infanterie et révèle une Escouade d'Infanterie
+    et un Centurion qu'elle ajoute successivement à son armée
+- La force totale de son armée est de 35, et elle a pu enlever 13
+  de force à celle de son adversaire

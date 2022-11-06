@@ -40,8 +40,8 @@
   * Retirer du combat une unité de l'armée de l'adversaire
     (au choix)
 - **Produire X :**
-  * Ajouter X unités Bloc de Matériaux à droite de cette unité
-    sur la même rangée, prises gratuitement dans votre Monde
+  * Ajouter X unités Bloc de Matériaux à droite de cette rangée,
+    prises gratuitement dans votre Monde
     (dans la limite de leur disponibilité)
   * Les capacités immédiates des unités ainsi ajoutées
     ne peuvent pas être activées

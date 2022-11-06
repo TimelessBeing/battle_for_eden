@@ -36,8 +36,8 @@ N/A
     (par exemple en tournant la carte horizontalement
     ou en plaçant un cube dessus)
 - **Mobiliser X :**
-  * Ajouter X unités Combattant Maudit à droite de cette unité
-    sur la même rangée, prises gratuitement dans votre Monde
+  * Ajouter X unités Combattant Maudit à droite de cette rangée,
+    prises gratuitement dans votre Monde
     (dans la limite de leur disponibilité)
   * Les capacités immédiates des unités ainsi ajoutées
     ne peuvent pas être activées
@@ -128,7 +128,7 @@ N/A
   * Il active sa capacité et scelle des démons dans le Sacrificateur
     et le Chercheur en Démonologie pour piocher une carte
   * Il active la capacité de réaction du Sacrificateur et ajoute
-    2 Combattants Maudits à droite de celui-ci
+    2 Combattants Maudits à son armée
 - Il joue un Sauveur
   * Il active sa capacité et exorcise le Vengeur Sacrifié pour sceller un démon
     dans un des Combatants Maudits
