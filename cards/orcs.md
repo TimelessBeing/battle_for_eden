@@ -1,109 +1,146 @@
 
-## Mécaniques propres :
+## Règles additionnelles
 
-- **Protéger une unité :**
-  - marquer cette unité pour matérialiser qu'elle bénéficie d'une protection
-  - la prochaine fois que cette unité doit être neutralisée, elle perd sa protection à la place
+N/A
+
+## Mots clés
+
+- **Champion :**
+  * Si cette unité doit être retirée du combat,
+    elle est détruite à la place
+- **Charge de X :**
+  * Déplacer le ou les unités concernées pour les placer
+    à gauche ou à droite de la rangée du haut
+- **Cri de ralliement :**
+  * Révélez 2 cartes
+  * Vous pouvez ajouter une unité ainsi révélée à droite
+    de cette rangée
+  * Si des unités du même type que cette unité ont été révélées,
+    ajoutez les également à droite de cette rangée
+  * Vous pouvez choisir de défausser des cartes ainsi révélées,
+    et replacer le reste sur le dessus de votre pioche dans l'ordre de votre choix
+- **Détruire une carte :**
+  * Placer la carte en question dans la pile ou le Monde
+    d'où elle peut être achetée
+- **Discernement :**
+  * Si un effet révèle cette carte, vous pouvez choisir de la
+    défausser ou de la placer sous votre pioche. Si vous le
+    faîtes, révélez une autre carte à la place
+- **En première/dernière ligne :**
+  * Une unité est en première ligne si elle est sur la rangée
+    du haut et en dernière ligne si elle est sur la rangée du bas
+- **Épurer :**
+  * Détruire une carte de votre main
+- **Force +X :**
+  * La force de cette unité dans l'armée du joueur
+    est augmentée de X
+- **Marquer une unité :**
+  * Un effet dépend/dépendra de si cette unité a été ou non
+    marquée, et il faut donc garder trace de cette information
+    (par exemple en tournant la carte horizontalement
+    ou en plaçant un cube dessus)
+- **Neutraliser :**
+  * Retirer du combat une unité de l'armée de l'adversaire
+    (au choix)
+- **Protégé :**
+  * Cette unité ne peut être retirée que si elle est
+    en première ligne
+- **Rallier X :**
+  * Déplacer le ou les unités concernées pour les placer
+    à droite de cette rangée
+- **Renouvelable :**
+  * Si cette carte est dans votre main, vous pouvez
+    choisir de la défausser à tout moment pour piocher
+    une carte
+- **Révéler des cartes :**
+  * Montrer à tous les joueurs des cartes du dessus
+    de votre pioche, puis les replacer sur celle-ci
+    dans le même ordre
+- **Traquer :**
+  * Marquer cette unité ainsi qu'une unité de l'armée de
+    l'adversaire (au choix)
+  * Si cette unité est sur la rangée du haut ou retirée du combat, retirez l'autre unité du combat
 
 
 ## Unités
 
-### Tête Brûlée
+### Grunt
 - **Coût :** 1
 - **Valeur :** 1
-- **Permanent :**
-  Force +1 si votre main est vide.
-- **Permanent :**
-  Force +1 si cette unité est sur la rangée du haut.
-- **Conseil :**
-  Gardez en tête qu'à votre tour, vous pouvez jouer ou défausser des cartes
-  avant d'attaquer pour vous assurer d'avoir une main vide à la fin du combat.
-
-
+- **Permanent :** Force +2 si en première ligne
 
 
 ### Chevaucheur de Loup
 - **Coût :** 2
 - **Valeur :** 2
-- **Retardé :**
-  Placez toutes les unités Chevaucheur de Loup alliées sur la rangée du haut.
-  OU
-  Si votre main est vide ou que cette unité est sur la rangée du haut:
-  neutralisez une unité ennemie. Si les deux conditions ne sont pas vérifiés,
-  celle-ci est choisie par l'adversaire.
-- **Conseil :**
-  La seule unité qui vous permette de neutraliser des unités ennemies.
+- **Immédiat :** Traquer
+- **Réaction (Condition : en première ligne) :** Charge des Chevaucheurs de Loups
 
 
-### Porte-Bouclier
+### Chef de Clan
 - **Coût :** 3
 - **Valeur :** 3
-- **Immédiat :**
-  Défaussez ou détruisez une carte de votre main.
-- **Conseil :**
-  La seule unité qui vous permette d'éliminer les cartes inutiles de votre deck.
-  Il s'agit également d'une unité défensive qui facilite l'accès à une main vide
-  lorsque vous êtes attaqué.
+- **Permanent :** Protégé
+- **Réaction (Condition : en première ligne) :** Épurer
 
 
-### Meneur de Charge
+### Meneur
 - **Coût :** 3
 - **Valeur :** 3
-- **Réaction (Condition : votre main est vide) :**
-  Révélez la carte du dessus de votre deck.
-  Si c'est une unité, ajoutez-là à droite de cette rangée.
-  Sinon, défaussez-la.
-- **Conseil :**
-  Une unité qui en ajoute d'autres au combat.
-  Gardez en tête que les unités ainsi ajoutées au combat peuvent à leur tour activer
-  leurs capacités. Un Meneur de Charge peut donc en ajouter un autre,
-  qui en ajoute un autre, etc.
+- **Retardé :** Charge d'une unité au choix OU Rallier les unités en dernière ligne
 
 
-### Devin
+### Rameuteur
 - **Coût :** 3
-- **Valeur :** 2
-- **Immédiat :**
-  Piochez une carte puis placez une carte de votre main sur ou sous votre deck.
-  OU
-  Protégez les unités alliées d'un type au choix.
-- **Réaction (Événement : unité du type choisi ajoutée à ce front) :**
-  Protégez l'unité en question.
-- **Conseil :**
-  Une unité défensive qui facilite l'accès à une main vide lorsque vous êtes attaqué,
-  et rend vos unités plus difficiles à neutraliser.
+- **Valeur :** 1
+- **Permanent :** Protégé
+- **Retardé :** Si en dernière ligne : Cri de ralliement
+
+
+### Tête Brûlée
+- **Coût :** 3
+- **Valeur :** 4
+- **Retardé :** Charge des Grunt
 
 
 ### Grosse Brute
-- **Coût :** 3
-- **Valeur :** 4
-- **Immédiat :**
-  Protégez cette unité.
-- **Permanent :**
-  Lorsqu'une Tête Brûlée est ajoutée à ce front,
-  vous pouvez la placer à droite de cette rangée.
-- **Conseil :**
-  Une unité qui est très forte en début de partie.
+- **Coût :** 5
+- **Valeur :** 5
+- **Permanent :** Champion
+- **Permanent :** Force +4 si en première ligne
 
 
 ### Chef de Guerre
-- **Coût :** 5
-- **Valeur :** 5
-- **Permanent :**
-  Force +4 quand votre main est vide.
-- **Conseil :**
-  Votre unité la plus puissante, que l'adversaire cherchera à neutraliser.
-
-
-### Grand Prophète
 - **Coût :** 6
-- **Valeur :** 4
-- **Immédiat :**
-  Révélez jusqu'à 5 cartes du dessous de votre deck.
-  Vous pouvez échanger une d'entre elle avec une carte de votre main.
-  Placez chaque carte révélée au-dessus ou en-dessous de votre deck,
-  dans l'ordre de votre choix.
-- **Conseil :**
-  Une unité qui dispose d'une version supérieure de la capacité
-  d'amélioration de main du devin.
-  Elle permet aussi de tirer le meilleur d'un Meneur de Charge.
+- **Valeur :** 3
+- **Retardé :** Charge d'une unité au choix
+- **Retardé :** Charge des unités en dernière ligne
+
+
+## Exemple
+
+- Roger joue un Meneur
+- Il joue un Chevaucheur de Loup
+  * Il active sa capacité immédiate et traque une unité de son adversaire (de force 3)
+- Il joue un Chef de Guerre
+- Il joue un Rameuteur
+- Il joue une Grosse Brute
+- Il arrête d'ajouter des unités, puis une fois
+  que son adversaire a fait de même
+  * Il active la première capacité retardée du Chef de Guerre
+    pour faire charger la Grosse Brute
+  * Il active la capacité retardée du Rameuteur
+    (qui est maintenant en dernière ligne),
+    qui révèle un Chevaucheur de Loup et un Cristal d'Énergie;
+    il ajoute le Chevaucheur de Loup à droite de la rangée
+    et défausse le Cristal d'Énergie
+  * Il active la capacité immédiate du Chevaucheur de Loup
+    et traque le champion de son adversaire (de force 10)
+  * Il active la seconde capacité retardée du Chef de Guerre
+    pour faire charger le Rameuteur et le Chevaucheur de Loup,
+    qui sont en dernière ligne. L'unité traquée par le Chevaucheur de Loup est alors retirée du combat
+  * Il active la capacité de réaction du Chevaucheur de Loup
+    pour faire charger l'autre Chevaucheur de Loup,
+    et l'autre unité traquée est alors retirée du combat
+- La force totale de son armée est de 20, et il a pu enlever 13
+  de force à celle de son adversaire

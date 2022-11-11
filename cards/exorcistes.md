@@ -33,7 +33,7 @@ N/A
   * Marquer cette unité ainsi qu'une unité de l'armée de
     l'adversaire (au choix)
   * Si cette unité devient receptacle ou est retirée du combat,
-    retirez l'unité de l'adversaire du combat
+    retirez l'autre unité du combat
 - **Marquer une unité :**
   * Un effet dépend/dépendra de si cette unité a été ou non
     marquée, et il faut donc garder trace de cette information
