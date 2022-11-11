@@ -1,9 +1,12 @@
 
 ## Règles additionnelles
 
-- Vous ne pouvez pas acheter de cartes Cristal d'Énergie
-en dépensant simplement des stocks d'énergie durant la phase
-de Logistique. Il vous faudra donc les acquérir par d'autres moyens.
+- Durant la phase de Logistique
+  * À chaque fois que vous achetez une carte commune,
+    son prix double pour vous jusqu'à la fin du tour
+  * Vous ne pouvez pas acheter de cartes Cristal d'Énergie
+    en dépensant simplement des stocks d'énergie
+    (il vous faudra donc les acquérir par d'autres moyens)
 
 ## Mots clés
 
@@ -30,6 +33,10 @@ de Logistique. Il vous faudra donc les acquérir par d'autres moyens.
 - **Détruire une carte :**
   * Placer la carte en question dans la pile ou le Monde
     d'où elle peut être achetée
+- **Discernement :**
+  * Si un effet révèle cette carte, vous pouvez choisir de la
+    défausser ou de la placer sous votre pioche. Si vous le
+    faîtes, révélez une autre carte à la place
 - **Entreposer des stocks d'énergie :**
   * Placer des stocks d'énergie sur la tuile sur laquelle
     sont vos troupes impliquées
@@ -77,6 +84,10 @@ de Logistique. Il vous faudra donc les acquérir par d'autres moyens.
 - **Neutraliser :**
   * Retirer du combat une unité de l'armée de l'adversaire
     (au choix)
+- **Renouvelable :**
+  * Si cette carte est dans votre main, vous pouvez
+    choisir de la défausser à tout moment pour piocher
+    une carte
 - **Révéler des cartes :**
   * Montrer à tous les joueurs des cartes du dessus
     de votre pioche, puis les replacer sur celle-ci

@@ -52,6 +52,10 @@
 - **Neutraliser :**
   * Retirer du combat une unité de l'armée de l'adversaire
     (au choix)
+- **Renouvelable :**
+  * Si cette carte est dans votre main, vous pouvez
+    choisir de la défausser à tout moment pour piocher
+    une carte
 - **Renouveler X :**
   * Piocher X cartes puis défausser X cartes de votre main
     (au choix)

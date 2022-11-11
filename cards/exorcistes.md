@@ -14,6 +14,10 @@ N/A
 - **Détruire une carte :**
   * Placer la carte en question dans la pile ou le Monde
     d'où elle peut être achetée
+- **Discernement :**
+  * Si un effet révèle cette carte, vous pouvez choisir de la
+    défausser ou de la placer sous votre pioche. Si vous le
+    faîtes, révélez une autre carte à la place
 - **Épurer :**
   * Détruire une carte de votre main
 - **Exorciser X :**
@@ -47,9 +51,17 @@ N/A
     elle est détruite à la place
   * Si cette unité est retirée du combat, elle arrête
     d'être un receptacle
+- **Renouvelable :**
+  * Si cette carte est dans votre main, vous pouvez
+    choisir de la défausser à tout moment pour piocher
+    une carte
 - **Renouveler X :**
   * Piocher X cartes puis défausser X cartes de votre main
     (au choix)
+- **Révéler des cartes :**
+  * Montrer à tous les joueurs des cartes du dessus
+    de votre pioche, puis les replacer sur celle-ci
+    dans le même ordre
 - **Sceller X :**
   * X unités non receptacles de votre armée (au choix)
     sont désormais des receptacles

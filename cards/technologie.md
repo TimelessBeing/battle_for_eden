@@ -1,32 +1,27 @@
 ### Bouclier d'Énergie
 - **Coût :** 1
-- **Permanent :**
-  Lorsque vous achetez cette carte, placez-là face visible devant vous.
-- **Permanent :**
-  Cette carte peut-être détruite durant un combat pour annuler
-  la neutralisation d'une unité. Cette unité ne peut plus être neutralisée
-  jusqu'à la fin du combat.
+- **Permanent :** Lorsque vous achetez cette carte, placez-la face visible devant vous
+- **Réaction (Événement : unité retirée du combat):**
+    Détruire cette carte et Marquer l'unité. Elle n'est plus et ne peut plus être retirée de ce combat
 
 
-### Amplificateur de Résonance
+### Cristal surchargé
 - **Coût :** 2
-  Lorsque vous achetez cette carte, placez-là face visible devant vous.
-- **Permanent :**
-  Cette carte peut être détruite à tout moment de votre tour de la phase
-  d'Expansion, hors combats, pour ajouter immédiatement à votre main
-  sans payer jusqu'à 2 unités (coût total max 6) ou 1 carte commune.
+- **Permanent :** Lorsque vous achetez cette carte, détruisez-la immédiatement pour obtenir des des unités de votre Monde de coût total 6 ou moins, ou une carte commune
 
 
 ### Stabilisateur de Portail
+- **Coût :** 3
+- **Permanent :** Lorsque vous achetez cette carte, placez-la face visible devant vous
+- **Permanent :** Vous recevez une troupe supplémentaire durant la phase de Logistique
+
+
+### Amplificateur de Résonance
 - **Coût :** 4
-- **Permanent :**
-  Lorsque vous achetez cette carte, placez-là face visible devant vous.
-- **Permanent :**
-  Jusqu'à la fin de la partie, vous pouvez piocher une carte supplémentaire
-  lorsque vous recomplétez votre main.
+- **Permanent :** Lorsque vous achetez cette carte, placez-la face visible devant vous
+- **Permanent :** Vous pouvez piocher une carte de plus lorsque vous recomplétez votre main
 
 
 ### Suprématie
 - **Coût :** 5
-- **Permanent :**
-  Lorsque vous achetez cette carte, vous gagnez instantanément la partie.
+- **Permanent :** Lorsque vous achetez cette carte, vous gagnez instantanément la partie

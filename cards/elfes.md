@@ -17,6 +17,10 @@
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
+- **Discernement :**
+  * Si un effet révèle cette carte, vous pouvez choisir de la
+    défausser ou de la placer sous votre pioche. Si vous le
+    faîtes, révélez une autre carte à la place
 - **Dissiper X :**
   * Replacer X unités de mana dans la boîte du jeu
 - **Détruire une carte :**
@@ -51,9 +55,17 @@
 - **Neutraliser ≤ X :**
   * Comme Neutraliser mais l'unité doit être de coût inférieur
     ou égal à X
+- **Renouvelable :**
+  * Si cette carte est dans votre main, vous pouvez
+    choisir de la défausser à tout moment pour piocher
+    une carte
 - **Renouveler X :**
   * Piocher X cartes puis défausser X cartes de votre main
     (au choix)
+- **Révéler des cartes :**
+  * Montrer à tous les joueurs des cartes du dessus
+    de votre pioche, puis les replacer sur celle-ci
+    dans le même ordre
 
 
 ## Unités
