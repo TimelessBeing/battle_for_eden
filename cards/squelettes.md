@@ -176,6 +176,6 @@
 - Il joue son Thaumaturge Nécrotique
 - Il arrête d'ajouter des unités, puis une fois
   que son adversaire a fait de même, il active la capacité
-  de son Thaumaturge Nécrotique et exhume 4 unités
+  retardée de son Thaumaturge Nécrotique et exhume 4 unités
 - La force totale de son armée est de 24, et il a pu enlever 13
   de force à celle de son adversaire

@@ -347,7 +347,7 @@ Le combat met en jeu plusieurs joueurs
 qui sont répartis en au moins deux camps.
 
 Il est nécessaire pour les effets des cartes
-(voir section correspondate) qu'un joueur de chaque camp
+(voir section correspondante) qu'un joueur de chaque camp
 soit identifié comme étant combattant principal de ce camp.
 Si un camp comporte au moins deux joueurs,
 ceux-ci doivent donc désigner un combattant principal

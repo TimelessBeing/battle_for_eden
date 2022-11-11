@@ -70,7 +70,7 @@
 - **Valeur :** 2
 - **Permanent :** Fatigue 3
 - **Immédiat :** Canaliser 2 (3)
-- **Réaction (Événement : mana canalisé) :** [Dissiper 6 pour Neutraliser ≤ 3] OU [Dissiper 9 pour Neutraliser]
+- **Réaction (Événement : mana canalisé) :** [Dissiper 6 pour Neutraliser ≤ 2] OU [Dissiper 9 pour Neutraliser]
 
 
 ### Arboriste
@@ -131,7 +131,7 @@
 - Il joue un Tireur d'Élite
   * Il active sa capacité immédiate et canalise 3 mana
   * Il active sa capacité de réaction et dissipe 6 mana
-    pour neutraliser une unité de l'adversaire (de force 3)
+    pour neutraliser une unité de l'adversaire (de force 2)
 - Il joue un Enfant d'Yggdrasil
   * Il active sa capacité immédiate et canalise 9 mana
 - Il joue un Druide
@@ -145,7 +145,7 @@
 - Il arrête d'ajouter des unités, puis une fois
   que son adversaire a fait de même, il active la capacité
   de son Gardien de la Forêt et dissipe 6 mana
-- La force totale de son armée est 25, et il a pu enlever 13
+- La force totale de son armée est 25, et il a pu enlever 12
   de force à celle de son adversaire
 - Lorsqu'il défausse ses unités, les 3 unités de mana restantes
   sont dissipées
