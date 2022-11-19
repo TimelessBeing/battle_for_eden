@@ -53,7 +53,7 @@
   * Montrer à tous les joueurs des cartes du dessus
     de votre pioche, puis les replacer sur celle-ci
     dans le même ordre
-- **Rôdage nocturne X :**
+- **Excursion nocturne X :**
   * Révéler jusqu'à X cartes. Vous pouvez choisir
     de défausser ou non chaque carte ainsi révélée
 - **Sortir de terre X :**
@@ -90,11 +90,11 @@
 - **Immédiat :** Exhumer 1 pour Nécromancie 3 puis jouer une unité
 
 
-### Chevaucheur Vespéral
+### Cavalier Vespéral
 - **Coût :** 3
 - **Valeur :** 2
 - **Immédiat :** Mélanger votre défausse à votre pioche
-- **Immédiat :** Rôdage nocturne 3
+- **Immédiat :** Excursion nocturne 3
 
 
 ### Golem d'Os
@@ -114,7 +114,7 @@
 ### Liche
 - **Coût :** 6
 - **Valeur :** 3
-- **Immédiat :** Rôdage nocturne 1, puis réordonner librement votre défausse.
+- **Immédiat :** Excursion nocturne 1, puis réordonner librement votre défausse.
 - **Immédiat :** Exhumer 1 pour Nécromancie 6
 
 ## Exemples
@@ -140,8 +140,8 @@
 ### Exemple 2
 
 - Michel défausse un Soldat Décharné et pioche un
-  Chevaucheur Vespéral. C'est toujours à lui de jouer une unité
-- Il joue son Chevaucheur Vespéral
+  Cavalier Vespéral. C'est toujours à lui de jouer une unité
+- Il joue son Cavalier Vespéral
   * Il active sa deuxième capacité et révèle 3 Soldats Décharnés
   * Il choisit de les défausser pour révéler 3 autres cartes,
     et les défausse toutes
@@ -151,7 +151,7 @@
     une unité
   * Il défausse immédiatement le Soldat Décharné pour piocher.
     C'est toujours à lui de jouer une unité
-- Il joue un second Chevaucheur Vespéral
+- Il joue un second Cavalier Vespéral
   * Il active sa deuxième capacité et révèle 3 cartes dont un
     Soldats Décharné
   * Il choisit de défausser celui-ci pour révéler une autre
