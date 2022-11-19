@@ -9,7 +9,7 @@ N/A
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
 - **Charge de X :**
-  * Déplacer le ou les unités concernées pour les placer
+  * Déplacer la ou les unités concernées pour les placer
     à gauche ou à droite de la rangée du haut
 - **Cri de ralliement :**
   * Révélez 2 cartes
@@ -46,7 +46,7 @@ N/A
   * Cette unité ne peut être retirée que si elle est
     en première ligne
 - **Rallier X :**
-  * Déplacer le ou les unités concernées pour les placer
+  * Déplacer la ou les unités concernées pour les placer
     à droite de cette rangée
 - **Renouvelable :**
   * Si cette carte est dans votre main, vous pouvez

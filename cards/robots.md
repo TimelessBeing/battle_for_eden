@@ -50,7 +50,7 @@
   * Les capacités immédiates des unités ainsi ajoutées
     ne peuvent pas être activées
 - **Réassigner :**
-  * Renvoyer dans votre Montre les unités de votre choix,
+  * Renvoyer dans votre Monde les unités de votre choix,
     parmi vos unités retirées du combat et celles actuellement
     dans votre armée (y compris la carte activant cette capacité)
 - **Reconfigurer X :**

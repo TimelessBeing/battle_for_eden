@@ -18,8 +18,8 @@
     elle est détruite à la place
 - **Consommer X :**
   * Replacer dans la boîte du jeu X stocks d'énergie
-    entreposés sur la tuile sur laquelle sont vos troupes
-    impliquées
+    entreposés sur la tuile sur laquelle vos troupes
+    impliquées se trouvent
 - **Creuser 1+X :**
   * Entreposer autant de stocks d'énergie (pris dans la boîte
     du jeu) que produiraient le territoire sur la tuile duquel
@@ -39,7 +39,7 @@
     faîtes, révélez une autre carte à la place
 - **Entreposer des stocks d'énergie :**
   * Placer des stocks d'énergie sur la tuile sur laquelle
-    sont vos troupes impliquées
+    vos troupes impliquées se trouvent
   * Ils ne peuvent pas être dépensées lors de la phase de
     Logistique, mais peuvent être obtenus par le contrôleur
     du territoire durant la phase de Production

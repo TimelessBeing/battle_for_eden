@@ -31,11 +31,12 @@
 - **Fatigue X :**
   * Marquer cette unité à chaque fois qu'elle active
     une capacité de réaction
-  * Lorsque cette unité doit activer une capacité de réaction,
-    dissiper X ou ignorer l'effet de cette capacité
+  * Lorsqu'une unité fatiguée doit activer une capacité
+    de réaction, dissiper X ou ignorer l'effet de cette capacité
 - **Floraison :**
   * Retourner la tuile du territoire sur lequel ou à la
-    frontière duquel sont vos troupes impliquées dans ce combat
+    frontière duquel vos troupes impliquées dans ce combat
+    se trouvent
 - **Force +X :**
   * La force de cette unité dans l'armée du joueur
     est augmentée de X

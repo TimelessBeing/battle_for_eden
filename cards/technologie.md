@@ -7,7 +7,7 @@
 
 ### Cristal surchargé
 - **Coût :** 2
-- **Permanent :** Lorsque vous achetez cette carte, détruisez-la immédiatement pour obtenir des des unités de votre Monde de coût total 6 ou moins, ou une carte commune
+- **Permanent :** Lorsque vous achetez cette carte, détruisez-la immédiatement pour obtenir des unités de votre Monde de coût total 6 ou moins, ou une carte commune
 
 
 ### Stabilisateur de Portail
