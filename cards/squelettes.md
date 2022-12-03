@@ -104,7 +104,7 @@
 - **Retardé :** Appel d'os 2
 
 
-### Thaumaturge Nécrotique
+### Mage Nécrotique
 - **Coût :** 5
 - **Valeur :** 3
 - **Permanent :** Champion
@@ -158,14 +158,14 @@
     carte, qui est également un Soldat Décharné et qu'il
     défausse également
   * Il choisit de défausser les 3 cartes révélées,
-    dont un Thaumaturge Nécrotique
+    dont un Mage Nécrotique
 - Il joue une Liche
   * Il active sa première capacité pour révéler
     et défausser une carte, puis réordonner sa défausse
     et placer les unités qui l'intéressent au fond de celle-ci
   * Il active sa deuxième capacité et exhume un Solda
     Décharné pour ajouter à sa main l'unité au fond de sa
-    défausse : le Thaumaturge Nécrotique
+    défausse : le Mage Nécrotique
 - Il joue un Cadavre Explosif
   * Il active sa capacité et exhume deux unités
     pour neutraliser le champion de son adversaire (de force 10)
@@ -173,9 +173,9 @@
   * Il active sa capacité et exhume deux unités
     pour neutraliser une autre unité de son adversaire
     (de force 3)
-- Il joue son Thaumaturge Nécrotique
+- Il joue son Mage Nécrotique
 - Il arrête d'ajouter des unités, puis une fois
   que son adversaire a fait de même, il active la capacité
-  retardée de son Thaumaturge Nécrotique et exhume 4 unités
+  retardée de son Mage Nécrotique et exhume 4 unités
 - La force totale de son armée est de 24, et il a pu enlever 13
   de force à celle de son adversaire
