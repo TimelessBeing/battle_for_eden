@@ -356,14 +356,8 @@ S'ils ne parviennent pas à se mettre d'accord,
 le choix revient au premier joueur dans l'ordre du tour
 qui appartient à un autre camp.
 
-Les joueurs peuvent alors, toujours dans l'ordre du tour,
-jouer ou non une carte d'unité de leur main.
-Ceux qui le font peuvent ensuite (dans le même ordre) jouer
-ou non une nouvelle carte d'unité, et ainsi de suite jusqu'à ce
-que plus aucun joueur n'en pose.
-
-Les unités jouées par chaque joueur forment son *armée*,
-et sont disposées en colonne dans l'ordre où elles ont été
+Les unités jouées par chaque joueur formeront son *armée*,
+et seront disposées en colonne dans l'ordre où elles auront été
 ajoutées au combat, la plus ancienne en haut.
 Certaines capacités (voir section correspondante) permettront de placer des unités à gauche ou à droite d'une autre
 sur la même rangée, ou pourront affecter spécifiquement
@@ -377,6 +371,15 @@ unités vers la gauche ou vers la droite pour combler le trou.
 De même, si une rangée se retrouve vide,
 les rangées du dessous montent d'un cran.
 
+La constitution des armées se fait de la façon suivante:
+dans l'ordre du tour, chaque joueur a le choix entre jouer une
+carte d'unité de leur main pour l'ajouter à son armée,
+ou déclarer son armée complète.
+Les joueurs dont l'armée n'est pas encore complète
+(possiblement un unique joueur) peuvent ensuite à nouveau faire
+ce choix (toujours dans l'ordre du tour), et ainsi de suite
+jusqu'à ce que toutes les armées soient complètes.
+
 Chaque joueur détermine ensuite sa force de combat,
 qui est égale à la somme des forces des unités de son armée,
 à laquelle on ajoute 1 pour chacune de ses troupes impliquées,
@@ -388,8 +391,8 @@ Chaque joueur perd 1 troupe impliquée par joueur adverse dont
 la force de combat est strictement supérieure à la sienne.
 S'il perd des troupes ainsi, il perd 1 troupe impliquée
 supplémentaire pour chaque 3 points d'écart
-(arrondi à l'inférieur) entre sa force de combat et celle
-de l'adversaire dont la force de combat est la plus élevée.
+entre sa force de combat et celle de l'adversaire dont la force
+de combat est la plus élevée.
 Si le joueur n'a pas assez de troupe à perdre, il perd l'ensemble
 de ses troupes impliquées.
 
@@ -542,7 +545,7 @@ les interpréter lors d'un combat qui sort de ce cadre :
   de son camp, alors rien de ce que fait ce joueur ne doit
   affecter la situation des autres joueurs (main, armée, etc).
   Cela signifie notamment que les effets de ses cartes affectant
-  les autres joueurs sont ignorés,que ses actions ne peuvent
+  les autres joueurs sont ignorés, que ses actions ne peuvent
   déclencher des capacités de réaction d'un joueur adverse
   (comme dit plus haut), et que les effets adverses
   comptabilisant des unités, cartes en main ou territoires
