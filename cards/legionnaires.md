@@ -14,7 +14,7 @@
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
-- **Déléguer X:**
+- **Déléguer X :**
   * Copier la capacité immédiate ou de réaction
     (si la condition est remplie) d'une autre unité
     de votre armée de coût inférieur ou égal à celle-ci

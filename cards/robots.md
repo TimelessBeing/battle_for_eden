@@ -2,7 +2,7 @@
 ## Règles additionnelles
 
 - En fin de combat, vous ne pouvez pas choisir de renvoyer
-  des cartes unités dans votre Monde au lieu de les défausser.
+  des cartes unités dans votre Monde au lieu de les défausser
 
 
 ## Mots clés

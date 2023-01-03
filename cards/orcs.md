@@ -125,9 +125,9 @@ N/A
 - Il joue un Chef de Guerre
 - Il joue un Rameuteur
 - Il joue une Grosse Brute
-- Il arrête d'ajouter des unités, puis une fois
-  que son adversaire a fait de même
-  * Il active la première capacité retardée du Chef de Guerre
+- Il arrête d'ajouter des unités
+  * Une fois que son adversaire a fait de même, il active
+    la première capacité retardée du Chef de Guerre
     pour faire charger la Grosse Brute
   * Il active la capacité retardée du Rameuteur
     (qui est maintenant en dernière ligne),

@@ -23,7 +23,7 @@ N/A
 - **Exorciser X :**
   * X unités receptacles de votre armée (au choix)
     ne sont désormais plus des receptacles
-- **Exorciser X 🠕:**
+- **Exorciser X 🠕 :**
   * Comme Exorciser X mais les unités doivent être choisies
     sur les rangées les plus basses possibles
 - **Force +X :**
@@ -147,8 +147,8 @@ N/A
   * Il active la capacité de réaction du Vengeur Sacrifié et cible le champion
     de son adversaire (de force 10)
 - Il joue un Maître des Sceaux
-  * Il active sa capacité pour sceller un démon dans le second Combattant Maudit
-    et dans le vengeur sacrifié
+  * Il active sa capacité pour sceller un démon dans le second
+    Combattant Maudit et dans le Vengeur Sacrifié
   * L'unité ciblée par le Vengeur Sacrifié est donc retirée du combat
 - La force totale de son armée est de 26, et il a pu enlever 13
   de force à celle de son adversaire

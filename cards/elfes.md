@@ -130,7 +130,7 @@
 - **Réaction (Événement : mana canalisé) :** Dissiper 15 pour Floraison
 
 
-## Exemple 9
+## Exemple
 
 - Jacques joue un Sage
   * Il active sa première capacité immédiate et canalise 6 mana
@@ -155,10 +155,10 @@
     pour neutraliser le champion de l'adversaire (de force 10)
 - Il joue un Gardien de la Forêt
   * Il active sa capacité immédiate et canalise 3 mana
-- Il arrête d'ajouter des unités, puis une fois
-  que son adversaire a fait de même, il active la capacité
-  de son Gardien de la Forêt et dissipe 6 mana
+- Il arrête d'ajouter des unités
+  * Une fois que son adversaire a fait de même, il active la
+    capacité de son Gardien de la Forêt et dissipe 6 mana
 - La force totale de son armée est 25, et il a pu enlever 12
   de force à celle de son adversaire
-- Lorsqu'il défausse ses unités, les 3 unités de mana restantes
+- Lorsqu'il défausse ses unités, les 3 mana restants
   sont dissipées

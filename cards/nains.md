@@ -27,8 +27,7 @@
     adjacent au choix (considérer que les emplacements vides
     sont des territoires produisant 1)
 - **Cristallisation :**
-  * X au choix
-  * Consommer X pour ajouter à votre main une carte
+  * Consommer X (au choix) pour ajouter à votre main une carte
     Cristal d'Énergie de coût X (prise sur la pile correspondante)
 - **Détruire une carte :**
   * Placer la carte en question dans la pile ou le Monde
@@ -45,7 +44,7 @@
     du territoire durant la phase de Production
 - **Épurer :**
   * Détruire une carte de votre main
-- **Fait en urgence X:**
+- **Fait en urgence X :**
   * Cette unité ne peut être achetée
   * Vous pouvez dépenser X stocks d'énergie (entreposés ou non)
     et défausser des cartes Cristal d'Énergie de votre main
@@ -60,7 +59,7 @@
 - **Fouille X :**
   * Révéler X cartes
   * Vous pouvez ajouter 1 carte Cristal d'Énergie ainsi révélée
-    à votre main. Défausser les autres cartes révélées.
+    à votre main. Défausser les autres cartes révélées
 - **Fouille profonde X :**
   * Comme Fouille mais vous pouvez choisir de replacer des cartes
     révélées dans l'ordre de votre choix sur le dessus de votre
@@ -71,8 +70,7 @@
     entreposés entre ce territoire et celui sur la tuile
     duquel vos troupes impliquées se trouvent
 - **Logistique rapide :**
-  * X au choix
-  * Consommer X et défausser des cartes Cristal d'Énergie
+  * Consommer X (au choix) et défausser des cartes Cristal d'Énergie
     de votre main d'une valeur totale d'au moins X pour ajouter
     à votre main une carte unité (au choix) de votre Monde
     de coût X
@@ -161,7 +159,7 @@
 - Elle joue un Engin Foreur
   * Elle active sa première capacité immédiate.
     Elle regarde sur quelle tuile sont ses troupes impliquées
-    (le sien, dont elles sont à la frontière),
+    (celle de son territoire, dont elles sont à la frontière),
     identifie combien le territoire et ses 6 voisins peuvent
     produire, et obtient 9 stocks d'énergie qu'elle entrepose
     sur la tuile (2 pour son territoire, qui est de sa couleur,
@@ -197,10 +195,10 @@
     d'énergie entreposés sur le territoire pour neutraliser
     le champion de son adversaire (de force 10)
 - Elle joue un Forgeron
-- Elle arrête d'ajouter des unités, puis une fois
-  que son adversaire a fait de même, elle active la capacité
-  retardée de son Forgeron et consomme 7 stocks d'énergie
-  (un pour chaque unité, dont lui-même)
+- Elle arrête d'ajouter des unités
+  * Une fois que son adversaire a fait de même, elle active
+  la capacité retardée de son Forgeron et consomme 7 stocks
+  d'énergie (un pour chaque unité, dont lui-même)
 - La force totale de son armée est de 19, et elle a pu enlever 13
   de force à celle de son adversaire
 - Elle défausse ensuite ses unités, sauf le Canon Improvisé,

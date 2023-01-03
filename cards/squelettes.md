@@ -29,6 +29,9 @@
   * Si un effet révèle cette carte, vous pouvez choisir de la
     défausser ou de la placer sous votre pioche. Si vous le
     faîtes, révélez une autre carte à la place
+- **Excursion nocturne X :**
+  * Révéler jusqu'à X cartes. Vous pouvez choisir
+    de défausser ou non chaque carte ainsi révélée
 - **Exhumer X :**
   * Mélanger X unités de votre défausse à votre pioche
 - **Force +X :**
@@ -53,9 +56,6 @@
   * Montrer à tous les joueurs des cartes du dessus
     de votre pioche, puis les replacer sur celle-ci
     dans le même ordre
-- **Excursion nocturne X :**
-  * Révéler jusqu'à X cartes. Vous pouvez choisir
-    de défausser ou non chaque carte ainsi révélée
 - **Sortir de terre X :**
   * Ajouter au combat des unités Soldat Décharné prises
     dans votre défausse jusqu'à ce que votre armée
@@ -125,14 +125,14 @@
   de sa main pour piocher autant de cartes. C'est toujours à lui de jouer une unité
 - Il joue un Soldat Décharné
 - Il joue un Golem d'Os
-- Il arrête de jouer des unités et attend que son adversaire
-  fasse de même
-- Il active la capacité retardée de son Soldat Décharné,
-  et complète son armée à 5 unités en y ajoutant les
-  3 Soldats Décharnés de sa défausse
-- Il active la capacité retardé de son Golem d'Os,
-  et déplace 2 des Soldats Décharnés sur la rangée
-  de son Golem d'Os, montant leur force à 3 chacun
+- Il arrête de jouer des unités
+  * Une fois que son adversaire a fait de même, il active
+    lacapacité retardée de son Soldat Décharné,
+    et complète son armée à 5 unités en y ajoutant les
+    3 Soldats Décharnés de sa défausse
+  * Il active la capacité retardé de son Golem d'Os,
+    et déplace 2 des Soldats Décharnés sur la rangée
+    de son Golem d'Os, montant leur force à 3 chacun
 - La force totale de son armée est donc de 10
   alors qu'il n'a joué que deux cartes d'unités de sa main
 
@@ -174,8 +174,8 @@
     pour neutraliser une autre unité de son adversaire
     (de force 3)
 - Il joue son Mage Nécrotique
-- Il arrête d'ajouter des unités, puis une fois
-  que son adversaire a fait de même, il active la capacité
-  retardée de son Mage Nécrotique et exhume 4 unités
+- Il arrête d'ajouter des unités
+  * Une fois que son adversaire a fait de même, il active la
+    capacité retardée de son Mage Nécrotique et exhume 4 unités
 - La force totale de son armée est de 24, et il a pu enlever 13
   de force à celle de son adversaire
