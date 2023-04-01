@@ -23,5 +23,5 @@
 
 
 ### Suprématie
-- **Coût :** 5
+- **Coût :** 10
 - **Permanent :** Lorsque vous achetez cette carte, vous gagnez instantanément la partie

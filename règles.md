@@ -228,8 +228,10 @@ les diverses civilisations s'intéressent en réalité toutes
 à une seule et même ressource.
 Ce qu'elles obtiennent de leurs territoires sera désigné
 de façon générique sous le nom de *stocks d'énergie*,
-matérialisés par des cubes blancs que les joueurs conserveront
-devant eux jusqu'à ce qu'ils les utilisent.
+que les joueurs conserveront devant eux jusqu'à ce qu'ils les utilisent.
+Ceux-ci sont matérialisés par des petits cubes blancs (1 stock d'énergie),
+des gros cubes blancs (5 stocks d'énergie), et si besoin par un petit cube blanc
+posé sur des marqueurs territoires sauvage (10x somme des valeurs des marqueurs).
 
 Chaque civilisation obtient cependant cependant cette ressource
 à sa façon, et dispose ainsi d'un type de territoire privilégié
@@ -239,22 +241,26 @@ où elle est capable d'obtenir plus de ressources que les autres
 
 Lors de la phase de production,
 chaque joueur reçoit simultanément :
-
 - 1 stock d'énergie pour chacun des territoires
 qu'il contrôle (y compris portails et Cœur d'Eden),
 - 1 stock d'énergie supplémentaire pour chacun
 de ces territoires qui est de sa couleur (y compris son portail),
 - 1 stock d'énergie supplémentaire pour chacun
-de ces territoires qui est riche en énergie,
-- s'il contrôle le Cœur d'Eden, 1 stock d'énergie
-à placer immédiatement sur celui-ci, qui représente
-l'accumulation d'énergie pure sur ce territoire.
+de ces territoires qui est riche en énergie
 
 **Attention cependant, un territoire déconnecté du portail
 du joueur ne lui rapporte aucun stock d'énergie**
 (un territoire est considéré comme déconnecté s'il est impossible
 d'aller de ce territoire au portail du joueur en ne passant
 que par des territoires sous le contrôle de celui-ci).
+
+Les civilisations peuvent également obtenir de l'énergie
+sous une forme raffinée, de l'*énergie pure*. Celle-ci est matérialisée par des petits cubes translucides (1 unité d'énergie pure) et des gros cubes translucides (5 unités d'énergie pure).
+
+Lors de la phase de production, chaque joueur reçoit simultanément :
+- 1 unité d'énergie pure pour chaque 5 stocks d'énergie reçus durant cette phase de Production
+- 1 unité d'énergie pure supplémentaire pour chaque territoire adjacent au Cœur d'Eden qu'il contrôle
+- 2 unités d'énergie pure supplémentaires s'il contrôle le Cœur d'Eden
 
 
 ## La phase d'Expansion
@@ -265,30 +271,27 @@ qui étaient à la frontière de celui-ci et/ou déplacer des troupes
 d'un territoire vers une ou plusieurs de ses frontières,
 et ce autant de fois qu'il le souhaite.
 
-**Attention cependant, s'il y a des troupes ennemies à la frontière de son territoire avec un autre, alors le joueur ne peux pas y envoyer ses propres troupes**
-(cela peut arriver si le joueur conquiert un territoire qui
-avait envoyé des troupes à la frontière).
-
 On détermine ensuite les combats à résoudre :
 - un à chaque frontière comportant des troupes des deux côté
   (camp d'un côté contre camp de l'autre côté)
 - un à chaque territoire dont au moins une frontière
 est attaquée mais pas défendue
-(camp du défenseur contre camp des attaquants,
-ou chacun pour soi avec un camp par attaquant si le défenseur a perdu
-le contrôle du territoire)
+(les joueurs concernés pouvant se répartir en autant de camps qu'ils le souhaitent)
 
-> Note: si des troupes sont sur la frontière d'un territoire
-ennemi avec un autre territoire ennemi, comme dans le cas décrit
-précédemment, alors celles-ci doivent donc se battre deux fois.
+Il s'agit alors de choisir dans quel ordre résoudre les combats.
+Pour cela, on sélectionne un combat à résoudre, puis un autre, puis un autre, etc,
+en s'assurant de ne pas sélectionner plus d'un combat impliquant un même joueur.
+Lorsque cela n'est plus possible, on résout les combats sélectionnés puis
+on recommence jusqu'à ce que tous les combats aient été résolus.
 
-Le premier joueur choisit un combat à résoudre.
-S'il y a des combats non résolus impliquant uniquement
-des troupes différentes, alors le joueur suivant en choisit un,
-et ainsi de suite dans l'ordre du tour.
-Lorsque cela n'est plus possible, on résout les combats choisis
-(voir plus loin), puis on reprend où on en était dans l'ordre
-du tour pour choisir quels combats seront les prochains à être résolus.
+Ces sélections sont réalisés dans l'ordre du tour, en commançant par le premier joueur
+pour la première sélection, et en reprenant là où on en était dans le tour
+après chaque résolution. À son tour, le joueur sélectionne un combat de son choix
+impliquant ses propres troupes, ou passe son tour s'il n'y en a pas.
+S'il a sélectionné un combat, il en garde trace en plaçant un marqueur (cube de couleur ou autre) devant lui.
+Lorsque le tour reviendra à lui, il devra défausser le marqueur et passer son tour.
+Lorsque tous les combats on été résolus, les marqueurs restants sont défaussés.
+
 Après chaque résolution, les joueurs qui ont pris part au combat
 choisissent de défausser ou non le reste de leur main,
 puis recomplètent celle-ci à 5 cartes.
@@ -312,26 +315,33 @@ les joueurs, ceux-ci peuvent dépenser les ressources
 qu'ils ont accumulé pour se donner un avantage
 lors des jours suivants:
 
-- Si un joueur contrôle le Cœur d'Eden, il peut dépenser
-l'énergie pure accumulée sur celui-ci pour acheter
-des cartes de technologie.
 - Un joueur peut dépenser les stocks d'énergie qu'il a mis
 de côté durant la dernière phase d'Expansion à l'aide
 de cartes Cristal d'Énergie pour acheter des cartes d'unité
 de son Monde.
 - Un joueur peut dépenser ses stocks d'énergie
 (mis de côté ou non) pour acheter des cartes communes.
+- Il peut dépenser de l'énergie pure pour acheter des cartes de technologie.
+
+**Attention :** Chaque joueur n'est autorisé à posséder qu'un seul exemplaire maximum de chaque carte technologie.
+
+> S'il y a plus de joueurs qui veulent acheter une carte
+de technlogie que d'exemplaires disponibles de cette carte,
+le coût de la carte est augmenté de 1, puis de 1 à nouveau,
+etc, jusqu'à ce que suffisamment de joueurs ne puissent
+ou ne veuillent plus acheter cette carte.
 
 Les cartes ainsi achetées sont placées dans la défausse
-du joueur.
+du joueur (sauf mention explicite sur la carte).
 
 Une fois ces achats effectués :
 - Les stocks d'énergie mis de côté mais pas dépensés
 rejoignent les autres stocks d'energie du joueur,
-- Chaque joueur reçoit 3 nouvelles
-troupes, +1 s'il contrôle le Cœur d'Eden, et les place sur sa tuile portail
-- Chaque joueur peut déplacer des troupes entre deux territoires voisins qu'il contrôle, et ce autant de fois qu'il le souhaite
-(sans toucher aux troupes aux frontières).
+- Chaque joueur reçoit 2 nouvelles troupes, +1 s'il contrôle le Cœur d'Eden,
+et les place sur sa tuile portail
+- Chaque joueur peut autant de fois qu'il le souhaite déplacer des troupes
+entre des territoires voisins qu'il contrôle, mais sans toucher aux troupes aux frontières
+et en laissant au moins 1 troupe sur chaque territoire contrôlé.
 Les joueurs annoncent qu'ils ont fini de déplacer leurs troupes
 à tour de rôle, dans l'ordre du tour et en commençant
 par le premier joueur, afin que chacun puisse ajuster s'il
@@ -409,11 +419,6 @@ d'autres troupes ni sur le territoires ni d'un côté ou de l'autre
 d'aucune de ses frontières, alors ce joueur prend le contrôle
 du territoire en y déplaçant toutes ses troupes à la frontière.
 
-> Note : Si un joueur élimine toutes les troupes adverses
-dans un combat à la frontière, alors ses troupes pourront prendre
-part au combat sur le territoire de l'autre côté
-de cette frontière si celui-ci n'a pas encore été résolu.
-
 Le combat est maintenant terminé, et les cartes d'unités jouées par les joueurs
 sont défaussées, y compris celles qui auront été retirées
 du combat par l'effet de certaines cartes.
@@ -433,7 +438,9 @@ ses troupes sur le territoire.
 d'un même joueur, avant de jouer des cartes unités
 celui-ci peut, pour chaque frontière au-delà de la première,
 défausser autant de cartes de sa main qu'il le souhaite
-puis recompléter celle-ci à 5 cartes
+puis recompléter celle-ci à 5 cartes.
+Si des effets de cartes dépendent de l'emplacement de ses troupes, il peut choisir pour chaque effet la frontière
+concernée, et est libre de choisir sur quelle(s) frontière(s) ses troupes sont perdues lorsqu'il perd des troupes au combat.
 - Si un joueur perd le contrôle du Cœur d'Eden,
 il doit immédiatement dépenser toute l'énergie pure qu'il y avait accumulée (achat de cartes de technologie).
 - Si un joueur perd le contrôle de son portail, il est éliminé.

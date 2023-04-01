@@ -1,12 +1,7 @@
 
 ## Règles additionnelles
 
-- Durant la phase de Logistique
-  * À chaque fois que vous achetez une carte commune,
-    son prix double pour vous jusqu'à la fin du tour
-  * Vous ne pouvez pas acheter de cartes Cristal d'Énergie
-    en dépensant simplement des stocks d'énergie
-    (il vous faudra donc les acquérir par d'autres moyens)
+- Vous ne pouvez pas acheter de cartes communes durant la phase de Logistique. Il vous faudra donc acquérir les cartes Cristal d'Énergie par d'autres moyens.
 
 ## Mots clés
 
@@ -27,7 +22,7 @@
     adjacent au choix (considérer que les emplacements vides
     sont des territoires produisant 1)
 - **Cristallisation :**
-  * Consommer X (au choix) pour ajouter à votre main une carte
+  * Consommer X (au choix) pour ajouter à votre défausse une carte
     Cristal d'Énergie de coût X (prise sur la pile correspondante)
 - **Détruire une carte :**
   * Placer la carte en question dans la pile ou le Monde

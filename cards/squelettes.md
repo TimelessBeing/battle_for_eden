@@ -47,7 +47,7 @@
   * Toute unité se trouvant sur la même rangée que cette unité
     obtient Force +X
 - **Profaner :**
-  * Détruire la carte du dessus de votre défausse
+  * Détruire une carte de votre défausse (au choix)
 - **Renouvelable :**
   * Si cette carte est dans votre main, vous pouvez
     choisir de la défausser à tout moment pour piocher
