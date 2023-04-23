@@ -16,6 +16,9 @@
 - **Coût :** 15
 - **Valeur :** 3
 
+### Terrain Favorable
+- **Coût :** 1
+- **Permanent:** Défausser cette carte de votre main pendant un combat contre un territoire sauvage pour réduire de 1 la force de celui-ci
 
 ### Opportunité
 - **Coût :** 15

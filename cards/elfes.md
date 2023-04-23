@@ -11,9 +11,7 @@
 ## Mots clés
 
 - **Canaliser X (Y) :**
-  * Générer X unités de mana, ou Y si vos troupes impliquées
-    dans ce combat sont sur ou à la frontière d'un territoire
-    de votre couleur
+  * Générer X unités de mana, ou Y si vos troupes impliquées ou celles contre lesquelles elles se battent sont sur un territoire de votre couleur
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
@@ -53,9 +51,6 @@
 - **Neutraliser :**
   * Retirer du combat une unité de l'armée de l'adversaire
     (au choix)
-- **Neutraliser ≤ X :**
-  * Comme Neutraliser mais l'unité doit être de coût inférieur
-    ou égal à X
 - **Renouvelable :**
   * Si cette carte est dans votre main, vous pouvez
     choisir de la défausser à tout moment pour piocher
@@ -83,7 +78,7 @@
 - **Valeur :** 2
 - **Permanent :** Fatigue 3
 - **Immédiat :** Canaliser 2 (3)
-- **Réaction (Événement : mana canalisé) :** [Dissiper 6 pour Neutraliser ≤ 2] OU [Dissiper 9 pour Neutraliser]
+- **Réaction (Événement : mana canalisé) :** Dissiper 7 pour Neutraliser
 
 
 ### Arboriste
@@ -91,7 +86,7 @@
 - **Valeur :** 3
 - **Permanent :** Fatigue 3
 - **Immédiat :** Canaliser 2 (3)
-- **Réaction (Événement : mana canalisé) :** Dissiper 6 pour Épurer
+- **Réaction (Événement : mana canalisé) :** Dissiper 7 pour Épurer
 
 
 ### Mystique
@@ -99,7 +94,7 @@
 - **Valeur :** 3
 - **Permanent :** Fatigue 3
 - **Immédiat :** Canaliser 2 (3)
-- **Réaction (Événement : mana canalisé) :** Dissiper 6 pour piocher une carte
+- **Réaction (Événement : mana canalisé) :** Dissiper 7 pour piocher une carte
 
 
 ### Druide
@@ -132,32 +127,30 @@
 
 ## Exemple
 
-- Jacques joue un Sage
-  * Il active sa première capacité immédiate et canalise 6 mana
-    car il défend un territoire de sa couleur
-  * Il active sa deuxième capacité immédiate et renouvelle
-    une carte
+- Jacques joue un Druide
+  * Il active sa capacité immédiate et canalise 9 mana car il défend un territoire de sa couleur
 - Il joue un Mystique
   * Il active sa capacité immédiate et canalise 3 mana
-  * Il active sa capacité de réaction et dissipe 6 mana
+  * Il active sa capacité de réaction et dissipe 7 mana
     pour piocher une carte
 - Il joue un Tireur d'Élite
   * Il active sa capacité immédiate et canalise 3 mana
-  * Il active sa capacité de réaction et dissipe 6 mana
+  * Il active sa capacité de réaction et dissipe 7 mana
     pour neutraliser une unité de l'adversaire (de force 2)
 - Il joue un Enfant d'Yggdrasil
   * Il active sa capacité immédiate et canalise 9 mana
-- Il joue un Druide
-  * Il active sa capacité immédiate et canalise 9 mana
+- Il joue un Sage
+  * Il active sa première capacité immédiate et canalise 6 mana
   * Il active la capacité de réaction du Tireur d'Élite
-    et dissipe 12 mana (9 parce que c'est une unité de coût > 3
-    et 3 parce qu'il a déjà activé cette capacité)
+    et dissipe 10 mana (dont 3 parce qu'il a déjà activé cette capacité)
     pour neutraliser le champion de l'adversaire (de force 10)
+  * Il active sa deuxième capacité immédiate et renouvelle
+  une carte
 - Il joue un Gardien de la Forêt
   * Il active sa capacité immédiate et canalise 3 mana
 - Il arrête d'ajouter des unités
   * Une fois que son adversaire a fait de même, il active la
-    capacité de son Gardien de la Forêt et dissipe 6 mana
+    capacité retardée de son Gardien de la Forêt et dissipe 6 mana
 - La force totale de son armée est 25, et il a pu enlever 12
   de force à celle de son adversaire
 - Lorsqu'il défausse ses unités, les 3 mana restants

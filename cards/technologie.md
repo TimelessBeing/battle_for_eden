@@ -24,4 +24,5 @@
 
 ### Suprématie
 - **Coût :** 10
+- **Permanent :** Cette carte ne peut être achetée que par le contrôleur du Cœur d'Eden
 - **Permanent :** Lorsque vous achetez cette carte, vous gagnez instantanément la partie
