@@ -32,9 +32,7 @@
   * Lorsqu'une unité fatiguée doit activer une capacité
     de réaction, dissiper X ou ignorer l'effet de cette capacité
 - **Floraison :**
-  * Retourner la tuile du territoire sur lequel ou à la
-    frontière duquel vos troupes impliquées dans ce combat
-    se trouvent
+  * Retourner la tuile du territoire sur lequel se trouvent vos troupes impliquées ou celles contre lesquelles elles se battent
 - **Force +X :**
   * La force de cette unité dans l'armée du joueur
     est augmentée de X
