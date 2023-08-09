@@ -338,16 +338,6 @@ Le combat met en jeu plusieurs joueurs
 (ceux dont les troupes sont impliquées),
 qui sont répartis en au moins deux camps.
 
-Il est nécessaire pour les effets des cartes
-(voir section correspondante) qu'un joueur de chaque camp
-soit identifié comme étant combattant principal de ce camp.
-Si un camp comporte au moins deux joueurs,
-ceux-ci doivent donc désigner un combattant principal
-(voir section sur les effets des cartes).
-S'ils ne parviennent pas à se mettre d'accord,
-le choix revient au premier joueur dans l'ordre du tour
-qui appartient à un autre camp.
-
 Les unités jouées par chaque joueur formeront son *armée*,
 et seront disposées en colonne dans l'ordre où elles auront été
 ajoutées au combat, la plus ancienne en haut.
@@ -374,17 +364,20 @@ jusqu'à ce que toutes les armées soient complètes.
 
 Chaque joueur détermine ensuite sa force de combat,
 qui est égale à la somme des forces des unités de son armée,
-à laquelle on ajoute 1 pour chacune de ses troupes impliquées,
-et 1 pour chaque autre joueur dans son camp.
+à laquelle on ajoute 1 pour chacune des troupes impliquées
+appartenant à des joueurs de son camp.
 
 ## Fin du combat
 
 Chaque joueur perd 1 troupe impliquée par joueur adverse dont
-la force de combat est strictement supérieure à la sienne.
-S'il perd des troupes ainsi, il perd 1 troupe impliquée
-supplémentaire pour chaque 3 points d'écart
-entre sa force de combat et celle de l'adversaire dont la force
-de combat est la plus élevée.
+la force de combat est strictement supérieure à la sienne, plus 1 pour chaque 3 points d'écart entre sa force de combat et celle d'un joueur de force supérieure à la sienne dans le camp de l'adversaire dont la force de combat est la plus élevée.
+
+> Exemple :
+> - Alexandra (camp 1) a une force 5, Basile (camp 2) a une force 9, Cécile (camp 3) a une force 8, et Dimitri (camp 3 également) a une force 12
+> - Alexandra perd 6 troupes (3 adversaires de force supérieure + 3 d'écart avec Cécile + 7 d'écart avec Dimitri)
+> - Basile perd 2 troupes (1 adversaire de force supérieure + 3 d'écart avec Dimitri, pas de troupe perdue contre Cécile)
+> - Cécile perd 2 troupes (2 adversaires de force supérieure, moins de 3 d'écart avec Basile)
+> - Dimitri ne perd pas de troupes
 
 Si le joueur n'a pas assez de troupes à perdre, il perd l'ensemble de ses troupes impliquées. S'il les a perdues contre des troupes à la frontière, les troupes manquantes sont prises (dans la limite des troupes disponibles) :
 - si les troupes ont été perdues à la frontière, sur le territoire dont c'est la frontière,
@@ -409,12 +402,10 @@ avec autant de troupes sur le territoire que la somme des nombres indiqués sur 
 En cas de défaite du défenseur, les marqueurs sont retirés et on considère que les défenseur a perdu toutes
 ses troupes sur le territoire.
 - Si un même combat met en jeu au moins deux frontières
-d'un même joueur, avant de jouer des cartes unités
-celui-ci peut, pour chaque frontière au-delà de la première,
-défausser autant de cartes de sa main qu'il le souhaite
-puis recompléter celle-ci à 5 cartes.
-Si des effets de cartes dépendent de l'emplacement de ses troupes, il peut choisir pour chaque effet la frontière
-concernée, et est libre de choisir sur quelle(s) frontière(s) ses troupes sont perdues lorsqu'il perd des troupes au combat.
+d'un même joueur :
+  * Avant de jouer des cartes unités celui-ci peut, pour chaque frontière au-delà de la première, défausser autant de cartes de sa main qu'il le souhaite puis recompléter celle-ci à 5 cartes
+  * Si des effets de cartes dépendent de l'emplacement de ses troupes, il peut choisir pour chaque effet la frontière concernée, et est libre de choisir sur quelle(s) frontière(s) ses troupes sont perdues lorsqu'il perd des troupes au combat
+  * Pour la fin du combat, il compte comme deux joueurs du même camp (il perd des troupes sur ses deux frontières, mais en fait perdre deux fois plus aux adversaires)
 - Si un joueur perd le contrôle de son portail, il est éliminé.
 Sur chaque territoire qu'il contrôlait, ses troupes
 sont remplacées par 1 troupe du joueur attaquant.
@@ -510,26 +501,18 @@ Les effets des cartes sont avant tout formulés pour des combats
 mettant en jeu 2 camps de 1 joueur chacun. Voici comment
 les interpréter lors d'un combat qui sort de ce cadre :
 
-- Les effets des cartes affectant "les adversaires" affectent
-  tous les joueurs de tous les camps adverses.
-- Les événements ou conditions relatifs à "un adversaire"
-  peuvent réagir au joueur principal de n'importe quel
-  camp adverse, et les mentions de "l'adversaire" dans les
-  effets liés affectent tous les joueurs de ce camp.
-- Les autres effets de cartes affectant "un adversaire" affectent
-  tous les joueurs d'un camp adverse au choix du joueur.
-- Cependant, si un joueur n'est pas le combattant principal
-  de son camp, alors rien de ce que fait ce joueur ne doit
-  affecter la situation des autres joueurs (main, armée, etc).
-  Cela signifie notamment que les effets de ses cartes affectant
-  les autres joueurs sont ignorés, que ses actions ne peuvent
-  déclencher des capacités de réaction d'un joueur adverse
-  (comme dit plus haut), et que les effets adverses
-  comptabilisant des unités, cartes en main ou territoires
-  ignorent ceux du joueur.
+- Les effets affectant "les adversaires" affectent tous les joueurs de tous les camps adverses
+- Les effets affectant "l'adversaire" ou "un adversaire" affectent à la place tous les joueurs d'un camp adverse au choix
+- Si un joueur doit subir un effet négatif qu'il a déjà subi N fois, il peut ignorer celui-ci
+si le joueur qui essaie de le lui infliger n'a pas déjà causé cet effet N fois
 
-> Note : Lorsqu'un joueur défend son territoire contre plusieurs
-attaquants, le défenseur peut donc jouer une carte pour
-retirer du combat une unité de chaque attaquant alors que
-seul l'attaquant principal peut retirer du combat des unités
-du défenseur.
+> Exemple :
+> - André, Barbara et Charles (camp 1) affrontent Damien (camp 2) et Étienne (camp 3)
+> - À ce stade, Damien et Étienne n'ont jamais subi d'effet de neutralisation d'unité, et ne peuvent par conséquent ignorer ceux causés par aucun joueur
+> - André cause un 1er effet de neutralisation d'unité contre Damien, qui est donc appliqué
+> - Damien ayant maintenant subi 1 effet de neutralisation d'unité, il pourra ignorer ceux causés par des adversaires ne l'ayant pas encore causé (i.e. tous à part André). Étienne quant à lui ne peut  toujours ignorer aucun effet
+> - Barbara cause un effet de neutralisation d'unité contre Étienne, qui est appliqué
+> - Damien et Étienne ayant chacun subi 1 effet de neutralisation d'unité, ils pourront ignorer ceux causés par des adversaires ne l'ayant pas encore causé (i.e. Charles)
+> - Barbara cause un second effet de neutralisation d'unité contre Étienne, qui est appliqué
+> - Étienne ayant maintenant subi 2 effets de neutralisation d'unité, il pourra ignorer ceux causés par des adversaires ne l'ayant pas encore causé 2 fois (i.e. tous à part Barbara). Damien quant à lui ne peut  toujours ignorer que ceux causés par Charles
+> - Charles cause consécutivement 3 effets de neutralisation d'unité, le premier contre Charles (ignoré), le deuxième contre Étienne (appliqué car Charles a déjà causé l'effet 1 fois) et le troisième contre Damien (appliqué car Charles a déjà causé l'effet 2 fois)
