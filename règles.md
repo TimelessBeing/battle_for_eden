@@ -278,17 +278,11 @@ est attaquée mais pas défendue
 
 Chaque joueur choisit alors s'il le peut un combat à résoudre mettant en jeu ses troupes, dans l'ordre du tour et en commençant par le premier joueur, jusqu'à ce que tous les combats aient été résolus.
 
-Après chaque résolution, les joueurs qui ont pris part au combat choisissent de défausser ou non le reste de leur main, puis recomplètent celle-ci à 5 cartes.
+Après chaque résolution, les joueurs qui ont pris part au combat choisissent de conserver le reste de leur main, de le défausser ou de le *comptabiliser*, puis recomplètent celle-ci à 5 cartes.
 
-Chaque joueur peut par ailleurs, une fois par phase d'Expansion et hors résolution de combat,
-jouer autant de cartes Cristal d'Énergie de sa main qu'il le souhaite,
-pour mettre de côté jusqu'à autant de ses stocks d'énergie
-que la valeur totale de ces cartes.
-Seuls les stocks d'énergie ainsi mis de côté pourront être
-utilisés pour acheter des cartes d'unité durant la phase
-de Logistique.
-Le joueur défausse alors le reste de sa main et la recomplète à 5 cartes.
+Pour *comptabiliser* sa main, le joueur la défausse puis détermine la valeur totale des cartes Cristal d'Énergie ainsi défaussées. Il peut ensuite mettre de côté jusqu'à ce nombre de stocks d'énergie qu'il possède; seuls les stocks d'énergie ainsi mis de côté pourront être utilisés pour acheter des cartes d'unité durant la phase de Logistique. Si un joueur comptabilise sa main plusieurs fois durant la même phase d'Expansion, seule la dernière comptabilisation compte (i.e. ses stocks d'énergie mis de côté rejoignent les autres avant de comptabiliser).
 
+Si un joueur ne participe à aucun combat durant la phase d'Expansion, il a également le choix de conserver sa main, de la défausser ou de la comptabiliser.
 
 ## La phase de Logistique
 
