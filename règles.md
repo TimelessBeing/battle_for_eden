@@ -90,6 +90,7 @@ retirer sa tuile portail de la carte, ou les deux
 Pour ajouter une tuile à la carte, le joueur la place au contact d'une tuile
 de la carte, à une position qui vérifie les conditions suivantes :
 
+- les tuiles au contact de la tuile Cœur d'Eden doivent être placées sur des côtés consécutifs de celle-ci, et il ne doit pas y en avoir plus que de joueurs
 - il doit y avoir au moins 3 tuiles entre chaque tuile portail et la tuile Cœur d'Eden,
 - il doit y avoir au moins 4 tuiles entre chaque paire de tuiles portails,
 - il doit y avoir un maximum de 2 tuiles au contact d'une même tuile portail,
