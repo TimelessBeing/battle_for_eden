@@ -1,17 +1,15 @@
 
 ## Règles additionnelles
 
-- Durant la phase de Logistique, les joueurs peuvent retourner
-  les tuiles de territoires qu'ils contrôlent en retirant
-  une de leurs troupes de chacun de ces territoires
-- Les tuiles qui sont face cachée comptent comme des tuiles
-  de votre couleur
+- Durant la phase de Logistique, les joueurs ont la possibilité pour chaque territoire qu'ils contrôlent de retirer 1 de leurs troupes de ce territoires (il doit en rester au moins 1) pour en retourner la tuile
+- Vous pouvez retourner des tuiles pour qu'elles soient face cachée ou face visible, mais les autres joueurs ne peuvent que les rendre face visible
+- Les tuiles qui sont face cachée comptent comme des tuiles noires lors de la phase de Production
 
 
 ## Mots clés
 
 - **Canaliser X (Y) :**
-  * Générer X unités de mana, ou Y si vos troupes impliquées ou celles contre lesquelles elles se battent sont sur un territoire de votre couleur
+  * Générer X unités de mana, ou Y si vos troupes impliquées ou celles contre lesquelles elles se battent sont sur un territoire dont la tuile est de votre couleur ou face cachée
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
@@ -76,15 +74,15 @@
 - **Valeur :** 2
 - **Permanent :** Fatigue 3
 - **Immédiat :** Canaliser 2 (3)
-- **Réaction (Événement : mana canalisé) :** Dissiper 7 pour Neutraliser
+- **Réaction (Événement : mana canalisé) :** Dissiper 6 pour Neutraliser
 
 
 ### Arboriste
 - **Coût :** 3
 - **Valeur :** 3
-- **Permanent :** Fatigue 3
+- **Permanent :** Fatigue 5
 - **Immédiat :** Canaliser 2 (3)
-- **Réaction (Événement : mana canalisé) :** Dissiper 7 pour Épurer
+- **Réaction (Événement : mana canalisé) :** Dissiper 4 pour Épurer
 
 
 ### Mystique
@@ -92,7 +90,7 @@
 - **Valeur :** 3
 - **Permanent :** Fatigue 3
 - **Immédiat :** Canaliser 2 (3)
-- **Réaction (Événement : mana canalisé) :** Dissiper 7 pour piocher une carte
+- **Réaction (Événement : mana canalisé) :** Dissiper 6 pour piocher une carte
 
 
 ### Druide
@@ -129,11 +127,11 @@
   * Il active sa capacité immédiate et canalise 9 mana car il défend un territoire de sa couleur
 - Il joue un Mystique
   * Il active sa capacité immédiate et canalise 3 mana
-  * Il active sa capacité de réaction et dissipe 7 mana
+  * Il active sa capacité de réaction et dissipe 6 mana
     pour piocher une carte
 - Il joue un Tireur d'Élite
   * Il active sa capacité immédiate et canalise 3 mana
-  * Il active sa capacité de réaction et dissipe 7 mana
+  * Il active sa capacité de réaction et dissipe 6 mana
     pour neutraliser une unité de l'adversaire (de force 2)
 - Il joue un Enfant d'Yggdrasil
   * Il active sa capacité immédiate et canalise 9 mana
@@ -151,5 +149,5 @@
     capacité retardée de son Gardien de la Forêt et dissipe 6 mana
 - La force totale de son armée est 25, et il a pu enlever 12
   de force à celle de son adversaire
-- Lorsqu'il défausse ses unités, les 3 mana restants
+- Lorsqu'il défausse ses unités, les 5 mana restants
   sont dissipées
