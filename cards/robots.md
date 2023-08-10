@@ -117,6 +117,7 @@
 ### Module d'Optimisation
 - **Coût :** 3
 - **Valeur :** 3
+- **Réaction (Événement : retiré du combat) :** Alimenter 1 pour ignorer l'effet
 - **Post-combat :** Réassigner
 - **Immédiat :** Reconfigurer 3
 
