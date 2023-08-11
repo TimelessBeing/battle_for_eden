@@ -10,7 +10,8 @@ N/A
     elle est détruite à la place
 - **Charge de X :**
   * Déplacer la ou les unités concernées pour les placer
-    à gauche ou à droite de la rangée du haut
+    à gauche ou à droite de la rangée du haut.
+    Une unité ne peut pas charger si elle est déjà en première ligne
 - **Cri de ralliement :**
   * Révélez 2 cartes
   * Vous pouvez ajouter une unité ainsi révélée à droite
@@ -26,9 +27,10 @@ N/A
   * Si un effet révèle cette carte, vous pouvez choisir de la
     défausser ou de la placer sous votre pioche. Si vous le
     faîtes, révélez une autre carte à la place
-- **En première/dernière ligne :**
+- **En première/deuxième/dernière ligne :**
   * Une unité est en première ligne si elle est sur la rangée
-    du haut et en dernière ligne si elle est sur la rangée du bas
+    du haut, en deuxième ligne si elle est sur la rangée juste en-dessous,
+    et en dernière ligne si elle est sur la rangée du bas
 - **Épurer :**
   * Détruire une carte de votre main
 - **Force +X :**
@@ -43,15 +45,15 @@ N/A
   * Retirer du combat une unité de l'armée de l'adversaire
     (au choix)
 - **Protégé :**
-  * Cette unité ne peut être retirée que si elle est
+  * Cette unité ne peut être retirée du combat que si elle est
     en première ligne
-- **Rallier X :**
-  * Déplacer la ou les unités concernées pour les placer
-    à droite de cette rangée
 - **Renouvelable :**
   * Si cette carte est dans votre main, vous pouvez
     choisir de la défausser à tout moment pour piocher
     une carte
+- **Repli de X :**
+  * Déplacer la ou les unités concernées pour les placer
+    à gauche ou à droite de la rangée du bas
 - **Révéler des cartes :**
   * Montrer à tous les joueurs des cartes du dessus
     de votre pioche, puis les replacer sur celle-ci
@@ -73,8 +75,7 @@ N/A
 ### Chevaucheur de Loup
 - **Coût :** 2
 - **Valeur :** 2
-- **Immédiat :** Traquer
-- **Réaction (Condition : en première ligne) :** Charge des Chevaucheurs de Loups
+- **Immédiat :** Si pas en première ligne : Traquer
 
 
 ### Chef de Clan
@@ -87,7 +88,8 @@ N/A
 ### Meneur
 - **Coût :** 3
 - **Valeur :** 3
-- **Retardé :** Charge d'une unité au choix OU Rallier les unités en dernière ligne
+- **Retardé :** Repli d'une unité au choix
+- **Retardé :** Si en deuxième ligne : charge des unités en deuxième ligne
 
 
 ### Rameuteur
@@ -100,7 +102,7 @@ N/A
 ### Tête Brûlée
 - **Coût :** 3
 - **Valeur :** 4
-- **Retardé :** Charge des Grunt
+- **Retardé :** Charge de tous les Grunt
 
 
 ### Grosse Brute
@@ -113,34 +115,40 @@ N/A
 ### Chef de Guerre
 - **Coût :** 6
 - **Valeur :** 3
-- **Retardé :** Charge d'une unité au choix
-- **Retardé :** Charge des unités en dernière ligne
+- **Retardé :** Repli d'une unité au choix
+- **Retardé :** Charge des unités en deuxième ligne
 
 
 ## Exemple
 
-- Roger joue un Meneur
+- Roger joue un Rameuteur
 - Il joue un Chevaucheur de Loup
   * Il active sa capacité immédiate et traque une unité de son adversaire (de force 3)
+- Il joue un deuxième Rameuteur
+- Il joue un Meneur
 - Il joue un Chef de Guerre
-- Il joue un Rameuteur
-- Il joue une Grosse Brute
 - Il arrête d'ajouter des unités
-  * Une fois que son adversaire a fait de même, il active
-    la première capacité retardée du Chef de Guerre
-    pour faire charger la Grosse Brute
-  * Il active la capacité retardée du Rameuteur
-    (qui est maintenant en dernière ligne),
+  * Une fois que son adversaire a fait de même, il active la première capacité
+    retardée du Meneur pour faire se replier le premier Rameuteur
+  * Le Chevaucheur de Loup est alors en première ligne,
+    et l'unité traquée celle-ci est donc retirée du combat
+  * Il active la capacité retardée du premier Rameuteur (qui est maintenant en dernière ligne),
     qui révèle un Chevaucheur de Loup et un Cristal d'Énergie;
     il ajoute le Chevaucheur de Loup à droite de la rangée
-    et défausse le Cristal d'Énergie
   * Il active la capacité immédiate du Chevaucheur de Loup
     et traque le champion de son adversaire (de force 10)
-  * Il active la seconde capacité retardée du Chef de Guerre
-    pour faire charger le Rameuteur et le Chevaucheur de Loup,
-    qui sont en dernière ligne. L'unité traquée par le Chevaucheur de Loup est alors retirée du combat
-  * Il active la capacité de réaction du Chevaucheur de Loup
-    pour faire charger l'autre Chevaucheur de Loup,
-    et l'autre unité traquée est alors retirée du combat
-- La force totale de son armée est de 20, et il a pu enlever 13
+  * Il active la première capacité retardée du Chef de Guerre
+    pour faire se replier le deuxième Rameuteur
+  * Il active la capacité retardée du deuxième Rameuteur (qui est maintenant en dernière ligne),
+    qui révèle deux cartes dont un troisième Rameuteur, qu'il ajoute à droite de la rangée,
+    puis active la capacité retardée de ce troisième Rameuteur, qui lui permet d'ajouter à la rangée
+    un quatrième Rameuteur, dont la capacité retardée permet d'ajouter à la rangée une Grosse Brute
+  * Il active la seconde capacité retardée du Meneur (qui est en deuxième ligne), qui charge
+  * Il active la seconde capacité retardée du Chef de Guerre, pour faire charger toutes les unités
+    en deuxième (et dernière) ligne
+  * Le deuxième Chevaucheur de Loup est alors en première ligne,
+    et l'unité traquée celle-ci est donc retirée du combat
+  * La Grosse Brute étant en première ligne, sa capacité permanente
+    lui donne un bonus de force de +4
+- La force totale de son armée est de 27, et il a pu enlever 13
   de force à celle de son adversaire
