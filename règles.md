@@ -144,7 +144,7 @@ ne comportant pas de cube de couleur :
 - puis un marqueur de valeur 6 sur chaque tuile restante
   adjacente à un marqueur de valeur 4
 - puis un marqueur de valeur 8 sur chaque tuile restante
-- ajouter un marqueur de valeur 8 supplémentaire sur le Cœur d'Eden, et un marqueur de valeur 6 supplémentaire sur les tuiles adjacentes à celui-ci
+- ajouter un marqueur de valeur 4 supplémentaire sur le Cœur d'Eden, et un marqueur de valeur 2 supplémentaire sur les tuiles adjacentes à celui-ci
 
 Placez les *cartes communes* (Terrain Favorable, Opportunité, et les 3 types de cartes Cristal d'Énergie)
 ainsi que les *cartes de technologie* (Bouclier d'énergie,  Cristal surchargé, Stabilisateur de Portail
@@ -177,7 +177,7 @@ achetées), ainsi que sa défausse et celles de ses adversaires.
 L'ordre des cartes dans la défausse n'a pas d'importance
 et peut être librement modifié.
 
-Chaque joueur mélange 3 cartes Terrain Favorable, 3 cartes Cristal d'Énergie de coût 1, 1 carte Cristal d'Énergie de coût 2, et 3 unités de coût 1 de son Monde pour former son deck, puis pioche 5 cartes pour constituer sa main de départ.
+Chaque joueur mélange 2 cartes Terrain Favorable, 2 cartes Cristal d'Énergie de coût 1, 1 carte Cristal d'Énergie de coût 2, et 3 unités de coût 1 de son Monde pour former son deck, puis pioche 5 cartes pour constituer sa main de départ.
 
 
 ## Les bases de la conquête
@@ -242,7 +242,7 @@ chaque joueur reçoit simultanément :
 - 1 stock d'énergie pour chacun des territoires
 qu'il contrôle (y compris portails et Cœur d'Eden),
 - 1 stock d'énergie supplémentaire pour chacun
-de ces territoires qui est de sa couleur (y compris son portail),
+de ces territoires qui est de sa couleur (y compris son portail, ainsi que le Cœur d'Eden qui est de toutes les couleurs),
 - 1 stock d'énergie supplémentaire pour chacun
 de ces territoires qui est riche en énergie,
 - 1 stock d'énergie supplémentaire s'il contrôle le Cœur d'Eden
@@ -256,34 +256,40 @@ Lors de la phase de production, chaque joueur reçoit simultanément :
 
 **Attention cependant, un territoire déconnecté du portail
 du joueur ne lui rapporte ni stock d'énergie ni énergie pure**
-(un territoire est considéré comme déconnecté s'il est impossible
-d'aller de ce territoire au portail du joueur en ne passant
+(un territoire est considéré comme connecté à un autre s'il est possible
+d'aller d'un territoire à l'autre en ne passant
 que par des territoires sous le contrôle de celui-ci).
 
 
 
 ## La phase d'Expansion
 
-Dans l'ordre du tour et en commençant par le premier joueur,
-chaque joueur peut placer sur un de ses territoire des troupes
-qui étaient à la frontière de celui-ci et/ou déplacer des troupes
-d'un territoire vers une ou plusieurs de ses frontières,
-et ce autant de fois qu'il le souhaite.
+Chaque joueur peut, pour chaque tuile sur laquelle il a de des troupes, répartir librement ces troupes entre le territoire et ses frontières avec des territoires non contrôlés par le joueur. Cette opération est réalisée simultanément par tous les joueurs, mais ils doivent déclarer un par un qu'ils ont fini de répartir leurs troupes (les autres joueurs pouvant toujours déplacer les leurs), dans l'ordre du tour et en commençant par le premier joueur.
 
-On détermine ensuite les combats à résoudre :
+Chaque joueur peut ensuite déclarer que certaines de ses troupes aux frontières constituaient une feinte, et les déplacer de la frontière vers le territoire.
+
+Une fois ceci fait, on détermine les combats à résoudre :
 - un à chaque frontière comportant des troupes des deux côté
-  (camp d'un côté contre camp de l'autre côté)
 - un à chaque territoire dont au moins une frontière
 est attaquée mais pas défendue
-(les joueurs concernés pouvant se répartir en autant de camps qu'ils le souhaitent)
 
-Chaque joueur choisit alors s'il le peut un combat à résoudre mettant en jeu ses troupes, dans l'ordre du tour et en commençant par le premier joueur, jusqu'à ce que tous les combats aient été résolus.
+Chaque joueur choisit alors s'il le peut un combat non résolu mettant en jeu ses troupes, dans l'ordre du tour et en commençant par le premier joueur, jusqu'à ce qu'il n'y ait plus de combat non résolu.
 
+Lorsqu'un combat est choisi, on détermine les camps participant au combat.
+Par défaut, chaque joueur ayant des troupes à la frontière constitue un camp, et le joueur contrôlant le territoire attaqué s'il y en a un (ou le territoire sauvage) constitue un autre camp.
+Chaque joueur ayant des troupes à la frontière peut librement :
+- rejoindre le camp du territoire attaqué s'il y en a un
+- rejoindre le camp formé par d'autres joueurs si tous sont d'accord
+- redevenir son propre camp
+- rappatrier tout ou partie de ses troupes concernées de la frontière vers le ou les territoires correspondants (ce qui peut faire qu'il ne participe plus au combat)
+
+Une fois la situation éclaircie (possiblement via une négociation),
+s'il reste au moins deux camps on résout le combat.
 Après chaque résolution, les joueurs qui ont pris part au combat choisissent de conserver le reste de leur main, de le défausser ou de le *comptabiliser*, puis recomplètent celle-ci à 5 cartes.
 
 Pour *comptabiliser* sa main, le joueur la défausse puis détermine la valeur totale des cartes Cristal d'Énergie ainsi défaussées. Il peut ensuite mettre de côté jusqu'à ce nombre de stocks d'énergie qu'il possède; seuls les stocks d'énergie ainsi mis de côté pourront être utilisés pour acheter des cartes d'unité durant la phase de Logistique. Si un joueur comptabilise sa main plusieurs fois durant la même phase d'Expansion, seule la dernière comptabilisation compte (i.e. ses stocks d'énergie mis de côté rejoignent les autres avant de comptabiliser).
 
-Si un joueur ne participe à aucun combat durant la phase d'Expansion, il a également le choix de conserver sa main, de la défausser ou de la comptabiliser.
+Si un joueur ne participe à aucune résolution de combat durant la phase d'Expansion, il peut réaliser un exercice militaire: il choisit deux territoires adjacents qu'il contrôle et fait comme si l'un attaquait l'autre, résolvant donc un combat dont il est l'unique camp (aucune troupe n'est perdue à l'issue de cette résolution).
 
 ## La phase de Logistique
 
@@ -316,8 +322,8 @@ Une fois ces achats effectués :
 rejoignent les autres stocks d'energie du joueur,
 - Chaque joueur reçoit 2 nouvelles troupes, +1 s'il contrôle le Cœur d'Eden,
 et les place sur sa tuile portail
-- Chaque joueur peut autant de fois qu'il le souhaite déplacer des troupes
-entre des territoires voisins qu'il contrôle, mais sans toucher aux troupes aux frontières
+- Chaque joueur peut autant de fois qu'il le souhaite déplacer des troupes d'un territoire
+qu'il contrôle vers un territoire connecté à celui, mais sans toucher aux troupes aux frontières
 et en laissant au moins 1 troupe sur chaque territoire contrôlé.
 Les joueurs annoncent qu'ils ont fini de déplacer leurs troupes
 à tour de rôle, dans l'ordre du tour et en commençant
@@ -329,16 +335,10 @@ le souhaite ses placements à ceux des joueurs précédents.
 
 ## Principe général
 
-Le combat met en jeu plusieurs joueurs
-(ceux dont les troupes sont impliquées),
-qui sont répartis en au moins deux camps.
+Le combat met en jeu plusieurs joueurs (ceux dont les troupes sont impliquées), qui sont répartis en au moins deux camps.
 
-Les unités jouées par chaque joueur formeront son *armée*,
-et seront disposées en colonne dans l'ordre où elles auront été
-ajoutées au combat, la plus ancienne en haut.
-Certaines capacités (voir section correspondante) permettront de placer des unités à gauche ou à droite d'une autre
-sur la même rangée, ou pourront affecter spécifiquement
-une rangée ou colonne ennemie.
+Les unités jouées par chaque joueur formeront son *armée*, et seront disposées en colonne dans l'ordre où elles auront été ajoutées au combat, la plus ancienne en haut.
+Certaines capacités (voir section correspondante) permettront de placer des unités à gauche ou à droite d'une autre sur la même rangée, ou pourront affecter spécifiquement une rangée ou colonne ennemie.
 
 > Note : Il ne doit pas y avoir de rangée vide,
 ou de vide entre deux cartes d'une même rangée.
@@ -349,20 +349,18 @@ De même, si une rangée se retrouve vide,
 les rangées du dessous montent d'un cran.
 
 La constitution des armées se fait de la façon suivante:
-dans l'ordre du tour, chaque joueur a le choix entre jouer une
-carte d'unité de leur main pour l'ajouter à son armée,
-ou déclarer son armée complète.
-Les joueurs dont l'armée n'est pas encore complète
-(possiblement un unique joueur) peuvent ensuite à nouveau faire
-ce choix (toujours dans l'ordre du tour), et ainsi de suite
-jusqu'à ce que toutes les armées soient complètes.
+dans l'ordre du tour, en commançant par le joueur qui a choisi de résoudre ce combat, chaque joueur a le choix entre jouer une carte d'unité de leur main pour l'ajouter à son armée, ou déclarer son armée complète.
+Les joueurs dont l'armée n'est pas encore complète (possiblement un unique joueur) peuvent ensuite à nouveau faire ce choix (toujours dans l'ordre du tour), et ainsi de suite jusqu'à ce que toutes les armées soient complètes.
 
-Chaque joueur détermine ensuite sa force de combat,
-qui est égale à la somme des forces des unités de son armée,
-à laquelle on ajoute 1 pour chacune des troupes impliquées
-appartenant à des joueurs de son camp.
+Chaque joueur détermine ensuite sa force de combat, qui est égale à la somme des forces des unités de son armée, à laquelle on ajoute 1 pour chacune des troupes impliquées appartenant à des joueurs de son camp.
 
-## Fin du combat
+On détermine alors les pertes de troupes pour chaque joueur, puis les éventuelles conséquences du combat.
+Le combat étant ensuite terminé, les cartes d'unités jouées par les joueurs sont défaussées, y compris celles retirées
+du combat des effets.
+Un joueur peut choisir, pour chaque carte d'unité allant ainsi dans sa défausse,
+de la renvoyer dans son Monde à la place.
+
+## Perte de troupes
 
 Chaque joueur perd 1 troupe impliquée par joueur adverse dont
 la force de combat est strictement supérieure à la sienne, plus 1 pour chaque 3 points d'écart entre sa force de combat et celle d'un joueur de force supérieure à la sienne dans le camp de l'adversaire dont la force de combat est la plus élevée.
@@ -374,36 +372,49 @@ la force de combat est strictement supérieure à la sienne, plus 1 pour chaque 
 > - Cécile perd 2 troupes (2 adversaires de force supérieure, moins de 3 d'écart avec Basile)
 > - Dimitri ne perd pas de troupes
 
-Si le joueur n'a pas assez de troupes à perdre, il perd l'ensemble de ses troupes impliquées. S'il les a perdues contre des troupes à la frontière, les troupes manquantes sont prises (dans la limite des troupes disponibles) :
-- si les troupes ont été perdues à la frontière, sur le territoire dont c'est la frontière,
-- s'il n'y a plus de troupes sur le territoire, sur les frontières de celui-ci (il choisit dans quel ordre les troupes sont perdues).
+Si tous les joueurs ont la même force de combat, chaque joueur dont les troupes sont à la frontière perd 1 troupe.
 
-Si un joueur a perdu toutes les troupes sur son territoire :
-- s'il lui reste des troupes sur au moins une frontière de celui-ci, il en déplace immédiatement le nombre de son choix vers le territoire
-- dans le cas contraire, le territoire reste vide jusqu'à ce qu'il n'y ait plus que des troupes d'un unique adversaire à ses frontières (possiblement immédiatement, sinon jusqu'à ce que tous les adversaires sauf un perdent ou retirent leurs troupes), et ce joueur en prend alors le contrôle en y déplaçant toutes ses troupes à la frontière.
+Si le joueur n'a pas assez de troupes à perdre :
+- Si ses troupes attaquaient une frontière non défendue:
+  * Il perd l'ensemble de ses troupes à cette frontière
+- Si des troupes adverses attaquaient sa frontière non défendue:
+  * Il rappatrie s'il le peut une de ses troupes à la frontière, et détermine combien de troupes il aurait dû perdre avec le bonus de force (+1) apporté par celle-ci
+  * S'il n'a toujours pas assez de troupes à perdre, il recommence jusqu'à ce que ça soit le cas ou qu'il n'y ait plus de troupes à rappatrier
+  * Il perd l'ensemble de ses troupes sur le territoire
+- Si se battaient à la frontière contre des troupes de l'autre côté:
+  * Il envoie s'il le peut à la frontière une de ses troupes du territoire, ou à défaut d'une autre frontière de celui-ci, et détermine combien de troupes il aurait dû perdre avec le bonus de force (+1) apporté par celle-ci
+  * S'il n'a toujours pas assez de troupes à perdre, il recommence jusqu'à ce que ça soit le cas ou qu'il n'y ait plus de troupes à envoyer à la frontière
+  * Il perd l'ensemble de ses troupes à cette frontière
 
-Le combat est maintenant terminé, et les cartes d'unités jouées par les joueurs
-sont défaussées, y compris celles qui auront été retirées
-du combat par l'effet de certaines cartes.
-Un joueur peut choisir, pour chaque carte d'unité allant ainsi dans sa défausse,
-de la renvoyer dans son Monde à la place.
+## Conséquences
+
+- Si un joueur n'a plus de troupes sur son territoire
+  * S'il a toujours des troupes aux frontières de celui-ci, il en déplace immédiatement autant qu'il le souhaite vers le territoire afin qu'il y ait au minimum 1 troupe sur celui-ci
+  * Dans le cas contraire, il perd le contrôle du territoire
+- Si un joueur perd le contrôle d'un territoire
+  * Si plusieurs joueurs disposent de troupes aux frontières avec ce territoire, le territoire reste vide jusqu'à ce que la situation change (combat ou retrait de troupes)
+  * Dès qu'un unique joueur dispose de troupes aux frontières avec ce territoire, il y déplace toutes ses troupes à la frontière et en prend le contrôle
 
 
 ## Cas particuliers
 
-- S'il y a un ou plusieurs marqueurs territoire sauvage sur un territoire,
-le combat se déroule comme s'il y avait un défenseur,
-avec autant de troupes sur le territoire que la somme des nombres indiqués sur les marqueurs.
-En cas de défaite du défenseur, les marqueurs sont retirés et on considère que les défenseur a perdu toutes
-ses troupes sur le territoire.
-- Si un même combat met en jeu au moins deux frontières
-d'un même joueur :
+- S'il y a un ou plusieurs marqueurs territoire sauvage sur un territoire
+  * Le combat se déroule comme s'il y avait un défenseur, avec autant de troupes sur le territoire que la somme des nombres indiqués sur les marqueurs.
+  * En cas de défaite du défenseur, les marqueurs sont retirés et on considère que le défenseur a perdu toutes ses troupes sur le territoire.
+- Si un même combat met en jeu au moins deux frontières d'un même joueur :
   * Avant de jouer des cartes unités celui-ci peut, pour chaque frontière au-delà de la première, défausser autant de cartes de sa main qu'il le souhaite puis recompléter celle-ci à 5 cartes
   * Si des effets de cartes dépendent de l'emplacement de ses troupes, il peut choisir pour chaque effet la frontière concernée, et est libre de choisir sur quelle(s) frontière(s) ses troupes sont perdues lorsqu'il perd des troupes au combat
   * Pour la fin du combat, il compte comme deux joueurs du même camp (il perd des troupes sur ses deux frontières, mais en fait perdre deux fois plus aux adversaires)
-- Si un joueur perd le contrôle de son portail, il est éliminé.
-Sur chaque territoire qu'il contrôlait, ses troupes
-sont remplacées par 1 troupe du joueur attaquant.
+- Si un joueur prend le contrôle du portail d'un autre joueur, celui-ci devient son vassal (il en devient le suzerain):
+  * Les territoires du suzerain et de ses vassaux sont considérés comme appartenant au même joueur lorsqu'il s'agit de s'avoir si deux territoires sont connectés
+  * Le suzerain et ses vassaux ne peuvent pas placer de troupes aux frontières des territoires contrôlés par l'un d'entre eux. S'il y en avait au moment où un joueur est devenu vassal, elles reviennent automatiquement sur le territoire correspondant
+  * Lors des combats, les vassaux sont automatiquement dans le même camp que leur suzerain
+  * Toute ressource appartenant aux vassaux devient automatiquement propriété du suzerain
+  * Un vassal peut dépenser des ressources de son suzerain, mais uniquement avec l'accord de celui-ci
+  * Lors des phases de Logistique, le suzerain peut demander à un vassal de retirer ses troupes d'un territoire pour déplacer ses propres troupes vers celui-ci, à condition que les deux déplacements de troupes soient valides
+  * Lorsqu'un vassal reçoit des troupes au début de la phase de Logistique:
+    + Si son portail est connecté à celui de son suzerain, il place ses nouvelles troupes sur un territoire qu'il contrôle connecté à ceux-ci
+    + Si son portail est déconnecté de celui de son suzerain, il regagne le contrôle de son portail : les troupes du suzerain sur son portail sont perdues, il place ses nouvelles troupes sur celui-ci, et stoppe d'être vassal
 
 # Effets des cartes
 
