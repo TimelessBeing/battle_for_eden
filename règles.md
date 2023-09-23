@@ -375,16 +375,10 @@ la force de combat est strictement supérieure à la sienne, plus 1 pour chaque 
 Si tous les joueurs ont la même force de combat, chaque joueur dont les troupes sont à la frontière perd 1 troupe.
 
 Si le joueur n'a pas assez de troupes à perdre :
-- Si ses troupes attaquaient une frontière non défendue:
-  * Il perd l'ensemble de ses troupes à cette frontière
-- Si des troupes adverses attaquaient sa frontière non défendue:
-  * Il rappatrie s'il le peut une de ses troupes à la frontière, et détermine combien de troupes il aurait dû perdre avec le bonus de force (+1) apporté par celle-ci
-  * S'il n'a toujours pas assez de troupes à perdre, il recommence jusqu'à ce que ça soit le cas ou qu'il n'y ait plus de troupes à rappatrier
-  * Il perd l'ensemble de ses troupes sur le territoire
-- Si se battaient à la frontière contre des troupes de l'autre côté:
-  * Il envoie s'il le peut à la frontière une de ses troupes du territoire, ou à défaut d'une autre frontière de celui-ci, et détermine combien de troupes il aurait dû perdre avec le bonus de force (+1) apporté par celle-ci
-  * S'il n'a toujours pas assez de troupes à perdre, il recommence jusqu'à ce que ça soit le cas ou qu'il n'y ait plus de troupes à envoyer à la frontière
-  * Il perd l'ensemble de ses troupes à cette frontière
+- Si ses troupes attaquaient une frontière non défendue, il perd simplement l'ensemble de ses troupes impliquées
+- Dans le cas contraire
+  * On détermine combien de troupes manquaient au joueur. Pour cela, on regarde si 1 troupe supplémentaire (venant avec son bonus de +1 de force) aurait suffi à ce qu'il ne perde pas plus de troupes qu'il n'en avait. Si ce n'est pas le cas, on continue pour 2 troupes supplémentaires, puis 3, etc, jusqu'à savoir combien de troupes lui manquaient.
+  * Le joueur perd toutes ses troupes impliquées, puis perd des troupes supplémentaires sur la tuile où se trouvaient celles-ci (d'abord celles sur le territoire, puis celles à ses frontières sans ordre particulier), à hauteur du nombre de troupes manquantes (toutes s'il n'y en a pas assez).
 
 ## Conséquences
 
