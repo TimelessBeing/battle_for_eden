@@ -17,7 +17,7 @@
 - **Déléguer X :**
   * Copier la capacité immédiate ou de réaction
     (si la condition est remplie) d'une autre unité
-    de votre armée de coût inférieur ou égal à celle-ci
+    de votre armée de coût inférieur ou égal à X
 - **Dépêcher :**
   * Défausser une unité de force 1 de votre main
     puis piocher une carte
@@ -98,7 +98,7 @@
 - **Coût :** 3
 - **Valeur :** 1
 - **Permanent :** Expert en formations
-- **Immédiat :** Dépêcher pour Déléguer
+- **Immédiat :** Dépêcher pour Déléguer 3
 
 
 ### Escadron de Cavalerie
