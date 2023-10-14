@@ -9,7 +9,7 @@
 ## Mots clés
 
 - **Canaliser X (Y) :**
-  * Générer X unités de mana, ou Y si vos troupes impliquées ou celles contre lesquelles elles se battent sont sur un territoire dont la tuile est de votre couleur ou face cachée
+  * Générer X unités de mana, ou Y si la tuile sur laquelle se trouvent vos troupes impliquées et au moins une tuile voisine sont de votre couleur ou face cachée
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
@@ -30,7 +30,7 @@
   * Lorsqu'une unité fatiguée doit activer une capacité
     de réaction, dissiper X ou ignorer l'effet de cette capacité
 - **Floraison :**
-  * Retourner la tuile du territoire sur lequel se trouvent vos troupes impliquées ou celles contre lesquelles elles se battent
+  * Retourner la tuile d'un territoire que vous contrôlez
 - **Force +X :**
   * La force de cette unité dans l'armée du joueur
     est augmentée de X
