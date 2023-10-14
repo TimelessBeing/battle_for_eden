@@ -44,6 +44,7 @@
     à révéler
   * À chaque fois qu'une unité de force 1 est révélée,
     ajoutez l'unité révélée à droite de cette rangée
+  * Vous pouvez choisir de défausser des cartes ainsi révélées au lieu de les replacer sur le dessus de votre pioche
 - **Marquer une unité :**
   * Un effet dépend/dépendra de si cette unité a été ou non
     marquée, et il faut donc garder trace de cette information
@@ -78,6 +79,7 @@
 ### Escouade d'Archers
 - **Coût :** 2
 - **Valeur :** 1
+- **Permanent :** Renouvelable
 - **Réaction (Condition : autre(s) unité(s) sur cette rangée):** Dépêcher pour Neutraliser
 
 
@@ -91,6 +93,7 @@
 ### Infanterie Lourde
 - **Coût :** 3
 - **Valeur :** 1
+- **Permanent :** Renouvelable
 - **Permanent :** Force +2 si autre(s) unité(s) sur cette rangée
 
 
