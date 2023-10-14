@@ -9,7 +9,7 @@
 
 - **Permanent :**
   Lorsque vous achetez cette carte, vous pouvez détruire
-  une carte Cristal d'Énergie de votre défausse
+  une carte Cristal d'Énergie de votre défausse ou de votre main
 
 
 ### Cristal d'Énergie (grand)
