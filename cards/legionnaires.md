@@ -86,8 +86,7 @@
 ### Tacticien
 - **Coût :** 3
 - **Valeur :** 1
-- **Permanent :** Discernement
-- **Réaction (Condition : autre(s) unité(s) sur cette rangée):** Épurer
+- **Immédiat :** Dépêcher pour Épurer
 
 
 ### Infanterie Lourde
