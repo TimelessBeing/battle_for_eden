@@ -53,6 +53,16 @@
   * Renvoyer dans votre Monde les unités de votre choix,
     parmi vos unités retirées du combat et celles actuellement
     dans votre armée (y compris la carte activant cette capacité)
+- **Reconfiguration surcadencée X :**
+  * Comme Reconfigurer X mais les unités obtenues sont
+    marquées.
+  * Leurs capacités immédiates peuvent être activées,
+    mais elles seront reconfigurées en autant d'unités
+    Bloc de Matériaux que leur coût
+    (dans la limite des stocks disponibles) juste avant
+    d'être défaussées en fin de combat.
+  * Si une d'elle est retirée du combat, elle est détruite
+    à la place
 - **Reconfigurer X :**
   * Détruire cette unité, puis la remplacer sur sa rangée
     par une combinaison d'unités de coût total inférieur ou égal
@@ -83,7 +93,7 @@
 ### Bloc de Matériaux
 - **Coût :** 1
 - **Valeur :** 0
-- **Immédiat :** Alimenter 1 pour Reconfigurer 2
+- **Immédiat :** Alimenter 1 pour Reconfiguration surcadencée 2
 
 
 ### Module d'Armement
@@ -97,7 +107,7 @@
 - **Coût :** 3
 - **Valeur :** 3
 - **Immédiat :** Épurer pour Produire 1
-- **Immédiat :** Reconfigurer 3
+- **Immédiat :** Reconfiguration surcadencée 3
 
 
 ### Module de Production
