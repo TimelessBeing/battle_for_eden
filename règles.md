@@ -285,9 +285,9 @@ Chaque joueur ayant des troupes à la frontière peut librement :
 
 Une fois la situation éclaircie (possiblement via une négociation),
 s'il reste au moins deux camps on résout le combat.
-Après chaque résolution, les joueurs qui ont pris part au combat choisissent de conserver le reste de leur main, de le défausser ou de le *comptabiliser*, puis recomplètent celle-ci à 5 cartes.
+Après chaque résolution, les joueurs qui ont pris part au combat choisissent de conserver ou *comptabiliser* le reste de leur main, puis recomplètent celle-ci à 5 cartes.
 
-Pour *comptabiliser* sa main, le joueur la défausse puis détermine la valeur totale des cartes Cristal d'Énergie ainsi défaussées. Il peut ensuite mettre de côté jusqu'à ce nombre de stocks d'énergie qu'il possède; seuls les stocks d'énergie ainsi mis de côté pourront être utilisés pour acheter des cartes d'unité durant la phase de Logistique. Si un joueur comptabilise sa main plusieurs fois durant la même phase d'Expansion, seule la dernière comptabilisation compte (i.e. ses stocks d'énergie mis de côté rejoignent les autres avant de comptabiliser).
+Pour *comptabiliser* sa main, le joueur la défausse puis détermine la valeur totale des cartes Cristal d'Énergie ainsi défaussées. Il peut ensuite mettre de côté jusqu'à ce nombre de stocks d'énergie qu'il possède; seuls les stocks d'énergie ainsi mis de côté pourront être utilisés pour acheter des cartes d'unité durant la phase de Logistique. Si un joueur comptabilise sa main plusieurs fois durant la même phase d'Expansion, le nombre de stocks d'énergie mis de côté correspond au maximum (ex: Pierre comptabilise sa main pour 2 et met donc 2 stocks d'énergie de côté, puis il la comptabilise à nouveau pour 6 et met 4 stocks d'énergie supplémentaires de côté pour arriver à 6, puis il la comptabilise une dernière fois pour 4 et ne met cette fois rien de plus de côté).
 
 Si un joueur ne participe à aucune résolution de combat durant la phase d'Expansion, il peut réaliser un exercice militaire: il choisit deux territoires adjacents qu'il contrôle et fait comme si l'un attaquait l'autre, résolvant donc un combat dont il est l'unique camp (aucune troupe n'est perdue à l'issue de cette résolution).
 
