@@ -5,6 +5,8 @@ N/A
 
 ## Mots clés
 
+- **Auto-exorcisme :**
+  * Cette unité n'est désormais plus un réceptacle
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
@@ -76,7 +78,7 @@ N/A
 - **Coût :** 1
 - **Valeur :** 1
 - **Permanent :** Force +1 si cette unité est receptacle
-- **Immédiat :** Sceller 1
+- **Post-combat :** Auto-exorcisme
 
 
 ### Vengeur Sacrifié
@@ -89,7 +91,7 @@ N/A
 ### Veilleur Nocturne
 - **Coût :** 3
 - **Valeur :** 3
-- **Immédiat :** Épurer pour Exorciser 1
+- **Immédiat :** Épurer pour Sceller 1
 
 
 ### Chercheur en Démonologie
