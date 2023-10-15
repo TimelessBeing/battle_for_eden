@@ -66,7 +66,7 @@ N/A
   * X unités non receptacles de votre armée (au choix)
     sont désormais des receptacles
 - **Sceller X ≠  :**
-  * Comme Sceller X mais cette unité ne peut être choisie
+  * Comme Sceller X mais les unités choisies ne peuvent être sur la même rangée que cette unité
 
 
 
@@ -125,7 +125,7 @@ N/A
 - **Valeur :** 4
 - **Permanent:** Dernier souffle
 - **Post-combat :** [Exorciser 1] OU [Exorciser 2]
-- **Immédiat :** Exorciser 1 pour Sceller 1
+- **Immédiat :** Exorciser 1 pour Sceller 1 (pas la même unité)
 
 ## Exemples
 
