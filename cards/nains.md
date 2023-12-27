@@ -1,6 +1,7 @@
 
 ## Règles additionnelles
 
+- 2 cartes Cristal d'Énergie de coût 1 supplémentaires dans le deck de départ
 - Vous ne pouvez pas acheter de cartes communes durant la phase de Logistique. Il vous faudra donc acquérir les cartes Cristal d'Énergie par d'autres moyens.
 
 ## Mots clés
@@ -60,10 +61,7 @@
     révélées dans l'ordre de votre choix sur le dessus de votre
     pioche au lieu de les défausser
 - **Livraison :**
-  * Choissez un territoire que vous contrôlez
-  * Vous pouvez répartir librement les stocks d'énergie
-    entreposés entre ce territoire et celui sur la tuile
-    duquel vos troupes impliquées se trouvent
+  * Placer jusqu'à 30 de vos stocks d'énergie non-entreposés sur un territoire au choix
 - **Logistique rapide :**
   * Consommer X (au choix) et défausser des cartes Cristal d'Énergie
     de votre main d'une valeur totale d'au moins X pour ajouter
@@ -119,9 +117,9 @@
 
 ### Sentinelle
 - **Coût :** 3
-- **Valeur :** 2
+- **Valeur :** 1
 - **Immédiat :** [Épurer OU Carburer 3] pour Creuser 1+0
-- **Permanent :** Force +1 s'il y a au moins 15 stocks d'énergie entreposés sur vos territoires. Même chose pour 30, 90 et 150 (cumulatif)
+- **Permanent :** Force +1 s'il y a au moins 15 stocks d'énergie entreposés sur vos territoires au contact d'autres joueurs non-vassaux. Même chose pour 30, 90 et 150 (cumulatif)
 
 
 ### Spécialiste
