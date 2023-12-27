@@ -239,7 +239,7 @@ où elle est capable d'obtenir plus de ressources que les autres
 
 Lors de la phase de production,
 chaque joueur reçoit simultanément :
-- 1 stock d'énergie pour chacun des territoires
+- 1 stock d'énergie pour chacun des territoires non noir
 qu'il contrôle (y compris portails et Cœur d'Eden),
 - 1 stock d'énergie supplémentaire pour chacun
 de ces territoires qui est de sa couleur (y compris son portail, ainsi que le Cœur d'Eden qui est de toutes les couleurs),
@@ -250,8 +250,8 @@ Les civilisations peuvent également obtenir de l'énergie
 sous une forme raffinée, de l'*énergie pure*. Celle-ci est matérialisée par des petits cubes translucides (1 unité d'énergie pure) et des gros cubes translucides (5 unités d'énergie pure).
 
 Lors de la phase de production, chaque joueur reçoit simultanément :
-- 2 unités d'énergie pure s'il contrôle le Cœur d'Eden
-- 1 unité d'énergie pure pour chaque territoire adjacent au Cœur d'Eden qu'il contrôle
+- 2 unités d'énergie pure s'il contrôle le Cœur d'Eden,
+- 1 unité d'énergie pure pour chaque territoire non noir adjacent au Cœur d'Eden qu'il contrôle.
 
 **Attention cependant, un territoire déconnecté du portail du joueur ne lui rapporte ni stock d'énergie ni énergie pure**
 (deux territoires d'un joueur sont considérés comme connectés entre eux s'il est possible d'aller d'un territoire à l'autre en ne passant que par des territoires sous le contrôle du joueur).
