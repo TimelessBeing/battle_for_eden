@@ -259,7 +259,13 @@ Lors de la phase de production, chaque joueur reçoit simultanément :
 
 ## La phase d'Expansion
 
-Chaque joueur peut, pour chaque tuile sur laquelle il a de des troupes, répartir librement ces troupes entre le territoire et ses frontières avec des territoires non contrôlés par le joueur. Cette opération est réalisée simultanément par tous les joueurs, mais ils doivent déclarer un par un qu'ils ont fini de répartir leurs troupes (les autres joueurs pouvant toujours déplacer les leurs), dans l'ordre du tour et en commençant par le premier joueur.
+Chaque joueur peut autant de fois qu'il le souhaite déplacer des troupes d'un territoire
+qu'il contrôle vers un territoire connecté à celui-ci, mais sans toucher aux troupes aux frontières
+et en laissant au moins 1 troupe sur chaque territoire contrôlé.
+Les joueurs annoncent qu'ils ont fini de déplacer leurs troupes à tour de rôle, dans l'ordre du tour et en commençant
+par le premier joueur, afin que chacun puisse ajuster s'il le souhaite ses placements à ceux des joueurs précédents.
+
+Chaque joueur peut ensuite, pour chaque tuile sur laquelle il a de des troupes, répartir librement ces troupes entre le territoire et ses frontières avec des territoires non contrôlés par le joueur. Cette opération est réalisée simultanément par tous les joueurs, mais ils doivent déclarer un par un qu'ils ont fini de répartir leurs troupes (les autres joueurs pouvant toujours déplacer les leurs), dans l'ordre du tour et en commençant par le premier joueur.
 
 Chaque joueur peut ensuite déclarer que certaines de ses troupes aux frontières constituaient une feinte, et les déplacer de la frontière vers le territoire.
 
@@ -314,14 +320,7 @@ Une fois ces achats effectués :
 - Les stocks d'énergie mis de côté mais pas dépensés
 rejoignent les autres stocks d'energie du joueur,
 - Chaque joueur reçoit 2 nouvelles troupes, +1 s'il contrôle le Cœur d'Eden,
-et les place sur sa tuile portail
-- Chaque joueur peut autant de fois qu'il le souhaite déplacer des troupes d'un territoire
-qu'il contrôle vers un territoire connecté à celui, mais sans toucher aux troupes aux frontières
-et en laissant au moins 1 troupe sur chaque territoire contrôlé.
-Les joueurs annoncent qu'ils ont fini de déplacer leurs troupes
-à tour de rôle, dans l'ordre du tour et en commençant
-par le premier joueur, afin que chacun puisse ajuster s'il
-le souhaite ses placements à ceux des joueurs précédents.
+et les place sur sa tuile portail.
 
 
 # Résoudre un combat
