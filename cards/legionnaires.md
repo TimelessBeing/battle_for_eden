@@ -44,7 +44,7 @@
     à révéler
   * À chaque fois qu'une unité de force 1 est révélée,
     ajoutez l'unité révélée à droite de cette rangée
-  * Vous pouvez choisir de défausser des cartes ainsi révélées au lieu de les replacer sur le dessus de votre pioche
+  * Si la carte révélée n'est pas ajoutée à la rangée, elle est placée sous le deck ou défaussée (au choix)
 - **Marquer une unité :**
   * Un effet dépend/dépendra de si cette unité a été ou non
     marquée, et il faut donc garder trace de cette information
