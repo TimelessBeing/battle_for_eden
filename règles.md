@@ -93,7 +93,7 @@ de la carte, à une position qui vérifie les conditions suivantes :
 
 - il doit y avoir au moins 3 tuiles entre chaque tuile portail et la tuile Cœur d'Eden,
 - il doit y avoir au moins 4 tuiles entre chaque paire de tuiles portails,
-- il doit y avoir un maximum de 2 tuiles au contact d'une même tuile portail,
+- il doit y avoir un maximum de 2 tuiles non noires au contact d'une même tuile portail,
 - il doit y avoir au moins 3 tuiles entre la tuile posée par le joueur et chaque tuile portail déjà posée sur la carte.
 
 Chaque fois qu'une tuile est ajoutée ou retirée de la carte,
