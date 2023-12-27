@@ -100,7 +100,7 @@
 - **Coût :** 3
 - **Valeur :** 1
 - **Permanent :** Expert en formations
-- **Immédiat :** Dépêcher pour Déléguer 3
+- **Immédiat :** Dépêcher pour Déléguer 3 et Force +1 (marquer cette unité)
 
 
 ### Escadron de Cavalerie
