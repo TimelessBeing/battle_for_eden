@@ -71,8 +71,9 @@ En plus de cette pile, chaque joueur reçoit une tuile de sa couleur ainsi
 que la tuile portail de sa couleur, et les place face visible devant lui.
 
 La tuile Cœur d'Eden est ensuite placée au centre de la table.
-Il s'agit de la première tuile de la carte, et il est maintenant
-temps d'y ajouter les autres!
+S'il y a moins de 6 joueurs, autant de tuiles noires qu'il y a de joueurs "manquants" (*i.e.* 1 à 5 joueurs, 2 à 4 joueurs, 3 à 3 joueurs et 4 à 2 joueurs) sont prises dans la boîte de jeu et placées sur des côtés consécutifs de la tuile Cœur d'Eden.
+
+Les premières tuiles sont sur la carte, et il est maintenant temps d'y ajouter les autres!
 
 
 ## Comment construire la carte
@@ -90,7 +91,6 @@ retirer sa tuile portail de la carte, ou les deux
 Pour ajouter une tuile à la carte, le joueur la place au contact d'une tuile
 de la carte, à une position qui vérifie les conditions suivantes :
 
-- les tuiles au contact de la tuile Cœur d'Eden doivent être placées sur des côtés consécutifs de celle-ci, et il ne doit pas y en avoir plus que de joueurs
 - il doit y avoir au moins 3 tuiles entre chaque tuile portail et la tuile Cœur d'Eden,
 - il doit y avoir au moins 4 tuiles entre chaque paire de tuiles portails,
 - il doit y avoir un maximum de 2 tuiles au contact d'une même tuile portail,
@@ -104,7 +104,6 @@ indépendamment de leur couleur propre,
 sont au contact de tuiles d'au moins 4 couleurs différentes
 (les tuiles portail comptent, mais pas les tuiles noires
 ou la tuile Cœur d'Eden).
-
 
 Lorsque le joueur ajoute sa dernière tuile non portail
 à la carte, il est obligé d'ajouter également sa tuile portail
