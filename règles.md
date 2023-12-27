@@ -395,8 +395,7 @@ Si le joueur n'a pas assez de troupes à perdre :
   * Les territoires du suzerain et de ses vassaux sont considérés comme appartenant au même joueur lorsqu'il s'agit de s'avoir si deux territoires sont connectés
   * Le suzerain et ses vassaux ne peuvent pas placer de troupes aux frontières des territoires contrôlés par l'un d'entre eux. S'il y en avait au moment où un joueur est devenu vassal, elles reviennent automatiquement sur le territoire correspondant
   * Lors des combats, les vassaux sont automatiquement dans le même camp que leur suzerain
-  * Toute ressource appartenant aux vassaux devient automatiquement propriété du suzerain
-  * Un vassal peut dépenser des ressources de son suzerain, mais uniquement avec l'accord de celui-ci
+  * À chaque tour, la moitié (arrondie au supérieur) des ressouces produites par le vassal devient automatiquement propriété du suzerain
   * Lors des phases de Logistique, le suzerain peut demander à un vassal de retirer ses troupes d'un territoire pour déplacer ses propres troupes vers celui-ci, à condition que les deux déplacements de troupes soient valides
   * Lorsqu'un vassal reçoit des troupes au début de la phase de Logistique:
     + Si son portail est connecté à celui de son suzerain, il place ses nouvelles troupes sur un territoire qu'il contrôle connecté à ceux-ci
