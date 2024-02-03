@@ -33,10 +33,12 @@
   * Révéler jusqu'à X cartes. Vous pouvez choisir
     de défausser ou non chaque carte ainsi révélée
 - **Exhumer X :**
-  * Mélanger X unités de votre défausse à votre pioche
+  * Retirer du combat X unités de votre défausse (au choix)
 - **Force +X :**
   * La force de cette unité dans l'armée du joueur
     est augmentée de X
+- **Hécatombe :**
+  * Mélanger à votre deck les unités Soldat Décharné retirées du combat
 - **Nécromancie X :**
   * Ajoutez l'unité de coût X ou moins la plus proche du fond
     de votre défausse à votre main
@@ -81,19 +83,19 @@
 ### Crâne Infernal
 - **Coût :** 3
 - **Valeur :** 2
-- **Immédiat :** Exhumer 1 pour Profaner
+- **Immédiat :** Exhumer 2 pour Profaner
 
 
 ### Chevalier Abyssal
 - **Coût :** 3
 - **Valeur :** 2
-- **Immédiat :** Exhumer 1 pour Nécromancie 3 puis jouer une unité
+- **Immédiat :** Exhumer 2 pour Nécromancie 3 puis jouer une unité
 
 
 ### Cavalier Vespéral
 - **Coût :** 3
 - **Valeur :** 2
-- **Immédiat :** Mélanger votre défausse à votre pioche
+- **Immédiat :** Hécatombe
 - **Immédiat :** Excursion nocturne 3
 
 
@@ -115,13 +117,13 @@
 - **Coût :** 6
 - **Valeur :** 3
 - **Immédiat :** Excursion nocturne 1, puis réordonner librement votre défausse.
-- **Immédiat :** Exhumer 1 pour Nécromancie 6
+- **Immédiat :** Exhumer 2 pour Nécromancie 6
 
 ## Exemples
 
 ### Exemple 1
 
-- Michel défausse successivement 3 cartes Soldat Décharné
+- Michel utilise successivement l'effet Renouvelable de 3 cartes Soldat Décharné
   de sa main pour piocher autant de cartes. C'est toujours à lui de jouer une unité
 - Il joue un Soldat Décharné
 - Il joue un Golem d'Os
@@ -139,43 +141,33 @@
 
 ### Exemple 2
 
-- Michel défausse un Soldat Décharné et pioche un
-  Cavalier Vespéral. C'est toujours à lui de jouer une unité
-- Il joue son Cavalier Vespéral
-  * Il active sa deuxième capacité et révèle 3 Soldats Décharnés
-  * Il choisit de les défausser pour révéler 3 autres cartes,
-    et les défausse toutes
+- Michel utilise successivement l'effet Renouvelable de 4 cartes Soldat Décharné
+  de sa main pour piocher autant de cartes. C'est toujours à lui de jouer une unité
 - Il joue un Chevalier Abyssal
-  * Il active sa capacité et exhume un Soldat Décharné pour
-    en ajouter un autre à sa main. Il doit maintenant jouer
-    une unité
-  * Il défausse immédiatement le Soldat Décharné pour piocher.
-    C'est toujours à lui de jouer une unité
-- Il joue un second Cavalier Vespéral
-  * Il active sa deuxième capacité et révèle 3 cartes dont un
-    Soldats Décharné
-  * Il choisit de défausser celui-ci pour révéler une autre
-    carte, qui est également un Soldat Décharné et qu'il
-    défausse également
-  * Il choisit de défausser les 3 cartes révélées,
-    dont un Mage Nécrotique
-- Il joue une Liche
-  * Il active sa première capacité pour révéler
-    et défausser une carte, puis réordonner sa défausse
-    et placer les unités qui l'intéressent au fond de celle-ci
-  * Il active sa deuxième capacité et exhume un Solda
-    Décharné pour ajouter à sa main l'unité au fond de sa
-    défausse : le Mage Nécrotique
-- Il joue un Cadavre Explosif
-  * Il active sa capacité et exhume deux unités
-    pour neutraliser le champion de son adversaire (de force 10)
-- Il joue un second Cadavre Explosif
-  * Il active sa capacité et exhume deux unités
-    pour neutraliser une autre unité de son adversaire
+  * Il active sa capacité et exhume 2 Soldats Décharnés pour en mettre un 3e dans sa main
+  * Il le défausse pour piocher une carte
+  * Il doit encore jouer une unité, alors joue un Cadavre Explosif
+  * Il active sa capacité et exhume deux unités pour neutraliser une unité de son adversaire
     (de force 3)
-- Il joue son Mage Nécrotique
+- Il joue un Cavalier Vespéral
+  * Il active sa première capacité pour mélanger à son deck les 4 Soldats Décharnés retirés du combat
+  * Il active sa deuxième capacité, révèle 3 cartes il défausse successivement 4 Soldats Décharnés dans les cartes révélées, repiochant à chaque fois de nouvelles cartes. Il défausse les 3 cartes révélées : 1 Chevalier Abyssal et 2 Cavaliers Vespréraux
+- Il joue une Liche
+  * Il active sa première capacité et révèle la carte du dessus de son deck, défausse successivement 2 Soldats Décharnés, et défausse la carte révélée : une autre Liche
+  * Il réordonne sa défausse pour avoir la Liche en-dessous, puis le Chevalier Abyssal, puis les Cavaliers Vespéraux, puis les Soldats Décharnés
+  * Il active sa deuxième capacité et exhume 2 Soldats Décharnés pour mettre dans sa main la Liche
+- Il joue un deuxième Cadavre Explosif
+  * Il active sa capacité et exhume deux Soldats Décharnés pour neutraliser le champion de son adversaire (de force 10)
+- Il joue la deuxième Liche
+  * Il active sa première capacité et révèle la carte du dessus de son deck, défausse successivements 2 Soldats Décharnés, et défausse la carte révélée : un Chevalier Abyssal
+  * Il choisit de ne pas réordonner sa défausse
+  * Il active sa deuxième capacité et exhume 2 Soldats Décharnés pour mettre dans sa main le Chevalier Abyssal
+- Il joue le Chevalier Abyssal
+  * Il active sa capacité et exhume 2 Soldats Décharnés pour mettre dans sa main un Chevalier Vespéral
+  * Il doit encore jouer une unité, alors il joue le Chevalier Vespéral
+  * Il active sa première capacité, et mélange à son deck les 6 Soldats Décharnés retirés du combat
+  * Il active sa deuxième capacité, révèle 3 cartes et défausse les unités ainsi révélées
+- Il joue un Mage Nécrotique
 - Il arrête d'ajouter des unités
-  * Une fois que son adversaire a fait de même, il active la
-    capacité retardée de son Mage Nécrotique et exhume 4 unités
-- La force totale de son armée est de 24, et il a pu enlever 13
-  de force à celle de son adversaire
+  * Une fois que son adversaire a fait de même, il active la capacité retardée de son Mage Nécrotique et exhume 4 unités
+- La force totale de son armée est de 29, et il a pu enlever 13 de force à celle de son adversaire
