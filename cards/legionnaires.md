@@ -15,10 +15,6 @@
 - **Correction de formation X :**
   * Choisir une rangée de votre armée
   * Comme Formation en tortue X mais sur la rangée choisie
-- **Déléguer X :**
-  * Copier la capacité immédiate ou de réaction
-    (si la condition est remplie) d'une autre unité
-    de votre armée de coût inférieur ou égal à X
 - **Dépêcher :**
   * Défausser une unité de force 1 de votre main
     puis piocher une carte
