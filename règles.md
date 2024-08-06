@@ -259,44 +259,65 @@ Lors de la phase de production, chaque joueur reçoit simultanément :
 
 ## La phase d'Expansion
 
-Chaque joueur peut autant de fois qu'il le souhaite déplacer des troupes d'un territoire
-qu'il contrôle vers un territoire connecté à celui-ci, mais sans toucher aux troupes aux frontières
-et en laissant au moins 1 troupe sur chaque territoire contrôlé.
-Les joueurs annoncent qu'ils ont fini de déplacer leurs troupes à tour de rôle, dans l'ordre du tour et en commençant
-par le premier joueur, afin que chacun puisse ajuster s'il le souhaite ses placements à ceux des joueurs précédents.
+### Envoi de troupes aux frontières
 
-Chaque joueur peut ensuite, pour chaque tuile sur laquelle il a de des troupes, répartir librement ces troupes entre le territoire et ses frontières avec des territoires non contrôlés par le joueur. Cette opération est réalisée simultanément par tous les joueurs, mais ils doivent déclarer un par un qu'ils ont fini de répartir leurs troupes (les autres joueurs pouvant toujours déplacer les leurs), dans l'ordre du tour et en commençant par le premier joueur.
+Chaque joueur peut s'il le souhaite, dans l'ordre du tour et en commençant par le premier joueur,
+déplacer une de ses troupes qui n'est pas à la frontière vers la frontière du territoire
+où elle se trouve ou d'un autre de ses territoires connecté à celui-ci,
+en s'assurant de laisser au moins 1 troupe sur le territoire d'origine.
 
-Chaque joueur peut ensuite déclarer que certaines de ses troupes aux frontières constituaient une feinte, et les déplacer de la frontière vers le territoire.
+On continue ensuite avec un nouveau tour, mais seulement pour les joueurs ayant choisi de déplacer
+une de leurs troupes vers une frontière, et ainsi de suite jusqu'à ce que tous les joueurs
+aient arrêté d'envoyer des troupes aux frontières de leurs territoires.
 
-Une fois ceci fait, on détermine les combats à résoudre :
+### Organisation défensive
+
+Sans toucher aux troupes aux frontières, et en s'assurant de laisser au moins 1 troupe sur chacun de ses territoires,
+chaque joueur peut déplacer librement ses troupes entre les territoires qu'il contrôle qui sont connectés entre eux.
+
+### Repli
+
+Pour chacun de ses territoires, chaque joueur peut librement déplacer des troupes depuis la frontière vers le territoire
+(mais pas dans l'autre sens).
+
+### Identification et résolution des combats, comptabilisation des mains
+
+Les joueurs identifient les combats à résoudre :
 - un à chaque frontière comportant des troupes des deux côté
 - un à chaque territoire dont au moins une frontière
 est attaquée mais pas défendue
 
-Chaque joueur choisit alors s'il le peut un combat non résolu mettant en jeu ses troupes, dans l'ordre du tour et en commençant par le premier joueur, jusqu'à ce qu'il n'y ait plus de combat non résolu.
+Le premier joueur choisit ensuite s'il le peut un combat non résolu mettant en jeu ses troupes.
 
-Lorsqu'un combat est choisi, on détermine les camps participant au combat.
+On détermine alors les camps participant au combat.
 Par défaut, le territoire attaqué s'il y en a un (joueur ou territoire sauvage) constitue un camp,
 et chaque joueur ayant des troupes à la frontière constitue un camp supplémentaire.
+
 Chacun de ces derniers peut librement :
-- rejoindre le camp du territoire attaqué s'il y en a un
+- rejoindre le camp du territoire sauvage s'il y en a un
 - rejoindre un camp formé par d'autres joueurs si ceux-ci sont tous d'accord
 - redevenir son propre camp
-- rappatrier tout ou partie de ses troupes concernées de la frontière vers le ou les territoires correspondants (ce qui peut faire qu'il ne participe plus au combat)
+- rappatrier tout ou partie de ses troupes de sa frontière vers son territoire (ce qui peut faire qu'il ne participe plus au combat)
 
 Une fois la situation éclaircie (possiblement via une négociation),
-s'il reste au moins deux camps, on procède à la résolution du combat.
+s'il reste au moins deux camps, on procède à la résolution du combat (voir section correspondante).
 Après chaque résolution, les joueurs qui ont pris part au combat choisissent de conserver ou *comptabiliser* le reste de leur main, puis recomplètent celle-ci à 5 cartes.
 
 Pour *comptabiliser* sa main, le joueur la défausse puis détermine la valeur totale des cartes Cristal d'Énergie ainsi défaussées. Il peut ensuite mettre de côté jusqu'à ce nombre de stocks d'énergie qu'il possède; seuls les stocks d'énergie ainsi mis de côté pourront être utilisés pour acheter des cartes d'unité durant la phase de Logistique. Si un joueur comptabilise sa main plusieurs fois durant la même phase d'Expansion, le nombre de stocks d'énergie total mis de côté correspond au maximum sur l'ensemble de ces comptabilisations.
 
 > Exemple:
 > - Pierre comptabilise sa main pour 2 et met donc 2 stocks d'énergie de côté
-> - Il la comptabilise à nouveau pour 6 et met donc 4 stocks d'énergie supplémentaires de côté pour arriver à 6
-> - Il la comptabilise une dernière fois pour 4 et ne met cette fois rien de plus de côté et reste donc à 6
+> - Il la comptabilise à nouveau pour 6 et complète ses stocks d'énergie mis de côté pour arriver à 6
+> - Il la comptabilise une dernière fois pour 4 et ne met cette fois rien de plus de côté car 4 < 6
 
-Si un joueur ne participe à aucune résolution de combat durant la phase d'Expansion, il peut réaliser un *exercice militaire* : il choisit deux territoires adjacents qu'il contrôle et fait comme si l'un attaquait l'autre, résolvant donc un combat dont il est l'unique camp (aucune troupe n'est perdue à l'issue de cette résolution).
+Après le premier joueur, on continue dans l'ordre du tour, et chaque joueur choisit s'il le peut un combat
+non résolu mettant en jeu ses troupes, et ce jusqu'à ce que tous les combats aient été résolus.
+
+Si un joueur ne participe à aucune résolution de combat durant la phase d'Expansion,
+il peut s'il le souhaite *réaliser un exercice militaire* :
+il choisit la frontière d'un territoire qu'il contrôle avec un autre territoire,
+et résout un combat dont il est l'unique camp comme s'il se passait à cette frontière
+(aucune troupe n'est perdue à l'issue de cette résolution).
 
 ## La phase de Logistique
 
