@@ -146,7 +146,7 @@ ne comportant pas de cube de couleur :
 - ajouter un marqueur de valeur 4 supplémentaire sur le Cœur d'Eden, et un marqueur de valeur 2 supplémentaire sur les tuiles adjacentes à celui-ci
 
 Placez les *cartes communes* (Terrain Favorable, Opportunité, et les 3 types de cartes Cristal d'Énergie)
-ainsi que les *cartes de technologie* (Bouclier d'énergie,  Cristal surchargé, Stabilisateur de Portail
+ainsi que les *cartes de technologie* (Bouclier d'énergie,  Cristal surchargé, Stabilisateur de Portail,
 Amplificateur de Résonance, Suprématie)
 à un endroit facile d'accès pour tous les joueurs (par exemple autour de la carte),
 les *troupes* de chaque joueur (cubes de sa couleur) là où il peut les atteindre,
@@ -173,8 +173,8 @@ face cachée sous sa pioche.
 Chaque joueur peut librement consulter son Monde ou ceux de ses
 adversaires (y compris pour savoir quelles cartes ont été
 achetées), ainsi que sa défausse et celles de ses adversaires.
-L'ordre des cartes dans la défausse n'a pas d'importance
-et peut être librement modifié.
+Sauf mention explicite du contraire, l'ordre des cartes dans la défausse
+n'a pas d'importance et peut être librement modifié.
 
 Chaque joueur mélange 2 cartes Terrain Favorable, 2 cartes Cristal d'Énergie de coût 1, 1 carte Cristal d'Énergie de coût 2, et 3 unités de coût 1 de son Monde pour former son deck, puis pioche 5 cartes pour constituer sa main de départ.
 
@@ -281,7 +281,7 @@ Par défaut, le territoire attaqué s'il y en a un (joueur ou territoire sauvage
 et chaque joueur ayant des troupes à la frontière constitue un camp supplémentaire.
 Chacun de ces derniers peut librement :
 - rejoindre le camp du territoire attaqué s'il y en a un
-- rejoindre le camp formé par d'autres joueurs si tous sont d'accord
+- rejoindre un camp formé par d'autres joueurs si ceux-ci sont tous d'accord
 - redevenir son propre camp
 - rappatrier tout ou partie de ses troupes concernées de la frontière vers le ou les territoires correspondants (ce qui peut faire qu'il ne participe plus au combat)
 
