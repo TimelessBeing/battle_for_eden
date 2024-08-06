@@ -311,6 +311,7 @@ de son Monde.
 - Un joueur peut dépenser ses stocks d'énergie
 (mis de côté ou non) pour acheter des cartes communes.
 - Il peut dépenser de l'énergie pure pour acheter des cartes de technologie.
+- Il peut aussi revendre des cartes de technologie qu'il possède pour regagner autant d'énergie pure.
 - Sauf mention explicite du contraire, les cartes ainsi achetées sont placées dans la défausse du joueur.
 
 **Attention : Chaque joueur n'est autorisé à posséder qu'un seul exemplaire maximum de chaque carte technologie.**
