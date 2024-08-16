@@ -1,15 +1,17 @@
 
 ## Règles additionnelles
 
-- Durant la phase de Logistique, les joueurs ont la possibilité pour chaque territoire qu'ils contrôlent de retirer 1 de leurs troupes de ce territoires (il doit en rester au moins 1) pour en retourner la tuile
-- Vous pouvez retourner des tuiles pour qu'elles soient face cachée ou face visible, mais les autres joueurs ne peuvent que les rendre face visible
-- Les tuiles qui sont face cachée comptent comme des tuiles noires lors de la phase de Production
+- Durant la phase de Logistique, vous avez la possibilité, pour chaque territoire que vous contrôlez,
+  de retirer 1 de vos troupes de ce territoire (il doit en rester au moins 1) pour en retourner la tuile
+  face cachée (sans toucher aux jetons "riche en énergie")
+- Les autres joueurs peuvent faire de même pour retourner les tuiles de leurs territoires face visible
+- Les tuiles face cachée comptent comme étant de votre couleur
 
 
 ## Mots clés
 
 - **Canaliser X (Y) :**
-  * Générer X unités de mana, ou Y si la tuile sur laquelle se trouvent vos troupes impliquées et au moins une tuile voisine sont de votre couleur ou face cachée
+  * Générer X unités de mana, ou Y si la tuile sur laquelle se trouvent vos troupes impliquées et au moins une tuile voisine sont de votre couleur
 - **Champion :**
   * Si cette unité doit être retirée du combat,
     elle est détruite à la place
